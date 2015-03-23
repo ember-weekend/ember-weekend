@@ -1,0 +1,8 @@
+.wrapper
+  .menu
+    %h2(id="title") Ember Weekend
+    %ul
+      %li
+        = link-to "Our First Forey" "episodes.our-first-foray"
+  .content
+    = outlet

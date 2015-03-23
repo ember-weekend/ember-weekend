@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('episodes', function() {
+    this.route('our-first-foray');
+  });
 });
 
 export default Router;
