@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #333;
+}
+
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
@@ -64,6 +68,5 @@ body {
 
 .content {
   padding: 15px;
-  position: absolute;
-  width: 100%;
+  position: relative;
 }
