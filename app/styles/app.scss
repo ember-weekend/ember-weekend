@@ -1,3 +1,7 @@
+@import "bourbon";
+$collapsed_width: 45px;
+$expanded_width: 250px;
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -18,57 +22,72 @@ body {
 }
 
 .wrapper {
-  padding-left: 250px;
-  transition: all 0.5s ease;
-  position: relative;
-}
-
-.menu {
-  h2 {
-    margin-left: 10px;
+  padding-left: $collapsed_width;
+  @include transition(all 0.5s ease);
+  &.active {
+    padding-left: $expanded_width;
+    .menu {
+      width: $expanded_width;
+    }
+    .content {
+      position: absolute;
+      margin-right: -$expanded_width;
+    }
   }
-  color: #999999;
-  width: 250px;
-  z-index: 1000;
-  position: fixed;
-  left: 250px;
-  height: 100%;
-  margin-left: -250px;
-  overflow-y: auto;
-  background: #000;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  ul {
-    margin: 0;
-    margin-top: 10px;
-    position: absolute;
-    top: 40px;
-    width: 250px;
-    padding: 0;
-    list-style: none;
-    li {
-      text-indent: 20px;
-      line-height: 40px;
-      a {
-        color: #999999;
-        text-decoration: none;
-        padding: 10px;
-        display: block;
-        &:hover {
+
+  .menu {
+    .hamburger {
+      position: absolute;
+      top: 15px;
+      left: 10px;
+    }
+    h2 {
+      margin-left: $collapsed_width + 10px;
+      white-space: nowrap;
+    }
+    color: #999999;
+    width: $collapsed_width;
+    z-index: 1000;
+    position: fixed;
+    left: $expanded_width;
+    height: 100%;
+    margin-left: -$expanded_width;
+    overflow-y: auto;
+    background: #000;
+    @include transition(all 0.5s ease);
+    ul {
+      margin: 0;
+      margin-top: 10px;
+      position: absolute;
+      top: 40px;
+      width: $expanded_width;
+      padding: 0;
+      list-style: none;
+      li {
+        text-indent: 20px;
+        line-height: 40px;
+        a {
+          color: #999999;
           text-decoration: none;
-          color: #fff;
-          background: rgba(255,255,255,0.2);
+          margin: 0;
+          padding-left: $collapsed_width + 10px;
+          display: block;
+          &:hover {
+            text-decoration: none;
+            color: #fff;
+            background: rgba(255,255,255,0.2);
+          }
         }
       }
     }
-  }
-}
 
-.content {
-  padding: 15px;
-  position: relative;
+    .content {
+      width: 100%;
+      padding: 15px;
+      position: absolute;
+    }
+
+  }
 }
 
 .notes {
@@ -85,4 +104,29 @@ body {
       color: #E24B31;
     }
   }
+}
+
+@media(min-width:768px) {
+  .wrapper {
+    padding-left: $expanded_width;
+    &.active {
+      padding-left: $collapsed_width;
+      .menu {
+        width: $collapsed_width;
+      }
+      .content {
+        position: relative;
+        margin-right: 0;
+      }
+    }
+    .menu {
+      width: $expanded_width;
+    }
+
+    .content {
+      padding: 20px;
+      position: relative;
+    }
+  }
+
 }

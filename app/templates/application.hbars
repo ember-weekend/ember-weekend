@@ -1,0 +1,10 @@
+%div{ class="wrapper #{if showMenu 'active' }" }
+  .menu
+    %a.hamburger(href='#'){action "toggleMenu"}
+      =fa-icon "bars" size=2
+    %h2(id="title") Ember Weekend
+    %ul
+      %li
+        = link-to "Our First Foray" "episodes.our-first-foray"
+  .content
+    =outlet
