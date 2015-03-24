@@ -1,0 +1,4 @@
+-if template
+  =yield
+-else
+  =name

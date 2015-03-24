@@ -1,15 +1,11 @@
 import Ember from 'ember';
 import layout from '../templates/components/twitter-user';
+import LinkToSite from './link-to-site';
 
-export default Ember.Component.extend({
+export default LinkToSite.extend({
   layout: layout,
-  tagName: 'a',
-  attributeBindings: ["href", "target"],
   href: Ember.computed('username', function(){
     return `https://twitter.com/${this.get('username')}`;
-  }),
-  target: Ember.computed(function(){
-    return "_blank";
   }),
   name: Ember.computed('username', 'displayName', function(){
     var username = this.get('username');

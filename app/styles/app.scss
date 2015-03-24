@@ -70,3 +70,19 @@ body {
   padding: 15px;
   position: relative;
 }
+
+.notes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 5px;
+    line-height: 1.5em;
+    min-height: 30px;
+    margin: 5px 0;
+    a {
+      font-weight: bold;
+      color: #E24B31;
+    }
+  }
+}
