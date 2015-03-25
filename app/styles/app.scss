@@ -95,11 +95,17 @@ body {
   margin: 0;
   padding: 0;
   li {
-    padding: 5px;
-    line-height: 1.5em;
-    min-height: 30px;
+    cursor: pointer;
+    padding: 8px;
+    line-height: 1em;
     margin: 5px 0;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #eee;
+    p {
+      margin: 10px 0 5px 0;
+    }
     a {
+      text-decoration: none;
       font-weight: bold;
       color: #E24B31;
     }
