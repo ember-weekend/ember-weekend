@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.resource('episodes', function() {
     this.route('our-first-foray');
+    this.route('the-weekend-strikes-back');
   });
 });
 
