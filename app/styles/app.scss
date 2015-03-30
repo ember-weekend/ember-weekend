@@ -1,6 +1,6 @@
 @import "bourbon";
 $collapsed_width: 45px;
-$expanded_width: 250px;
+$expanded_width: 260px;
 
 * {
   -webkit-box-sizing: border-box;
@@ -70,7 +70,7 @@ body {
           color: #999999;
           text-decoration: none;
           margin: 0;
-          padding-left: $collapsed_width + 10px;
+          padding-left: $collapsed_width - 10px;
           display: block;
           &:hover {
             text-decoration: none;
