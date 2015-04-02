@@ -6,8 +6,8 @@
   "lat": 30.291809,
   "long": -81.390607,
   "enclosure": {
-    "url":"https://s3.amazonaws.com/emberweekend/ep-2-ember-weekend.m4a",
-    "file": "media/ep-2-ember-weekend.m4a"
+    "url":"https://emberweekend.s3.amazonaws.com/ep-2-ember-weekend.mp3",
+    "file": "media/ep-2-ember-weekend.mp3"
   },
   "custom_elements": [
     {"itunes:author": "Chase McCarthy & Jonathan Jackson"},
