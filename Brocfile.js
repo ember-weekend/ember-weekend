@@ -24,26 +24,32 @@ app.import(app.bowerDirectory + '/ember-cli-moment-shim/moment-shim.js', {
   }
 });
 
-var RSS = require('rss');
-var feed = new RSS(require('./app/episodes/feed.json'));
-
-var walkSync = require('walk-sync');
-var path = require('path');
-walkSync('app/episodes').forEach(function(filePath){
-  if(path.basename(filePath) === 'feed-item.json'){
-    feed.item(require('./app/episodes/' + filePath));
-  }
-});
-
-var xml = feed.xml({indent: true});
-
 var fs = require('fs');
-var mergeTrees = require('broccoli-merge-trees');
-var quickTemp = require('quick-temp');
-var rssTree = {};
-var tmp = quickTemp.makeOrRemake(rssTree, 'tmpDestDir');
-fs.writeFileSync(path.join(tmp, 'feed.xml'), xml);
-rssTree.read = function(){ return tmp; };
-rssTree.cleanup = function(){ quickTemp.remove(rssTree, 'tmpDestDir'); };
+var appTree;
+if(fs.existsSync('media')){
+  var RSS = require('rss');
+  var feed = new RSS(require('./app/episodes/feed.json'));
 
-module.exports = mergeTrees([app.toTree(), rssTree]);
+  var walkSync = require('walk-sync');
+  var path = require('path');
+  walkSync('app/episodes').forEach(function(filePath){
+    if(path.basename(filePath) === 'feed-item.json'){
+      feed.item(require('./app/episodes/' + filePath));
+    }
+  });
+
+  var xml = feed.xml({indent: true});
+
+  var mergeTrees = require('broccoli-merge-trees');
+  var quickTemp = require('quick-temp');
+  var rssTree = {};
+  var tmp = quickTemp.makeOrRemake(rssTree, 'tmpDestDir');
+  fs.writeFileSync(path.join(tmp, 'feed.xml'), xml);
+  rssTree.read = function(){ return tmp; };
+  rssTree.cleanup = function(){ quickTemp.remove(rssTree, 'tmpDestDir'); };
+  appTree = mergeTrees([app.toTree(), rssTree]);
+}else{
+  appTree = app.toTree();
+}
+
+module.exports = appTree;
