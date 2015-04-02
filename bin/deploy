@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+command = "ember build --environment production && firebase deploy"
+puts command
+puts `#{command}`
