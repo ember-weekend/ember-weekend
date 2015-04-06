@@ -6,10 +6,17 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource('episodes', function() {
-    this.route('our-first-foray');
-    this.route('the-weekend-strikes-back');
-    this.route('broccoli-but-not-the-vegetable');
+  this.resource('ui', function(){
+    this.route('show', { path: '/:id' });
+    this.route('example');
+  });
+
+  this.resource('root', { path: '/' }, function(){
+    this.resource('episodes', function() {
+      this.route('our-first-foray');
+      this.route('the-weekend-strikes-back');
+      this.route('broccoli-but-not-the-vegetable');
+    });
   });
 });
 
