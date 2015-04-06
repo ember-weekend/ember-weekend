@@ -27,15 +27,27 @@ app.import(app.bowerDirectory + '/ember-cli-moment-shim/moment-shim.js', {
 var fs = require('fs');
 var appTree;
 if(fs.existsSync('media')){
+  var moment = require('moment');
   var RSS = require('rss');
   var feed = new RSS(require('./app/episodes/feed.json'));
 
   var walkSync = require('walk-sync');
   var path = require('path');
+  var episodes = [];
   walkSync('app/episodes').forEach(function(filePath){
     if(path.basename(filePath) === 'feed-item.json'){
-      feed.item(require('./app/episodes/' + filePath));
+      episodes.push(require('./app/episodes/' + filePath));
     }
+  });
+
+  episodes.sort(function(a, b){
+    var aDate = moment(a.date, 'MMM D, YYYY');
+    var bDate = moment(b.date, 'MMM D, YYYY');
+    return aDate.diff(bDate);
+  });
+
+  episodes.forEach(function(episode){
+    feed.item(episode);
   });
 
   var xml = feed.xml({indent: true});
