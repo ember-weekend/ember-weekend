@@ -3,6 +3,8 @@
 %h2(id="title") Ember Weekend
 %ul
   %li
+    = link-to "3 - Broccoli, not the vegetable" "episodes.broccoli-but-not-the-vegetable"
+  %li
     = link-to "2 - The Weekend Strikes Back" "episodes.the-weekend-strikes-back"
   %li
     = link-to "1 - Our First Foray" "episodes.our-first-foray"

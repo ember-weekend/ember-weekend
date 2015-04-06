@@ -11,12 +11,12 @@
   },
   "custom_elements": [
     {"itunes:author": "Chase McCarthy & Jonathan Jackson"},
-    {"itunes:subtitle": "Chase and Jon kick off Ember Weekend discussing EmberSherpa's workshop, EmberObserver, and some resources for beginners."},
+    {"itunes:subtitle": "Chase and Jonathan talk turbolinks, broccoli, and ember-watson. Spending a little more time than usual discussing the new broccoli tree api."},
     {"itunes:image": {
       "_attr": {
         "href": "https://i.imgur.com/XV0c9Xl.png"
       }
     }},
-    {"itunes:duration": "10:16"}
+    {"itunes:duration": "14:06"}
   ]
 }
