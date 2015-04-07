@@ -1,0 +1,23 @@
+$script: "Pacifico", script
+
+$body: "Open Sans", sans-serif
+
+@mixin min-width($width: 900)
+  @media screen and (min-width: #{$width}px)
+    @content
+    transition: all .5s ease-in-out
+@mixin max-width($width: 900)
+  @media screen and (max-width: #{$width}px)
+    @content
+    transition: all .5s ease-in-out
+
+@mixin responsive($attr, $full, $mid:false, $narrow:false)
+  #{$attr}: #{$full}
+  @if $mid
+    @media screen and (max-width: #{$phone_lg}px)
+      #{$attr}: #{$mid}
+      transition: all .5s ease-in-out
+  @if $narrow
+    @media screen and (max-width: #{$phone_sm}px)
+      #{$attr}: #{$narrow}
+      transition: all .5s ease-in-out

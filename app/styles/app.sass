@@ -1,0 +1,77 @@
+@import "normalize"
+@import "whitespace-reset"
+@import "old_app"
+@import "mixins"
+
+a
+  text-decoration: none
+
+html
+  font-size: 62.5%
+  height: 100%
+
+body
+  font-size: 16px
+  font-size: 1.6em
+  font-family: $body
+  background: #efefef
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+  background: #eaeaea url(images/bg_tomster.png) center 95% no-repeat
+
+.container
+  width: 80%
+  max-width: 1200px
+  margin: 0 auto
+
+#ui
+  flex: 1 1 auto
+  > header
+    background: #303030
+    padding: 0 0 .5rem
+    .container
+      display: flex
+      flex-flow: row wrap-reverse
+      justify-content: space-between
+      box-sizing: border-box
+      h1
+        font-weight: normal
+        a
+          color: #e24b31
+          font: 2.5rem $script
+          &:hover
+            color: lighten(#e24b31, 10%)
+            transition: color .5s
+          mark
+            color: darken(#ffffff, 5%)
+            font: 1.5rem $body
+            &:hover
+              color: #ffffff
+              transition: color .5s
+      nav
+        padding: 1rem 0
+        box-sizing: border-box
+        a
+          text-align: center
+          display: inline-block
+          background: #5b5b5b
+          border-radius: 4rem
+          padding: .3rem 1rem
+          width: 3rem
+          box-sizing: border-box
+          + a
+            margin-left: .5rem
+          &:hover
+            background: #e24b31
+            color: #ffffff
+            transition: color .5s, background .5s
+  footer
+    background: #fff
+    border-top: 1px solid #d3d3d3
+    position: fixed
+    bottom: 0
+    height: 5rem
+    padding: 1rem 0 0
+    width: 100%
+    box-sizing: border-box
