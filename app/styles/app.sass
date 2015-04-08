@@ -124,7 +124,8 @@ body
                 left: -5px
                 right: -5px
                 bottom: -5px
-              &:hover
+            &:hover
+              .play-button
                 background: saturate($orange, 30%)
                 transition: background .5s
                 &:before
@@ -139,21 +140,24 @@ body
             h1
               color: $orange
               font-size: 1.5rem
-              &:hover
-                color: saturate($orange, 30%)
-                transition: color .5s
             p
               color: #3f3f3f
               font-size: 1.2rem
-              &:hover
-                color: darken(#3f3f3f, 50%)
-                transition: color .5s
             i.fa.fa-angle-right
               color: #afafaf
               font-size: 3rem
               position: absolute
               top: 25%
               right: 2rem
+            &:hover
+              h1
+                color: saturate($orange, 30%)
+                transition: color .5s
+              p
+                color: darken(#3f3f3f, 50%)
+                transition: color .5s
+              i.fa.fa-angle-right
+                color: darken(#afafaf, 10%)
 
   footer
     background: #fff
