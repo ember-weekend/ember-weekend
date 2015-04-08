@@ -39,10 +39,10 @@ body
       h1
         font-weight: normal
         a
-          color: #e24b31
+          color: $orange
           font: 2.5rem $script
           &:hover
-            color: saturate(#e24b31, 20%)
+            color: saturate($orange, 20%)
             transition: color .5s
           mark
             color: darken(#ffffff, 5%)
@@ -64,9 +64,97 @@ body
           + a
             margin-left: .5rem
           &:hover
-            background: #e24b31
+            background: $orange
             color: #ffffff
             transition: color .5s, background .5s
+  main
+    .container
+      +max-width(800)
+        width: 100%
+        margin: 0 0
+    ul.episodes
+      margin: 2rem 0 0
+      display: flex
+      flex-flow: row wrap-reverse
+      justify-content: space-between
+      +max-width(800)
+        margin-top: 0
+        display: block
+      li
+        background: #ffffff
+        border: 1px solid #dddddd
+        border-radius: .5rem
+        width: 49%
+        margin: 0 0 2rem
+        display: flex
+        flex-flow: row wrap-reverse
+        align-items: baseline
+        &:hover
+          background: darken(#ffffff, 2%)
+          transition: background .5s
+        +max-width(800)
+          border: 0
+          border-radius: 0
+          margin-bottom: 0
+          width: 100%
+          + li
+            border-top: 1px solid #dddddd
+        a
+          box-sizing: border-box
+          &.play
+            padding: 2rem
+            .play-button
+              color: #ffffff
+              font-size: 2rem
+              text-align: center
+              display: block
+              background: $orange
+              border-radius: 10rem
+              padding: .5rem 1rem
+              width: 4rem
+              box-sizing: border-box
+              flex: 0 0 auto
+              position: relative
+              &:before
+                content: ""
+                border: 1px solid $orange
+                border-radius: 5rem
+                position: absolute
+                top: -5px
+                left: -5px
+                right: -5px
+                bottom: -5px
+              &:hover
+                background: saturate($orange, 30%)
+                transition: background .5s
+                &:before
+                  border-color: saturate($orange, 30%)
+                  transition: border .5s
+          &.details
+            align-self: center
+            flex-grow: 1
+            padding: 2rem 2rem 2rem 0
+            position: relative
+            box-sizing: border-box
+            h1
+              color: $orange
+              font-size: 1.5rem
+              &:hover
+                color: saturate($orange, 30%)
+                transition: color .5s
+            p
+              color: #3f3f3f
+              font-size: 1.2rem
+              &:hover
+                color: darken(#3f3f3f, 50%)
+                transition: color .5s
+            i.fa.fa-angle-right
+              color: #afafaf
+              font-size: 3rem
+              position: absolute
+              top: 25%
+              right: 2rem
+
   footer
     background: #fff
     border-top: 1px solid #d3d3d3
