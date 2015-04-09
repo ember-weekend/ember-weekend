@@ -1,54 +1,33 @@
-%header
-  .container
-    %h1
-      %a(href="#")
-        ember
-        %mark weekend
-    %nav
-      %a(href="https://itunes.apple.com/us/podcast/ember-weekend/id981719021?mt=2")
-        {{fa-icon "fa-rss"}}
-      %a(href="about")
-        {{fa-icon "fa-info"}}
-
-%main
-  .container
-    %ul.episodes
-      %li
-        %a.play(href="#")
-          .play-button
-            {{fa-icon "fa-play"}}
-        %a.details(href="#")
-          %h1 The Weekend Strikes Back
-          %p Episode 2 &bull; March 30, 2015
-          %i.fa.fa-angle-right
-      %li
-        %a.play(href="#")
-          .play-button
-            {{fa-icon "fa-play"}}
-        %a.details(href="#")
-          %h1 Our First Foray
-          %p Episode 2 &bull; March 23, 2015
-          %i.fa.fa-angle-right
-      %li
-        %a.play(href="#")
-          .play-button
-            {{fa-icon "fa-play"}}
-        %a.details(href="#")
-          %h1 The Weekend Strikes Back
-          %p Episode 2 &bull; March 30, 2015
-          %i.fa.fa-angle-right
-      %li
-        %a.play(href="#")
-          .play-button
-            {{fa-icon "fa-play"}}
-        %a.details(href="#")
-          %h1 Our First Foray
-          %p Episode 2 &bull; March 23, 2015
-          %i.fa.fa-angle-right
-
-%footer
-  .container
-    %audio(id="player" class="play" controls="controls")
-    .episode-info
-      The Weekend Strikes Back
-      %mark March 30, 2015
+%ul.episodes
+  %li
+    %a.play(href="#")
+      .play-button
+        {{fa-icon "fa-play"}}
+    %a.details(href="#")
+      %h1 The Weekend Strikes Back
+      %p Episode 2 &bull; March 30, 2015
+      %i.fa.fa-angle-right
+  %li
+    %a.play(href="#")
+      .play-button
+        {{fa-icon "fa-play"}}
+    %a.details(href="#")
+      %h1 Our First Foray
+      %p Episode 2 &bull; March 23, 2015
+      %i.fa.fa-angle-right
+  %li
+    %a.play(href="#")
+      .play-button
+        {{fa-icon "fa-play"}}
+    %a.details(href="#")
+      %h1 The Weekend Strikes Back
+      %p Episode 2 &bull; March 30, 2015
+      %i.fa.fa-angle-right
+  %li
+    %a.play(href="#")
+      .play-button
+        {{fa-icon "fa-play"}}
+    %a.details(href="#")
+      %h1 Our First Foray
+      %p Episode 2 &bull; March 23, 2015
+      %i.fa.fa-angle-right
