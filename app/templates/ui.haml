@@ -17,7 +17,10 @@
 
   %footer
     .container
-      %audio(id="player" class="play" controls="controls")
-      .episode-info
+      .controls
+        %i.fa.fa-play
+      %a.episode-info(href="#")
+        %time 03:03
         The Weekend Strikes Back
-        %mark March 30, 2015
+        %time(datetime="2015-03-30") March 30, 2015
+    .progress-bar

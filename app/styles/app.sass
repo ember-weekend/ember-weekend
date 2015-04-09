@@ -18,12 +18,15 @@ body
   display: flex
   min-height: 100vh
   flex-direction: column
-  background: #eaeaea url(images/bg_tomster.png) center 96% no-repeat
+  background: #eaeaea url(images/bg_tomster.png) center 94% no-repeat
 
 .container
   width: 80%
   max-width: 1200px
   margin: 0 auto
+  +max-width(800)
+    width: 100%
+    margin: 0 0
 
 #ui
   font-size: 1em
@@ -36,6 +39,8 @@ body
       flex-flow: row wrap-reverse
       justify-content: space-between
       box-sizing: border-box
+      +max-width(800)
+        padding: 0 1.5rem
       h1
         font-weight: normal
         a
@@ -68,10 +73,6 @@ body
             color: #ffffff
             transition: color .5s, background .5s
   main
-    .container
-      +max-width(800)
-        width: 100%
-        margin: 0 0
     ul.episodes
       margin: 2rem 0 0
       display: flex
@@ -86,6 +87,10 @@ body
         border-radius: .5rem
         width: 49%
         margin: 0 0 2rem
+        min-width: 300px
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
         display: flex
         flex-flow: row wrap-reverse
         align-items: baseline
@@ -147,7 +152,7 @@ body
               color: #afafaf
               font-size: 3rem
               position: absolute
-              top: 25%
+              top: 28%
               right: 2rem
             &:hover
               h1
@@ -164,17 +169,55 @@ body
     border-top: 1px solid #d3d3d3
     position: fixed
     bottom: 0
-    height: 5rem
-    padding: 1rem 0 0
     width: 100%
     box-sizing: border-box
-    .episode-info
-      color: $orange
-      font-size: 1.4rem
-      font-weight: 600
-      display: inline-block
-      mark
-        color: #afafaf
-        font-weight: 300
-        display: inline-block
-        margin-left: .5rem
+    .container
+      display: flex
+      +max-width(800)
+        padding: 0 1.5rem
+      .controls
+        font-size: 2rem
+        text-align: center
+        cursor: pointer
+        border: 1px solid #494949
+        border-radius: 5rem
+        padding: .5rem 1rem
+        margin: 1.5rem 0
+        width: 4rem
+        flex: 0 0 4rem
+        &:hover
+          color: $orange
+          border-color: $orange
+          transition: color .5s, border .5s
+      a.episode-info
+        color: $orange
+        font-size: 1.3rem
+        font-weight: 600
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        vertical-align: top
+        padding: 2.5rem 2.5rem 2.5rem .5rem
+        align-self: center
+        box-sizing: border-box
+        time
+          color: #303030
+          font-weight: 400
+          margin: 0 .5rem
+          &[datetime]
+            color: #afafaf
+            font-weight: 300
+            margin: 0 .3rem
+        &:hover
+          color: saturate($orange, 30%)
+          transition: color .5s
+          time
+            color: darken(#303030, 40%)
+            transition: color .5s
+    .progress-bar
+      background: $orange
+      height: .3rem
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 50%
