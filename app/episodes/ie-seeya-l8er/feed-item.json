@@ -1,0 +1,22 @@
+{
+  "title": "Episode 3: IE: Seeya L8er",
+  "description": "Chase and Jonathan talk polymer, 2.0 training, netflix' freedom of responsiblity, and spend some extra time talking about ie8 support.",
+  "url": "https://emberweekend.com/episodes/ie-seeya-l8er",
+  "date": "April 13, 2015",
+  "lat": 30.291809,
+  "long": -81.390607,
+  "enclosure": {
+    "url":"http://emberweekend.s3.amazonaws.com/ep-4-ember-weekend.mp3",
+    "file": "media/ep-4-ember-weekend.mp3"
+  },
+  "custom_elements": [
+    {"itunes:author": "Chase McCarthy & Jonathan Jackson"},
+    {"itunes:subtitle": "Chase and Jonathan talk polymer, 2.0 training, netflix' freedom of responsiblity, and spend some extra time talking about ie8 support."},
+    {"itunes:image": {
+      "_attr": {
+        "href": "https://i.imgur.com/XV0c9Xl.png"
+      }
+    }},
+    {"itunes:duration": "13:46"}
+  ]
+}
