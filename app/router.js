@@ -16,7 +16,7 @@ Router.map(function() {
       this.route('our-first-foray');
       this.route('the-weekend-strikes-back');
       this.route('broccoli-but-not-the-vegetable');
-      this.route('drop-ie8-rfc');
+      this.route('ie-seeya-l8er');
     });
   });
 });

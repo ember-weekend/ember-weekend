@@ -3,7 +3,7 @@
 %h2(id="title") Ember Weekend
 %ul
   %li
-    = link-to "4 - Drop IE8 RFC" "episodes.drop-ie8-rfc"
+    = link-to "4 - IE: Seeya L8er" "episodes.ie-seeya-l8er"
   %li
     = link-to "3 - Broccoli, not the vegetable" "episodes.broccoli-but-not-the-vegetable"
   %li
