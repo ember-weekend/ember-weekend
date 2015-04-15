@@ -13,10 +13,7 @@ Router.map(function() {
 
   this.resource('root', { path: '/' }, function(){
     this.resource('episodes', function() {
-      this.route('our-first-foray');
-      this.route('the-weekend-strikes-back');
-      this.route('broccoli-but-not-the-vegetable');
-      this.route('ie-seeya-l8er');
+      this.route('show', { path: '/:slug' });
     });
   });
 });

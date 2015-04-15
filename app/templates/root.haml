@@ -1,4 +1,23 @@
-%div{ class="wrapper #{if showMenu 'active' }" }
-  =render "sidebar"
-  .content
+%header
+  .container
+    %h1
+      -link-to "root"
+        ember
+        %mark weekend
+    %nav
+      %a(href="/feed.xml")
+        {{fa-icon "fa-rss"}}
+
+%main
+  .container
     =outlet
+
+%footer
+  .container
+    .controls
+      %i.fa.fa-play
+    %a.episode-info(href="#")
+      %time 03:03
+      The Weekend Strikes Back
+      %time(datetime="2015-03-30") March 30, 2015
+  .progress-bar

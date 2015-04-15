@@ -1,0 +1,9 @@
+%ul.episodes
+  %li
+    %a.play(href="#")
+      .play-button
+        {{fa-icon "fa-play"}}
+    %a.details
+      %h1=episode.title
+      %p Episode #{episode.number} &bull; #{episode.releaseDate}
+%h3=episode.description

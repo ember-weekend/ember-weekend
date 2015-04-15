@@ -1,0 +1,10 @@
+%ul.episodes
+  - each model as |episode index|
+    %li
+      %a.play(href="#")
+        .play-button
+          =fa-icon "play"
+      -link-to "episodes.show" episode class="details"
+        %h1=episode.title
+        %p Episode #{episode.episode} &bull; #{episode.releaseDate}
+        =fa-icon "angle-right"
