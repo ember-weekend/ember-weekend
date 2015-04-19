@@ -1,6 +1,6 @@
-{
+export default {
   "title": "Ember Weekend",
-  "description": "",
+  "description": "Ember.js is a frontend JavaScript framework that has exciting applications.  In this podcasts we share news, events, and some of our experiences.",
   "link": "https://emberweekend.com",
   "site_url": "https://emberweekend.com",
   "image_url": "https://i.imgur.com/XV0c9Xl.png",
@@ -39,4 +39,4 @@
     }}
     ]}
   ]
-}
+};

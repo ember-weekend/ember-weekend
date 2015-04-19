@@ -27,39 +27,14 @@ app.import(app.bowerDirectory + '/ember-cli-moment-shim/moment-shim.js', {
 var fs = require('fs');
 var appTree;
 if(fs.existsSync('media')){
-  var moment = require('moment');
-  var RSS = require('rss');
-  var feed = new RSS(require('./app/episodes/feed.json'));
-
-  var walkSync = require('walk-sync');
-  var path = require('path');
-  var episodes = [];
-  walkSync('app/episodes').forEach(function(filePath){
-    if(path.basename(filePath) === 'feed-item.json'){
-      episodes.push(require('./app/episodes/' + filePath));
-    }
-  });
-
-  episodes.sort(function(a, b){
-    var aDate = moment(a.date, 'MMM D, YYYY');
-    var bDate = moment(b.date, 'MMM D, YYYY');
-    return aDate.diff(bDate);
-  });
-
-  episodes.forEach(function(episode){
-    feed.item(episode);
-  });
-
-  var xml = feed.xml({indent: true});
-
   var mergeTrees = require('broccoli-merge-trees');
-  var quickTemp = require('quick-temp');
-  var rssTree = {};
-  var tmp = quickTemp.makeOrRemake(rssTree, 'tmpDestDir');
-  fs.writeFileSync(path.join(tmp, 'feed.xml'), xml);
-  rssTree.read = function(){ return tmp; };
-  rssTree.cleanup = function(){ quickTemp.remove(rssTree, 'tmpDestDir'); };
-  appTree = mergeTrees([app.toTree(), rssTree]);
+  var RSSGenerator = require('./rss-generator');
+  var rss = new RSSGenerator({
+    feed: './app/models/show.js',
+    items: './app/models/episodes.js',
+    output: 'feed.xml'
+  });
+  appTree = mergeTrees([app.toTree(), rss]);
 }else{
   appTree = app.toTree();
 }

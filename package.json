@@ -35,7 +35,9 @@
     "ember-export-application-global": "^1.0.2"
   },
   "dependencies": {
+    "broccoli-babel-transpiler": "^5.0.0",
     "broccoli-merge-trees": "^0.2.1",
+    "broccoli-static-compiler": "^0.2.1",
     "ember-cli-bourbon": "0.0.5",
     "ember-cli-font-awesome": "0.0.9",
     "ember-cli-hbars": "^0.1.6",
