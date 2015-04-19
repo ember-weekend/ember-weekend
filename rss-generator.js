@@ -30,7 +30,7 @@ RSSGenerator.prototype.rebuild = function(){
 
 function buildItem(item){
   return {
-    "title": item.title,
+    "title": "Episode " + item.number + ": " + item.title,
     "description": item.description,
     "url": "https://emberweekend.com/episodes/" + item.slug,
     "date": item.releaseDate,
