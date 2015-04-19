@@ -9,7 +9,7 @@ export default [
     long: -81.390607,
     filename: "ep-4-ember-weekend",
     author: "Chase McCarthy & Jonathan Jackson",
-    logo: "https://i.imgur.com/XV0c9Xl.png",
+    image: "https://i.imgur.com/XV0c9Xl.png",
     duration: "13:46"
   },
   {
@@ -22,7 +22,7 @@ export default [
     long: -81.390607,
     filename: "ep-3-ember-weekend",
     author: "Chase McCarthy & Jonathan Jackson",
-    logo: "https://i.imgur.com/XV0c9Xl.png",
+    image: "https://i.imgur.com/XV0c9Xl.png",
     duration: "14:06"
   },
   {
@@ -35,7 +35,7 @@ export default [
     long: -81.390607,
     filename: "ep-2-ember-weekend",
     author: "Chase McCarthy & Jonathan Jackson",
-    logo: "https://i.imgur.com/XV0c9Xl.png",
+    image: "https://i.imgur.com/XV0c9Xl.png",
     duration: "12:35"
   },
   {
@@ -48,7 +48,7 @@ export default [
     long: -81.390607,
     filename: "ep-1-ember-weekend",
     author: "Chase McCarthy & Jonathan Jackson",
-    logo: "https://i.imgur.com/XV0c9Xl.png",
+    image: "https://i.imgur.com/XV0c9Xl.png",
     duration: "10:16"
   }
 ];
