@@ -2,7 +2,7 @@ import Ember from 'ember';
 import moment from 'moment';
 
 export default Ember.Component.extend({
-  soundcloud: Ember.inject.service(),
+  player: Ember.inject.service(),
   tagName: 'a',
   attributeBindings: ['href'],
   classNames: 'timestamp',
@@ -14,7 +14,7 @@ export default Ember.Component.extend({
   formattedTime: Ember.computed.alias('time'),
   click(e) {
     e.preventDefault();
-    this.get('soundcloud').seekTo(this.get('milliseconds'));
+    this.get('player').seekTo(this.get('episode.model'), this.get('milliseconds'));
     return false;
   }
 });

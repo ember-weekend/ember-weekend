@@ -14,6 +14,10 @@ export default Ember.Service.extend({
     });
     return audio;
   }),
+  seekTo(episode, milliseconds){
+    this.play(episode);
+    this.get('audio').currentTime = milliseconds/1000;
+  },
   play(episode){
     var audio = this.get('audio');
     var current = this.get('episode');
