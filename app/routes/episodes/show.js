@@ -1,10 +1,9 @@
 import Ember from 'ember';
-import episodes from 'ember-weekend/models/episodes';
 
 export default Ember.Route.extend({
+  episodes: Ember.inject.service('episodes'),
   model: function(params) {
-    var model = episodes.filterBy('slug', params.slug).get('firstObject');
-    return Ember.ObjectProxy.create({ content: model });
+    return this.get('episodes').find(params.slug);
   },
   renderTemplate: function(controller, model) {
     this.render(`episodes/${model.get('slug')}`);

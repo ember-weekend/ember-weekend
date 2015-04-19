@@ -1,0 +1,13 @@
+.container
+  -if player.playing
+    .controls{action "pause"}
+      %i.fa.fa-pause
+  -else
+    .controls{action "play"}
+      %i.fa.fa-play
+  .episode-info
+    %time=player.currentTime
+    -link-to "episodes.show" player.episode
+      =player.title
+    %time{ datetime=player.releaseDate }=player.releaseDate
+.progress-bar{style=progressStyle}
