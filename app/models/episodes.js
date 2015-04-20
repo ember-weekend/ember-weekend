@@ -53,7 +53,7 @@ export default [
   },
   {
     number: 1,
-    title: "Our First Forey",
+    title: "Our First Foray",
     description: "Chase and Jon kick off Ember Weekend discussing EmberSherpa's workshop, EmberObserver, and some resources for beginners.",
     slug: "our-first-foray",
     releaseDate: "March 24, 2015",
