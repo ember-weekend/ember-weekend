@@ -32,7 +32,7 @@ export default Ember.Service.extend({
       }else{
         if(!audio.src){
           audio.type= 'audio/mpeg';
-          audio.src = `http://emberweekend.s3.amazonaws.com/${episode.filename}.mp3`;
+          audio.src = `http://emberweekend.s3.amazonaws.com/${current.filename}.mp3`;
         }
         current.set('playing', true);
       }
