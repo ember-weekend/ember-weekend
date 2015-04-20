@@ -95,7 +95,6 @@ main
   justify-content: flex-start
   align-items: stretch
   align-content: stretch
-  overflow: auto
   &#home
     ul.episodes
       margin: 2rem 0 0
@@ -170,6 +169,7 @@ main
     .title
       background: #f2f2f2
       width: 20%
+      min-height: 100%
       flex: 0 1 auto
       .container
         text-align: center
@@ -188,6 +188,7 @@ main
           font-size: 1.3rem
     ul.sections
       border-left: 1px solid #ddd
+      overflow: auto
       flex: 1 1 auto
       > li
         background: #fff
