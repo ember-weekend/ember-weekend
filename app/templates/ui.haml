@@ -1,26 +1,23 @@
-#ui
-  %header
-    .container
-      %h1
-        %a(href="#")
-          ember
-          %mark weekend
-      %nav
-        %a(href="https://itunes.apple.com/us/podcast/ember-weekend/id981719021?mt=2")
-          {{fa-icon "fa-rss"}}
-        %a(href="about")
-          {{fa-icon "fa-info"}}
+%header
+  .container
+    %h1
+      %a(href="#")
+        ember
+        %mark weekend
+    %nav
+      %a(href="https://itunes.apple.com/us/podcast/ember-weekend/id981719021?mt=2")
+        {{fa-icon "fa-rss"}}
+      %a(href="about")
+        {{fa-icon "fa-info"}}
 
-  %main
-    .container
-      =outlet
+=outlet
 
-  %footer
-    .container
-      .controls
-        %i.fa.fa-play
-      %a.episode-info(href="#")
-        %time 03:03
-        The Weekend Strikes Back
-        %time(datetime="2015-03-30") March 30, 2015
-    .progress-bar
+%footer
+  .container
+    .controls
+      %i.fa.fa-play
+    %a.episode-info(href="#")
+      %time 03:03
+      The Weekend Strikes Back
+      %time(datetime="2015-03-30") March 30, 2015
+  .progress-bar
