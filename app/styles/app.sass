@@ -106,38 +106,35 @@ main
         background: darken(#ffffff, 2%)
         transition: background .5s
       +max-width(800)
-        border: 0
-        border-radius: 0
-        margin-bottom: 0
-        width: 100%
-        + li
-          border-top: 1px solid #dddddd
-      a
-        box-sizing: border-box
-        &.play
-          padding: 2rem
-          .play-button
-            color: #ffffff
-            font-size: 2rem
-            text-align: center
-            display: block
-            background: $orange
-            border-radius: 10rem
-            padding: .5rem 1rem
-            width: 4rem
-            box-sizing: border-box
-            flex: 0 0 auto
-            position: relative
-            &:before
-              content: ""
-              border: 1px solid $orange
-              border-radius: 5rem
-              position: absolute
-              top: -5px
-              left: -5px
-              right: -5px
-              bottom: -5px
-          &:hover
+        margin-top: 0
+        display: block
+      li
+        background: darken(#fff, 2%)
+        border: 1px solid #dddddd
+        border-radius: .5rem
+        width: 49%
+        margin: 0 0 2rem
+        min-width: 300px
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        display: flex
+        flex-flow: row wrap-reverse
+        align-items: baseline
+        &:hover
+          background: #fff
+          transition: background .5s
+        +max-width(800)
+          border: 0
+          border-radius: 0
+          margin-bottom: 0
+          width: 100%
+          + li
+            border-top: 1px solid #dddddd
+        a
+          box-sizing: border-box
+          &.play
+            padding: 2rem
             .play-button
               @include play-button
             &:hover
@@ -192,7 +189,7 @@ main
     ul.sections
       border-left: 1px solid #ddd
       flex: 1 1 auto
-      li
+      > li
         background: #fff
         border-bottom: 1px solid #ddd
         padding: 3rem
@@ -203,17 +200,19 @@ main
           color: #fff
           font-size: 1.4rem
           background: $orange
+          height: 4.5rem
           padding: 1.2rem 1.5rem
           border-radius: 1rem
-          flex: 0 1 auto
+          box-sizing: border-box
+          flex: 0 0 auto
           &:hover
             background: saturate($orange, 20%)
             transition: color .5s
         .details
-          flex: 0 1 auto
+          flex: 1 1 auto
           padding: 0 0 0 2rem
           h1
-            font-size: 1.6rem
+            font-size: 1.8rem
             a
               &:hover
                 color: $orange
@@ -226,11 +225,31 @@ main
               &:hover
                 color: saturate($orange, 20%)
                 transition: color .5s
+        .description
+          font-size: 1.4rem
+          font-weight: 100
+          padding: 2rem 0 0
+          box-sizing: border-box
+          a
+            color: $orange
+            &:hover
+              color: saturate($orange, 20%)
+              transition: color .5s
+          h2, h3, p, ul li
+            margin: 0 0 1.4rem
+          h2
+            font-size: 1.6rem
+          h3
+            font-size: 1.4rem
+          ul
+            margin: 0 0 0 2rem
+            li
+              list-style: disc
+              list-style-position: inside
 
 footer
   background: #fff
   border-top: 1px solid #d3d3d3
-  position: fixed
   bottom: 0
   width: 100%
   box-sizing: border-box
