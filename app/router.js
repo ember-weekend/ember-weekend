@@ -15,6 +15,7 @@ Router.map(function() {
     this.resource('episodes', function() {
       this.route('show', { path: '/:slug' });
     });
+    this.route('about');
   });
 });
 
