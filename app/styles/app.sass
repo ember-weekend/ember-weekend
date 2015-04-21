@@ -96,6 +96,7 @@ main
   justify-content: flex-start
   align-items: stretch
   align-content: stretch
+  overflow: auto
   &#home
     ul.episodes
       margin: 2rem 0 0
@@ -262,6 +263,84 @@ main
             li
               list-style: disc
               list-style-position: inside
+  &#about
+    background: #fff
+    padding: 2rem 0
+    +max-width(800)
+      .container
+        padding: 0 2rem
+    h1.ember-weekend
+      background: url(images/logo-emberweekend.svg) no-repeat
+      background-size: 175px 119px
+      text-indent: 100%
+      white-space: nowrap
+      overflow: hidden
+      margin: 0 auto 2rem
+      width: 175px
+      height: 119px
+      + p
+        font-weight: 100
+        text-align: center
+        margin: 0 0 2rem
+    .wrapper
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      padding: 0
+      +max-width(800)
+        display: block
+      dl
+        flex: 1
+        padding: 0 1.4rem
+        width: 48%
+        box-sizing: border-box
+        &:first-of-type
+          padding-right: 3rem
+        &:last-of-type
+          padding-left: 3rem
+        +max-width(800)
+          flex: 0
+          padding: 0
+          width: 100%
+          &:first-of-type
+            padding-right: 0
+          &:last-of-type
+            padding-left: 0
+        dt
+          position: relative
+          img
+            clip-path: circle(50px at center)
+            display: block
+            margin: 0 auto
+            width: 110px
+            height: 178px
+          a
+            color: #fff
+            font-size: 2rem
+            text-align: center
+            background: #55acee
+            border-radius: 5rem
+            padding: .5rem
+            height: 3.5rem
+            width: 3.5rem
+            box-sizing: border-box
+            position: absolute
+            top: 10.8rem
+            left: 56%
+            &:hover
+              background: saturate(#55acee, 20%)
+              transition: background .5s
+          h1
+            font-weight: 600
+            font-size: 1.8rem
+            text-align: center
+            margin: -2.5rem 0 2rem
+        dd
+          font-weight: 100
+          font-size: 1.4rem
+          line-height: 180%
+          p
+            margin: 0 0 1.5rem
 
 footer
   background: #fff
