@@ -14,6 +14,7 @@ html
   font-size: 62.5%
 
 body
+  font-size: 16px
   font-size: 1.6em
   font-family: $body
   background: #efefef
@@ -61,17 +62,8 @@ body > .ember-view
             &:hover
               color: #ffffff
               transition: color .5s
-    nav
-      font-size: 16px
-      padding: 1rem 0
-      box-sizing: border-box
-      a
-        text-align: center
-        display: inline-block
-        background: #5b5b5b
-        border-radius: 4rem
-        padding: .3rem 1rem
-        width: 3rem
+      nav
+        padding: 1rem 0
         box-sizing: border-box
         a
           text-align: center
@@ -101,11 +93,8 @@ main
     ul.episodes
       margin: 2rem 0 0
       display: flex
-      flex-flow: row wrap-reverse
-      align-items: baseline
-      &:hover
-        background: darken(#ffffff, 2%)
-        transition: background .5s
+      flex-flow: row wrap
+      justify-content: space-between
       +max-width(800)
         margin-top: 0
         display: block
@@ -142,16 +131,20 @@ main
               @include play-hover
           &.details
             align-self: center
-            flex-grow: 1
             padding: 2rem 2rem 2rem 0
             position: relative
             box-sizing: border-box
+            flex: 1
             h1
-              color: saturate($orange, 30%)
-              transition: color .5s
+              color: $orange
+              font-size: 1.5rem
+              padding-right: 2rem
+              white-space: nowrap
+              overflow: hidden
+              text-overflow: ellipsis
             p
-              color: darken(#3f3f3f, 50%)
-              transition: color .5s
+              color: #3f3f3f
+              font-size: 1.2rem
             i.fa.fa-angle-right
               color: #afafaf
               font-size: 3rem
@@ -195,7 +188,7 @@ main
           &:hover
             @include play-hover
         h1
-          font-size: 1.8rem
+          font-size: 1.6rem
           margin: 0 0 .5rem
         p
           font-weight: 100
@@ -229,7 +222,7 @@ main
           flex: 1 1 auto
           padding: 0 0 0 2rem
           h1
-            font-size: 1.8rem
+            font-size: 1.4rem
             a
               &:hover
                 color: $orange
@@ -243,7 +236,7 @@ main
                 color: saturate($orange, 20%)
                 transition: color .5s
         .description
-          font-size: 1.4rem
+          font-size: 1.3rem
           font-weight: 100
           padding: 2rem 0 0
           box-sizing: border-box
@@ -255,9 +248,9 @@ main
           h2, h3, p, ul li
             margin: 0 0 1.4rem
           h2
-            font-size: 1.6rem
-          h3
             font-size: 1.4rem
+          h3
+            font-size: 1.3rem
           ul
             margin: 0 0 0 2rem
             li
@@ -287,6 +280,7 @@ main
       flex-direction: row
       justify-content: space-between
       padding: 0
+      margin: 0 0 5rem
       +max-width(800)
         display: block
       dl
@@ -330,6 +324,8 @@ main
             &:hover
               background: saturate(#55acee, 20%)
               transition: background .5s
+            +max-width(800)
+              left: 50vw
           h1
             font-weight: 600
             font-size: 1.8rem
@@ -341,12 +337,27 @@ main
           line-height: 180%
           p
             margin: 0 0 1.5rem
+    h3
+      color: #939393
+      font-weight: 100
+      font-size: 1.5rem
+      text-align: center
+      margin: 0 0 1.5rem
+    ul.sponsor
+      text-align: center
+      margin: 0 auto
+      padding: 0 0 2rem
+      li
+        display: inline-block
+        text-align: center
+
 
 footer
   background: #fff
   border-top: 1px solid #d3d3d3
   bottom: 0
   width: 100%
+  position: relative
   box-sizing: border-box
   .container
     display: flex
@@ -359,7 +370,7 @@ footer
       border: 1px solid #494949
       border-radius: 5rem
       padding: .5rem 1rem
-      margin: 1.5rem 0
+      margin: 2rem 0 1rem
       width: 4rem
       flex: 0 0 4rem
       i.fa.fa-play
@@ -376,7 +387,7 @@ footer
       overflow: hidden
       text-overflow: ellipsis
       vertical-align: top
-      padding: 2.5rem 2.5rem 2.5rem .5rem
+      padding: 3rem 2.5rem 2rem .5rem
       align-self: center
       box-sizing: border-box
       time
@@ -395,8 +406,17 @@ footer
           transition: color .5s
   .progress-bar
     background: $orange
-    height: .3rem
+    height: .4rem
     position: absolute
-    bottom: 0
+    top: 0
     left: 0
     width: 50%
+    .playhead
+      background: $orange
+      border: 1px solid #fff
+      border-radius: 5rem
+      width: 2rem
+      height: 2rem
+      position: absolute
+      left: 1rem
+      top: -.75rem
