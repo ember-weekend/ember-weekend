@@ -167,11 +167,23 @@ main
               i.fa.fa-angle-right
                 color: darken(#afafaf, 10%)
   &#episode
+    .wrapper
+      padding: 0
+      width: 100%
+      display: flex
+      +max-width(800)
+        overflow: auto
+        align-content: flex-start
+        flex-direction: row
+        flex-wrap: wrap
     .title
       background: #f2f2f2
       width: 20%
       min-height: 100%
       flex: 0 1 auto
+      +max-width(800)
+        min-height: 0
+        width: 100%
       .container
         text-align: center
         padding: 4rem 2rem 2rem
@@ -191,6 +203,8 @@ main
       border-left: 1px solid #ddd
       overflow: auto
       flex: 1 1 auto
+      +max-width(800)
+        width: 100%
       > li
         background: #fff
         border-bottom: 1px solid #ddd
