@@ -1,1 +1,3 @@
-=yield
+=seek-to time=time episode=this class="jump"
+.details
+  =yield

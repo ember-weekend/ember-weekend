@@ -1,1 +1,4 @@
-=name
+- if template
+  = yield
+- else
+  =name

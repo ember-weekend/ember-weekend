@@ -1,15 +1,17 @@
-%ul.episodes
-  - each model as |episode index|
-    %li
-      -if episode.playing
-        %a.play(href="#"){action "pause"}
-          .play-button
-            =fa-icon "pause"
-      -else
-        %a.play(href="#"){action "play" episode}
-          .play-button
-            =fa-icon "play"
-      -link-to "episodes.show" episode class="details"
-        %h1=episode.title
-        %p Episode #{episode.number} &bull; #{episode.releaseDate}
-        =fa-icon "angle-right"
+%main#home
+  .container
+    %ul.episodes
+      - each model as |episode index|
+        %li
+          -if episode.playing
+            %a.play(href="#"){action "pause"}
+              .play-button
+                =fa-icon "pause"
+          -else
+            %a.play(href="#"){action "play" episode}
+              .play-button
+                =fa-icon "play"
+          -link-to "episodes.show" episode class="details"
+            %h1=episode.title
+            %p Episode #{episode.number} &bull; #{episode.releaseDate}
+            =fa-icon "angle-right"

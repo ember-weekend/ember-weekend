@@ -6,7 +6,7 @@ export default Ember.Route.extend({
     return this.get('episodes').find(params.slug);
   },
   renderTemplate: function(controller, model) {
-    this.render(`episodes/${model.get('slug')}`);
+    this.render(`episodes/${model.get('slug')}`, { view: 'episodes/show'});
   },
   serialize: function(model) {
     return { slug: model.get('slug') };

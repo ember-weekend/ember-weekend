@@ -5,9 +5,10 @@
   -else
     .controls{action "play"}
       %i.fa.fa-play
-  .episode-info
+  -link-to "episodes.show" player.episode
+  %a.episode-info(href="#")
     %time=player.currentTime
-    -link-to "episodes.show" player.episode
-      =player.title
+    =player.title
     %time{ datetime=player.releaseDate }=player.releaseDate
 .progress-bar{style=progressStyle}
+  .playhead

@@ -1,11 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  title: Ember.computed.alias('episode.model.title'),
-  playing: Ember.computed.alias('episode.model.playing'),
-  releaseDate: Ember.computed.alias('episode.model.releaseDate'),
-  number: Ember.computed.alias('episode.model.number'),
-  description: Ember.computed.alias('episode.model.description'),
+  classNames: ['title'],
+  title: Ember.computed.alias('episode.title'),
+  playing: Ember.computed.alias('episode.playing'),
+  releaseDate: Ember.computed.alias('episode.releaseDate'),
+  number: Ember.computed.alias('episode.number'),
+  description: Ember.computed.alias('episode.description'),
   player: Ember.inject.service('player'),
   actions: {
     play: function(episode){

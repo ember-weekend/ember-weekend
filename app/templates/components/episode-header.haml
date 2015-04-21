@@ -1,14 +1,11 @@
-%ul.episodes
-  %li
-    -if playing
-      %a.play(href="#"){action "pause"}
-        .play-button
-          =fa-icon "pause"
-    -else
-      %a.play(href="#"){action "play" episode}
-        .play-button
-          =fa-icon "play"
-    %a.details
-      %h1=title
-      %p Episode #{number} &bull; #{releaseDate}
-%h3=description
+.container
+  -if playing
+    %a.play(href="#"){action "pause"}
+      .play-button
+        =fa-icon "pause"
+  -else
+    %a.play(href="#"){action "play" episode}
+      .play-button
+        =fa-icon "play"
+  %h1=title
+  %p Episode #{number} &bull; #{releaseDate}
