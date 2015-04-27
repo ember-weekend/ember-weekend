@@ -1,5 +1,18 @@
 export default [
   {
+    number: 6,
+    title: "Ember in Atlanta",
+    description: "Chase and Jonathan recap their RailsConf experience and talk about Ember meetups",
+    slug: "ember-in-atlanta",
+    releaseDate: "April 27, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-6-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "https://i.imgur.com/XV0c9Xl.png",
+    duration: "14:26"
+  },
+  {
     number: 5,
     title: "Wicked Good Design",
     description: "Chase and Jonathan discuss the site redesign, Wicked Good Ember, Ember in Viewport, security patches, the run loop, and Ember Islands.",
