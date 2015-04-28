@@ -43,6 +43,7 @@
     "ember-cli-hbars": "^0.1.6",
     "ember-cli-sass": "^3.1.1",
     "ember-sinon": "0.0.3",
+    "liquid-fire": "^0.19.3",
     "moment": "^2.9.0",
     "quick-temp": "^0.1.2",
     "rss": "^1.1.1",
