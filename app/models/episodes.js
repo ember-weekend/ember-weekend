@@ -1,5 +1,18 @@
 export default [
   {
+    number: 7,
+    title: "Champions needed",
+    description: "Chase and Jonathan discuss routable components, ember-cli-mirage (again), JSON API, and the new EmberJax twitter account.",
+    slug: "champions-needed",
+    releaseDate: "May 4, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-7-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "https://i.imgur.com/XV0c9Xl.png",
+    duration: "17:23"
+  },
+  {
     number: 6,
     title: "Ember in Atlanta",
     description: "Chase and Jonathan recap their RailsConf experience and talk about Ember meetups",
