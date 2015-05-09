@@ -6,6 +6,7 @@ export default Ember.Service.extend({
   title: Ember.computed.alias('episode.title'),
   releaseDate: Ember.computed.alias('episode.releaseDate'),
   playing: Ember.computed.alias('episode.playing'),
+  duration: null,
   audio: Ember.computed(function(){
     var audio = new Audio();
     audio.addEventListener('timeupdate', () => {
@@ -61,6 +62,7 @@ export default Ember.Service.extend({
     }
   }),
   progress: Ember.computed('audio', 'currentTimeSeconds', function(){
+    this.set('duration', this.get('audio').duration);
     var duration = this.get('audio').duration || 0;
     var seconds = this.get('currentTimeSeconds');
     var percent = (seconds/duration) * 100;

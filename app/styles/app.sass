@@ -6,6 +6,7 @@
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
   box-sizing: border-box
+  user-select:none
 
 a
   text-decoration: none
@@ -427,11 +428,12 @@ footer
     left: 0
     width: 50%
     .playhead
+      cursor: pointer
       background: $orange
       border: 1px solid #fff
       border-radius: 5rem
       width: 2rem
       height: 2rem
       position: absolute
-      left: 1rem
       top: -.75rem
+      right: -.75rem
