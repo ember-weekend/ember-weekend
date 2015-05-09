@@ -6,7 +6,7 @@ export default Ember.Route.extend({
     return this.get('episodes').find(params.slug);
   },
   setupController: function(controller, model) {
-    controller.set('model', model);
+    controller.set('episode', model);
     controller.set('episodeTemplate', `episodes/${model.get('slug')}`);
   },
   serialize: function(model) {

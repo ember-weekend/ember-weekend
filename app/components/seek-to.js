@@ -14,7 +14,7 @@ export default Ember.Component.extend({
   formattedTime: Ember.computed.alias('time'),
   click(e) {
     e.preventDefault();
-    this.get('player').seekTo(this.get('episode.model'), this.get('milliseconds'));
+    this.get('player').seekTo(this.get('episode'), this.get('milliseconds'));
     return false;
   }
 });
