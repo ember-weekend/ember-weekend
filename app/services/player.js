@@ -6,8 +6,9 @@ export default Ember.Service.extend({
   title: Ember.computed.alias('episode.title'),
   releaseDate: Ember.computed.alias('episode.releaseDate'),
   playing: Ember.computed.alias('episode.playing'),
-  audio: Ember.computed(function() {
-    const audio = new Audio();
+  duration: null,
+  audio: Ember.computed(function(){
+    var audio = new Audio();
     audio.addEventListener('timeupdate', () => {
       const seconds = parseInt(audio.currentTime, 10);
       this.set('currentTimeSeconds', seconds);
