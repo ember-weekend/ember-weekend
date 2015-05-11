@@ -1,5 +1,18 @@
 export default [
   {
+    number: 8,
+    title: "The Most Private of All APIs",
+    description: "Chase and Jonathan celebrate Glimmer and discuss exploring FastBoot, stubbing services, and the SV Ember meetup.",
+    slug: "the-most-private-of-all-apis",
+    releaseDate: "May 11, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-8-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "https://i.imgur.com/XV0c9Xl.png",
+    duration: "13:47"
+  },
+  {
     number: 7,
     title: "Champions needed",
     description: "Chase and Jonathan discuss routable components, ember-cli-mirage (again), JSON API, and the new EmberJax twitter account.",
