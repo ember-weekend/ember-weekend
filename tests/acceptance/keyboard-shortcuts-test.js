@@ -5,7 +5,7 @@ import {
 } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
 import { stubResolver } from '../helpers/container';
-import mockKeyEvent from 'ember-weekend/utils/mock-key-events';
+import mockKeyEvent from '../helpers/mock-key-events';
 
 var application;
 
