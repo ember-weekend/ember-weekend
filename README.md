@@ -1,4 +1,4 @@
-![Ember Weekend Logo](http://i.imgur.com/U9JBzMf.png)
+![Ember Weekend Logo](http://i.imgur.com/AmiWiI6.png)
 
 Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun) and [Jonathan Jackson](https://twitter.com/rondale_sc) babble on about their weekend Ember shenanigans.
 
