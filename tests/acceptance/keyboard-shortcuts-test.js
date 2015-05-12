@@ -33,7 +33,7 @@ module('Acceptance: KeyboardShortcuts', {
   }
 });
 
-test('visiting /keyboard-shortcuts', function(assert) {
+test('pressing space bar (32) toggles play/pause on player service', function(assert) {
   visit('/episodes');
   assert.expect(2);
 
