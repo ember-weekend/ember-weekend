@@ -15,6 +15,7 @@
     "bourbon": "3.2.1",
     "sinon": "http://sinonjs.org/releases/sinon-1.12.2.js",
     "ember-cli-moment-shim": "~0.0.3",
-    "moment": "~2.9.0"
+    "moment": "~2.9.0",
+    "mousetrap": "~1.4.6"
   }
 }
