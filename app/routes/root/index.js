@@ -6,7 +6,9 @@ export default Ember.Route.extend({
   init: function(){
     this._super.apply(this, arguments);
     var mostRecent = this.get('episodes').mostRecent();
-    this.set('player.episode', mostRecent);
+    if(!this.get('player.episode')){
+      this.set('player.episode', mostRecent);
+    }
   },
   beforeModel() {
     this.transitionTo('episodes');

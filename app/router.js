@@ -14,6 +14,7 @@ Router.map(function() {
   this.resource('root', { path: '/' }, function(){
     this.resource('episodes', function() {
       this.route('show', { path: '/:slug' });
+      this.route('timedShow', { path: '/:slug/:timeStamp'});
     });
     this.route('about');
   });
