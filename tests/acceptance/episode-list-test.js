@@ -52,7 +52,7 @@ test('visiting /episodes', function(assert) {
   visit('/episodes');
 
   andThen(function() {
-    assert.equal(currentURL(), '/episodes');
+    assert.equal(currentRouteName(), 'episodes.index');
     assert.equal(find('ul.episodes li:last h1').text(), 'Foo title');
     assert.equal(find('ul.episodes li:first h1').text(), 'Quux title');
   });
