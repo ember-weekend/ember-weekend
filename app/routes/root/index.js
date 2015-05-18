@@ -9,6 +9,6 @@ export default Ember.Route.extend({
     this.set('player.episode', mostRecent);
   },
   beforeModel() {
-    this.transitionTo('episodes');
+    this.replaceWith('episodes');
   }
 });
