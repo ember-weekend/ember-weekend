@@ -1,5 +1,18 @@
 export default [
   {
+    number: 9,
+    title: "Interview with the Emberokai",
+    description: "Chase and Jonathan are joined by Paul Elliott, a lead developer at Heroku working on the Dashboard.",
+    slug: "interview-with-the-emberokai",
+    releaseDate: "May 18, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-9-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "https://i.imgur.com/XV0c9Xl.png",
+    duration: "18:58"
+  },
+  {
     number: 8,
     title: "The Most Private of All APIs",
     description: "Chase and Jonathan celebrate Glimmer and discuss exploring FastBoot, stubbing services, and the SV Ember meetup.",
