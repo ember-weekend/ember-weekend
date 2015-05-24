@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'ember-weekend',
     environment: environment,
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'none',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
