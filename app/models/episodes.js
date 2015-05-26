@@ -1,5 +1,18 @@
 export default [
   {
+    number: 10,
+    title: "Meh, Ship it",
+    description: "Chase and Jonathan get talk about the growing ember-weekend community, there adventures in fastboot, and a new RFC by Yehuda Katz.",
+    slug: "meh-ship-it",
+    releaseDate: "May 26, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-10-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "http://i.imgur.com/VQmTj1h.png",
+    duration: "13:15"
+  },
+  {
     number: 9,
     title: "Interview with the Emberokai",
     description: "Chase and Jonathan are joined by Paul Elliott, a lead developer at Heroku working on the Dashboard.",
