@@ -1,5 +1,18 @@
 export default [
   {
+    number: 11,
+    title: "Here with r4t, c3e, and j1n",
+    description: "Chase and Jonathan are joined by Robert Deluca and talk about accessiblity, i18n, jsconf, and a whole lot more!",
+    slug: "here-with-r4t-c3e-and-j1n",
+    releaseDate: "May 26, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-11-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "http://i.imgur.com/VQmTj1h.png",
+    duration: "17:37"
+  },
+  {
     number: 10,
     title: "Meh, Ship it",
     description: "Chase and Jonathan get talk about the growing ember-weekend community, there adventures in fastboot, and a new RFC by Yehuda Katz.",
