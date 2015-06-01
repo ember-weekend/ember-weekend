@@ -1,16 +1,16 @@
 export default [
   {
     number: 11,
-    title: "Here with r4t, c3e, and j1n",
+    title: "E3r W5d with R4t D4a",
     description: "Chase and Jonathan are joined by Robert Deluca and talk about accessiblity, i18n, jsconf, and a whole lot more!",
-    slug: "here-with-r4t-c3e-and-j1n",
-    releaseDate: "May 26, 2015",
+    slug: "e3r-w5d-with-r4t-d4a",
+    releaseDate: "June 1, 2015",
     lat: 30.291809,
     long: -81.390607,
     filename: "ep-11-ember-weekend",
     author: "Chase McCarthy & Jonathan Jackson",
     image: "http://i.imgur.com/VQmTj1h.png",
-    duration: "17:37"
+    duration: "17:38"
   },
   {
     number: 10,
