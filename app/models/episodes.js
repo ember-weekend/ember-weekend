@@ -28,7 +28,7 @@ export default [
   {
     number: 10,
     title: "Meh, Ship it",
-    description: "Chase and Jonathan get talk about the growing ember-weekend community, there adventures in fastboot, and a new RFC by Yehuda Katz.",
+    description: "Chase and Jonathan talk about the growing ember-weekend community, there adventures in fastboot, and a new RFC by Yehuda Katz.",
     slug: "meh-ship-it",
     releaseDate: "May 26, 2015",
     lat: 30.291809,
