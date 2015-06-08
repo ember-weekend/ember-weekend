@@ -1,5 +1,18 @@
 export default [
   {
+    number: 12,
+    title: "The Curiously Strong Weekend",
+    description: "Chase and Jonathan talk about Ember Simple Auth + Mirage, QUnit helpers, an RFC by Tom Dale, Breadcrumbs and blog posts, component actions, and the growing Ember community.",
+    slug: "the-curiously-strong-weekend",
+    releaseDate: "June 8, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-12-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "http://i.imgur.com/VQmTj1h.png",
+    duration: "19:25"
+  },
+  {
     number: 11,
     title: "E3r W5d with R4t D4a",
     description: "Chase and Jonathan are joined by Robert Deluca and talk about accessiblity, i18n, jsconf, and a whole lot more!",
