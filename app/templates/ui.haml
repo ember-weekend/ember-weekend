@@ -5,9 +5,16 @@
         ember
         %mark weekend
     %nav
-      %a(href="https://itunes.apple.com/us/podcast/ember-weekend/id981719021?mt=2")
+      %form#mc-embedded-subscribe-form(action="//emberweekend.us5.list-manage.com/subscribe/post?u=266baf97eddd87cfd15f1d015&amp;id=eb2764b43a" method="post" name="mc-embedded-subscribe-form" class="validate" novalidate="novalidate")
+        %input#mce-EMAIL(type="email" value="" name="EMAIL" placeholder="Get email news")
+        %div(style="position: absolute; left: -5000px;")
+          %input(name="b_266baf97eddd87cfd15f1d015_eb2764b43a" tabindex="-1" type="text" value="")
+        %input#mc-embedded-subscribe(type="submit" value="Sign Up" name="subscribe")
+      %a.news(href="http://eepurl.com/bpUfen" title="Get email news" target="_blank")
+        {{fa-icon "fa-newspaper-o"}}
+      %a(href="https://itunes.apple.com/us/podcast/ember-weekend/id981719021?mt=2" title="RSS feed")
         {{fa-icon "fa-rss"}}
-      %a(href="about")
+      %a(href="about" title="About")
         {{fa-icon "fa-info"}}
 
 =outlet
