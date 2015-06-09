@@ -73,6 +73,32 @@ body > .app-content
       nav
         padding: 1rem 0
         box-sizing: border-box
+        form
+          display: inline-block
+          input
+            font-size: 1.3rem
+            border: 0
+            border-radius: 5rem
+            padding: .5rem 1rem
+            box-sizing: border-box
+            &:focus
+              outline: none
+            +max-width(500)
+              display: none
+          input[type="email"]
+            border-top-right-radius: 0
+            border-bottom-right-radius: 0
+            margin: 0 -.5rem 0 0
+          input[type="submit"]
+            font-weight: bold
+            color: #fff
+            background: $orange
+            border-top-left-radius: 0
+            border-bottom-left-radius: 0
+            transition: background .5s
+            margin: 0 .5rem 0 0
+            &:hover
+              background: saturate($orange, 30%)
         a
           text-align: center
           display: inline-block
@@ -87,6 +113,11 @@ body > .app-content
             background: $orange
             color: #ffffff
             transition: color .5s, background .5s
+          &.news
+            display: none
+            padding: .3rem 0
+            +max-width(500)
+              display: inline-block
 
 .wrapper
   width: 100%
