@@ -103,7 +103,7 @@ main
   align-content: stretch
   overflow: auto
   -webkit-overflow-scrolling: touch
-  #home
+  &#home
     ul.episodes
       margin: 2rem 0 0
       display: flex
@@ -174,7 +174,7 @@ main
                 transition: color .5s
               i.fa.fa-angle-right
                 color: darken(#afafaf, 10%)
-  #episode
+  &#episode
     .wrapper
       padding: 0
       width: 100%
@@ -237,6 +237,7 @@ main
         .details
           flex: 1 1 auto
           padding: 0 0 0 2rem
+          max-width: 900px
           h1
             font-size: 1.4rem
             a
@@ -274,6 +275,44 @@ main
             li
               list-style: disc
               list-style-position: inside
+        &.guest
+          +max-width(500)
+            display: block
+          img
+            margin: 0 3rem 0 0
+            border-radius: 1rem
+            flex: 0 0 175px
+            height: 235px
+            +max-width(500)
+              display: block
+              width: 175px
+              margin: 0 auto 2rem
+          .guest_bio
+            flex: 1 1 auto
+            max-width: 700px
+            +max-width(500)
+              margin: 0 auto
+              text-align: center
+            a
+              color: $orange
+              transition: color .5s
+              &:hover
+                color: saturate($orange, 20%)
+            h3
+              font-size: 1.2rem
+              text-transform: uppercase
+              color: #3F3F3F
+              margin: 0 0 1rem
+            h1
+              font-size: 1.8rem
+              + p
+                font-weight: 100
+                margin: 0 0 2rem
+            p.bio
+              font-size: 1.4rem
+              line-height: 1.7
+              font-weight: 100
+
   #about
     background: #fff
     padding: 2rem 0
