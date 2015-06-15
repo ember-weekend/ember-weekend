@@ -1,5 +1,18 @@
 export default [
   {
+    number: 13,
+    title: "The Most Interesting Episode",
+    description: "Chase and Jonathan talk about Ember 1.13 and Ember 2.0.0-beta along with the upcoming talks at Wicked Good Ember.",
+    slug: "the-most-interesting-episode",
+    releaseDate: "June 14, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-13-ember-weekend",
+    author: "Chase McCarthy & Jonathan Jackson",
+    image: "http://i.imgur.com/VQmTj1h.png",
+    duration: "14:53"
+  },
+  {
     number: 12,
     title: "The Curiously Strong Weekend",
     description: "Chase and Jonathan talk about Ember Simple Auth + Mirage, QUnit helpers, an RFC by Tom Dale, Breadcrumbs and blog posts, component actions, and the growing Ember community.",
