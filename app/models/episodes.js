@@ -1,5 +1,18 @@
 export default [
   {
+    number: 14,
+    title: "Ember IsLand 2.0 Beta",
+    description: "Chase and Jonathan team up with Dan and Robert (from Ember.Land) for a crossover episode in which they discuss all things Wicked Good Ember 2015",
+    slug: "ember-island-two-oh-beta",
+    releaseDate: "June 21, 2015",
+    lat: 30.291809,
+    long: -81.390607,
+    filename: "ep-14-ember-weekend",
+    author: "Chase McCarthy, Jonathan Jackson, Dan McClain, and Robert Jackson",
+    image: "http://i.imgur.com/VQmTj1h.png",
+    duration: "22:46"
+  },
+  {
     number: 13,
     title: "The Most Interesting Episode",
     description: "Chase and Jonathan talk about Ember 1.13 and Ember 2.0.0-beta along with the upcoming talks at Wicked Good Ember.",
