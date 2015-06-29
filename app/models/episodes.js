@@ -4,16 +4,13 @@ export default [
     title: "EmberJax Edits a Podcast",
     description: "Chase and Jonathan talk about EmberJax, Ember.Evented, and Handlebars printing.",
     slug: "emberjax-edits-a-podcast",
-    title: "Printing Handlebars",
-    description: "Chase and Jonathan talk about EmberJax, Ember.Evented, and Handlebars printing.",
-    slug: "printing-handlebars",
     releaseDate: "June 29, 2015",
     lat: 30.291809,
     long: -81.390607,
     filename: "ep-15-ember-weekend",
     author: "Chase McCarthy & Jonathan Jackson",
     image: "http://i.imgur.com/VQmTj1h.png",
-    duration: ""
+    duration: "16:40"
   },
   {
     number: 14,
