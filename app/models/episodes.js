@@ -1,5 +1,18 @@
 export default [
   {
+      number: 16,
+      title: "Resources and Junk",
+      description: "Chase and Jonathan talk about ten resources that will help you get up and running with Ember.js",
+      slug: "resources-and-junk",
+      releaseDate: "July 6, 2015",
+      lat: 30.291809,
+      long: -81.390607,
+      filename: "ep-16-ember-weekend",
+      author: "Chase McCarthy & Jonathan Jackson",
+      image: "http://i.imgur.com/VQmTj1h.png",
+      duration: "16"
+  },
+  {
     number: 15,
     title: "EmberJax Edits a Podcast",
     description: "Chase and Jonathan talk about EmberJax, Ember.Evented, and Handlebars printing.",
