@@ -10,7 +10,7 @@ export default [
       filename: "ep-16-ember-weekend",
       author: "Chase McCarthy & Jonathan Jackson",
       image: "http://i.imgur.com/VQmTj1h.png",
-      duration: "16"
+      duration: "19:08"
   },
   {
     number: 15,
