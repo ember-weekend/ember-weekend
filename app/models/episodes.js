@@ -1,5 +1,18 @@
 export default [
   {
+      number: 17,
+      title: "Ember Training Recap",
+      description: "Chase and Jonathan discuss the what they learned at Ember 2.0 Training in Chicago.",
+      slug: "ember-training-recap",
+      releaseDate: "July 13, 2015",
+      lat: 30.291809,
+      long: -81.390607,
+      filename: "ep-17-ember-weekend",
+      author: "Chase McCarthy & Jonathan Jackson",
+      image: "http://i.imgur.com/VQmTj1h.png",
+      duration: "23:00"
+  },
+  {
       number: 16,
       title: "Resources and Junk",
       description: "Chase and Jonathan talk about ten resources that will help you get up and running with Ember.js",
