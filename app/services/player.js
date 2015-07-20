@@ -12,6 +12,10 @@ export default Ember.Service.extend({
       var seconds = parseInt(audio.currentTime, 10);
       this.set('currentTimeSeconds', seconds);
     });
+    audio.addEventListener('progress', () => {
+      var bufferedEnd = audio.buffered.end(audio.buffered.length - 1);
+      this.set('bufferedEnd', bufferedEnd);
+    });
     return audio;
   }),
   seekTo(episode, milliseconds){
@@ -29,6 +33,7 @@ export default Ember.Service.extend({
         audio.type= 'audio/mpeg';
         audio.src = `http://emberweekend.s3.amazonaws.com/${episode.filename}.mp3`;
         this.set('currentTimeSeconds', null);
+        this.set('bufferedEnd', null);
       }else{
         if(!audio.src){
           audio.type= 'audio/mpeg';
@@ -43,6 +48,7 @@ export default Ember.Service.extend({
         audio.type= 'audio/mpeg';
         audio.src = `http://emberweekend.s3.amazonaws.com/${episode.filename}.mp3`;
         this.set('currentTimeSeconds', null);
+        this.set('bufferedEnd', null);
       }
     }
     audio.play();
@@ -65,5 +71,11 @@ export default Ember.Service.extend({
     var seconds = this.get('currentTimeSeconds');
     var percent = (seconds/duration) * 100;
     return Ember.$.isNumeric(percent) ? percent : 0;
-  })
+  }),
+  buffer: Ember.computed('audio', 'bufferedEnd', function() {
+    var duration = this.get('audio').duration || 0;
+    var bufferedEnd = this.get('bufferedEnd');
+    var percent = (bufferedEnd/duration) * 100;
+    return Ember.$.isNumeric(percent) ? percent : 0;
+  }),
 });
