@@ -1,5 +1,18 @@
 export default [
   {
+      number: 18,
+      title: "Reliving All My CS Days",
+      description: "Chase and Jonathan discuss suave code, workshops, metrics, and the ASTs behind Handlebars and HTMLBars",
+      slug: "reliving-all-my-cs-days",
+      releaseDate: "July 20, 2015",
+      lat: 30.291809,
+      long: -81.390607,
+      filename: "ep-18-ember-weekend",
+      author: "Chase McCarthy & Jonathan Jackson",
+      image: "http://i.imgur.com/VQmTj1h.png",
+      duration: "14:27"
+  },
+  {
       number: 17,
       title: "Ember Training Recap",
       description: "Chase and Jonathan discuss the what they learned at Ember 2.0 Training in Chicago.",
