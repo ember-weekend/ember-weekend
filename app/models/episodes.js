@@ -1,5 +1,18 @@
 export default [
   {
+      number: 19,
+      title: "Consumer Driven Weekend",
+      description: "Chase and Jonathan speak with Sam Selikoff about the Ember Community, Consumer Driven Contracts, and his project Ember CLI Mirage.",
+      slug: "consumer-driven-weekend",
+      releaseDate: "July 27, 2015",
+      lat: 30.291809,
+      long: -81.390607,
+      filename: "ep-19-ember-weekend",
+      author: "Chase McCarthy & Jonathan Jackson",
+      image: "http://i.imgur.com/VQmTj1h.png",
+      duration: "14:27"
+  },
+  {
       number: 18,
       title: "Reliving All My CS Days",
       description: "Chase and Jonathan discuss suave code, workshops, metrics, and the ASTs behind Handlebars and HTMLBars",
