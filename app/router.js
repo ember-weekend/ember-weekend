@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('root', { resetNamespace: true, path: '/' }, function(){
     this.route('episodes', { resetNamespace: true }, function() {
       this.route('show', { path: '/:slug' });
+      this.route('timedShow', { path: '/:slug/:timeStamp'});
     });
     this.route('about');
   });
