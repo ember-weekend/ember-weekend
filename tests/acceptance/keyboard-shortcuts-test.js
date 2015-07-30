@@ -7,17 +7,17 @@ import startApp from 'ember-weekend/tests/helpers/start-app';
 import { stubResolver } from '../helpers/container';
 import mockKeyEvent from '../helpers/mock-key-events';
 
-var application;
+let application;
 
 module('Acceptance: KeyboardShortcuts', {
-  beforeEach: function(assert) {
+  beforeEach(assert) {
     window.mockKeyEvent = mockKeyEvent;
 
-    var mockPlayerService = Ember.Service.extend({
-      play: function(){
+    const mockPlayerService = Ember.Service.extend({
+      play() {
         assert.ok(true);
       },
-      pause: function(){
+      pause() {
         assert.ok(true);
       }
     });
@@ -27,7 +27,7 @@ module('Acceptance: KeyboardShortcuts', {
     });
   },
 
-  afterEach: function() {
+  afterEach() {
     window.mockKeyEvent = undefined;
     Ember.run(application, 'destroy');
   }
@@ -38,7 +38,7 @@ test('pressing space bar (32) toggles play/pause on player service', function(as
   assert.expect(2);
 
   andThen(function() {
-    mockKeyEvent.simulate(32,32); // play()
-    mockKeyEvent.simulate(32,32); // pause()
+    mockKeyEvent.simulate(32, 32); // play()
+    mockKeyEvent.simulate(32, 32); // pause()
   });
 });

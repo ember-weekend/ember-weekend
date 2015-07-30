@@ -9,10 +9,10 @@ export default Ember.Component.extend({
   description: Ember.computed.alias('episode.description'),
   player: Ember.inject.service('player'),
   actions: {
-    play: function(episode){
+    play(episode) {
       this.get('player').play(episode);
     },
-    pause: function(){
+    pause() {
       this.get('player').pause();
     }
   }

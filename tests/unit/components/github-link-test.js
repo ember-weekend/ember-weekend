@@ -10,8 +10,8 @@ moduleForComponent('github-link', {
 test('creates github user link', function(assert) {
   assert.expect(4);
 
-  var component = this.subject();
-  Ember.run(function(){
+  const component = this.subject();
+  Ember.run(function() {
     component.set('username', 'farkwad');
   });
 
@@ -24,8 +24,8 @@ test('creates github user link', function(assert) {
 test('creates github repo link', function(assert) {
   assert.expect(2);
 
-  var component = this.subject();
-  Ember.run(function(){
+  const component = this.subject();
+  Ember.run(function() {
     component.set('username', 'farkwad');
     component.set('repo', 'fark-wad');
   });

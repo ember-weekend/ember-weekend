@@ -6,44 +6,48 @@ import {
 import startApp from 'ember-weekend/tests/helpers/start-app';
 import { stubResolver } from '../helpers/container';
 
-var application;
+let application;
 
-var episodes = [
+const episodes = [
   { number: 2,
-    title: "Quux title",
-    description: "Bar",
-    slug: "Baz",
-    releaseDate: "May 1, 2015",
-    author: "Tomster"
+    title: 'Quux title',
+    description: 'Bar',
+    slug: 'Baz',
+    releaseDate: 'May 1, 2015',
+    author: 'Tomster'
   },
   { number: 1,
-    title: "Foo title",
-    description: "Bar",
-    slug: "Baz",
-    releaseDate: "May 8, 2015",
-    author: "Tomster"
+    title: 'Foo title',
+    description: 'Bar',
+    slug: 'Baz',
+    releaseDate: 'May 8, 2015',
+    author: 'Tomster'
   }
 ];
 
-var episodesProxy = Ember.ArrayProxy.create({
-  content: episodes.map(function(episode){
+const episodesProxy = Ember.ArrayProxy.create({
+  content: episodes.map(function(episode) {
     return Ember.Object.create(episode);
   })
 });
 
-var mockEpisodeService = Ember.Service.extend({
-  all: function(){ return episodesProxy; },
-  mostRecent: function(){ return this.all().objectAt(0); }
+const mockEpisodeService = Ember.Service.extend({
+  all() {
+    return episodesProxy;
+  },
+  mostRecent() {
+    return this.all().objectAt(0);
+  }
 });
 
 module('Acceptance: EpisodeList', {
-  beforeEach: function() {
+  beforeEach() {
     application = startApp({}, function(app) {
       stubResolver(app, 'service:episodes', mockEpisodeService);
     });
   },
 
-  afterEach: function() {
+  afterEach() {
     Ember.run(application, 'destroy');
   }
 });

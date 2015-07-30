@@ -11,8 +11,8 @@ moduleForComponent('twitter-user', {
 test('creates twitter user link', function(assert) {
   assert.expect(4);
 
-  var component = this.subject();
-  Ember.run(function(){
+  const component = this.subject();
+  Ember.run(function() {
     component.set('username', 'farkwad');
   });
 
@@ -25,8 +25,8 @@ test('creates twitter user link', function(assert) {
 test('creates twitter user link with custom text', function(assert) {
   assert.expect(1);
 
-  var component = this.subject();
-  Ember.run(function(){
+  const component = this.subject();
+  Ember.run(function() {
     component.set('username', 'farkwad');
     component.set('displayName', 'Fark Wad');
   });

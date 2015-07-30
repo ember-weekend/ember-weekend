@@ -7,6 +7,6 @@ import {
 setResolver(resolver);
 
 QUnit.assert.trimEq = function(actual, expected) {
-  var a = actual.replace(/^\s+|\s+$/g,'');
+  const a = actual.replace(/^\s+|\s+$/g, '');
   this.equal(a, expected);
 };

@@ -2,14 +2,14 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   episodes: Ember.inject.service('episodes'),
-  model: function(params) {
+  model(params) {
     return this.get('episodes').find(params.slug);
   },
-  setupController: function(controller, model) {
+  setupController(controller, model) {
     controller.set('episode', model);
     controller.set('episodeTemplate', `episodes/${model.get('slug')}`);
   },
-  serialize: function(model) {
+  serialize(model) {
     return { slug: model.get('slug') };
   }
 });

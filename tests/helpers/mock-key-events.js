@@ -1,23 +1,23 @@
-var KeyEvent = function(data, type) {
+let KeyEvent = function(data, type) {
   this.keyCode = 'keyCode' in data ? data.keyCode : 0;
   this.charCode = 'charCode' in data ? data.charCode : 0;
 
-  var modifiers = 'modifiers' in data ? data.modifiers : [];
+  let modifiers = 'modifiers' in data ? data.modifiers : [];
 
   this.ctrlKey = false;
   this.metaKey = false;
   this.altKey = false;
   this.shiftKey = false;
 
-  for (var i = 0; i < modifiers.length; i++) {
-    this[modifiers[i] + 'Key'] = true;
+  for (let i = 0; i < modifiers.length; i++) {
+    this[`${modifiers[i]}Key`] = true;
   }
 
   this.type = type || 'keypress';
 };
 
 KeyEvent.prototype.toNative = function() {
-  var event = document.createEventObject ? document.createEventObject() : document.createEvent('Events');
+  let event = document.createEventObject ? document.createEventObject() : document.createEvent('Events');
 
   if (event.initEvent) {
     event.initEvent(this.type, true, true);
@@ -34,13 +34,13 @@ KeyEvent.prototype.toNative = function() {
 };
 
 KeyEvent.prototype.fire = function(element) {
-  var event = this.toNative();
+  let event = this.toNative();
   if (element.dispatchEvent) {
     element.dispatchEvent(event);
     return;
   }
 
-  element.fireEvent('on' + this.type, event);
+  element.fireEvent(`on${this.type}`, event);
 };
 
 // simulates complete key event as if the user pressed the key in the browser
@@ -58,7 +58,7 @@ KeyEvent.simulate = function(charCode, keyCode, modifiers, element, repeat) {
     repeat = 1;
   }
 
-  var modifierToKeyCode = {
+  let modifierToKeyCode = {
     'shift': 16,
     'ctrl': 17,
     'alt': 18,
@@ -71,11 +71,11 @@ KeyEvent.simulate = function(charCode, keyCode, modifiers, element, repeat) {
     repeat = 0;
   }
 
-  var modifiersToInclude = [];
-  var keyEvents = [];
+  let modifiersToInclude = [];
+  let keyEvents = [];
 
   // modifiers would go down first
-  for (var i = 0; i < modifiers.length; i++) {
+  for (let i = 0; i < modifiers.length; i++) {
     modifiersToInclude.push(modifiers[i]);
     keyEvents.push(new KeyEvent({
       charCode: 0,
@@ -88,12 +88,12 @@ KeyEvent.simulate = function(charCode, keyCode, modifiers, element, repeat) {
   while (repeat > 0) {
     keyEvents.push(new KeyEvent({
       charCode: 0,
-      keyCode: keyCode,
+      keyCode,
       modifiers: modifiersToInclude
     }, 'keydown'));
 
     keyEvents.push(new KeyEvent({
-      charCode: charCode,
+      charCode,
       keyCode: charCode,
       modifiers: modifiersToInclude
     }, 'keypress'));
@@ -103,13 +103,13 @@ KeyEvent.simulate = function(charCode, keyCode, modifiers, element, repeat) {
 
   keyEvents.push(new KeyEvent({
     charCode: 0,
-    keyCode: keyCode,
+    keyCode,
     modifiers: modifiersToInclude
   }, 'keyup'));
 
   // now lift up the modifier keys
-  for (i = 0; i < modifiersToInclude.length; i++) {
-    var modifierKeyCode = modifierToKeyCode[modifiersToInclude[i]];
+  for (let i = 0; i < modifiersToInclude.length; i++) {
+    let modifierKeyCode = modifierToKeyCode[modifiersToInclude[i]];
     modifiersToInclude.splice(i, 1);
     keyEvents.push(new KeyEvent({
       charCode: 0,
@@ -118,7 +118,7 @@ KeyEvent.simulate = function(charCode, keyCode, modifiers, element, repeat) {
     }, 'keyup'));
   }
 
-  for (i = 0; i < keyEvents.length; i++) {
+  for (let i = 0; i < keyEvents.length; i++) {
     // console.log('firing', keyEvents[i].type, keyEvents[i].keyCode, keyEvents[i].charCode);
     keyEvents[i].fire(element);
   }

@@ -3,10 +3,10 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   player: Ember.inject.service('player'),
   actions: {
-    play: function(episode){
+    play(episode) {
       this.get('player').play(episode);
     },
-    pause: function(){
+    pause() {
       this.get('player').pause();
     }
   }

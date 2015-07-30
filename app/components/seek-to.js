@@ -7,8 +7,8 @@ export default Ember.Component.extend({
   attributeBindings: ['href'],
   classNames: 'timestamp',
   href: '#',
-  milliseconds: Ember.computed('time', function(){
-    var seek = moment.duration('0:'+this.get('time')).asSeconds() * 1000;
+  milliseconds: Ember.computed('time', function() {
+    const seek = moment.duration(`0:${this.get('time')}`).asSeconds() * 1000;
     return seek;
   }),
   formattedTime: Ember.computed.alias('time'),

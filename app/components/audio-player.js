@@ -15,5 +15,5 @@ export default Ember.Component.extend({
   }),
   bufferStyle: Ember.computed('player.buffer', function() {
     return `width: ${this.get('player.buffer')}%`;
-  }),
+  })
 });

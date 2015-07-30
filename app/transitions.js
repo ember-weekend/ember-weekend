@@ -1,4 +1,4 @@
-export default function(){
+export default function() {
   this.transition(
     this.fromRoute('episodes.index'),
     this.use('toLeft'),
