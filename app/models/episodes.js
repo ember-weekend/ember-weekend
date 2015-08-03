@@ -1,5 +1,18 @@
 export default [
   {
+  number: 20,
+  title: 'Faking the funk',
+  description: 'Chase and Jonathan discuss testing an EmberJax project (with advanced techniques like page objects and mirage), component integration tests, ember twiddle, and core notes.',
+  slug: 'faking-the-funk',
+  releaseDate: 'August 03, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-20-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: ''
+},
+{
   number: 19,
   title: 'Consumer Driven Weekend',
   description: 'Chase and Jonathan speak with Sam Selikoff about the Ember Community, Consumer Driven Contracts, and his project Ember CLI Mirage.',
