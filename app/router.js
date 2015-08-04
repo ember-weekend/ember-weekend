@@ -15,6 +15,7 @@ Router.map(function() {
     this.route('episodes', { resetNamespace: true }, function() {
       this.route('show', { path: '/:slug' });
     });
+    this.route('guest-archive');
     this.route('about');
   });
 });
