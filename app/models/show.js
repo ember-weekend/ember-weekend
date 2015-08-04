@@ -3,7 +3,7 @@ export default {
   'description': 'Ember.js is a frontend JavaScript framework that has exciting applications.  In this podcasts we share news, events, and some of our experiences.',
   'link': 'https://emberweekend.com',
   'site_url': 'https://emberweekend.com',
-  'image_url': 'https://i.imgur.com/XV0c9Xl.png',
+  'image_url': 'http://i.imgur.com/VQmTj1h.png',
   'managingEditor': 'jonathan.jackson1@me.com (Jonathan Jackson)',
   'webMaster': 'chase@code0100fun.com (Chase McCarthy)',
   'copyright': '2015 Chase McCarthy & Jonathan Jackson',
