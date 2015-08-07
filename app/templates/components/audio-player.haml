@@ -5,8 +5,7 @@
   -else
     .controls{action "play"}
       %i.fa.fa-play
-  -link-to "episodes.show" player.episode
-  %a.episode-info(href="#")
+  -link-to "episodes.show" player.episode class="episode-info"
     %time=player.currentTime
     =player.title
     %time{ datetime=player.releaseDate }=player.releaseDate
