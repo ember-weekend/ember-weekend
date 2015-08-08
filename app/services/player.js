@@ -38,7 +38,7 @@ export default Ember.Service.extend({
   setAudioSrc(filename) {
     const audio = this.get('audio');
     audio.type = 'audio/mpeg';
-    audio.src  = `http://emberweekend.s3.amazonaws.com/${filename}.mp3`;
+    audio.src  = `https://emberweekend.s3.amazonaws.com/${filename}.mp3`;
     this.set('currentTimeSeconds', null);
     this.set('bufferedEnd', null);
   },
