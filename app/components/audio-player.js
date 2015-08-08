@@ -52,9 +52,9 @@ export default Ember.Component.extend({
     }
   },
   progressStyle: Ember.computed('player.progress', function() {
-    return `width: ${this.get('player.progress')}%`;
+    return new Ember.Handlebars.SafeString(`width: ${this.get('player.progress')}%`);
   }),
   bufferStyle: Ember.computed('player.buffer', function() {
-    return `width: ${this.get('player.buffer')}%`;
+    return new Ember.Handlebars.SafeString(`width: ${this.get('player.buffer')}%`);
   })
 });
