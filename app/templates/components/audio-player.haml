@@ -1,11 +1,7 @@
 .container
-  -if player.playing
-    .controls{action "pause"}
-      %i.fa.fa-pause
-  -else
-    .controls{action "play"}
-      %i.fa.fa-play
-  -link-to "episodes.show" player.episode class="episode-info"
+  = play-pause-toggle play=(action 'play') pause=(action 'pause') bubbles=false
+
+  %p.episode-info
     %time=player.currentTime
     =player.title
     %time{ datetime=player.releaseDate }=player.releaseDate
