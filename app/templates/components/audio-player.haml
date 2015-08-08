@@ -12,3 +12,4 @@
 .buffer-bar{style=bufferStyle}
 .progress-bar{style=progressStyle}
   = play-head dragging=draggingPlayhead position=playheadPosition
+= track-bar drag=(action 'dragTrack') seekTo=(action 'seekTo') dragging=draggingPlayhead

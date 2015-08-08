@@ -18,13 +18,7 @@ export default Ember.Component.extend({
   },
   mouseMove(e) {
     if (this.get('draggingPlayhead')) {
-      const toX = e.clientX;
-      const width = this.$().width();
-      const ratio = toX / width;
-      const duration = this.get('player.duration');
-      const seekTo = duration * ratio * 1000;
-      this.get('player').seekTo(this.get('player.episode'), seekTo);
-      this.set('playheadPosition', toX);
+      this.movePlayheadTo(e.clientX);
     }
   },
   touchLeave() {
@@ -39,11 +33,25 @@ export default Ember.Component.extend({
   mouseUp() {
     this.stopDragging();
   },
+  movePlayheadTo(x) {
+    const width = this.$().width();
+    const ratio = x / width;
+    const duration = this.get('player.duration');
+    const seekTo = duration * ratio * 1000;
+    this.get('player').seekTo(this.get('player.episode'), seekTo);
+    this.set('playheadPosition', x);
+  },
   stopDragging() {
     this.set('draggingPlayhead', false);
     this.set('playheadPosition', null);
   },
   actions: {
+    seekTo(e) {
+      this.movePlayheadTo(e.clientX);
+    },
+    dragTrack(e) {
+      this.movePlayheadTo(e.clientX);
+    },
     play() {
       this.get('player').play();
     },
