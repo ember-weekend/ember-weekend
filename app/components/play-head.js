@@ -1,18 +1,24 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  mouseDown: function(){
+  touchStart() {
+    this.mouseDown();
+  },
+  touchEnd() {
+    this.mouseUp();
+  },
+  mouseDown() {
     this.set('dragging', true);
   },
-  mouseUp: function(){
+  mouseUp() {
     this.set('dragging', null);
   },
-  playHeadStyle: Ember.computed('position', function(){
-    var position = this.get('position');
-    if(position){
-      return `left: ${position-10}px`.htmlSafe();
-    }else{
-      return "".htmlSafe();
+  playHeadStyle: Ember.computed('position', function() {
+    const position = this.get('position');
+    if (position) {
+      return Ember.Handlebars.SafeString(`left: ${position - 10}px`);
+    } else {
+      return Ember.Handlebars.SafeString('');
     }
   })
 });
