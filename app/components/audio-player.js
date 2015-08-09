@@ -5,20 +5,11 @@ export default Ember.Component.extend({
   playheadPosition: null,
   player: Ember.inject.service('player'),
   touchMove(e) {
-    const {
-      originalEvent: {
-        touches: {
-          0: { pageX: x, pageY: y } // jshint ignore:line
-        }
-      }
-    } = e;
-    e.clientX = x;
-    e.clientY = y;
-    this.mouseMove(e);
+    this.mouseMove(this.normalizeTouchEvent(e));
   },
   mouseMove(e) {
     if (this.get('draggingPlayhead')) {
-      this.movePlayheadTo(e.clientX);
+      this.movePlayheadTo(this.normalizeTouchEvent(e).pageX);
     }
   },
   touchLeave() {
@@ -47,10 +38,10 @@ export default Ember.Component.extend({
   },
   actions: {
     seekTo(e) {
-      this.movePlayheadTo(e.clientX);
+      this.movePlayheadTo(this.normalizeTouchEvent(e).pageX);
     },
     dragTrack(e) {
-      this.movePlayheadTo(e.clientX);
+      this.movePlayheadTo(this.normalizeTouchEvent(e).pageX);
     },
     play() {
       this.get('player').play();
@@ -58,6 +49,18 @@ export default Ember.Component.extend({
     pause() {
       this.get('player').pause();
     }
+  },
+  normalizeTouchEvent(event) {
+    if (!event.touches) {
+      event.touches = event.originalEvent.touches;
+    }
+    if (!event.pageX) {
+      event.pageX = event.originalEvent.pageX;
+    }
+    if (!event.pageY) {
+      event.pageY = event.originalEvent.pageY;
+    }
+    return event;
   },
   progressStyle: Ember.computed('player.progress', function() {
     return new Ember.Handlebars.SafeString(`width: ${this.get('player.progress')}%`);
