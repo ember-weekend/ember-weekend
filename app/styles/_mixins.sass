@@ -2,6 +2,7 @@ $script: "Pacifico", script
 $body: "Open Sans", sans-serif
 
 $orange: #e24b31
+$light-orange: lighten($orange, 30%)
 
 @mixin play-button
   color: #ffffff
@@ -54,3 +55,9 @@ $orange: #e24b31
     @media screen and (max-width: #{$phone_sm}px)
       #{$attr}: #{$narrow}
       transition: all .5s ease-in-out
+
+@mixin slider-thumb
+  background: $orange
+  cursor: pointer
+  height: 1.5rem
+  width: .5rem

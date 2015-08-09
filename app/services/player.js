@@ -7,6 +7,7 @@ export default Ember.Service.extend({
   title: Ember.computed.alias('episode.title'),
   releaseDate: Ember.computed.alias('episode.releaseDate'),
   playing: Ember.computed.alias('episode.playing'),
+  volume: 1,
   audio: Ember.computed(function() {
     const audio = new AsyncAudio();
     audio.addEventListener('timeupdate', () => {
@@ -66,6 +67,11 @@ export default Ember.Service.extend({
     this.get('audio').pause();
     this.set('episode.playing', false);
   },
+  changeVolume(volume) {
+    this.set('volume', volume);
+    this.get('audio').volume = volume;
+  },
+  muted: Ember.computed.equal('volume', 0),
   currentTime: Ember.computed('currentTimeSeconds', function() {
     const seconds = this.get('currentTimeSeconds');
     if (Ember.$.isNumeric(seconds)) {

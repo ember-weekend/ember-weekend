@@ -436,6 +436,37 @@ footer
         color: $orange
         border-color: $orange
         transition: color .5s, border .5s
+    .volume-control
+      display: flex
+      font-size: 1.5rem
+      margin: 2rem 1rem 1rem 1.5rem
+      &:hover
+        .volume-bar
+          width: 6rem
+          opacity: 1
+      .volume-button
+        align-self: center
+        cursor: pointer
+        width: 1.4rem
+      .volume-bar
+        opacity: 0
+        appearance: none
+        align-self: center
+        background: $light-orange
+        cursor: pointer
+        height: .4rem
+        width: 0
+        margin: 0 0 0 .5rem
+        transition: width .5s ease-in-out, opacity .5s ease-in-out
+        &:focus
+          outline: none
+        &::-webkit-slider-thumb
+          appearance: none
+          @include slider-thumb
+        &::-moz-range-thumb
+          @include slider-thumb
+        &::-ms-thumb
+          @include slider-thumb
     a.episode-info, p.episode-info
       color: $orange
       font-size: 1.3rem
@@ -444,13 +475,13 @@ footer
       overflow: hidden
       text-overflow: ellipsis
       vertical-align: top
-      padding: 3rem 2.5rem 2rem .5rem
+      padding: 3rem 2.5rem 2rem 0
       align-self: center
       box-sizing: border-box
       time
         color: #303030
         font-weight: 400
-        margin: 0 .5rem
+        margin: 0 .5rem 0 0
         &[datetime]
           color: #afafaf
           font-weight: 300
@@ -480,7 +511,7 @@ footer
       right: -.75rem
   .buffer-bar
     @extend .progress-bar
-    background: lighten($orange, 30%)
+    background: $light-orange
   .track-bar
     @extend .progress-bar
     background: transparent
