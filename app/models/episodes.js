@@ -1,5 +1,18 @@
 export default [
-  {
+{
+  number: 21,
+  title: 'Componentize all the things!',
+  description: 'Chase and Jonathan speak with Mike North about Community, Material design, development at Yahoo, and a LOT more!',
+  slug: 'componentize-all-the-things',
+  releaseDate: 'August 10, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-21-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '31:38'
+},
+{
   number: 20,
   title: 'Faking the funk',
   description: 'Chase and Jonathan discuss testing an EmberJax project (with advanced techniques like page objects and mirage), component integration tests, ember twiddle, and core notes.',
