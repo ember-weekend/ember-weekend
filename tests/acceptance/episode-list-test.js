@@ -5,6 +5,7 @@ import {
 } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
 import { stubResolver } from '../helpers/container';
+import page from './pages/episodes-page';
 
 let application;
 
@@ -53,11 +54,12 @@ module('Acceptance: EpisodeList', {
 });
 
 test('visiting /episodes', function(assert) {
-  visit('/episodes');
+  page.visit();
 
   andThen(function() {
     assert.equal(currentRouteName(), 'episodes.index');
-    assert.equal(find('ul.episodes li:last h1').text(), 'Foo title');
-    assert.equal(find('ul.episodes li:first h1').text(), 'Quux title');
+    assert.equal(page.episodes().count(), 2);
+    assert.equal(page.episodes(1).title(), 'Quux title');
+    assert.equal(page.episodes(2).title(), 'Foo title');
   });
 });
