@@ -47,7 +47,8 @@ export default Ember.Service.extend({
     const current = this.get('episode');
     if (episode === current && !audio.src) {
       this.setAudioSrc(current.filename);
-    } else if (!current || episode !== current) {
+    } else if (episode !== current) {
+      current.set('playing', false);
       this.set('episode', episode);
       this.setAudioSrc(episode.filename);
     }
