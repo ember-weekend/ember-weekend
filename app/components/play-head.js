@@ -16,9 +16,9 @@ export default Ember.Component.extend({
   playHeadStyle: Ember.computed('position', function() {
     const position = this.get('position');
     if (position) {
-      return Ember.Handlebars.SafeString(`left: ${position - 10}px`);
+      return new Ember.Handlebars.SafeString(`left: ${position - 10}px`);
     } else {
-      return Ember.Handlebars.SafeString('');
+      return new Ember.Handlebars.SafeString('');
     }
   })
 });
