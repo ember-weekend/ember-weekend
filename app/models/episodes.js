@@ -1,5 +1,18 @@
 export default [
 {
+  number: 22,
+  title: 'Deprecate all the things!',
+  description: 'Chase and Jonathan discuss Pretender changes, the excellent addon ember-cli-deprecation-workflow, new Ember.js guides, and of course Ember 2.0!',
+  slug: 'deprecate-all-the-things',
+  releaseDate: 'August 17, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-22-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '15:51'
+},
+{
   number: 21,
   title: 'Componentize all the things!',
   description: 'Chase and Jonathan speak with Mike North about Community, Material design, development at Yahoo, and a LOT more!',
