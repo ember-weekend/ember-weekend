@@ -1,9 +1,9 @@
 export default [
 {
   number: 22,
-  title: 'Deprecate all the things!',
+  title: 'Clear the runway',
   description: 'Chase and Jonathan discuss Pretender changes, the excellent addon ember-cli-deprecation-workflow, new Ember.js guides, and of course Ember 2.0!',
-  slug: 'deprecate-all-the-things',
+  slug: 'clear-the-runway',
   releaseDate: 'August 17, 2015',
   lat: 30.291809,
   long: -81.390607,
