@@ -4,7 +4,11 @@ const { RSVP, $ } = Ember;
 export default AsyncAudio;
 
 function AsyncAudio(src) {
-  this._audio = new Audio(src);
+  if (src) {
+    this._audio = new Audio(src);
+  } else  {
+    this._audio = new Audio();
+  }
 }
 
 AsyncAudio.prototype = {
