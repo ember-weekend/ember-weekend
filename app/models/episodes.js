@@ -1,5 +1,18 @@
 export default [
 {
+  number: 23,
+  title: 'Testing Talk',
+  description: 'Chase and Jonathan discuss the new ember-cli-qunit stubbing feature, and then talk testing.',
+  slug: 'testing-talk',
+  releaseDate: 'August 24, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-23-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '25:52'
+},
+{
   number: 22,
   title: 'Clear the runway',
   description: 'Chase and Jonathan discuss Pretender changes, the excellent addon ember-cli-deprecation-workflow, new Ember.js guides, and of course Ember 2.0!',
