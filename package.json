@@ -49,7 +49,7 @@
     "ember-cli-page-object": "^0.6.0",
     "ember-cli-sass": "^3.1.1",
     "ember-sinon": "0.0.3",
-    "liquid-fire": "0.20.4",
+    "liquid-fire": "0.21.2",
     "moment": "^2.9.0",
     "quick-temp": "^0.1.2",
     "rss": "^1.1.1",
