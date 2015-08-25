@@ -6,7 +6,7 @@ export default AsyncAudio;
 function AsyncAudio(src) {
   if (src) {
     this._audio = new Audio(src);
-  } else  {
+  } else {
     this._audio = new Audio();
   }
 }
