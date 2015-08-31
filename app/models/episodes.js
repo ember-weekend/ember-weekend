@@ -1,5 +1,18 @@
 export default [
 {
+  number: 24,
+  title: 'tips-and-tricks',
+  description: 'Chase and Jonathan review some developer tips and tricks (with some help from @rwjblue).',
+  slug: 'tips-and-tricks',
+  releaseDate: 'August 31, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-24-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '17:41'
+},
+{
   number: 23,
   title: 'Testing Talk',
   description: 'Chase and Jonathan discuss the new ember-cli-qunit stubbing feature, and then talk testing.',
