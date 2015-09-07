@@ -1,5 +1,18 @@
 export default [
 {
+  number: 25,
+  title: 'Lingua Franca',
+  description: 'Chase and Jonathan discuss creating a custom adapter/serializer for tranient data, The Frontside Podcast, improved Ember guide organization, and select views in Ember 2.0.',
+  slug: 'lingua-franca',
+  releaseDate: 'September 7, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-25-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '12:47'
+},
+{
   number: 24,
   title: 'tips-and-tricks',
   description: 'Chase and Jonathan review some developer tips and tricks (with some help from @rwjblue).',
