@@ -14,7 +14,7 @@ export default [
 },
 {
   number: 24,
-  title: 'tips-and-tricks',
+  title: 'Tips and Tricks',
   description: 'Chase and Jonathan review some developer tips and tricks (with some help from @rwjblue).',
   slug: 'tips-and-tricks',
   releaseDate: 'August 31, 2015',
