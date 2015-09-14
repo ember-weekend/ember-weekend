@@ -1,5 +1,18 @@
 export default [
 {
+  number: 26,
+  title: 'Real For Me',
+  description: 'Chase and Jonathan talk about their experiences attending Ember Global Meetup with @embersherpa, strong-attrs, and Glimmer components.  You won\'t want to mis this!',
+  slug: 'real-for-me',
+  releaseDate: 'September 14, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-26-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: ''
+},
+{
   number: 25,
   title: 'Lingua Franca',
   description: 'Chase and Jonathan discuss creating a custom adapter/serializer for tranient data, The Frontside Podcast, improved Ember guide organization, and select views in Ember 2.0.',
@@ -14,7 +27,7 @@ export default [
 },
 {
   number: 24,
-  title: 'Tips and Tricks',
+  title: 'tips-and-tricks',
   description: 'Chase and Jonathan review some developer tips and tricks (with some help from @rwjblue).',
   slug: 'tips-and-tricks',
   releaseDate: 'August 31, 2015',
