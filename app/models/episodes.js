@@ -1,5 +1,18 @@
 export default [
 {
+  number: 27,
+  title: 'Stickolas Cage',
+  description: 'Chase and Jonathan make some corections, discuss ember-cli-cordova and a blog post about testing the Ember/Rails boundary.',
+  slug: 'stickolas-cage',
+  releaseDate: 'September 21, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-27-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '17:35'
+},
+{
   number: 26,
   title: 'Real For Me',
   description: 'Chase and Jonathan talk about their experiences attending Ember Global Meetup with @embersherpa, strong-attrs, and Glimmer components.  You won\'t want to mis this!',
