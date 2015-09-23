@@ -25,7 +25,7 @@ export default {
     { 'itunes:explicit': 'no' },
     { 'itunes:image': {
       '_attr': {
-        'href': 'https://i.imgur.com/XV0c9Xl.png'
+        'href': 'http://i.imgur.com/VQmTj1h.png'
       }
     } },
     { 'itunes:category': [
