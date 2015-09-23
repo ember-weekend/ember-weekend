@@ -15,7 +15,7 @@ export default [
 {
   number: 26,
   title: 'Real For Me',
-  description: 'Chase and Jonathan talk about their experiences attending Ember Global Meetup with @embersherpa, strong-attrs, and Glimmer components.  You won\'t want to mis this!',
+  description: 'Chase and Jonathan talk about their experiences attending Ember Global Meetup with @embersherpa, strong-attrs, and Glimmer components.  You won\'t want to miss this!',
   slug: 'real-for-me',
   releaseDate: 'September 14, 2015',
   lat: 30.291809,
