@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   classNames: ['title'],
   title: Ember.computed.alias('episode.title'),
   playing: Ember.computed.alias('episode.playing'),
-  releaseDate: Ember.computed.alias('episode.releaseDate'),
+  prettyReleaseDate: Ember.computed.alias('episode.prettyReleaseDate'),
   number: Ember.computed.alias('episode.number'),
   description: Ember.computed.alias('episode.description'),
   player: Ember.inject.service('player'),

@@ -33,10 +33,10 @@ const episodesProxy = Ember.ArrayProxy.create({
 });
 
 const mockEpisodeService = Ember.Service.extend({
-  all() {
+  findAll() {
     return episodesProxy;
   },
-  mostRecent() {
+  queryRecord() {
     return this.all().objectAt(0);
   }
 });
@@ -44,7 +44,7 @@ const mockEpisodeService = Ember.Service.extend({
 module('Acceptance: EpisodeList', {
   beforeEach() {
     application = startApp({}, function(app) {
-      stubResolver(app, 'service:episodes', mockEpisodeService);
+      stubResolver(app, 'service:store', mockEpisodeService);
     });
   },
 

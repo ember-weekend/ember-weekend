@@ -16,6 +16,6 @@
     "ember-cli-moment-shim": "~0.0.3",
     "moment": "~2.9.0",
     "mousetrap": "~1.4.6",
-    "ember-data": "1.13.10"
+    "ember-data": "1.13.8"
   }
 }
