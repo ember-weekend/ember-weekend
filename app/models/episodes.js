@@ -23,7 +23,7 @@ export default [
   filename: 'ep-26-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: ''
+  duration: '17:09'
 },
 {
   number: 25,
