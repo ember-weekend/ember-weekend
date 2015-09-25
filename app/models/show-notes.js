@@ -1,6 +1,5 @@
 export default [
   {
-    id: 1,
     episode: 1,
     timeStamp: '00:15',
     resource:  {
@@ -15,7 +14,6 @@ export default [
     ]
   },
   {
-    id: 2,
     episode: 1,
     timeStamp: '00:50',
     resource: {
@@ -29,5 +27,4 @@ export default [
       }
     ]
   }
-]
-
+];

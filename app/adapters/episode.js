@@ -1,12 +1,11 @@
 import DS from 'ember-data';
-import Ember from 'ember';
-import episodes from 'ember-weekend/models/episodes';
 
-export default DS.Adapter.extend({
-  findAll() {
-    return episodes;
+export default DS.RESTAdapter.extend({
+  queryRecord(store, type, { slug }) {
+    const url = this.buildURL(type.modelName, null, null, 'queryRecord', { slug });
+    return this.ajax(url, 'GET');
   },
-  queryRecord(store, type, {slug}) {
-    return Ember.A(episodes).filter(e => e.slug === slug).get('firstObject');
+  urlForQueryRecord({ slug }, modelName) {
+    return this._buildURL(modelName, slug);
   }
 });

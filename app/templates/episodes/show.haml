@@ -1,6 +1,14 @@
-- episode-show episode=episode
+-episode-show episode=episode
   -note-list
-    - if episodeTemplate
-      = partial episodeTemplate
-    - each episode.showNotes as |note|
-      = note.timeStamp
+    -if episodeTemplate
+      =partial episodeTemplate
+    -each episode.showNotes as |note|
+      -note-item time=note.timeStamp episode=episode
+        -link-to-site href=note.resource.link
+          -external-title
+            =note.resource.title
+        %p
+          -each note.authors as |author|
+            by
+            -link-to-site href=author.link
+              = author.title
