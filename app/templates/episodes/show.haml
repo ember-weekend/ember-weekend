@@ -1,3 +1,6 @@
 - episode-show episode=episode
   -note-list
-    = partial episodeTemplate
+    - if episodeTemplate
+      = partial episodeTemplate
+    - each episode.showNotes as |note|
+      = note.timeStamp
