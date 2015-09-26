@@ -90,5 +90,91 @@ export default [
         title: 'Jamie White'
       }
     ]
+  },
+  // Episode 2 ---------------------------------------- //
+  {
+    episode: 2,
+    timeStamp: '00:20',
+    resource: {
+      link: 'http://guides.emberjs.com/v1.11.0/',
+      title: 'Ember.js Versioned Guides'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trek',
+        title: 'Trek Glowacki'
+      }
+    ]
+  },
+  {
+    episode: 2,
+    timeStamp: '01:38',
+    resource: {
+      link: 'https://gist.github.com/code0100fun/6f87155564ccf3724749',
+      title: 'Custom QUnit Assertions'
+    },
+    authors: [
+      {
+        link: 'https://github.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 2,
+    timeStamp: '03:38',
+    resource: {
+      link: 'https://github.com/samselikoff/ember-cli-mirage',
+      title: 'EmberCLI Mirage'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
+  {
+    episode: 2,
+    timeStamp: '06:20',
+    resource: {
+      link: 'https://gist.github.com/code0100fun/f5922b6f44eee2abc21d',
+      title: 'Testing a Component with an Optional Block'
+    },
+    authors: [
+      {
+        link: 'https://github.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 2,
+    timeStamp: '08:06',
+    resource: {
+      link: 'https://github.com/kategengler/ember-try',
+      title: 'Ember Try'
+    },
+    authors: [
+      {
+        link: 'https://github.com/kategengler',
+        title: 'Katie Gengler'
+      }
+    ]
+  },
+  {
+    episode: 2,
+    timeStamp: '11:03',
+    resource: {
+      link: 'http://reefpoints.dockyard.com/2015/03/24/rubyists-guide-to-ember-dependencies.html',
+      title: 'Rubyist Guide To Ember Dependencies'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaeldupuisjr',
+        title: 'Michael Dupuis'
+      }
+    ]
   }
+
 ];
