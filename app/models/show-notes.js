@@ -175,6 +175,66 @@ export default [
         title: 'Michael Dupuis'
       }
     ]
+  },
+  // Episode 3 ------------------------------------ //
+  {
+    episode: 3,
+    timeStamp: '01:33',
+    resource: {
+      link: 'https://github.com/ebryn/ember-turbolinks',
+      title: 'Ember TurboLinks'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ebryn',
+        title: 'Erik Bryn'
+      }
+    ]
+  },
+  {
+    episode: 3,
+    timeStamp: '03:02',
+    resource: {
+      link: 'https://github.com/broccolijs/broccoli',
+      title: 'Broccoli'
+    },
+    authors: [
+      {
+        link: 'https://github.com/joliss',
+        title: 'Jo Liss'
+      }
+    ]
+  },
+  {
+    episode: 3,
+    timeStamp: '10:07',
+    resource: {
+      link: 'https://github.com/abuiles/ember-watson',
+      title: 'Ember Watson'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Builes'
+      }
+    ]
+  },
+  {
+    episode: 3,
+    timeStamp: '13:23',
+    resource: {
+      link: 'http://ember.land/',
+      title: 'Ember Land Podcast'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      }
+    ]
   }
-
 ];
