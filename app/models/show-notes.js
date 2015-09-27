@@ -2344,5 +2344,159 @@ export default [
         title: 'Ember.js'
       }
     ]
-  }
+  },
+  // Episode 21 -------------------------- //
+  {
+    episode: 21,
+    timeStamp: '01:35',
+    resource: {
+      link: '',
+      title: 'Were you using Ember before EmberCLI?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '02:20',
+    resource: {
+      link: '',
+      title: "How are you incorporating Web Components into Yahoo's Ad Platform?"
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '03:18',
+    resource: {
+      link: '',
+      title: 'What are some of the hurdles for using Web Components at the moment?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '05:07',
+    resource: {
+      link: '',
+      title: 'Did Yahoo influence the Addon story?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '06:04',
+    resource: {
+      link: '',
+      title: 'What ES6 feature are you most excited about, and how is it influencing how you build Ember apps?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '07:08',
+    resource: {
+      link: '',
+      title: 'WRT testing, do you find yourself using generators to help onboard new developers?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '10:21',
+    resource: {
+      link: '',
+      title: 'Have you seen any benchmarkable benefits from Glimmer?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '12:12',
+    resource: {
+      link: '',
+      title: 'Are you planning for the upcoming changes in Ember? (like 1-way binding default)'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '13:01',
+    resource: {
+      link: '',
+      title: 'How are you simulating routeable components before 2.1?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '16:25',
+    resource: {
+      link: '',
+      title: 'How do you bridge the divide between your frontend and backend teams?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '18:11',
+    resource: {
+      link: '',
+      title: 'What kind of skills are you looking for in your team members?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '19:40',
+    resource: {
+      link: '',
+      title: 'How do you onboard new hires?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '20:53',
+    resource: {
+      link: '',
+      title: 'Could you tell us about Modern Web UI?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '23:21',
+    resource: {
+      link: '',
+      title: 'What are a few of the things we could learn from other framework communities?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '25:33',
+    resource: {
+      link: '',
+      title: 'What are a few of the things we could learn from other framework communities?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '26:54',
+    resource: {
+      link: '',
+      title: 'Could you explain the difference between ember-cli-materialize and ember-materialize-lite?'
+    },
+    authors: []
+  },
+  {
+    episode: 21,
+    timeStamp: '31:03',
+    resource: {
+      link: '',
+      title: 'Would you like to name the episode?'
+    },
+    authors: []
+  },
 ];
