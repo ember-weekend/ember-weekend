@@ -2287,5 +2287,62 @@ export default [
       title: 'What is an area that the Ember community can improve?'
     },
     authors: []
+  },
+  // Episode 20 --------------------------- //
+  {
+    episode: 20,
+    timeStamp: '00:12',
+    resource: {
+      link: 'https://github.com/emberjax/cast',
+      title: 'EmberJax Cast'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYar://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 20,
+    timeStamp: '09:37',
+    resource: {
+      link: 'http://alisdair.mcdiarmid.org/2015/06/20/ember-component-integration-tests.html',
+      title: 'Ember component integration tests'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/alisdair',
+        title: 'Alisdair McDiarmid'
+      }
+    ]
+  },
+  {
+    episode: 20,
+    timeStamp: '15:49',
+    resource: {
+      link: 'http://ember-twiddle.com/',
+      title: 'Ember Twiddle'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/joostdvrs',
+        title: 'Joost de Vries'
+      }
+    ]
+  },
+  {
+    episode: 20,
+    timeStamp: '21:35',
+    resource: {
+      link: 'https://github.com/emberjs/core-notes',
+      title: 'core-notes'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/team/',
+        title: 'Ember.js'
+      }
+    ]
   }
 ];
