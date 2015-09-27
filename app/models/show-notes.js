@@ -2761,5 +2761,146 @@ export default [
       title: "Rwjblue's PR technique"
     },
     authors: []
+  },
+  // Episode 25 ------------------------ //
+  {
+    episode: 25,
+    timeStamp: '00:31',
+    resource: {
+      link: 'http://emberjs.com/api/data/classes/DS.Adapter.html',
+      title: 'Ember Data Adapter'
+    },
+    authors: [
+      {
+        link: 'http://guides.emberjs.com/v2.0.0/',
+        title: 'Ember.js Guides'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '00:31',
+    resource: {
+      link: 'http://emberjs.com/api/data/classes/DS.Serializer.html',
+      title: 'Ember Data Serializer'
+    },
+    authors: [
+      {
+        link: 'http://guides.emberjs.com/v2.0.0/',
+        title: 'Ember.js Guides'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '02:50',
+    resource: {
+      link: 'https://github.com/emberjs/data/blob/v2.0.0/packages/ember-data/lib/serializers/json-serializer.js#L220',
+      title: 'JSON Serializer Normalize Response'
+    },
+    authors: [
+      {
+        link: 'https://github.com/emberjs/data',
+        title: 'Ember Data Source'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '03:37',
+    resource: {
+      link: 'https://youtu.be/PXB93Z8azZE?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU',
+      title: 'Hijacking Hacker News'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '05:02',
+    resource: {
+      link: 'http://jsonapi.org/',
+      title: 'JSON API'
+    },
+    authors: [
+      {
+        link: 'http://jsonapi.org/',
+        title: 'jsonapi.org'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '05:11',
+    resource: {
+      link: 'https://github.com/emberjs/data/blob/v2.0.0/packages/ember-data/lib/serializers/json-serializer.js#L425',
+      title: 'JSON Serizlizer _normalizeResponse'
+    },
+    authors: [
+      {
+        link: 'https://github.com/emberjs/data',
+        title: 'Ember Data Source'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '07:01',
+    resource: {
+      link: 'https://frontsidethepodcast.simplecast.fm/28',
+      title: 'Open Source, UX, and Ember with Trek Glowacki'
+    },
+    authors: [
+      {
+        link: 'https://frontsidethepodcast.simplecast.fm/',
+        title: 'Frontside the Podcast'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '07:33',
+    resource: {
+      link: 'https://github.com/emberjs/guides/issues/639',
+      title: 'Improve Guides organization #639'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trek',
+        title: 'Trek Glowacki'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '09:11',
+    resource: {
+      link: 'http://balinterdi.com/2015/08/29/how-to-do-a-select-dropdown-in-ember-20.html',
+      title: 'How to Do a Select (Dropdown) in Ember 2.0?'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/baaz',
+        title: 'Balint Erdi'
+      }
+    ]
+  },
+  {
+    episode: 25,
+    timeStamp: '11:02',
+    resource: {
+      link: 'https://github.com/mixonic/ember-community-versions',
+      title: 'Ember Community Versions Badge'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Matthew Beale'
+      }
+    ]
   }
 ];
