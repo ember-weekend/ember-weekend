@@ -1828,5 +1828,156 @@ export default [
         title: 'Henning Glatter-Götz'
       }
     ]
+  },
+  // Episode 17 ----------------- //
+  {
+    episode: 17,
+    timeStamp: '02:28',
+    resource: {
+      link: '',
+      title: 'Services are soft globals'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '04:23',
+    resource: {
+      link: '',
+      title: 'Components are coming!'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '05:55',
+    resource: {
+      link: '',
+      title: 'Simulating Routable Components'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '07:46',
+    resource: {
+      link: '',
+      title: 'Logging from templates'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '08:24',
+    resource: {
+      link: '',
+      title: 'Active Generation'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '09:17',
+    resource: {
+      link: 'http://emberjs.com/api/classes/Ember.Test.html#method_pauseTest',
+      title: 'Pausing tests'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '10:39',
+    resource: {
+      link: '',
+      title: 'Use of modelFor'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '12:08',
+    resource: {
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment',
+      title: 'ES6 Destructuring'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '13:27',
+    resource: {
+      link: '',
+      title: 'transitionTo vs replaceWith'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '15:13',
+    resource: {
+      link: '',
+      title: "Routing service WIP ('-routing')"
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '17:11',
+    resource: {
+      link: '',
+      title: 'Hoisting data'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '18:14',
+    resource: {
+      link: 'https://github.com/ember-cli/ember-cli/blob/master/ADDON_HOOKS.md#isdevelopingaddon',
+      title: 'isDevelopingAddon'
+    },
+    authors: []
+  },
+  {
+    episode: 17,
+    timeStamp: '19:31',
+    resource: {
+      link: 'https://github.com/broccolijs/broccoli/issues/271',
+      title: 'Feature requests for plugin API'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jo_liss',
+        title: 'Jo Liss'
+      }
+    ]
+  },
+  {
+    episode: 17,
+    timeStamp: '20:58',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/pull/11667',
+      title: '[BUGFIX release] Fix Glimmer memory leak'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 17,
+    timeStamp: '21:53',
+    resource: {
+      link: '',
+      title: 'Words of wisdom'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ebryn',
+        title: 'Erik Bryn'
+      }
+    ]
   }
 ];
