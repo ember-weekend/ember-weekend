@@ -1140,5 +1140,244 @@ export default [
         title: 'Wicked Good Ember'
       }
     ]
+  },
+  // Episode 13
+  {
+    episode: 13,
+    timeStamp: '00:24',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html',
+      title: 'Ember.js 1.13.0 and 2.0 Beta Released'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '00:42',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_new-features-in-ember-js-1-13',
+      title: 'New Features in Ember 1.13'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '02:29',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_ember-2-0-beta',
+      title: 'New Features in Ember 2.0.0-beta'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '03:40',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_notable-deprecations-in-1-13',
+      title: 'Deprications in Ember 1.13'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '04:23',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_notable-breaking-changes-in-ember-2-0',
+      title: 'Deprications &amp; Breaking Changes in 2.0.0-beta'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '05:58',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_note-angle-bracket-components',
+      title: 'Angle Bracket Components in Ember 2.1'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '06:44',
+    resource: {
+      link: 'http://wickedgoodember.com/',
+      title: 'Wicked Good Ember - June 16th'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/WickedGoodEmber',
+        title: 'Wicked Good Ember'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '07:20',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#mike-north',
+      title: 'Compose all the things'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '07:56',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#jay-phelps',
+      title: 'Graffiti: The Coveted Universal Web Component Format'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_jayphelps',
+        title: 'Jay Phelps'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '09:11',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#estelle-deblois',
+      title: 'Build Better Desktop Apps with Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/edeblois',
+        title: 'Estelle DeBlois'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '09:36',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#adolfo-builes',
+      title: 'Writing code to update our code'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Builes'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '10:22',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#john-kleinschmidt',
+      title: 'Taking Ember Offline'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jkleinsc',
+        title: 'John Kleinschmidt'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '10:57',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#nathan-hammond',
+      title: 'Building for Accessibility'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/nathanhammond',
+        title: 'Nathan Hammond'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '11:45',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#stefan-penner',
+      title: 'The observer tip-jar'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/stefanpenner',
+        title: 'Stefan Penner'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '12:25',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#igor-terzic',
+      title: 'Ember Data 1.0 - it’s here'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/terzicigor',
+        title: 'Igor Terzic'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '13:07',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#chris-tse',
+      title: 'Keynote'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/christse',
+        title: 'Chris Tse'
+      }
+    ]
+  },
+  {
+    episode: 13,
+    timeStamp: '13:39',
+    resource: {
+      link: 'http://wickedgoodember.com/speakers#chris-tse',
+      title: 'See You in Boston!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/emberweekend',
+        title: 'Ember Weekend'
+      }
+    ]
   }
 ];
