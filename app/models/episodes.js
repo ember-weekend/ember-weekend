@@ -114,7 +114,16 @@ export default [
   filename: 'ep-19-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '1:00:00'
+  duration: '1:00:00',
+  guests: [
+    {
+      name: 'Sam Selikoff',
+      guestInfoURL: 'https://twitter.com/samselikoff',
+      avatarURL: 'assets/images/sam-selikoff.jpg',
+      tagLine: 'Frontend Developer at TED',
+      bio: "I'm a front-end web developer at TED interested in JavaScript, data visualization and economics"
+    }
+  ]
 },
 {
   number: 18,
