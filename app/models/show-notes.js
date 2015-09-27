@@ -1637,5 +1637,196 @@ export default [
         title: 'selecting one lucky retweeters of this episode ^_^'
       }
     ]
+  },
+  // Episode 16 ------------------- //
+  {
+    episode: 16,
+    timeStamp: '01:17',
+    resource: {
+      link: 'https://leanpub.com/exploring-es6/',
+      title: 'Exploring ES6'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rauschma',
+        title: 'Axel Rauschmayer'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '03:45',
+    resource: {
+      link: 'https://gist.github.com/rwjblue/8816372',
+      title: "Robert Jackson's JSBin collection"
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '04:48',
+    resource: {
+      link: 'https://github.com/lukehoban/es6features',
+      title: 'ES6 Features'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/lukehoban',
+        title: 'Luke Hoban'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '05:49',
+    resource: {
+      link: 'https://www.emberscreencasts.com/',
+      title: 'Ember Screencasts'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '06:56',
+    resource: {
+      link: 'http://www.buildlab.co/',
+      title: 'Build Lab'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/validkeys',
+        title: 'Kyle Davis'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '08:10',
+    resource: {
+      link: 'http://es6katas.org/',
+      title: 'ES6 Katas'
+    },
+    authors: [
+      {
+        link: 'http://www.uxebu.com/',
+        title: 'Uxebu'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '08:10',
+    resource: {
+      link: 'http://es6katas.org/',
+      title: 'ES6 Katas'
+    },
+    authors: [
+      {
+        link: 'http://www.uxebu.com/',
+        title: 'Uxebu'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '10:57',
+    resource: {
+      link: 'http://emberweekly.com/',
+      title: 'Ember Weekly'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/owz',
+        title: 'Owain Williams'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '12:16',
+    resource: {
+      link: 'https://leanpub.com/ember-cli-101',
+      title: 'EmberCLI 101'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Builes'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '13:17',
+    resource: {
+      link: 'http://fromrailstoember.com/',
+      title: 'From Rails To Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/cball_',
+        title: 'Chris Ball'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '14:56',
+    resource: {
+      link: 'http://emberobserver.com',
+      title: 'Ember Observer'
+    },
+    authors: [
+      {
+        link: 'http://www.codeallday.com',
+        title: 'Katie Gengler'
+      },
+      {
+        link: 'http://www.louissimons.com',
+        title: 'Louis Simons'
+      },
+      {
+        link: 'http://www.pgengler.net',
+        title: 'Phil Gengler'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '16:37',
+    resource: {
+      link: 'http://www.emberaddons.com/',
+      title: 'Ember Addons'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gcollazo',
+        title: 'Giovanni Collazo'
+      }
+    ]
+  },
+  {
+    episode: 16,
+    timeStamp: '18:17',
+    resource: {
+      link: 'https://twitter.com/emberweekend',
+      title: 'T-shirt give away winner'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/hglattergotz',
+        title: 'Henning Glatter-Götz'
+      }
+    ]
   }
 ];
