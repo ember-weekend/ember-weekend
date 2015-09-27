@@ -1538,5 +1538,104 @@ export default [
         title: 'Ember.Land'
       }
     ]
+  },
+  // Episode 15 ------------------------------- //
+  {
+    episode: 15,
+    timeStamp: '00:57',
+    resource: {
+      link: 'http://www.meetup.com/EmberJax/',
+      title: 'EmberJax'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 15,
+    timeStamp: '02:24',
+    resource: {
+      link: 'http://www.prototypal.io/chicago-ember-training/',
+      title: 'Ember Training (Chicago)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ebryn',
+        title: 'Erik Bryn'
+      }
+    ]
+  },
+  {
+    episode: 15,
+    timeStamp: '03:45',
+    resource: {
+      link: 'https://gist.github.com/staltz/868e7e9bc2a7b8c1f754',
+      title: "The Introduction to Reactive Programming you've been missing"
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/andrestaltz',
+        title: 'Andre Staltz'
+      }
+    ]
+  },
+  {
+    episode: 15,
+    timeStamp: '07:20',
+    resource: {
+      link: 'http://emberjs.jsbin.com/bexona/edit?js,output',
+      title: 'Ember.Evented (Gist)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rondale-sc',
+        title: 'Jonathan Jackson'
+      }
+    ]
+  },
+  {
+    episode: 15,
+    timeStamp: '10:46',
+    resource: {
+      link: 'https://github.com/code0100fun/htmlbars-printer',
+      title: 'HTMLBar Printer'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 15,
+    timeStamp: '15:24',
+    resource: {
+      link: 'http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/',
+      title: 'Code Climate Ember Support'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/codeclimate',
+        title: 'Code Climate'
+      }
+    ]
+  },
+  {
+    episode: 15,
+    timeStamp: '15:59',
+    resource: {
+      link: 'https://twitter.com/emberweekend',
+      title: 'T-shirt give away'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'selecting one lucky retweeters of this episode ^_^'
+      }
+    ]
   }
 ];
