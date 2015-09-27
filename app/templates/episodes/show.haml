@@ -4,11 +4,18 @@
       =partial episodeTemplate
     -each episode.showNotes as |note|
       -note-item time=note.timeStamp episode=episode
-        -link-to-site href=note.resource.link
-          -external-title
+        -if note.resource.link
+          -link-to-site href=note.resource.link
+            -external-title
+              =note.resource.title
+        -else
+          %h1
             =note.resource.title
         %p
           -each note.authors as |author|
             by
-            -link-to-site href=author.link
+            -if author.link
+              -link-to-site href=author.link
+                = author.title
+            -else
               = author.title
