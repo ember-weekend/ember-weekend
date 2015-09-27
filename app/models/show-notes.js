@@ -2499,4 +2499,93 @@ export default [
     },
     authors: []
   },
+  // Episode 22 ----------------------------- //
+  {
+    episode: 22,
+    timeStamp: '00:10',
+    resource: {
+      link: 'https://github.com/emberjs/guides/issues/483',
+      title: 'Remove JSbin Issue (corrections)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaelrkn',
+        title: 'Michael Kaiser-Nyman'
+      }
+    ]
+  },
+  {
+    episode: 22,
+    timeStamp: '02:11',
+    resource: {
+      link: 'https://github.com/pretenderjs/pretender',
+      title: 'Pretender'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trek',
+        title: 'Trek Glowacki'
+      }
+    ]
+  },
+  {
+    episode: 22,
+    timeStamp: '02:11',
+    resource: {
+      link: 'https://github.com/pretenderjs/pretender/pull/66',
+      title: 'Host Support in Pretender'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
+  },
+  {
+    episode: 22,
+    timeStamp: '07:25',
+    resource: {
+      link: 'https://github.com/mixonic/ember-cli-deprecation-workflow',
+      title: 'Ember CLI Deprecation Workflow (addon)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Mathew Beale'
+      }
+    ]
+  },
+  {
+    episode: 22,
+    timeStamp: '11:26',
+    resource: {
+      link: 'https://twitter.com/emberjs/status/630808632641388544',
+      title: 'Missing Deprecations Call to Arms'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/emberjs',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 22,
+    timeStamp: '13:25',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/08/13/ember-2-0-released.html',
+      title: 'Ember 2.0 released!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/emberjs',
+        title: 'Ember.js'
+      }
+    ]
+  }
 ];
