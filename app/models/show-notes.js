@@ -410,5 +410,108 @@ export default [
         title: 'mitch Lloyd'
       }
     ]
+  },
+  // Episode 6 ------------------------------------------- //
+  {
+    episode: 6,
+    timeStamp: '00:06',
+    resource: {
+      link: 'https://github.com/ember-weeekend/ember-weekend',
+      title: 'Ember Weekend site Redesign Finished'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ryenotbread',
+        title: 'Rye Mason'
+      }
+    ]
+  },
+  {
+    episode: 6,
+    timeStamp: '01:02',
+    resource: {
+      link: 'https://github.com/ef4/liquid-fire',
+      title: 'Liquid Fire'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ef4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 6,
+    timeStamp: '03:09',
+    resource: {
+      link: 'http://railsconf.com/',
+      title: 'RailsConf 2015'
+    },
+    authors: []
+  },
+  {
+    episode: 6,
+    timeStamp: '03:20',
+    resource: {
+      link: 'https://youtu.be/oMlX9i9Icno?t=25m3s',
+      title: 'DHH Keynote'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/dhh',
+        title: 'DHH'
+      }
+    ]
+  },
+  {
+    episode: 6,
+    timeStamp: '05:02',
+    resource: {
+      link: 'https://speakerdeck.com/searls/sometimes-a-controller-is-just-a-controller',
+      title: 'Sometimes a Controller is Just a Controller'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/searls',
+        title: 'Justin Searls'
+      }
+    ]
+  },
+  {
+    episode: 6,
+    timeStamp: '07:26',
+    resource: {
+      link: 'http://www.meetup.com/Ember-Atlanta-Meetup/events/221248662/',
+      title: 'Fireside Chat with Tom Dale and Yehuda Katz'
+    },
+    authors: [
+      {
+        link: 'http://www.meetup.com/Ember-Atlanta-Meetup/',
+        title: 'Ember Atlanta'
+      }
+    ]
+  },
+  {
+    episode: 6,
+    timeStamp: '10:49',
+    resource: {
+      link: 'http://www.meetup.com/EmberJax/events/221439735/',
+      title: 'EmberJax builds a blog'
+    },
+    authors: [
+      {
+        link: 'http://www.meetup.com/Ember-Atlanta-Meetup/',
+        title: 'EmberJax'
+      }
+    ]
+  },
+  {
+    episode: 6,
+    timeStamp: '14:07',
+    resource: {
+      link: '',
+      title: 'Turbolinks Weekend'
+    },
+    authors: []
   }
 ];
