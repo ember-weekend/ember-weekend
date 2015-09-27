@@ -3,8 +3,9 @@
     -if episodeTemplate
       =partial episodeTemplate
 
-    -if episode.guest
-      = guest-item name=episode.guest.name guestInfoURL=episode.guest.guestInfoURL avatarURL=episode.guest.avatarURL tagLine=episode.guest.tagLine bio=episode.guest.bio
+    -if episode.guests
+      -each episode.guests as |guest|
+        = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagLine bio=guest.bio
 
     -each episode.showNotes as |note|
       -note-item time=note.timeStamp episode=episode
