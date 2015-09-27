@@ -2036,5 +2036,256 @@ export default [
         title: 'Chase McCarthy'
       }
     ]
+  },
+  // Episode 19 -------------------- //
+  {
+    episode: 19,
+    timeStamp: '00:33',
+    resource: {
+      link: '',
+      title: 'Introductions'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '03:01',
+    resource: {
+      link: '',
+      title: 'How much does TED use Ember?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '05:23',
+    resource: {
+      link: '',
+      title: 'Are you running Ember CLI? (at TED)'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '06:29',
+    resource: {
+      link: '',
+      title: 'Have you been able to keep the versions of Ember in use close to stable/beta/canary?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '07:30',
+    resource: {
+      link: '',
+      title: 'Have you seen performance increases with 1.13 / 2.0 (Glimmer)'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '08:39',
+    resource: {
+      link: '',
+      title: 'How are you preparing to migrate to 2.0?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '09:45',
+    resource: {
+      link: '',
+      title: 'What is your approach to testing both personally and at TED?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '12:26',
+    resource: {
+      link: '',
+      title: 'How are you handling deployment?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '12:33',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=QZVYP3cPcWQ',
+      title: 'Lightning Fast Deployment of Your Rails-backed Javascript app'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/lukemelia',
+        title: 'Luke Melia'
+      }
+    ]
+  },
+  {
+    episode: 19,
+    timeStamp: '14:04',
+    resource: {
+      link: 'https://github.com/tedconf/ember-cli-front-end-builds',
+      title: 'ember-cli-front-end-builds'
+    },
+    authors: [
+      {
+        link: 'https://github.com/tedconf/ember-cli-front-end-builds',
+        title: 'Tedconf'
+      }
+    ]
+  },
+  {
+    episode: 19,
+    timeStamp: '14:04',
+    resource: {
+      link: 'https://github.com/tedconf/front_end_builds',
+      title: 'Frontend Builds (rails side)'
+    },
+    authors: [
+      {
+        link: 'https://github.com/tedconf/ember-cli-front-end-builds',
+        title: 'Tedconf'
+      }
+    ]
+  },
+  {
+    episode: 19,
+    timeStamp: '16:52',
+    resource: {
+      link: '',
+      title: 'Is TED using any other frameworks? (besides Ember)'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '18:59',
+    resource: {
+      link: '',
+      title: 'Is TED currently hiring Ember devs?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '19:40',
+    resource: {
+      link: '',
+      title: 'Could you tell us a bit about the Mirage project?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '23:01',
+    resource: {
+      link: '',
+      title: 'Mirage as a tool to help onborading with Ember'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '24:28',
+    resource: {
+      link: 'http://martinfowler.com/articles/consumerDrivenContracts.html',
+      title: 'Consumer-Driven Contracts: A Service Evolution Pattern'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/iansrobinson',
+        title: 'Ian robinson'
+      }
+    ]
+  },
+  {
+    episode: 19,
+    timeStamp: '24:41',
+    resource: {
+      link: 'https://github.com/realestate-com-au/pact',
+      title: 'Pact'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '28:43',
+    resource: {
+      link: '',
+      title: 'Mirage is becoming increasingly complex, are there plans on breaking Mirage up into smaller pieces?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '34:55',
+    resource: {
+      link: '',
+      title: 'Do you have intentions on generating something like a Pact file to give to the server?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '35:22',
+    resource: {
+      link: 'http://www.poodr.com/',
+      title: 'Practical Object-Oriented Design in Ruby'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sandimetz',
+        title: 'Sandi Metz'
+      }
+    ]
+  },
+  {
+    episode: 19,
+    timeStamp: '46:43',
+    resource: {
+      link: '',
+      title: 'What is the path forward for Mirage?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '49:25',
+    resource: {
+      link: '',
+      title: 'How can the community help contribute to Mirage?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '50:47',
+    resource: {
+      link: '',
+      title: 'Do you plan to support multiple hosts in Mirage?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '54:14',
+    resource: {
+      link: '',
+      title: 'What do you think are some of the strengths of the Ember community?'
+    },
+    authors: []
+  },
+  {
+    episode: 19,
+    timeStamp: '55:36',
+    resource: {
+      link: '',
+      title: 'What is an area that the Ember community can improve?'
+    },
+    authors: []
   }
 ];
