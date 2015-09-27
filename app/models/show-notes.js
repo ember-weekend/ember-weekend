@@ -2902,5 +2902,130 @@ export default [
         title: 'Matthew Beale'
       }
     ]
+  },
+  // Episode 26 -------------------- //
+  {
+    episode: 26,
+    timeStamp: '00:25',
+    resource: {
+      link: 'http://reactive.audio/',
+      title: 'Reactive Podcast'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tinymodules',
+        title: 'Kahlil Lechelt'
+      },
+      {
+        link: 'https://twitter.com/rockbot',
+        title: 'Raquel Vélez'
+      },
+      {
+        link: 'https://twitter.com/hglattergotz',
+        title: 'Henning Glatter-Götz'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '00:56',
+    resource: {
+      link: 'http://www.meetup.com/Global-Ember-Meetup/events/224633843/',
+      title: 'Ember Global Meetup'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Taras Mankovski (EmberSherpa)'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '00:56',
+    resource: {
+      link: 'http://emberup.co/',
+      title: 'Ember Up'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bdvholmes',
+        title: 'Ben Holmes'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '00:56',
+    resource: {
+      link: 'http://emberup.co/',
+      title: 'Ember Up'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bdvholmes',
+        title: 'Ben Holmes'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '00:56',
+    resource: {
+      link: 'http://emberup.co/bindings-with-htmlbars-helpers/',
+      title: 'Use helpers to remove two-way bindings'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bdvholmes',
+        title: 'Ben Holmes'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '05:08',
+    resource: {
+      link: 'https://github.com/taras/ember-crud-example',
+      title: 'Glimmerland CRUD'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Taras Mankovski (EmberSherpa)'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '13:15',
+    resource: {
+      link: 'https://github.com/yapplabs/ember-strong-attrs',
+      title: 'ember-strong-attrs'
+    },
+    authors: [
+      {
+        link: 'https://github.com/yapplabs',
+        title: 'YappLabs'
+      }
+    ]
+  },
+  {
+    episode: 26,
+    timeStamp: '14:39',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=LsUSurw6sg4',
+      title: 'Angle Bracket Components Sneak Peak'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      },
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
   }
 ];
