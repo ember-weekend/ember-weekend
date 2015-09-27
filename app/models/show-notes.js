@@ -321,5 +321,94 @@ export default [
         title: 'Erik Bryn'
       }
     ]
+  },
+  // Episode 5 ---------------------------------------- //
+  {
+    episode: 5,
+    timeStamp: '00:01',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend',
+      title: 'Ember Weekend Site Redesign WIP'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ebry://twitter.com/ryenotbread',
+        title: 'Rye Mason'
+      }
+    ]
+  },
+  {
+    episode: 5,
+    timeStamp: '00:15',
+    resource: {
+      link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video#Controlling_media_playback',
+      title: 'Web Audio API'
+    },
+    authors: []
+  },
+  {
+    episode: 5,
+    timeStamp: '03:08',
+    resource: {
+      link: 'http://wickedgoodember.com/',
+      title: 'Wicked Good Ember'
+    },
+    authors: []
+  },
+  {
+    episode: 5,
+    timeStamp: '04:05',
+    resource: {
+      link: 'https://github.com/dockyard/ember-in-viewport',
+      title: 'Ember in Viewport'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 5,
+    timeStamp: '05:57',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/04/14/security-and-bugfix-releases-ember-1-10-1-1-11-2-1-11-3.html',
+      title: 'Ember.js select view security fix'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 5,
+    timeStamp: '08:06',
+    resource: {
+      link: 'http://www.peterfessel.com/2015/04/a-brief-history-of-time-the-ember-run-loop-in-short/',
+      title: 'A Brief History of Time: The Ember Run Loop in short'
+    },
+    authors: [
+      {
+        link: 'http://www.peterfessel.com',
+        title: 'Peter Fessel'
+      }
+    ]
+  },
+  {
+    episode: 5,
+    timeStamp: '10:19',
+    resource: {
+      link: 'https://github.com/mitchlloyd/ember-islands',
+      title: 'Ember Islands'
+    },
+    authors: [
+      {
+        link: 'https://github.com/mitchlloyd',
+        title: 'mitch Lloyd'
+      }
+    ]
   }
 ];
