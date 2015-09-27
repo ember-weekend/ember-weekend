@@ -3027,5 +3027,104 @@ export default [
         title: 'Godfrey Chan'
       }
     ]
+  },
+  // Episode 27 --------------------- //
+  {
+    episode: 27,
+    timeStamp: '00:00',
+    resource: {
+      link: 'http://emberjs.com/api/classes/Ember.ArrayProxy.html',
+      title: 'Correction: ArrayProxy is not deprecated'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/toranb/status/644126055054245889',
+        title: 'Toran Billups'
+      }
+    ]
+  },
+  {
+    episode: 27,
+    timeStamp: '02:11',
+    resource: {
+      link: 'https://github.com/poetic/ember-cli-cordova',
+      title: 'ember-cli-cordova'
+    },
+    authors: [
+      {
+        link: 'http://poeticsystems.com/',
+        title: 'Poetic'
+      }
+    ]
+  },
+  {
+    episode: 27,
+    timeStamp: '04:34',
+    resource: {
+      link: 'https://github.com/ebryn/ember-ionic',
+      title: 'ember-ionic'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ebryn',
+        title: 'Erik Bryn'
+      }
+    ]
+  },
+  {
+    episode: 27,
+    timeStamp: '07:45',
+    resource: {
+      link: 'http://stackoverflow.com/questions/30282377/how-can-i-yield-multiple-pieces-of-content-into-an-ember-js-component-template/30282378#30282378',
+      title: 'Multiple Yields in Emebr Templates'
+    },
+    authors: [
+      {
+        link: 'http://stackoverflow.com/users/237150/aceofspades',
+        title: 'Doug Puchalski'
+      }
+    ]
+  },
+  {
+    episode: 27,
+    timeStamp: '10:11',
+    resource: {
+      link: 'https://github.com/emberjs/ember-collection',
+      title: 'ember-collection'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 27,
+    timeStamp: '14:53',
+    resource: {
+      link: 'http://blog.codeship.com/how-to-write-smoke-tests-for-an-ember-rails-stack',
+      title: 'How to Write Smoke Tests for an Ember Rails Stack'
+    },
+    authors: [
+      {
+        link: 'https://github.com/mwoods79',
+        title: 'Micah Woods'
+      }
+    ]
+  },
+  {
+    episode: 27,
+    timeStamp: '15:44',
+    resource: {
+      link: 'https://github.com/mwoods79/exhaust',
+      title: 'Exhaust'
+    },
+    authors: [
+      {
+        link: 'https://github.com/mwoods79',
+        title: 'Micah Woods'
+      }
+    ]
   }
 ];
