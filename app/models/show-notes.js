@@ -685,5 +685,159 @@ export default [
         title: 'Edward Faulkner'
       }
     ]
+  },
+  // Episode 9 --------------------------------//
+  {
+    episode: 9,
+    timeStamp: '00:14',
+    resource: {
+      link: '',
+      title: 'Introductions'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '01:50',
+    resource: {
+      link: '',
+      title: 'Tell us about Heroku'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '03:19',
+    resource: {
+      link: '',
+      title: 'No little Heroku icon...'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '04:04',
+    resource: {
+      link: '',
+      title: 'How long has Heroku been using Ember?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '04:32',
+    resource: {
+      link: '',
+      title: 'Are you using Ember CLI?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '04:46',
+    resource: {
+      link: '',
+      title: 'How has the upgrade process been?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '05:57',
+    resource: {
+      link: '',
+      title: 'How are you testing the dashboard?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '07:14',
+    resource: {
+      link: '',
+      title: 'Do you test drive?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '08:02',
+    resource: {
+      link: '',
+      title: 'What back end are you using?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '10:14',
+    resource: {
+      link: '',
+      title: 'How are you building your team?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '12:45',
+    resource: {
+      link: '',
+      title: 'How do you interact with your backend team?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '13:50',
+    resource: {
+      link: '',
+      title: 'Do you deploy to Heroku dynos?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '14:25',
+    resource: {
+      link: '',
+      title: 'Do you deploy Dashboard through the Dashboard?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '15:13',
+    resource: {
+      link: '',
+      title: "Paul's thoughts on Ember, Glimmer, and Fastboot"
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '15:59',
+    resource: {
+      link: '',
+      title: 'What are you excited about in the Ember community?'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '17:17',
+    resource: {
+      link: '',
+      title: 'Paul names the podcast'
+    },
+    authors: []
+  },
+  {
+    episode: 9,
+    timeStamp: '18:15',
+    resource: {
+      link: '',
+      title: 'Outro'
+    },
+    authors: []
   }
 ];
