@@ -910,6 +910,108 @@ export default [
         title: 'Ember Jax'
       }
     ]
+  },
+  // Episode 11 ---------------------------------------- //
+  {
+    episode: 11,
+    timeStamp: '01:26',
+    resource: {
+      link: 'http://2015.jsconf.us/',
+      title: 'JSConf 2015'
+    },
+    authors: []
+  },
+  {
+    episode: 11,
+    timeStamp: '02:34',
+    resource: {
+      link: 'http://2015.jsconf.us/speakers.html#de%20albuquerque',
+      title: 'Accessibility and JS: side-by-side'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/felipedeolinda',
+        title: 'Felipe de Albuquerque'
+      }
+    ]
+  },
+  {
+    episode: 11,
+    timeStamp: '05:30',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=VYrMs1Zzpqs',
+      title: 'Ember-cli In-Repo Addons with Jacob Bixby'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jakebixby',
+        title: 'Jacob Bixby'
+      }
+    ]
+  },
+  {
+    episode: 11,
+    timeStamp: '07:48',
+    resource: {
+      link: 'https://github.com/jamesarosen/ember-i18n/commits/v4-alpha',
+      title: 'v4 alpha - Ember I18N'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jamesarosen',
+        title: 'James A Rosen'
+      }
+    ]
+  },
+  {
+    episode: 11,
+    timeStamp: '09:21',
+    resource: {
+      link: 'https://github.com/dockyard/ember-cli-i18n/issues/56',
+      title: 'Collaborate with ember-i18n'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wagenet',
+        title: 'Peter Wagenet'
+      }
+    ]
+  },
+  {
+    episode: 11,
+    timeStamp: '09:43',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=ASxwoyg40L4',
+      title: 'Ember.js: An antidote to your hype fatigue'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
+  },
+  {
+    episode: 11,
+    timeStamp: '13:43',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html',
+      title: 'Another Ember 2.X Status Update'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      }
+    ]
+  },
+  {
+    episode: 11,
+    timeStamp: '16:14',
+    resource: {
+      link: '',
+      title: 'Robert names the episode'
+    },
+    authors: []
   }
-
 ];
