@@ -2670,5 +2670,96 @@ export default [
         title: 'Gary Bernhardt'
       }
     ]
+  },
+  // Episode 24 ---------------------- //
+  {
+    episode: 24,
+    timeStamp: '00:33',
+    resource: {
+      link: '',
+      title: 'Prevent v8 optimization with eval()'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '02:42',
+    resource: {
+      link: '',
+      title: 'Prevent optional npm install dependencies with --no-option'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '04:05',
+    resource: {
+      link: '',
+      title: 'HTMLBars log helper and set as global variable'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '05:23',
+    resource: {
+      link: '',
+      title: 'cmd+p fuzzy finder in Chrome devtools'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '06:26',
+    resource: {
+      link: '',
+      title: 'Chrome snippets'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '08:15',
+    resource: {
+      link: '',
+      title: 'Monosnap (screenshot / screencast tool)'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '09:36',
+    resource: {
+      link: '',
+      title: 'Ember Testing - hidepassed, rerun, and ember test filters'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '10:55',
+    resource: {
+      link: '',
+      title: '$E (buck E) and the Ember Inspector'
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '11:28',
+    resource: {
+      link: '',
+      title: "RSVP.on('error')"
+    },
+    authors: []
+  },
+  {
+    episode: 24,
+    timeStamp: '13:44',
+    resource: {
+      link: '',
+      title: "Rwjblue's PR technique"
+    },
+    authors: []
   }
 ];
