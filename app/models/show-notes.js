@@ -839,5 +839,77 @@ export default [
       title: 'Outro'
     },
     authors: []
+  },
+  // Episode 10 ------------------------ //
+  {
+    episode: 10,
+    timeStamp: '1:04',
+    resource: {
+      link: 'https://github.com/Robdel12/ember-weekend/commit/1571a35b4829184f99a9d037304bef394cec6c77',
+      title: 'Highlight current note-item WIP'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/robdel12',
+        title: 'Robert DeLuca'
+      }
+    ]
+  },
+  {
+    episode: 10,
+    timeStamp: '04:25',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend/commit/5ed7d8a87ef170e02eeb008f409eed51244d7133',
+      title: 'Wip EmberWeekend on Fastboot'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 10,
+    timeStamp: '07:44',
+    resource: {
+      link: 'http://emberweekend.herokuapp.com/episodes',
+      title: 'Ember Weekend /w Fastboot deployed to heroku*'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 10,
+    timeStamp: '09:24',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/blob/ember-data-reference-unification/active/0000-ember-data-reference-unification.md',
+      title: 'RFC: Ember Data reference unification'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      }
+    ]
+  },
+  {
+    episode: 10,
+    timeStamp: '11:21',
+    resource: {
+      link: 'http://www.meetup.com/EmberJax/events/221300378/',
+      title: 'EmberJax Meetup at the same time as JSconf (come see us)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ember_jax',
+        title: 'Ember Jax'
+      }
+    ]
   }
+
 ];
