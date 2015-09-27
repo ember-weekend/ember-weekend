@@ -1379,5 +1379,164 @@ export default [
         title: 'Ember Weekend'
       }
     ]
+  },
+  // Episode 14 -------------- //
+  {
+    episode: 14,
+    timeStamp: '02:48',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=vqmPVhZ__WI',
+      title: 'Build Better Desktop Apps With Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/edeblois',
+        title: 'Estelle DeBois'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '05:33',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=ok9v9-Tcq0o',
+      title: 'Building for Accessibility'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/nathanhammond',
+        title: 'Nathan Hammond'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '09:59',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=MN7d1TZNvTg',
+      title: 'The End of Single Page Apps'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/christse',
+        title: 'Chris Tse'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '11:58',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=xlplXK6SBao',
+      title: "Ember Data 1.0 - It's here (and 1.13 and 2.0.0-beta.1)"
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/terzicigor',
+        title: 'Igor Terzic'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '14:39',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=XiBlT93H2aw',
+      title: 'Writing code to update our code'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Bouiles'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '16:30',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=IaFjXFuG7OY',
+      title: 'Compose all the things'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Michael North'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '17:25',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=VhZS4n2DMyU',
+      title: 'Taking Ember Offline'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jkleinsc',
+        title: 'John Kleinschmidt'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '17:59',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=vvZEddrClAQ',
+      title: 'The Observer Tip-jar'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/stefanpenner',
+        title: 'Stefan Penner'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '19:20',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=vvZEddrClAQ',
+      title: 'Graffiti: The Coveted Universal Web Component Format'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_jayphelps',
+        title: 'Jay Phelps'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '21:13',
+    resource: {
+      link: 'http://confreaks.tv/events/wickedgoodember2015',
+      title: 'Wicked Good Ember 2015 on Confreaks'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/confreaks',
+        title: 'Confreaks'
+      }
+    ]
+  },
+  {
+    episode: 14,
+    timeStamp: '21:37',
+    resource: {
+      link: 'http://wickedgoodember.com/',
+      title: 'See You All Next Year!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/emberweekend',
+        title: 'Ember Weekend'
+      },
+      {
+        link: 'https://twitter.com/LandOfEmber',
+        title: 'Ember.Land'
+      }
+    ]
   }
 ];
