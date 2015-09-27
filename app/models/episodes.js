@@ -218,7 +218,14 @@ export default [
   filename: 'ep-11-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '17:38'
+  duration: '17:38',
+  guest: {
+    name: 'Robert Deluca',
+    guestInfoURL: 'https://twitter.com/robdel12',
+    avatarURL: 'assets/images/robert-deluca.jpg',
+    tagLine: 'JavaScript Developer at The Frontside',
+    bio: 'Robert is a JavaScript developer at The Frontside in Austin, Texas. He’s a full-time Ember developer and has a personal dedication to accessibility on the web.'
+  }
 },
 {
   number: 10,
@@ -250,10 +257,7 @@ export default [
     guestInfoURL: 'https://twitter.com/p_elliott',
     avatarURL: 'assets/images/paul-elliott.jpg',
     tagLine: 'Lead Engineer on the Human Interface Team (HIT) at Heroku',
-    bio: `Paul is one of the engineers working on the Heroku Dashboard, which
-    is an ember-cli app running on the Heroku platform. The team is distributed
-    and does almost exclusively ember development, focusing on application
-    architecture and new features.`
+    bio: 'Paul is one of the engineers working on the Heroku Dashboard, which is an ember-cli app running on the Heroku platform. The team is distributed and does almost exclusively ember development, focusing on application architecture and new features.'
   }
 },
 {
