@@ -513,5 +513,102 @@ export default [
       title: 'Turbolinks Weekend'
     },
     authors: []
-  }
+  },
+  // Episode 7 -----------------------------------------//
+  {
+    episode: 7,
+    timeStamp: '00:11',
+    resource: {
+      link: 'https://twitter.com/emberweekend',
+      title: 'Ember Weekend Twitter Account'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 7,
+    timeStamp: '00:58',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend',
+      title: 'Ember Weekend media player'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 7,
+    timeStamp: '02:45',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/pull/38',
+      title: 'Routable Components RFC'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/eaf4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 7,
+    timeStamp: '07:13',
+    resource: {
+      link: 'http://www.meetup.com/EmberJax/events/221439735/',
+      title: 'EmberJax builds a blog'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ember_jax',
+        title: 'Ember Jax'
+      }
+    ]
+  },
+  {
+    episode: 7,
+    timeStamp: '09:12',
+    resource: {
+      link: 'https://github.com/samselikoff/ember-cli-mirage',
+      title: 'EmberCLI Mirage'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
+  {
+    episode: 7,
+    timeStamp: '12:12',
+    resource: {
+      link: 'http://jsonapi.org/',
+      title: 'JSON API'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/steveklabnik',
+        title: 'Steve Klabnik'
+      },
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      },
+      {
+        link: 'https://twitter.com/dgeb',
+        title: 'Dan Gebhardt'
+      },
+      {
+        link: 'https://twitter.com/tkellen',
+        title: 'Tyler Kellen'
+      },
+    ]
+  },
 ];
