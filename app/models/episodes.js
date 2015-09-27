@@ -88,7 +88,16 @@ export default [
   filename: 'ep-21-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '31:38'
+  duration: '31:38',
+  guests: [
+    {
+      name: 'Mike North',
+      guestInfoURL: 'https://twitter.com/michaellnorth',
+      avatarURL: 'assets/images/mike-north.jpg',
+      tagLine: 'Principal Software Engineer at Yahoo',
+      bio: 'UI lead for Yahoo Ad Manager Plus, our Demand Side Platform and flagship ad product. A driving force in the adoption of modern web frameworks across Yahoo'
+    }
+  ]
 },
 {
   number: 20,
