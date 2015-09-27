@@ -236,5 +236,90 @@ export default [
         title: 'Dan McClain'
       }
     ]
+  },
+  // Episode 4 ------------------------------------------ //
+  {
+    episode: 4,
+    timeStamp: '01:15',
+    resource: {
+      link: 'http://hashrocket.com/blog/posts/broccoli-the-build-tool-not-the-vegetable',
+      title: 'Broccoli: The Build Tool, Note the Vegetable'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 4,
+    timeStamp: '02:58',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/pull/45',
+      title: 'Solicit feedback about IE8 and IE9 support in Ember'
+    },
+    authors: [
+      {
+        link: 'https://github.com/wycats',
+        title: 'Yehuda Katz'
+      }
+    ]
+  },
+  {
+    episode: 4,
+    timeStamp: '06:29',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=pl3qRS0Iky4',
+      title: 'Ember at Netflix'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/BenLesh',
+        title: 'Ben Lesh'
+      }
+    ]
+  },
+  {
+    episode: 4,
+    timeStamp: '08:46',
+    resource: {
+      link: 'http://www.programwitherik.com/how-to-add-polymer-to-your-ember-project/',
+      title: 'How To Add Polymer To Your Ember Project'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/erikch',
+        title: 'Erik Hanchett'
+      }
+    ]
+  },
+  {
+    episode: 4,
+    timeStamp: '08:46',
+    resource: {
+      link: 'https://github.com/rondale-sc/poc-ember-cli-polymer',
+      title: 'Proof of Concept Polymer Addon'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rondale_sc',
+        title: 'Jonathan Jackson'
+      }
+    ]
+  },
+  {
+    episode: 4,
+    timeStamp: '12:23',
+    resource: {
+      link: 'https://docs.google.com/forms/d/1zGg54pgUO8aaylWAymX1V3OjKsLSGYmsEza755Y1-3A/viewform',
+      title: 'Erik Bryn: Ember 2.0 Training'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ebryn',
+        title: 'Erik Bryn'
+      }
+    ]
   }
 ];
