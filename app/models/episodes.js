@@ -244,7 +244,17 @@ export default [
   filename: 'ep-9-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'https://i.imgur.com/XV0c9Xl.png',
-  duration: '18:58'
+  duration: '18:58',
+  guest: {
+    name: 'Paul Elliot',
+    guestInfoURL: 'https://twitter.com/p_elliott',
+    avatarURL: 'assets/images/paul-elliott.jpg',
+    tagLine: 'Lead Engineer on the Human Interface Team (HIT) at Heroku',
+    bio: `Paul is one of the engineers working on the Heroku Dashboard, which
+    is an ember-cli app running on the Heroku platform. The team is distributed
+    and does almost exclusively ember development, focusing on application
+    architecture and new features.`
+  }
 },
 {
   number: 8,
