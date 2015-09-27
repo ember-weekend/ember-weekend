@@ -1979,5 +1979,62 @@ export default [
         title: 'Erik Bryn'
       }
     ]
+  },
+  // Episode 18 ------------------------------- //
+  {
+    episode: 18,
+    timeStamp: '00:15',
+    resource: {
+      link: 'https://github.com/dockyard/ember-suave',
+      title: 'Ember Suave'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'DockYard'
+      }
+    ]
+  },
+  {
+    episode: 18,
+    timeStamp: '02:56',
+    resource: {
+      link: 'https://www.picatic.com/EmberSherpaWorkshop',
+      title: 'Build An App In A Day With Ember 2.0'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Ember Sherpa (Taras Mankovski)'
+      }
+    ]
+  },
+  {
+    episode: 18,
+    timeStamp: '04:15',
+    resource: {
+      link: 'https://github.com/poteto/ember-metrics',
+      title: 'Ember Metrics'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 18,
+    timeStamp: '06:19',
+    resource: {
+      link: 'https://github.com/code0100fun/htmlbars-printer',
+      title: 'HTMLBars Printer'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
   }
 ];
