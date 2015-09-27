@@ -1013,5 +1013,132 @@ export default [
       title: 'Robert names the episode'
     },
     authors: []
+  },
+  // Episode 12 ------------------------ //
+  {
+    episode: 12,
+    timeStamp: '00:11',
+    resource: {
+      link: 'https://gist.github.com/code0100fun/f9b99b2a562702683602',
+      title: 'Ember Simple Auth + Ember CLI Mirage'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '04:09',
+    resource: {
+      link: 'https://gist.github.com/code0100fun/87dc9d1a901d4fa444e3',
+      title: 'Ember CLI QUnit text content helpers'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '09:22',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/pull/11359',
+      title: 'Ember RFC #60 Component Unification'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '11:35',
+    resource: {
+      link: 'https://medium.com/delightful-ui-for-ember-apps/declarative-breadcrumb-navigation-in-ember-js-5908a92a5de3',
+      title: 'Declarative Breadcrumb Navigation in Ember.js'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '13:17',
+    resource: {
+      link: 'http://emberjs.jsbin.com/nuwusazaku/2/edit?html,js,output',
+      title: 'Child component target'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rondale_sc',
+        title: 'Jonathan Jackson'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '16:34',
+    resource: {
+      link: 'http://emberjs.com/tomster/',
+      title: 'Ember.js Tomsters'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/lindsey_io',
+        title: 'Lindsey Wilson'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '17:10',
+    resource: {
+      link: 'http://www.meetup.com/EmberJax/events/221300378/',
+      title: 'EmberJax builds a blog (cont.)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ember_jax',
+        title: 'Ember Jax'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '17:39',
+    resource: {
+      link: 'https://twitter.com/emberweekend',
+      title: 'Follow us on Twitter'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/emberweekend',
+        title: 'Ember Weekend'
+      }
+    ]
+  },
+  {
+    episode: 12,
+    timeStamp: '18:06',
+    resource: {
+      link: 'http://wickedgoodember.com/',
+      title: 'Wicked Good Ember - June 16th'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wickedgoodember',
+        title: 'Wicked Good Ember'
+      }
+    ]
   }
 ];
