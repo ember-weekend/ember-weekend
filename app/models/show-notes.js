@@ -608,7 +608,82 @@ export default [
       {
         link: 'https://twitter.com/tkellen',
         title: 'Tyler Kellen'
-      },
+      }
     ]
   },
+  // Episode 8 --------------------- //
+  {
+    episode: 8,
+    timeStamp: '00:09',
+    resource: {
+      link: 'https://twitter.com/emberweekend/status/597798861206331392',
+      title: 'Ember Weekend New Logo Candidate'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 8,
+    timeStamp: '01:52',
+    resource: {
+      link: 'https://twitter.com/emberweekend/status/597798861206331392',
+      title: 'Mocking Services in Acceptance Tests'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 8,
+    timeStamp: '05:29',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/05/05/glimmer-merging.html',
+      title: "Glimmer's in Canary!"
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/emberjs',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 8,
+    timeStamp: '07:26',
+    resource: {
+      link: 'https://github.com/tildeio/ember-cli-fastboot',
+      title: 'Ember FastBoot'
+    },
+    authors: [
+      {
+        link: 'https://github.com/tildeio/ember-cli-fastboot',
+        title: 'Tilde IO'
+      }
+    ]
+  },
+  {
+    episode: 8,
+    timeStamp: '11:23',
+    resource: {
+      link: 'http://www.meetup.com/Silicon-Valley-EmberJS-Meetup/events/221411450/',
+      title: 'April Silicon Valley Ember.js Meetup'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ebryn',
+        title: 'Erik Bryn'
+      },
+      {
+        link: 'https://github.com/ef4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  }
 ];
