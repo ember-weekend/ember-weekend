@@ -2587,5 +2587,88 @@ export default [
         title: 'Ember.js'
       }
     ]
+  },
+  // Episode 23 ------------------------ //
+  {
+    episode: 23,
+    timeStamp: '00:16',
+    resource: {
+      link: 'https://github.com/switchfly/ember-test-helpers/pull/96',
+      title: 'Allow overriding services/factories in the registry'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 23,
+    timeStamp: '03:30',
+    resource: {
+      link: '',
+      title: "Let's talk about testing!"
+    },
+    authors: []
+  },
+  {
+    episode: 23,
+    timeStamp: '05:31',
+    resource: {
+      link: '',
+      title: 'Acceptance tests'
+    },
+    authors: []
+  },
+  {
+    episode: 23,
+    timeStamp: '09:20',
+    resource: {
+      link: '',
+      title: 'Integration tests'
+    },
+    authors: []
+  },
+  {
+    episode: 23,
+    timeStamp: '14:36',
+    resource: {
+      link: '',
+      title: 'Unit tests'
+    },
+    authors: []
+  },
+  {
+    episode: 23,
+    timeStamp: '20:39',
+    resource: {
+      link: '',
+      title: 'The goal of tests are different'
+    },
+    authors: []
+  },
+  {
+    episode: 23,
+    timeStamp: '22:14',
+    resource: {
+      link: '',
+      title: 'Recap (a possibly bad metaphor ^_^)'
+    },
+    authors: []
+  },
+  {
+    episode: 23,
+    timeStamp: '24:06',
+    resource: {
+      link: 'https://www.destroyallsoftware.com/screencasts',
+      title: 'Destroy All Software'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/garybernhardt',
+        title: 'Gary Bernhardt'
+      }
+    ]
   }
 ];
