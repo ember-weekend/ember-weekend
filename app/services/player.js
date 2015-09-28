@@ -5,7 +5,7 @@ import AsyncAudio from 'ember-weekend/utils/async-audio';
 export default Ember.Service.extend({
   episode: null,
   title: Ember.computed.alias('episode.title'),
-  releaseDate: Ember.computed.alias('episode.releaseDate'),
+  releaseDate: Ember.computed.alias('episode.prettyReleaseDate'),
   playing: Ember.computed.alias('episode.playing'),
   audio: Ember.computed(function() {
     const audio = new AsyncAudio();
