@@ -295,7 +295,7 @@ export default [
       avatarURL: 'assets/images/paul-elliott.jpg',
       tagLine: 'Lead Engineer on the Human Interface Team (HIT) at Heroku',
       bio: 'Paul is one of the engineers working on the Heroku Dashboard, which is an ember-cli app running on the Heroku platform. The team is distributed and does almost exclusively ember development, focusing on application architecture and new features.'
-  }
+    }
   ]
 },
 {
