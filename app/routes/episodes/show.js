@@ -8,10 +8,7 @@ export default Ember.Route.extend({
   },
   setupController(controller, model) {
     controller.set('episode', model);
-    if (!model.get('showNotes.length')) {
-      const lookup = new EpisodeLookup();
-      controller.set('episodeTemplate', lookup.findTemplateBySlug(model.get('slug')));
-    }
+    model.reload();
   },
   serialize(model) {
     return { slug: model.get('slug') };
