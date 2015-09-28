@@ -301,7 +301,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'https://i.imgur.com/XV0c9Xl.png',
   duration: '18:58',
-  guest: [
+  guests: [
     {
       name: 'Paul Elliot',
       guestInfoURL: 'https://twitter.com/p_elliott',
