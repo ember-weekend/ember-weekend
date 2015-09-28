@@ -3126,5 +3126,104 @@ export default [
         title: 'Micah Woods'
       }
     ]
+  },
+  // Episode 28 ---------------------------- //
+  {
+    episode: 28,
+    timeStamp: '00:06',
+    resource: {
+      link: 'https://www.bigmarker.com/communities/global-ember-meetup/about',
+      title: 'Global Ember Meetup'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Taras Mankovski (EmberSherpa)'
+      }
+    ]
+  },
+  {
+    episode: 28,
+    timeStamp: '00:59',
+    resource: {
+      link: 'https://www.bigmarker.com/conferences/42b8066e8df1',
+      title: 'Polls from Meetup'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Global Ember Meetup'
+      }
+    ]
+  },
+  {
+    episode: 28,
+    timeStamp: '03:12',
+    resource: {
+      link: 'https://vimeo.com/globalembermeetup',
+      title: 'Global Ember Meetup Recordings(Vimeo)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Taras Mankovski (EmberSherpa)'
+      }
+    ]
+  },
+  {
+    episode: 28,
+    timeStamp: '03:37',
+    resource: {
+      link: 'https://www.livecoding.tv/video/updating-emberweekend-to-use-ember-data-4/',
+      title: 'Our Adventures in LiveCoding.tv'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 28,
+    timeStamp: '04:47',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend/blob/93d9976947d1d03b4fd2b020dbbf876673ff6364/app/services/episodes.js',
+      title: 'Ye Olde Episode Service'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 28,
+    timeStamp: '07:57',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend/pull/32',
+      title: 'Mirage in prod PR'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 28,
+    timeStamp: '14:24',
+    resource: {
+      link: 'https://github.com/ember-cli/ember-cli/issues/4015',
+      title: 'ES6 object literal syntax in In Repo Addon chokes production build'
+    },
+    authors: [
+      {
+        link: 'https://github.com/noslouch',
+        title: 'Brian Whitton'
+      }
+    ]
   }
 ];

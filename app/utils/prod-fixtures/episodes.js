@@ -1,5 +1,18 @@
 export default [
 {
+  number: 28,
+  title: 'Const all day, fat arrow for life!',
+  description: 'Chase and Jonathan talk about the past Global Ember Meetup, ember-data and our experience on LiveCoding.tv, and much more.',
+  slug: 'const-all-day',
+  releaseDate: 'September 21, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-28-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '17:34'
+},
+{
   number: 27,
   title: 'Stickolas Cage',
   description: 'Chase and Jonathan make some corections, discuss ember-cli-cordova and a blog post about testing the Ember/Rails boundary.',
