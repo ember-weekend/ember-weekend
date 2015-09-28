@@ -4,7 +4,7 @@ import {
   test
 } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
-import page from './pages/episodes-page';
+import page from '../pages/episodes';
 
 let application;
 
