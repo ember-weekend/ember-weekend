@@ -1,8 +1,7 @@
 -episode-show episode=episode
   -note-list
-    -if episode.guests
-      -each episode.guests as |guest|
-        = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagLine bio=guest.bio
+    -each episode.guests as |guest|
+      = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagLine bio=guest.bio
 
     -each episode.showNotes as |note|
       -note-item time=note.timeStamp episode=episode
