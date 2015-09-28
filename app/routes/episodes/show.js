@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import EpisodeLookup from 'ember-weekend/utils/episode-lookup';
 
 export default Ember.Route.extend({
   episodes: Ember.inject.service('episodes'),

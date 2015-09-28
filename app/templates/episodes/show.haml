@@ -1,8 +1,5 @@
 -episode-show episode=episode
   -note-list
-    -if episodeTemplate
-      =partial episodeTemplate
-
     -if episode.guests
       -each episode.guests as |guest|
         = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagLine bio=guest.bio
