@@ -48,7 +48,7 @@
     "ember-cli-bourbon": "0.0.5",
     "ember-cli-font-awesome": "0.0.9",
     "ember-cli-hbars": "^0.1.6",
-    "ember-cli-page-object": "^0.6.0",
+    "ember-cli-page-object": "^0.8.0",
     "ember-cli-sass": "^3.1.1",
     "ember-sinon": "0.0.3",
     "liquid-fire": "0.21.2",
