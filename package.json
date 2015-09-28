@@ -20,20 +20,23 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
-    "ember-cli": "1.13.6",
+    "ember-cli": "1.13.8",
     "ember-cli-app-version": "0.4.0",
     "ember-cli-autoprefixer": "^0.3.0",
     "ember-cli-babel": "^5.0.0",
     "ember-cli-dependency-checker": "^1.0.0",
     "ember-cli-deprecation-workflow": "0.1.4",
     "ember-cli-divshot": "0.1.7",
+    "ember-cli-es5-shim": "0.1.1",
     "ember-cli-htmlbars": "0.7.9",
     "ember-cli-htmlbars-inline-precompile": "^0.1.1",
     "ember-cli-ic-ajax": "0.2.1",
     "ember-cli-inject-live-reload": "^1.3.0",
+    "ember-cli-mirage": "0.1.8",
     "ember-cli-qunit": "0.3.18",
     "ember-cli-release": "0.2.3",
     "ember-cli-uglify": "^1.0.1",
+    "ember-data": "1.13.8",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.3",
     "ember-mousetrap": "0.2.0",
@@ -46,7 +49,7 @@
     "ember-cli-bourbon": "0.0.5",
     "ember-cli-font-awesome": "0.0.9",
     "ember-cli-hbars": "^0.1.6",
-    "ember-cli-page-object": "^0.6.0",
+    "ember-cli-page-object": "^0.8.0",
     "ember-cli-sass": "^3.1.1",
     "ember-sinon": "0.0.3",
     "liquid-fire": "0.21.2",
@@ -57,7 +60,8 @@
   },
   "ember-addon": {
     "paths": [
-      "lib/font-includer"
+      "lib/font-includer",
+      "lib/es5-shim"
     ]
   }
 }

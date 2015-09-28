@@ -1,5 +1,18 @@
 export default [
 {
+  number: 28,
+  title: 'Const all day, fat arrow for life!',
+  description: 'Chase and Jonathan talk about the past Global Ember Meetup, ember-data and our experience on LiveCoding.tv, and much more.',
+  slug: 'const-all-day',
+  releaseDate: 'September 21, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-28-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '17:34'
+},
+{
   number: 27,
   title: 'Stickolas Cage',
   description: 'Chase and Jonathan make some corections, discuss ember-cli-cordova and a blog post about testing the Ember/Rails boundary.',
@@ -88,7 +101,16 @@ export default [
   filename: 'ep-21-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '31:38'
+  duration: '31:38',
+  guests: [
+    {
+      name: 'Mike North',
+      guestInfoURL: 'https://twitter.com/michaellnorth',
+      avatarURL: 'assets/images/mike-north.jpg',
+      tagLine: 'Principal Software Engineer at Yahoo',
+      bio: 'UI lead for Yahoo Ad Manager Plus, our Demand Side Platform and flagship ad product. A driving force in the adoption of modern web frameworks across Yahoo'
+    }
+  ]
 },
 {
   number: 20,
@@ -114,7 +136,16 @@ export default [
   filename: 'ep-19-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '1:00:00'
+  duration: '1:00:00',
+  guests: [
+    {
+      name: 'Sam Selikoff',
+      guestInfoURL: 'https://twitter.com/samselikoff',
+      avatarURL: 'assets/images/sam-selikoff.jpg',
+      tagLine: 'Frontend Developer at TED',
+      bio: "I'm a front-end web developer at TED interested in JavaScript, data visualization and economics"
+    }
+  ]
 },
 {
   number: 18,
@@ -179,7 +210,23 @@ export default [
   filename: 'ep-14-ember-weekend',
   author: 'Chase McCarthy, Jonathan Jackson, Dan McClain, and Robert Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '22:46'
+  duration: '22:46',
+  guests: [
+    {
+      name: 'Robert Jackson',
+      guestInfoURL: 'https://twitter.com/rwjblue',
+      avatarURL: 'assets/images/robert-jackson.jpg',
+      tagLine: 'Ember core team  member and Frontend Developer at Aptible',
+      bio: 'Robert is an Ember.js core team member, and general open source addict. Outside of Aptible, Robert enjoys spending time with his wife and two rambunctious boys. He is @rwjblue on the web.'
+    },
+    {
+      name: 'Dan McClain',
+      guestInfoURL: 'https://twitter.com/_danmcclain',
+      avatarURL: 'assets/images/dan-mcclain.jpg',
+      tagLine: 'Dan is a partner and lead developer at DockYard.',
+      bio: 'He has been working on web applications for the past 7 years, starting with .Net, then later working with Rails. As of recent, DockYard has bet the company on Ember and Elixir, where Dan develops rich client applications for their clients.'
+    }
+  ]
 },
 {
   number: 13,
@@ -218,7 +265,16 @@ export default [
   filename: 'ep-11-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '17:38'
+  duration: '17:38',
+  guests: [
+    {
+      name: 'Robert Deluca',
+      guestInfoURL: 'https://twitter.com/robdel12',
+      avatarURL: 'assets/images/robert-deluca.jpg',
+      tagLine: 'JavaScript Developer at The Frontside',
+      bio: 'Robert is a JavaScript developer at The Frontside in Austin, Texas. He’s a full-time Ember developer and has a personal dedication to accessibility on the web.'
+    }
+  ]
 },
 {
   number: 10,
@@ -244,7 +300,16 @@ export default [
   filename: 'ep-9-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'https://i.imgur.com/XV0c9Xl.png',
-  duration: '18:58'
+  duration: '18:58',
+  guests: [
+    {
+      name: 'Paul Elliot',
+      guestInfoURL: 'https://twitter.com/p_elliott',
+      avatarURL: 'assets/images/paul-elliott.jpg',
+      tagLine: 'Lead Engineer on the Human Interface Team (HIT) at Heroku',
+      bio: 'Paul is one of the engineers working on the Heroku Dashboard, which is an ember-cli app running on the Heroku platform. The team is distributed and does almost exclusively ember development, focusing on application architecture and new features.'
+    }
+  ]
 },
 {
   number: 8,

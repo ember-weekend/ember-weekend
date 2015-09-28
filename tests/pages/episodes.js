@@ -1,4 +1,4 @@
-import PO from '../../page-object';
+import PO from '../page-object';
 
 export default PO.build({
   visit: PO.visitable('/episodes'),

@@ -4,8 +4,7 @@ import {
   test
 } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
-import { stubResolver } from '../helpers/container';
-import page from './pages/episodes-page';
+import page from '../pages/episodes';
 
 let application;
 
@@ -26,26 +25,9 @@ const episodes = [
   }
 ];
 
-const episodesProxy = Ember.ArrayProxy.create({
-  content: episodes.map(function(episode) {
-    return Ember.Object.create(episode);
-  })
-});
-
-const mockEpisodeService = Ember.Service.extend({
-  all() {
-    return episodesProxy;
-  },
-  mostRecent() {
-    return this.all().objectAt(0);
-  }
-});
-
 module('Acceptance: EpisodeList', {
   beforeEach() {
-    application = startApp({}, function(app) {
-      stubResolver(app, 'service:episodes', mockEpisodeService);
-    });
+    application = startApp();
   },
 
   afterEach() {
@@ -54,6 +36,10 @@ module('Acceptance: EpisodeList', {
 });
 
 test('visiting /episodes', function(assert) {
+  episodes.forEach(function(e) {
+    server.create('episode', e);
+  });
+
   page.visit();
 
   andThen(function() {

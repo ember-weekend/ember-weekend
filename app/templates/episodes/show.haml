@@ -1,3 +1,23 @@
-- episode-show episode=episode
+-episode-show episode=episode
   -note-list
-    = partial episodeTemplate
+    -if episode.guests
+      -each episode.guests as |guest|
+        = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagLine bio=guest.bio
+
+    -each episode.showNotes as |note|
+      -note-item time=note.timeStamp episode=episode
+        -if note.resource.link
+          -link-to-site href=note.resource.link
+            -external-title
+              =note.resource.title
+        -else
+          %h1
+            =note.resource.title
+        %p
+          -each note.authors as |author|
+            by
+            -if author.link
+              -link-to-site href=author.link
+                = author.title
+            -else
+              = author.title

@@ -1,4 +1,4 @@
-![Ember Weekend Logo](http://i.imgur.com/AmiWiI6.png)
+![Ember Weekend Logo](http://i.imgur.com/AmiWiI6.png) [![Build Status](https://travis-ci.org/ember-weekend/ember-weekend.svg)](https://travis-ci.org/ember-weekend/ember-weekend)
 
 Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun) and [Jonathan Jackson](https://twitter.com/rondale_sc) babble on about their weekend Ember shenanigans.
 
@@ -34,4 +34,4 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 
 ### Deploying
 
-* `firebase deploy`
+* `divshot deploy`
