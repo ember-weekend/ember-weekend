@@ -3225,5 +3225,103 @@ export default [
         title: 'Brian Whitton'
       }
     ]
+  },
+  {
+    episode: 29,
+    timeStamp: '00:00',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend/commit/1b8c148e2fc36792026fe0842bb753123789858d',
+      title: 'EmberWeekend migration to ember-cli-mirage'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 29,
+    timeStamp: '00:30',
+    resource: {
+      link: 'https://github.com/san650/ember-cli-page-object',
+      title: 'Ember Page Objects'
+    },
+    authors: [
+      {
+        link: 'https://github.com/san650',
+        title: 'Santiago Ferreira'
+      }
+    ]
+  },
+  {
+    episode: 29,
+    timeStamp: '3:29',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/blob/router-service/text/0000-router-service.md',
+      title: 'Routing service RFC'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 29,
+    timeStamp: '5:32',
+    resource: {
+      link: 'https://github.com/rwjblue/ember-qunit/issues/52#issuecomment-143418183',
+      title: 'Testing {{link-to}}s in component integration tests'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 29,
+    timeStamp: '5:58',
+    resource: {
+      link: 'https://meta.discourse.org/t/the-state-of-javascript-on-android-in-2015-is-poor/33889',
+      title: 'The State of JavaScript on Android in 2015 is… poor'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/codinghorror',
+        title: 'Jeff Atwood'
+      }
+    ]
+  },
+  {
+    episode: 29,
+    timeStamp: '10:16',
+    resource: {
+      link: 'https://youtu.be/VY-r7Ac06ho',
+      title: 'Inside Glimmer: What Makes Ember\'s Rendering Engine Tick'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 29,
+    timeStamp: '11:30',
+    resource: {
+      link: 'http://www.w3.org/2001/tag/doc/leastPower.html',
+      title: 'The Rule of Least Power'
+    },
+    authors: [
+      {
+        link: 'http://www.w3.org/',
+        title: 'W3C'
+      }
+    ]
   }
 ];

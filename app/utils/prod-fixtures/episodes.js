@@ -1,5 +1,18 @@
 export default [
 {
+  number: 29,
+  title: 'The Rule of Least Power',
+  description: 'Chase and Jonathan discuss the routing RFC, slow JS on Android, HTMLBars\'s lack of power (good thing), and the benefits of page objects.',
+  slug: 'the-rule-of-least-power',
+  releaseDate: 'October 5, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-29-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '15:37'
+},
+{
   number: 28,
   title: 'Const all day, fat arrow for life!',
   description: 'Chase and Jonathan talk about the past Global Ember Meetup, ember-data and our experience on LiveCoding.tv, and much more.',
