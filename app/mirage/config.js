@@ -6,7 +6,9 @@ export default function() {
   });
 
 
-  this.get('/models', 'model');
+  this.get('/models', function(){
+    return { models: [{ id:1, name: 'foo'}]};
+  });
 
   this.get('/episodes/:slug', function(db, request) {
     let episode;
