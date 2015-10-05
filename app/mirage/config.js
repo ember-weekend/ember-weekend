@@ -5,6 +5,9 @@ export default function() {
     };
   });
 
+
+  this.get('/models', 'model');
+
   this.get('/episodes/:slug', function(db, request) {
     let episode;
 

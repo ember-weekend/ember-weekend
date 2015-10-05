@@ -16,6 +16,7 @@ Router.map(function() {
       this.route('show', { path: '/:slug' });
     });
     this.route('about');
+    this.route('models')
   });
 });
 
