@@ -1,5 +1,18 @@
 export default [
 {
+  number: 30,
+  title: 'Ember Weekend LTS',
+  description: 'Chase and Jonathan discuss the most recent Global Ember Meetup, Routable Modals, Fastboot, and Ember LTS versions',
+  slug: 'ember-weekend-lts',
+  releaseDate: 'October 12, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-30-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '15:48'
+},
+{
   number: 29,
   title: 'The Rule of Least Power',
   description: 'Chase and Jonathan discuss the routing RFC, slow JS on Android, HTMLBars\'s lack of power (good thing), and the benefits of page objects.',

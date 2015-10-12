@@ -3226,6 +3226,7 @@ export default [
       }
     ]
   },
+  // episode 29 --------------------------------------
   {
     episode: 29,
     timeStamp: '00:00',
@@ -3321,6 +3322,161 @@ export default [
       {
         link: 'http://www.w3.org/',
         title: 'W3C'
+      }
+    ]
+  },
+  // episode 30 ----------------------------------------------
+  {
+    episode: 30,
+    timeStamp: '00:07',
+    resource: {
+      link: 'https://www.bigmarker.com/communities/global-ember-meetup/about',
+      title: 'Global Ember Weekend'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Ember Sherpa'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '00:21',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/08/16/ember-2-1-beta-released.html#toc_code-get-code-helper',
+      title: '{{ get }} Helper'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Ember'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '01:49',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/08/16/ember-2-1-beta-released.html#toc_code-each-in-code-helper',
+      title: '{{ each-in }} Helper'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Ember'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '03:41',
+    resource: {
+      link: 'https://speakerdeck.com/balint/complex-component-design-in-ember',
+      title: 'Complex Component Design'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/baaz',
+        title: 'Balint Erdi'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '06:02',
+    resource: {
+      link: 'http://slides.com/samselikoff/inside-ember-cli-mirage',
+      title: 'Inside Ember CLI Mirage'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '06:50',
+    resource: {
+      link: 'https://vimeo.com/globalembermeetup',
+      title: 'Global Ember Meetup on Vimeo'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberSherpa',
+        title: 'Ember Sherpa'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '07:07',
+    resource: {
+      link: 'http://adamniedzielski.github.io/blog/2015/10/09/routable-modal-dialog-in-ember-dot-js/',
+      title: 'Routable modal dialog in Ember.js'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/niedzielskiadam',
+        title: 'Adam Niedzielski'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '08:46',
+    resource: {
+      link: 'https://youtu.be/b-LZjy5QS7Q',
+      title: 'FastBoot and Beyond by Godfrey Chan'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '08:56',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/pull/12394',
+      title: 'Revisiting the visit API (aka FastBoot™) PR'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '11:09',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=iSuCraN0yEY',
+      title: 'Ember 2.0 and the Road Ahead'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      }
+    ]
+  },
+  {
+    episode: 30,
+    timeStamp: '11:28',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/blob/3604f245f6e9d256e5d1815a1d81ce5675650a3d/active/0000-improved-release-cycle.md',
+      title: 'Improved Release Cycle RFC'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
       }
     ]
   }
