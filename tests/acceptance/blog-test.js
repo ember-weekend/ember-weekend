@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import { module, test } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
-
+import Mirage from 'ember-cli-mirage';
 import blogPage from 'ember-weekend/tests/pages/blog';
 
 module('Acceptance | blog', {
@@ -15,9 +15,24 @@ module('Acceptance | blog', {
 });
 
 test('visiting /blog', function(assert) {
-  server.create('post', {
-    title: 'Foo',
-    body: 'Bar'
+
+  const responseText = `
+    <main>
+      <article class="post">
+        <section>
+          <h1><a>Foo</a></h1>
+            <p>Bar</p>
+          </section>
+        </article>
+    </main>
+  `;
+
+  server.pretender.prepareBody = function(body) {
+    return body;
+  };
+
+  server.pretender.get('https://cors-anywhere.herokuapp.com/*url', function() {
+    return [200, {}, responseText];
   });
 
   blogPage.visit();

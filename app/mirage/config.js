@@ -23,4 +23,6 @@ export default function() {
       showNotes: db['show-notes'].where({ episode: episode.id })
     };
   });
+
+  this.passthrough('https://cors-anywhere.herokuapp.com/*url');
 }
