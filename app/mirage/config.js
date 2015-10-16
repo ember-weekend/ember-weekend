@@ -5,6 +5,8 @@ export default function() {
     };
   });
 
+  this.get('posts');
+
   this.get('/episodes/:slug', function(db, request) {
     let episode;
 

@@ -15,9 +15,16 @@ module('Acceptance | blog', {
 });
 
 test('visiting /blog', function(assert) {
+  server.create('post', {
+    title: 'Foo',
+    body: 'Bar'
+  });
+
   blogPage.visit();
 
   andThen(function() {
     assert.equal(currentURL(), '/blog');
+    assert.equal(blogPage.posts(1).title(), 'Foo');
+    assert.equal(blogPage.posts(1).body(), 'Bar');
   });
 });
