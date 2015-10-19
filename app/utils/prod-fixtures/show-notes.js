@@ -3479,5 +3479,93 @@ export default [
         title: 'Yehuda Katz'
       }
     ]
+  },
+  {
+    episode: 31,
+    timeStamp: '0:17',
+    resource: {
+      link: 'http://til.hashrocket.com/',
+      title: 'Today I Learned'
+    },
+    authors: [
+      {
+        link: 'https://github.com/jwworth',
+        title: 'Jake Worth'
+      }
+    ]
+  },
+  {
+    episode: 31,
+    timeStamp: '2:32',
+    resource: {
+      link: 'https://youtu.be/PXB93Z8azZE?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU',
+      title: 'Hijacking Hacker News'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
+  },
+  {
+    episode: 31,
+    timeStamp: '3:09',
+    resource: {
+      link: 'https://github.com/samselikoff/ember-cli-mirage/blob/c7852c17d2ecb12e885bbeb26062424cb806cd59/addon/server.js#L30',
+      title: 'ember-cli-mirage `prepareBody` override'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
+  {
+    episode: 31,
+    timeStamp: '4:31',
+    resource: {
+      link: 'https://github.com/pretenderjs/pretender/issues/85',
+      title: 'Pretender issue #85: jQuery 1.x with passthrough'
+    },
+    authors: [
+      {
+        link: 'https://github.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 31,
+    timeStamp: '8:06',
+    resource: {
+      link: 'https://www.livecoding.tv/video/ember-weekend-blog-stuff-3/',
+      title: 'Last Friday Livecoding.tv session'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rondale_sc',
+        title: 'Jonathan Jackson'
+      },
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 31,
+    timeStamp: '8:33',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=puOrC7cfjRI',
+      title: 'Progressive Enhancement is Dead, Long Live Progressive Enhancement'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
   }
 ];
