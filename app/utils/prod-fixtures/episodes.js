@@ -1,5 +1,18 @@
 export default [
 {
+  number: 31,
+  title: 'Hijacking TIL for fun and profit',
+  description: 'Chase and Jonathan talk about using TIL posts as a backend for the Ember Weekend blog and quickly cover a recent talk by Tom Dale about progessive enhancement',
+  slug: 'hijacking-til',
+  releaseDate: 'October 19, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-31-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '13:22'
+},
+{
   number: 30,
   title: 'Ember Weekend LTS',
   description: 'Chase and Jonathan discuss the most recent Global Ember Meetup, Routable Modals, Fastboot, and Ember LTS versions',
