@@ -4,5 +4,7 @@ const { attr } = DS;
 
 export default DS.Model.extend({
   title: attr(),
-  body: attr()
+  body: attr(),
+  author: attr(),
+  permalink: attr()
 });

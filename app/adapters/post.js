@@ -3,10 +3,10 @@ import DS from 'ember-data';
 
 export default DS.Adapter.extend({
   proxy: 'https://cors-anywhere.herokuapp.com',
-  host: 'http://til.hashrocket.com/author/',
+  host: 'http://til.hashrocket.com/emberjs',
   findAll() {
     return new Ember.RSVP.Promise((resolve) => {
-      let url = this.corsUrl('jonathanjackson');
+      let url = this.corsUrl();
       const options = {
         url,
         dataType: 'text',
@@ -22,7 +22,7 @@ export default DS.Adapter.extend({
       Ember.$.ajax(options);
     });
   },
-  corsUrl(path) {
+  corsUrl() {
     const parts = [];
 
     if (this.get('proxy')) {
@@ -36,8 +36,6 @@ export default DS.Adapter.extend({
     if (!parts.length) {
       parts.push('');
     }
-
-    parts.push(path);
 
     return parts.join('/');
   }
