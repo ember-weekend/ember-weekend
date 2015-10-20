@@ -9,10 +9,11 @@ function extractArray(payload) {
 
   $posts.forEach((post) => {
     const $post = jQuery('section', post);
+
     const children = toArray($post.children());
     const title = jQuery(children.shift()).text();
     const id = Ember.String.dasherize(title);
-    const body = jQuery(...children).html();
+    const body = jQuery('<div>').append(children).addClass('post').html();
 
     posts.push({
       id, title, body
