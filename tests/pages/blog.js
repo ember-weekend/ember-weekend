@@ -12,7 +12,8 @@ export default PageObject.build({
     itemScope: '.posts li',
     item: {
       title: text('.title'),
-      body: text('.body')
+      body: text('.body'),
+      author: text('.author')
     }
   })
 });
