@@ -15,7 +15,7 @@ Router.map(function() {
     this.route('episodes', { resetNamespace: true }, function() {
       this.route('show', { path: '/:slug' });
     });
-    this.route('blog');
+    this.route('blog', function(){});
     this.route('about');
   });
 });
