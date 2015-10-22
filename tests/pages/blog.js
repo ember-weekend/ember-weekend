@@ -9,7 +9,7 @@ let {
 export default PageObject.build({
   visit: visitable('/blog'),
   posts: collection({
-    itemScope: '.posts li',
+    itemScope: '.posts article',
     item: {
       title: text('.title'),
       body: text('.body'),
