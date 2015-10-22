@@ -1,8 +1,9 @@
 - each posts as |post|
   %article
-    %h1(class="title")
+    %h1
       = post.title
+    %h2
+      October 10, 2015 by
+      = post.author
     .body
       {{{ post.body }}}
-    .author
-      = post.author
