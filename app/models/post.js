@@ -6,5 +6,6 @@ export default DS.Model.extend({
   title: attr(),
   body: attr(),
   author: attr(),
-  permalink: attr()
+  permalink: attr(),
+  publishedAt: attr()
 });

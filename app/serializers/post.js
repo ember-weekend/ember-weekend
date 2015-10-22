@@ -12,16 +12,29 @@ function extractArray(payload) {
     const $aside = jQuery('aside', post);
 
     const children = toArray($post.children());
-    children.pop();
+    const publishedAt = $(children.pop()).find('p a').text();
+
     const title = jQuery(children.shift()).text();
     const id = Ember.String.dasherize(title);
     const body = jQuery('<div>').append(children).addClass('post').html();
 
-    const author = $aside.find('li:first b').text();
+    let author = $aside.find('li:first b').text();
+    author = {
+      jonathanjackson: 'Jonathan Jackson',
+      chasemccarthy: 'Chase McCarthy'
+    }[author];
+
     const permalink = $aside.find('li:nth(2) a').attr('href').replace(/\-.*/, '');
 
-    if (['jonathanjackson', 'chasemccarthy'].indexOf(author) >= 0) {
-      posts.push({ id, title, body, author, permalink });
+    if (author) {
+      posts.push({
+        id,
+        title,
+        body,
+        author,
+        permalink,
+        publishedAt
+      });
     }
   });
 
