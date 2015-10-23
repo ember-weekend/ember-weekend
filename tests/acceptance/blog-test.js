@@ -46,12 +46,18 @@ test('visiting /blog', function(assert) {
   `;
 
   server.pretender.prepareBody = function(body) {
-    return body;
+    if (typeof body === 'string') {
+      return body;
+    } else {
+      return JSON.stringify(body);
+    }
   };
 
   server.pretender.get('https://cors-anywhere.herokuapp.com/*url', function() {
     return [200, {}, responseText];
   });
+
+  server.create('episode');
 
   blogPage.visit();
 
