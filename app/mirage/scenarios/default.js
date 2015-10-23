@@ -10,4 +10,6 @@ export default function(server) {
   showNotes.forEach((sn, index) => {
     server.create('show-note', Ember.merge({ id: index }, sn));
   });
+
+  server.createList('post', 10);
 }

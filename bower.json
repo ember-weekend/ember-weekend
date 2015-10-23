@@ -8,7 +8,7 @@
     "ember-qunit": "0.4.7",
     "ember-qunit-notifications": "0.0.7",
     "ember-resolver": "~0.1.18",
-    "jquery": "^1.11.1",
+    "jquery": "^2.1.4",
     "loader.js": "ember-cli/loader.js#3.2.0",
     "qunit": "~1.17.1",
     "bourbon": "3.2.1",
@@ -20,6 +20,10 @@
     "pretender": "~0.9.0",
     "lodash": "~3.7.0",
     "Faker": "~3.0.0",
-    "es5-shim": "^4.0.5"
+    "es5-shim": "^4.0.5",
+    "font-awesome": "~4.4.0"
+  },
+  "resolutions": {
+    "ember": "2.1.0"
   }
 }

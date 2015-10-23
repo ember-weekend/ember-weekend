@@ -5,6 +5,8 @@ export default function() {
     };
   });
 
+  this.get('posts');
+
   this.get('/episodes/:slug', function(db, request) {
     let episode;
 
@@ -21,4 +23,6 @@ export default function() {
       showNotes: db['show-notes'].where({ episode: episode.id })
     };
   });
+
+  this.passthrough('https://cors-anywhere.herokuapp.com/*url');
 }

@@ -1,0 +1,10 @@
+%h1
+  - link-to "root.blog.show" post.id
+    = post.title
+    = fa-icon "fa-link"
+%h2
+  = post.publishedAt
+  by
+  = post.author
+.body
+  {{{ post.body }}}
