@@ -22,5 +22,8 @@
     "Faker": "~3.0.0",
     "es5-shim": "^4.0.5",
     "font-awesome": "~4.4.0"
+  },
+  "resolutions": {
+    "ember": "2.1.0"
   }
 }
