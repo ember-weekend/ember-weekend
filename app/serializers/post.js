@@ -15,7 +15,6 @@ function extractArray(payload) {
     const publishedAt = jQuery(children.pop()).find('p a').text();
 
     const title = jQuery(children.shift()).text();
-    const id = Ember.String.dasherize(title);
     const body = jQuery('<div>').append(children).addClass('post').html();
 
     let author = $aside.find('li:first b').text();
@@ -24,7 +23,7 @@ function extractArray(payload) {
       chasemccarthy: 'Chase McCarthy'
     }[author];
 
-    const permalink = $aside.find('li:nth(2) a').attr('href').replace(/\-.*/, '');
+    const [, id] = /\/posts\/([^.]+).+?$/.exec($aside.find('li:nth(2) a').attr('href'));
 
     if (author) {
       posts.push({
@@ -32,13 +31,40 @@ function extractArray(payload) {
         title,
         body,
         author,
-        permalink,
         publishedAt
       });
     }
   });
 
   return { posts };
+}
+
+function extractSingle(payload) {
+  const $post = jQuery('article.post section', payload);
+  const $aside = jQuery('article.post aside', payload);
+
+  const children = toArray($post.children());
+  const publishedAt = jQuery(children.pop()).find('p a').text();
+
+  const title = jQuery(children.shift()).text();
+  const body = jQuery('<div>').append(children).addClass('post').html();
+
+  let author = $aside.find('li:first b').text();
+  author = {
+    jonathanjackson: 'Jonathan Jackson',
+    chasemccarthy: 'Chase McCarthy'
+  }[author];
+
+  const [, id] = /\/posts\/([^.]+).+?$/.exec($aside.find('li:nth(2) a').attr('href'));
+  return {
+    post: {
+      id,
+      title,
+      body,
+      author,
+      publishedAt
+    }
+  };
 }
 
 function toArray(a) {
@@ -50,6 +76,10 @@ export default DS.RESTSerializer.extend({
 
   normalizeArrayResponse(store, type, payload) {
     payload = extractArray(payload);
+    return this._super(store, type, payload);
+  },
+  normalizeFindRecordResponse (store, type, payload) {
+    payload = extractSingle(payload);
     return this._super(store, type, payload);
   }
 });

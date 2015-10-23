@@ -1,10 +1,2 @@
 - each posts as |post|
-  %article
-    %h1
-      = post.title
-    %h2
-      = post.publishedAt
-      by
-      = post.author
-    .body
-      {{{ post.body }}}
+  = blog-post post=post
