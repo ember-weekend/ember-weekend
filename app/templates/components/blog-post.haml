@@ -1,7 +1,14 @@
+- if isShow
+  - link-to "root.blog" classNames="back"
+    = fa-icon "fa-angle-left"
+    All posts
+
 %h1
-  - link-to "root.blog.show" post.id
+  -if isShow
     = post.title
-    = fa-icon "fa-link"
+  - else
+    - link-to "root.blog.show" post.id
+      = post.title
 %h2
   = post.publishedAt
   by

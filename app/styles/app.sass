@@ -432,9 +432,22 @@ main
       background: #fff
       padding: 2em 2em 1.3em
       margin: 0 0 3em
+      a.back
+        color: $orange
+        font-size: 1.1em
+        display: block
+        margin-bottom: 1.5em
+        transition: color 300ms
+        &:hover
+          color: saturate($orange, 20%)
       h1
         font-size: 1.7em
         margin: 0 0 .3em
+        a
+          color: $orange
+          transition: color 300ms
+          &:hover
+            color: saturate($orange, 20%)
       h2
         color: lighten(#000, 20%)
         font-size: 1.2em
