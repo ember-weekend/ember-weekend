@@ -12,7 +12,7 @@ function extractArray(payload) {
     const $aside = jQuery('aside', post);
 
     const children = toArray($post.children());
-    const publishedAt = $(children.pop()).find('p a').text();
+    const publishedAt = jQuery(children.pop()).find('p a').text();
 
     const title = jQuery(children.shift()).text();
     const id = Ember.String.dasherize(title);

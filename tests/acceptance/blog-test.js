@@ -24,6 +24,9 @@ test('visiting /blog', function(assert) {
               <a>Foo</a>
             </h1>
           <p>Bar</p>
+
+          <footer>
+          </footer>
         </section>
         <aside>
           <ul>
@@ -56,6 +59,6 @@ test('visiting /blog', function(assert) {
     assert.equal(currentURL(), '/blog');
     assert.equal(blogPage.posts(1).title(), 'Foo');
     assert.equal(blogPage.posts(1).body(), 'Bar');
-    assert.equal(blogPage.posts(1).author(), 'jonathanjackson');
+    assert.equal(blogPage.posts(1).author(), 'by Jonathan Jackson');
   });
 });
