@@ -1,59 +1,25 @@
 import Ember from 'ember';
 import DS from 'ember-data';
+import { corsUrl } from 'ember-weekend/utils/cors-url-builder';
 
 export default DS.Adapter.extend({
+  ajax: Ember.inject.service(),
   findAll() {
-    return new Ember.RSVP.Promise((resolve) => {
-      const url = this.corsUrl({
-        proxy: 'https://cors-anywhere.herokuapp.com',
-        host: 'http://til.hashrocket.com/emberjs'
-      });
-      const options = {
-        url,
-        dataType: 'text',
-        success(payload) {
-          Ember.run(null, resolve, payload);
-        },
-        error(jqXHR) {
-          if (jqXHR.status === 200) {
-            Ember.run(null, resolve, jqXHR.responseText);
-          }
-        }
-      };
-      Ember.$.ajax(options);
+    const url = corsUrl({
+      proxy: 'https://cors-anywhere.herokuapp.com',
+      host: 'http://til.hashrocket.com/emberjs'
+    });
+    return this.get('ajax').request(url, {
+      dataType: 'text'
     });
   },
   findRecord(store, type, id) {
-    return new Ember.RSVP.Promise((resolve) => {
-      const url = this.corsUrl({
-        proxy: 'https://cors-anywhere.herokuapp.com',
-        host: `http://til.hashrocket.com/posts/${id}`
-      });
-      const options = {
-        url,
-        dataType: 'text',
-        success(payload) {
-          Ember.run(null, resolve, payload);
-        },
-        error(jqXHR) {
-          if (jqXHR.status === 200) {
-            Ember.run(null, resolve, jqXHR.responseText);
-          }
-        }
-      };
-      Ember.$.ajax(options);
+    const url = corsUrl({
+      proxy: 'https://cors-anywhere.herokuapp.com',
+      host: `http://til.hashrocket.com/posts/${id}`
     });
-  },
-  corsUrl({ host, proxy }) {
-    const parts = [];
-
-    parts.push(proxy.replace(/\/$/, ''));
-    parts.push(host.replace(/\/$/, ''));
-
-    if (!parts.length) {
-      parts.push('');
-    }
-
-    return parts.join('/');
+    return this.get('ajax').request(url, {
+      dataType: 'text'
+    });
   }
 });
