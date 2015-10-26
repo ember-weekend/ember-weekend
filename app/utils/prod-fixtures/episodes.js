@@ -1,5 +1,18 @@
 export default [
 {
+  number: 32,
+  title: 'I <3 EmberNYC',
+  description: 'Chase and Jonathan talk about their freshly launched blog, a wonderful blog post by Jeffrey Biles, and go into depth about a recent talk by Edward Faulkner at EmberNYC',
+  slug: 'i-<3-ember-nyc',
+  releaseDate: 'October 19, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-32-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '16:28'
+},
+{
   number: 31,
   title: 'Hijacking TIL for fun and profit',
   description: 'Chase and Jonathan talk about using TIL posts as a backend for the Ember Weekend blog and quickly cover a recent talk by Tom Dale about progessive enhancement',

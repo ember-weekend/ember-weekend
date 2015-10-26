@@ -3567,5 +3567,140 @@ export default [
         title: 'Tom Dale'
       }
     ]
+  },
+  // episode 32 ----------------------------------------------
+  {
+    episode: 32,
+    timeStamp: '00:18',
+    resource: {
+      link: 'http://emberweekend.com/blog',
+      title: 'Blog is Live!'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '02:50',
+    resource: {
+      link: 'http://blog.codeschool.io/2015/10/26/7-reasons-to-use-ember-js/',
+      title: '7 Reasons to Use Ember.js'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/JeffreyBiles',
+        title: 'Jeffrey Biles'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '03:53',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=RN_kVPga9y8',
+      title: 'A Lap Around the Ember.js Source'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      },
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '05:45',
+    resource: {
+      link: 'https://www.youtube.com/channel/UCJG0MvLP03kyzzAkD-w98aQ/videos',
+      title: 'Intercom videos'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '06:15',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=Cm0SGRer05w#t=1h01m48s',
+      title: 'Weird Tricks you can Stop Using in Ember 2.0'
+    },
+    authors: [
+      {
+        link: 'http://www.meetup.com/EmberJS-NYC/',
+        title: 'Ember NYC'
+      },
+      {
+        link: 'https://twitter.com/eaf4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '06:34',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=Cm0SGRer05w#t=1h01m48s',
+      title: 'Get Helper (Weird Tricks you can Stop Using in Ember 2.0)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/eaf4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '09:16',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=Cm0SGRer05w#t=1h8m19s',
+      title: 'Initializers (Weird Tricks you can Stop Using in Ember 2.0)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/eaf4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '10:44',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=Cm0SGRer05w#t=1h20m28s',
+      title: 'Render in Routes (Weird Tricks you can Stop Using in Ember 2.0)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/eaf4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 32,
+    timeStamp: '12:07',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=Cm0SGRer05w#t=1h25m29s',
+      title: 'Make templates declarative with helpers (Weird Tricks you can Stop Using in Ember 2.0)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/eaf4',
+        title: 'Edward Faulkner'
+      }
+    ]
   }
 ];
