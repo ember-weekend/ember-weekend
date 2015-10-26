@@ -3663,7 +3663,7 @@ export default [
   },
   {
     episode: 32,
-    timeStamp: '09:16',
+    timeStamp: '09:15',
     resource: {
       link: 'https://www.youtube.com/watch?v=Cm0SGRer05w#t=1h8m19s',
       title: 'Initializers (Weird Tricks you can Stop Using in Ember 2.0)'
