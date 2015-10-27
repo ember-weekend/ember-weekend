@@ -4,7 +4,7 @@ export default [
   title: 'I <3 EmberNYC',
   description: 'Chase and Jonathan talk about their freshly launched blog, a wonderful blog post by Jeffrey Biles, and go into depth about a recent talk by Edward Faulkner at EmberNYC',
   slug: 'i-<3-ember-nyc',
-  releaseDate: 'October 19, 2015',
+  releaseDate: 'October 26, 2015',
   lat: 30.291809,
   long: -81.390607,
   filename: 'ep-32-ember-weekend',
