@@ -3,13 +3,13 @@
     = fa-icon "fa-angle-left"
     All posts
 
-%h1
+%h1.title
   -if isShow
     = post.title
   - else
     - link-to "root.blog.show" post.id
       = post.title
-%h2
+%h2.published
   = post.publishedAt
   by
   = post.author

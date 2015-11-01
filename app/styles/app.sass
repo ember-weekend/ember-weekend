@@ -432,6 +432,18 @@ main
       background: #fff
       padding: 2em 2em 1.3em
       margin: 0 0 3em
+      h1
+        color: lighten(#000, 20%)
+        font-size:1.7em
+        margin-bottom:0.7em
+      h2
+        color: lighten(#000, 30%)
+        font-size:1.5em
+        margin-bottom:0.7em
+      h3
+        color: lighten(#000, 40%)
+        font-size:1.3em
+        margin-bottom:0.7em
       a.back
         color: $orange
         font-size: 1.1em
@@ -440,7 +452,7 @@ main
         transition: color 300ms
         &:hover
           color: saturate($orange, 20%)
-      h1
+      .title
         font-size: 1.7em
         margin: 0 0 .3em
         a
@@ -448,7 +460,7 @@ main
           transition: color 300ms
           &:hover
             color: saturate($orange, 20%)
-      h2
+      .published
         color: lighten(#000, 20%)
         font-size: 1.2em
         font-weight: normal
