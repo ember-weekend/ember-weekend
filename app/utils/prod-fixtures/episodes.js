@@ -1,5 +1,18 @@
 export default [
 {
+  number: 33,
+  title: 'Context Clues',
+  description: 'Chase and Jonathan go over Jon\'s FastBoot PRs, contextual components, ember-cli-rails-routes, and Dan McClain\'s closure action tips',
+  slug: 'context-clues',
+  releaseDate: 'November 2, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-33-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '20:13'
+},
+{
   number: 32,
   title: 'I <3 EmberNYC',
   description: 'Chase and Jonathan talk about their freshly launched blog, a wonderful blog post by Jeffrey Biles, and go into depth about a recent talk by Edward Faulkner at EmberNYC',

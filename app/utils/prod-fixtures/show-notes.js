@@ -3702,5 +3702,107 @@ export default [
         title: 'Edward Faulkner'
       }
     ]
+  },
+  {
+    episode: 33,
+    timeStamp: '00:15',
+    resource: {
+      link: 'https://dockyard.com/blog/2015/10/29/ember-best-practice-stop-bubbling-and-use-closure-actions',
+      title: 'Ember Best Practices: Stop bubbling actions and use closure actions'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      }
+    ]
+  },
+  {
+    episode: 33,
+    timeStamp: '03:24',
+    resource: {
+      link: 'https://github.com/ember-cli/ember-cli/pull/5000',
+      title: '[WIP] Add DOM guard unless `preventDOMGuard` specified on `import`'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rondale_sc',
+        title: 'Jonathan Jackson'
+      }
+    ]
+  },
+  {
+    episode: 33,
+    timeStamp: '06:23',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/blob/master/text/0064-contextual-component-lookup.md',
+      title: 'Ember Contextual Components'
+    },
+    authors: [
+      {
+        link: 'https://github.com/mmun',
+        title: 'Martin Muñoz'
+      }
+    ]
+  },
+  {
+    episode: 33,
+    timeStamp: '07:10',
+    resource: {
+      link: 'https://youtu.be/Cm0SGRer05w?t=41m28s',
+      title: 'Ember.js NYC, October 2015'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Matthew Beale'
+      }
+    ]
+  },
+  {
+    episode: 33,
+    timeStamp: '11:39',
+    resource: {
+      link: 'https://github.com/code0100fun/ember-cli-rails-routes',
+      title: 'EmberJax - ember-cli-rails-routes WIP'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 33,
+    timeStamp: '13:45',
+    resource: {
+      link: 'https://github.com/seanpdoyle/ember-cli-rails-deploy-redis',
+      title: 'ember-cli-rails-deploy-redis'
+    },
+    authors: [
+      {
+        link: 'https://github.com/seanpdoyle',
+        title: 'Sean Doyle'
+      }
+    ]
+  },
+  {
+    episode: 33,
+    timeStamp: '14:58',
+    resource: {
+      link: 'http://i.imgur.com/LfjO2uC.png',
+      title: 'Ember CLI + Rails'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      },
+      {
+        link: 'https://twitter.com/rondale_sc',
+        title: 'Jonathan Jackson'
+      }
+    ]
   }
 ];
