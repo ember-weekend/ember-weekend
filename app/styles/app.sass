@@ -126,7 +126,7 @@ main
       display: flex
       flex-flow: row wrap
       justify-content: space-between
-      +max-width(800)
+      +max-width(840)
         margin-top: 0
         display: block
       li
@@ -140,7 +140,7 @@ main
         overflow: hidden
         text-overflow: ellipsis
         display: flex
-        flex-flow: row wrap-reverse
+        flex-direction: row
         align-items: baseline
         &:hover
           background: #fff
@@ -156,23 +156,26 @@ main
           box-sizing: border-box
           &.play
             padding: 2rem
+            flex: 0 1 auto
             .play-button
               @include play-button
             &:hover
               @include play-hover
           &.details
             align-self: center
-            padding: 2rem 2rem 2rem 0
+            padding: 0
             position: relative
             box-sizing: border-box
-            flex: 1
+            flex: 1 0 auto
             h1
               color: $orange
               font-size: 1.5rem
+              display: inline-block
               padding-right: 2rem
               white-space: nowrap
               overflow: hidden
               text-overflow: ellipsis
+              width: 89%
             p
               color: #3f3f3f
               font-size: 1.2rem
@@ -376,7 +379,7 @@ main
         dt
           position: relative
           img
-            clip-path: circle(50px at center)
+            clip-path: circle(50 at center)
             display: block
             margin: 0 auto
             width: 110px
@@ -528,6 +531,7 @@ footer
       font-size: 1.3rem
       font-weight: 600
       white-space: nowrap
+      display: inline-block
       overflow: hidden
       text-overflow: ellipsis
       vertical-align: top
