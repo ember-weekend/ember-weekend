@@ -3804,5 +3804,159 @@ export default [
         title: 'Jonathan Jackson'
       }
     ]
+  },
+  {
+    episode: 34,
+    timeStamp: '00:18',
+    resource: {
+      link: 'http://blog.testdouble.com/posts/2015-11-03-deploying-ember-to-aws-cloudfront-using-ember-cli-deploy.html',
+      title: 'Deploying Ember to AWS CloudFront'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/kpfefferle',
+        title: 'Kevin Pfefferle'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '6:47',
+    resource: {
+      link: 'https://github.com/ember-weekend/ember-weekend/commit/264b97964e65955c42211195cb82a6dddf3dba0f',
+      title: 'Ember Weekend S3 commit'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '07:55',
+    resource: {
+      link: 'http://blog.abuiles.com/blog/2015/11/06/making-ember-101-creative-commons/',
+      title: 'Making Ember 101 Creative Commons'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Builes'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '09:16',
+    resource: {
+      link: 'https://emberweekend.com/blog/da277635d1-force-ember-data-to-skip-cache-with-reload-true',
+      title: 'Force Ember Data to Skipp cache with reload rue'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '09:40',
+    resource: {
+      link: 'http://emberigniter.com/force-store-reload-data-api-backend',
+      title: 'Force Store Reload Data API Backend'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/thefrank06',
+        title: 'Frank Treacy'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '12:49',
+    resource: {
+      link: 'https://github.com/emberjs/rfcs/pull/100',
+      title: 'Kebab Actions'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Mathew Beale'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '15:21',
+    resource: {
+      link: 'http://jsbin.com/bivova/3/edit?html,js,output',
+      title: 'PoC: Form For contextual component example'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '16:18',
+    resource: {
+      link: '',
+      title: ''
+    },
+    authors: [
+      {
+        link: 'https://github.com/emberjs/rfcs/pull/100#issuecomment-154517093',
+        title: '[Comment] jQuery event clarification'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '16:41',
+    resource: {
+      link: 'http://emberjs.jsbin.com/refanumatu/1/edit?html,js,console,output',
+      title: 'Event Order JSBin'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Mathew Beale'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '16:41',
+    resource: {
+      link: 'http://emberjs.jsbin.com/refanumatu/1/edit?html,js,console,output',
+      title: 'Event Order JSBin'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Mathew Beale'
+      }
+    ]
+  },
+  {
+    episode: 34,
+    timeStamp: '19:16',
+    resource: {
+      link: 'mailto:resources@emberweekend.com?Subject=Resources',
+      title: 'Send us your resources.  :)'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
   }
 ];

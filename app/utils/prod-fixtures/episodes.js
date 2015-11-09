@@ -1,5 +1,18 @@
 export default [
 {
+  number: 34,
+  title: 'Adventures in the Amazon',
+  description: '',
+  slug: 'adventures-in-the-amazon',
+  releaseDate: 'November 9, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-34-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '21:45'
+},
+{
   number: 33,
   title: 'Context Clues',
   description: 'Chase and Jonathan go over Jon\'s FastBoot PRs, contextual components, ember-cli-rails-routes, and Dan McClain\'s closure action tips',
