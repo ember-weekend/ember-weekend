@@ -19,5 +19,5 @@ testem.log
 # podcast media
 /media
 
-# divshot
-.divshot-cache
+# ember-cli-deploy
+.env.deploy.production
