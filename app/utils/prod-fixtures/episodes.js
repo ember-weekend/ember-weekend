@@ -2,7 +2,7 @@ export default [
 {
   number: 34,
   title: 'Adventures in the Amazon',
-  description: '',
+  description: 'Chase and Jonathan talk about the move to S3 static hosting, Ember 101, Ember Data caching, kebab actions, and the upcoming resource episode',
   slug: 'adventures-in-the-amazon',
   releaseDate: 'November 9, 2015',
   lat: 30.291809,
