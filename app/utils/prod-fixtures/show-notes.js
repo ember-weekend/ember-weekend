@@ -3821,7 +3821,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '6:47',
+    timeStamp: '6:45',
     resource: {
       link: 'https://github.com/ember-weekend/ember-weekend/commit/264b97964e65955c42211195cb82a6dddf3dba0f',
       title: 'Ember Weekend S3 commit'
@@ -3835,7 +3835,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '07:55',
+    timeStamp: '07:52',
     resource: {
       link: 'http://blog.abuiles.com/blog/2015/11/06/making-ember-101-creative-commons/',
       title: 'Making Ember 101 Creative Commons'
@@ -3849,7 +3849,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '09:16',
+    timeStamp: '09:07',
     resource: {
       link: 'https://emberweekend.com/blog/da277635d1-force-ember-data-to-skip-cache-with-reload-true',
       title: 'Force Ember Data to Skipp cache with reload rue'
@@ -3863,7 +3863,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '09:40',
+    timeStamp: '09:39',
     resource: {
       link: 'http://emberigniter.com/force-store-reload-data-api-backend',
       title: 'Force Store Reload Data API Backend'
@@ -3877,7 +3877,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '12:49',
+    timeStamp: '12:46',
     resource: {
       link: 'https://github.com/emberjs/rfcs/pull/100',
       title: 'Kebab Actions'
@@ -3907,13 +3907,13 @@ export default [
     episode: 34,
     timeStamp: '16:18',
     resource: {
-      link: '',
-      title: ''
+      link: 'https://github.com/emberjs/rfcs/pull/100#issuecomment-154517093',
+      title: '[Comment] jQuery event clarification'
     },
     authors: [
       {
-        link: 'https://github.com/emberjs/rfcs/pull/100#issuecomment-154517093',
-        title: '[Comment] jQuery event clarification'
+        link: 'https://github.com/runspired',
+        title: 'Chris Thoburn'
       }
     ]
   },
@@ -3933,21 +3933,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '16:41',
-    resource: {
-      link: 'http://emberjs.jsbin.com/refanumatu/1/edit?html,js,console,output',
-      title: 'Event Order JSBin'
-    },
-    authors: [
-      {
-        link: 'https://twitter.com/mixonic',
-        title: 'Mathew Beale'
-      }
-    ]
-  },
-  {
-    episode: 34,
-    timeStamp: '19:16',
+    timeStamp: '19:18',
     resource: {
       link: 'mailto:resources@emberweekend.com?Subject=Resources',
       title: 'Send us your resources.  :)'
