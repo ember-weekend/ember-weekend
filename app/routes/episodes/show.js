@@ -4,15 +4,13 @@ export default Ember.Route.extend({
   model(params) {
     return this.store.queryRecord('episode', { slug: params.slug });
   },
-  afterModel(model) {
-    return model.reload();
-  },
   serialize(model) {
     return { slug: model.get('slug') };
   },
-  afterModel: function(model) {
-     this.setHeadTags(model);
-   },
+  afterModel(model) {
+    this.setHeadTags(model);
+    return model.reload();
+  },
   setHeadTags(model) {
     const headTags = [
       { type: 'meta',
@@ -41,5 +39,5 @@ export default Ember.Route.extend({
       }
     ];
     this.set('headTags', headTags);
-  },
+  }
 });

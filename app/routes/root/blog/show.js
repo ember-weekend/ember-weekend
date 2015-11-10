@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     let post = this.store.peekRecord('post', params.permalink);
     return post || this.store.findRecord('post', params.permalink);
   },
-  afterModel: function(model) {
+  afterModel(model) {
      this.setHeadTags(model);
    },
   setHeadTags(model) {

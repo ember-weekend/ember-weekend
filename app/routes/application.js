@@ -43,6 +43,6 @@ export default Ember.Route.extend(MousetrapRoute, {
         property: 'og:locale',
         content: 'en_US'
       }
-    },
+    }
   ]
 });
