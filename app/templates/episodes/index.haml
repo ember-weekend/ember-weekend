@@ -11,7 +11,7 @@
             %a.play(href="#"){action "play" episode}
               .play-button
                 =fa-icon "play"
-          -link-to "episodes.show" episode class="details"
+          -link-to "episodes.show" episode.slug class="details"
             %h1=episode.title
             %p Episode #{episode.number} &bull; #{episode.prettyReleaseDate}
             =fa-icon "angle-right"
