@@ -3944,5 +3944,79 @@ export default [
         title: 'Us'
       }
     ]
+  },
+  {
+    episode: 35,
+    timeStamp: '00:16',
+    resource: {
+      link: 'https://medium.com/@martinmalinda/advanced-usage-of-ember-inspector-9f018c273b0f',
+      title: 'Advanced usage of Ember Inspector'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/martinmalindacz',
+        title: 'Martin Malinda'
+      }
+    ]
+  },
+  {
+    episode: 35,
+    timeStamp: '03:17',
+    resource: {
+      link: 'https://github.com/emberjs/data/pull/3907',
+      title: 'Addonize [Ember Data]'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/fivetanley',
+        title: 'Stanley Stuart'
+      }
+    ]
+  },
+  {
+    episode: 35,
+    timeStamp: '05:06',
+    resource: {
+      link: 'http://cfp.emberconf.com/events/emberconf-2016',
+      title: 'EmberConf 2016 CFP'
+    },
+    authors: [
+      {
+        link: 'http://emberconf.com',
+        title: 'Ember Conf'
+      }
+    ]
+  },
+  {
+    episode: 35,
+    timeStamp: '06:20',
+    resource: {
+      link: 'https://www.codementor.io/ember-js/tutorial/reusable-maintainable-design-emberjs-architecture',
+      title: 'Application Design in Ember.js'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/BryanCrotaz',
+        title: 'Bryan Crotaz'
+      }
+    ]
+  },
+  {
+    episode: 35,
+    timeStamp: '08:55',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=7kU5lLnEtJs',
+      title: 'Ember Views - Deep dive'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      },
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
   }
 ];

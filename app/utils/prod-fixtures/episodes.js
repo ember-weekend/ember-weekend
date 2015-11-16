@@ -1,5 +1,18 @@
 export default [
 {
+  number: 35,
+  title: 'Copy Pasta Problems',
+  description: 'Chase and Jonathan talk about the Ember Inspector, Ember Data as an addon, Ember Conf CFP, application architecture, and Ember views',
+  slug: 'copy-pasta-problems',
+  releaseDate: 'November 16, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-35-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '10:17'
+},
+{
   number: 34,
   title: 'Adventures in the Amazon',
   description: 'Chase and Jonathan talk about the move to S3 static hosting, Ember 101, Ember Data caching, kebab actions, and the upcoming resource episode',
