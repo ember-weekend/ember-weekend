@@ -4018,5 +4018,195 @@ export default [
         title: 'Robert Jackson'
       }
     ]
+  },
+  {
+    episode: 36,
+    timeStamp: '00:19',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=7kU5lLnEtJs',
+      title: 'ember-views, a deep dive with Robert Jackson'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      },
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '03:17',
+    resource: {
+      link: 'http://emberjs.jsbin.com/webana/edit?html,console,output',
+      title: '<input> vs {{input}} JSBin'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '04:20',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/blob/afdba0f334e761734c59a05b1312b061e1dd0faa/packages/ember-views/lib/views/core_view.js#L92',
+      title: 'Easy PRs this._super.apply(this, arguments)'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '06:16',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=DrFXw0QGDLM',
+      title: 'HTMLBars deep dive with Yehuda Katz'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      },
+      {
+        link: 'https://twitter.com/wycats',
+        title: 'Yehuda Katz'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '06:30',
+    resource: {
+      link: 'https://docs.google.com/presentation/d/1Dl5wWDVg3qFEcEOu_HHqurglP-fOy_s5QwffOQ2Rhew/pub?start=false&loop=false&delayms=10000&slide=id.gd94df2237_0_118',
+      title: 'Ember Global Meetup: Advanced Testing in Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/katiegengler',
+        title: 'Katie Gengler'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '07:10',
+    resource: {
+      link: 'http://emberjs.com/api/classes/Ember.Test.html#method_registerAsyncHelper',
+      title: 'registerAsyncHelper'
+    },
+    authors: [
+      {
+        link: 'https://emberjs.com',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '07:52',
+    resource: {
+      link: 'http://emberjs.com/api/classes/Ember.Test.html#method_registerWaiter',
+      title: 'registerWaiter'
+    },
+    authors: [
+      {
+        link: 'https://emberjs.com',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '08:48',
+    resource: {
+      link: 'https://github.com/ef4/liquid-fire/blob/fef1837d5e8e7328e03cceeba48144b791a993bc/addon/transition-map.js#L111',
+      title: 'Liquid Fire registerWaiter example'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ef4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '10:47',
+    resource: {
+      link: 'http://emberjs.com/api/classes/Ember.Test.html#method_pauseTest',
+      title: 'return pauseTest()'
+    },
+    authors: [
+      {
+        link: 'https://emberjs.com',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '12:43',
+    resource: {
+      link: '',
+      title: 'From Testing to TDD [coming soon]'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/toranb',
+        title: 'Toran Billups'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '19:22',
+    resource: {
+      link: 'https://dockyard.com/blog/2015/11/16/best-practices-functional-programming-and-the-observer-effect',
+      title: 'Ember Best Practices: Functional Programming and the Observer Effect'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '22:55',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/11/16/ember-2-2-released.html',
+      title: 'Ember.js 2.3 Beta Released'
+    },
+    authors: [
+      {
+        link: 'https://emberjs.com',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 36,
+    timeStamp: '23:10',
+    resource: {
+      link: 'http://emberjs.com/blog/2015/11/16/ember-2-2-released.html#toc_code-visit-code-api',
+      title: 'Visit API'
+    },
+    authors: [
+      {
+        link: 'https://emberjs.com',
+        title: 'Ember.js'
+      }
+    ]
   }
 ];

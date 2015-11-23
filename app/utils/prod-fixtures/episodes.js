@@ -1,5 +1,18 @@
 export default [
 {
+  number: 36,
+  title: 'Easy PRs',
+  description: 'Chase and Jonathan discuss ember-views deep dive, Ember Global Meetup\'s Testing Day, functional programming in Ember, and the Ember 2.3 Beta release',
+  slug: 'easy-prs',
+  releaseDate: 'November 23, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-36-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '25:51'
+},
+{
   number: 35,
   title: 'Copy Pasta Problems',
   description: 'Chase and Jonathan talk about the Ember Inspector, Ember Data as an addon, Ember Conf CFP, application architecture, and Ember views',
