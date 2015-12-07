@@ -4208,5 +4208,186 @@ export default [
         title: 'Ember.js'
       }
     ]
+  },
+  // Episode 37
+  {
+    episode: 37,
+    timeStamp: '00:12',
+    resource: {
+      link: '',
+      title: 'Tell us a little about yourself.'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '01:02',
+    resource: {
+      link: '',
+      title: 'How did you get started in Ember?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '04:13',
+    resource: {
+      link: '',
+      title: 'How has contracting/consulting changed by moving from predominantly backend (Rails) UI to frontend JavaScript (Ember) UI?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '06:05',
+    resource: {
+      link: '',
+      title: 'What type of contracting does Code All Day typically do?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '08:54',
+    resource: {
+      link: '',
+      title: 'Between rescues / new code / advising which do you prefer?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '10:36',
+    resource: {
+      link: '',
+      title: 'In rescues how often do you see no tests?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '12:29',
+    resource: {
+      link: '',
+      title: 'How do you help move toward testing?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '14:23',
+    resource: {
+      link: '',
+      title: 'What is your testing strategy when working in uncharted waters?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '17:23',
+    resource: {
+      link: '',
+      title: 'Are you always strict about testing?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '18:53',
+    resource: {
+      link: '',
+      title: 'Do you sometimes spike a solution to throw away later?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '19:52',
+    resource: {
+      link: '',
+      title: 'When testing Ember do you find yourself using any of the test types more than the others? (ie unit, acceptance, integration)'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '21:34',
+    resource: {
+      link: '',
+      title: 'How do you cover the air gap between frontend/backend while testing?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '22:52',
+    resource: {
+      link: '',
+      title: 'What is your strategy for deploying Ember right now?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '25:34',
+    resource: {
+      link: '',
+      title: 'What inspired you, Louis, and Phil to write Ember Observer?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '27:24',
+    resource: {
+      link: '',
+      title: 'Have there been any surprises while working with Ember Observer?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '31:08',
+    resource: {
+      link: '',
+      title: 'What made you decide to write Ember Try?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '32:48',
+    resource: {
+      link: '',
+      title: 'Are there any plans on testing different versions of Ember CLI also?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '34:26',
+    resource: {
+      link: '',
+      title: 'What is the personal project consuming most of your time now?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '38:22',
+    resource: {
+      link: '',
+      title: 'What can the Ember community learn from other open source communities?'
+    },
+    authors: []
+  },
+  {
+    episode: 37,
+    timeStamp: '39:56',
+    resource: {
+      link: '',
+      title: 'What do you think the focal point of the Ember community is?'
+    },
+    authors: []
   }
 ];

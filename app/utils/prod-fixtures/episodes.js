@@ -1,5 +1,27 @@
 export default [
 {
+  number: 37,
+  title: 'Update your package.json',
+  description: 'Chase and Jonathan are joined by Katie Gengler.  Katie talks to use about her experience as a developer, addon author, and Ember Observer creator.',
+  slug: 'update-your-package-json',
+  releaseDate: 'November 23, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-37-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '42:21',
+  guests: [
+    {
+      name: 'Katie Gengler',
+      guestInfoURL: 'https://twitter.com/katiegengler',
+      avatarURL: 'assets/images/katie-gengler.jpg',
+      tagLine: 'Developer / Co-Founder at Code All Day',
+      bio: 'Katie has in-depth experience building rich, interactive web apps with modern UX. She also brings expertise in managing product development and building development teams.'
+    }
+  ]
+},
+{
   number: 36,
   title: 'Easy PRs',
   description: 'Chase and Jonathan discuss ember-views deep dive, Ember Global Meetup\'s Testing Day, functional programming in Ember, and the Ember 2.3 Beta release',
