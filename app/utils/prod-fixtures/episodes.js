@@ -4,7 +4,7 @@ export default [
   title: 'Update your package.json',
   description: 'Chase and Jonathan are joined by Katie Gengler.  Katie talks to use about her experience as a developer, addon author, and Ember Observer creator.',
   slug: 'update-your-package-json',
-  releaseDate: 'November 23, 2015',
+  releaseDate: 'December 7, 2015',
   lat: 30.291809,
   long: -81.390607,
   filename: 'ep-37-ember-weekend',
