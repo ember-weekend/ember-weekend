@@ -1,5 +1,27 @@
 export default [
 {
+  number: 38,
+  title: 'Whacked Out Hegemony',
+  description: 'Chase and Jonathan are joined by Chris Thoburn.  Chris talks about the future of Ember, webworkers, his project Smoke and Mirrors and much more.',
+  slug: 'whacked-out-hegemony',
+  releaseDate: 'December 14, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-38-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '01:17:43',
+  guests: [
+    {
+      name: 'Chris Thoburn',
+      guestInfoURL: 'https://twitter.com/runspired',
+      avatarURL: 'assets/images/chris-thoburn.jpg',
+      tagLine: 'Author of Smoke and Mirrors, Ember Consultant',
+      bio: 'Outdoor enthusiast. Future ultra-marathon addict. Tech guy. Passionate about personal growth and leaving things better than found.'
+    }
+  ]
+},
+{
   number: 37,
   title: 'Update your package.json',
   description: 'Chase and Jonathan are joined by Katie Gengler.  Katie talks to use about her experience as a developer, addon author, and Ember Observer creator.',

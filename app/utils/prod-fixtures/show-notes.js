@@ -4389,5 +4389,347 @@ export default [
       title: 'What do you think the focal point of the Ember community is?'
     },
     authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '00:27',
+    resource: {
+      link: '',
+      title: 'Could you tell us a bit about yourself?'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:21',
+    resource: {
+      link: '',
+      title: 'How did you get started in Ember?'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '04:07',
+    resource: {
+      link: '',
+      title: 'Backburner as Ember selling point.'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '06:50',
+    resource: {
+      link: '',
+      title: 'Spent first year in Ember fighting Ember.'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '08:22',
+    resource: {
+      link: '',
+      title: 'Ember as an Application as opposed to SPA.'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '10:36',
+    resource: {
+      link: '',
+      title: 'Cordova as platform target.'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '12:00',
+    resource: {
+      link: '',
+      title: 'Ember CLI Platforms'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '14:05',
+    resource: {
+      link: '',
+      title: 'Would platforms versioned with main repo?'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '16:15',
+    resource: {
+      link: '',
+      title: 'Platform filters (reduce shipped code)'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '18:20',
+    resource: {
+      link: '',
+      title: 'Cordova woes.'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '20:20',
+    resource: {
+      link: '',
+      title: 'Crosswalk only way to do Android'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '22:39',
+    resource: {
+      link: '',
+      title: 'Cordova over crosswalk atm, because of the plugin ecosystem in Cordova'
+    },
+    authors: []
+  },
+  {
+    episode: 38,
+    timeStamp: '23:20',
+    resource: {
+      link: '',
+      title: 'Ember\'s addon system as a major selling point'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '24:46',
+    resource: {
+      link: '',
+      title: 'Better cowpaths'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '24:59',
+    resource: {
+      link: '',
+      title: 'What role do you think Ember engines will play in this idea'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '26:20',
+    resource: {
+      link: '',
+      title: 'Engines for A/B testing'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '27:20',
+    resource: {
+      link: '',
+      title: 'Apple legal experiment to see if hot code reloading will be allowed'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '28:40',
+    resource: {
+      link: '',
+      title: 'What inspired you to begin work on Smoke and Mirrors?'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '35:13',
+    resource: {
+      link: '',
+      title: 'Patterns in OSS helping with performance.'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '39:00',
+    resource: {
+      link: '',
+      title: 'Smoke and Mirrors performance metrics'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '41:21',
+    resource: {
+      link: '',
+      title: 'Non-recycling DOM in SM'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '44:11',
+    resource: {
+      link: '',
+      title: 'Occlusion Culling'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '47:31',
+    resource: {
+      link: '',
+      title: 'Relative advantages of recycling vs teardown / rebuild'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '51:00',
+    resource: {
+      link: '',
+      title: 'Smoke and Mirrors moving to recycling strategy'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '54:19',
+    resource: {
+      link: '',
+      title: 'Nolan Lawson\'s Pokedex'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '55:25',
+    resource: {
+      link: '',
+      title: 'Recycling / Virtualization to push work where there is more availability'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '58:20',
+    resource: {
+      link: '',
+      title: 'Main thread is UI assembly thread'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:00:52',
+    resource: {
+      link: '',
+      title: 'What kind of changes would have to happen in Ember to make this work (offload rendering to webworkers)?'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:03:25',
+    resource: {
+      link: '',
+      title: 'Using WebWorkers to bring native app best practices to javascript SPAs'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:03:50',
+    resource: {
+      link: '',
+      title: 'Skyrocket'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:04:44',
+    resource: {
+      link: '',
+      title: 'Interface to interact with webworkers'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:08:00',
+    resource: {
+      link: '',
+      title: 'Biggest problem with web workers adoption is developer friction'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:13:10',
+    resource: {
+      link: '',
+      title: 'The web today can create multi-threaded applications'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:13:35',
+    resource: {
+      link: '',
+      title: 'Could you tell us a little about how you utilize backburner.'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:21:57',
+    resource: {
+      link: '',
+      title: 'Request Animation Frame'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:26:16',
+    resource: {
+      link: '',
+      title: 'Request Animation Frame acting as a deferred action queue'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:32:00',
+    resource: {
+      link: '',
+      title: 'Thinking mobile first'
+    },
+    author: []
+  },
+  {
+    episode: 38,
+    timeStamp: '01:34:30',
+    resource: {
+      link: '',
+      title: 'What do you think Ember can learn from other communities?'
+    },
+    author: []
   }
 ];
