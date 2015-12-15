@@ -1,9 +1,9 @@
 export default [
 {
   number: 38,
-  title: 'Whacked Out Hegemony',
+  title: 'Whacked Out Hegemony - Part 1',
   description: 'Chase and Jonathan are joined by Chris Thoburn.  Chris talks about the future of Ember, webworkers, his project Smoke and Mirrors and much more.',
-  slug: 'whacked-out-hegemony',
+  slug: 'whacked-out-hegemony-part-1',
   releaseDate: 'December 14, 2015',
   lat: 30.291809,
   long: -81.390607,
