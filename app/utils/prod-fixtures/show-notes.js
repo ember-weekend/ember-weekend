@@ -1189,7 +1189,7 @@ export default [
     timeStamp: '03:40',
     resource: {
       link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_notable-deprecations-in-1-13',
-      title: 'Deprications in Ember 1.13'
+      title: 'Deprecations in Ember 1.13'
     },
     authors: [
       {
@@ -1203,7 +1203,7 @@ export default [
     timeStamp: '04:23',
     resource: {
       link: 'http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_notable-breaking-changes-in-ember-2-0',
-      title: 'Deprications &amp; Breaking Changes in 2.0.0-beta'
+      title: 'Deprecations &amp; Breaking Changes in 2.0.0-beta'
     },
     authors: [
       {
