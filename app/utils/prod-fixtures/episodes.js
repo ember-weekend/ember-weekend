@@ -10,7 +10,7 @@ export default [
   filename: 'ep-38-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/VQmTj1h.png',
-  duration: '01:17:43',
+  duration: '48:28',
   guests: [
     {
       name: 'Chris Thoburn',

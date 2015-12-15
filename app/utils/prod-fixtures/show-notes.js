@@ -4392,7 +4392,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '00:27',
+    timeStamp: '00:25',
     resource: {
       link: '',
       title: 'Could you tell us a bit about yourself?'
@@ -4401,7 +4401,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '01:21',
+    timeStamp: '01:20',
     resource: {
       link: '',
       title: 'How did you get started in Ember?'
@@ -4410,7 +4410,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '04:07',
+    timeStamp: '04:04',
     resource: {
       link: '',
       title: 'Backburner as Ember selling point.'
@@ -4419,7 +4419,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '06:50',
+    timeStamp: '06:42',
     resource: {
       link: '',
       title: 'Spent first year in Ember fighting Ember.'
@@ -4428,7 +4428,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '08:22',
+    timeStamp: '08:12',
     resource: {
       link: '',
       title: 'Ember as an Application as opposed to SPA.'
@@ -4437,7 +4437,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '10:36',
+    timeStamp: '10:20',
     resource: {
       link: '',
       title: 'Cordova as platform target.'
@@ -4446,7 +4446,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '12:00',
+    timeStamp: '11:52',
     resource: {
       link: '',
       title: 'Ember CLI Platforms'
@@ -4455,7 +4455,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '14:05',
+    timeStamp: '13:59',
     resource: {
       link: '',
       title: 'Would platforms versioned with main repo?'
@@ -4464,7 +4464,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '16:15',
+    timeStamp: '16:10',
     resource: {
       link: '',
       title: 'Platform filters (reduce shipped code)'
@@ -4482,7 +4482,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '20:20',
+    timeStamp: '19:56',
     resource: {
       link: '',
       title: 'Crosswalk only way to do Android'
@@ -4491,7 +4491,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '22:39',
+    timeStamp: '22:31',
     resource: {
       link: '',
       title: 'Cordova over crosswalk atm, because of the plugin ecosystem in Cordova'
@@ -4500,7 +4500,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '23:20',
+    timeStamp: '23:13',
     resource: {
       link: '',
       title: 'Ember\'s addon system as a major selling point'
@@ -4509,7 +4509,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '24:46',
+    timeStamp: '24:08',
     resource: {
       link: '',
       title: 'Better cowpaths'
@@ -4518,7 +4518,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '24:59',
+    timeStamp: '24:53',
     resource: {
       link: '',
       title: 'What role do you think Ember engines will play in this idea'
@@ -4527,7 +4527,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '26:20',
+    timeStamp: '26:10',
     resource: {
       link: '',
       title: 'Engines for A/B testing'
@@ -4536,7 +4536,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '27:20',
+    timeStamp: '27:10',
     resource: {
       link: '',
       title: 'Apple legal experiment to see if hot code reloading will be allowed'
@@ -4545,7 +4545,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '28:40',
+    timeStamp: '28:34',
     resource: {
       link: '',
       title: 'What inspired you to begin work on Smoke and Mirrors?'
@@ -4554,7 +4554,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '35:13',
+    timeStamp: '35:03',
     resource: {
       link: '',
       title: 'Patterns in OSS helping with performance.'
@@ -4563,7 +4563,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '39:00',
+    timeStamp: '38:27',
     resource: {
       link: '',
       title: 'Smoke and Mirrors performance metrics'
@@ -4572,7 +4572,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '41:21',
+    timeStamp: '41:03',
     resource: {
       link: '',
       title: 'Non-recycling DOM in SM'
@@ -4581,7 +4581,7 @@ export default [
   },
   {
     episode: 38,
-    timeStamp: '44:11',
+    timeStamp: '43:45',
     resource: {
       link: '',
       title: 'Occlusion Culling'
@@ -4590,6 +4590,15 @@ export default [
   },
   {
     episode: 38,
+    timeStamp: '47:23',
+    resource: {
+      link: '',
+      title: 'Chris names the episode'
+    },
+    author: []
+  },
+  {
+    episode: 39,
     timeStamp: '47:31',
     resource: {
       link: '',
@@ -4598,7 +4607,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '51:00',
     resource: {
       link: '',
@@ -4607,7 +4616,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '54:19',
     resource: {
       link: '',
@@ -4616,7 +4625,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '55:25',
     resource: {
       link: '',
@@ -4625,7 +4634,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '58:20',
     resource: {
       link: '',
@@ -4634,7 +4643,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:00:52',
     resource: {
       link: '',
@@ -4643,7 +4652,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:03:25',
     resource: {
       link: '',
@@ -4652,7 +4661,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:03:50',
     resource: {
       link: '',
@@ -4661,7 +4670,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:04:44',
     resource: {
       link: '',
@@ -4670,7 +4679,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:08:00',
     resource: {
       link: '',
@@ -4679,7 +4688,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:13:10',
     resource: {
       link: '',
@@ -4688,7 +4697,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:13:35',
     resource: {
       link: '',
@@ -4697,7 +4706,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:21:57',
     resource: {
       link: '',
@@ -4706,7 +4715,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:26:16',
     resource: {
       link: '',
@@ -4715,7 +4724,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:32:00',
     resource: {
       link: '',
@@ -4724,7 +4733,7 @@ export default [
     author: []
   },
   {
-    episode: 38,
+    episode: 39,
     timeStamp: '01:34:30',
     resource: {
       link: '',
