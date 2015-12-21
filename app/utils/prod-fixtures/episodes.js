@@ -1,5 +1,27 @@
 export default [
 {
+  number: 39,
+  title: 'Whacked Out Hegemony - Part 2',
+  description: 'Chase and Jonathan are joined by Chris Thoburn.  Chris talks about recycling DOM, Pokedex, webworkers, Backburner, and Skyrocket.',
+  slug: 'whacked-out-hegemony-part-2',
+  releaseDate: 'December 21, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-39-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '58:37',
+  guests: [
+    {
+      name: 'Chris Thoburn',
+      guestInfoURL: 'https://twitter.com/runspired',
+      avatarURL: 'assets/images/chris-thoburn.jpg',
+      tagLine: 'Author of Smoke and Mirrors, Ember Consultant',
+      bio: 'Outdoor enthusiast. Future ultra-marathon addict. Tech guy. Passionate about personal growth and leaving things better than found.'
+    }
+  ]
+},
+{
   number: 38,
   title: 'Whacked Out Hegemony - Part 1',
   description: 'Chase and Jonathan are joined by Chris Thoburn.  Chris talks about the future of Ember, webworkers, his project Smoke and Mirrors and much more.',

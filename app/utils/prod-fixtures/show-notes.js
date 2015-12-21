@@ -4599,7 +4599,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '47:31',
+    timeStamp: '00:19',
     resource: {
       link: '',
       title: 'Relative advantages of recycling vs teardown / rebuild'
@@ -4608,7 +4608,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '51:00',
+    timeStamp: '04:46',
     resource: {
       link: '',
       title: 'Smoke and Mirrors moving to recycling strategy'
@@ -4617,7 +4617,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '54:19',
+    timeStamp: '06:52',
     resource: {
       link: '',
       title: 'Nolan Lawson\'s Pokedex'
@@ -4626,7 +4626,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '55:25',
+    timeStamp: '07:46',
     resource: {
       link: '',
       title: 'Recycling / Virtualization to push work where there is more availability'
@@ -4635,7 +4635,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '58:20',
+    timeStamp: '10:41',
     resource: {
       link: '',
       title: 'Main thread is UI assembly thread'
@@ -4644,7 +4644,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:00:52',
+    timeStamp: '13:38',
     resource: {
       link: '',
       title: 'What kind of changes would have to happen in Ember to make this work (offload rendering to webworkers)?'
@@ -4653,7 +4653,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:03:25',
+    timeStamp: '14:30',
     resource: {
       link: '',
       title: 'Using WebWorkers to bring native app best practices to javascript SPAs'
@@ -4662,7 +4662,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:03:50',
+    timeStamp: '16:21',
     resource: {
       link: '',
       title: 'Skyrocket'
@@ -4671,7 +4671,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:04:44',
+    timeStamp: '17:28',
     resource: {
       link: '',
       title: 'Interface to interact with webworkers'
@@ -4680,7 +4680,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:08:00',
+    timeStamp: '20:04',
     resource: {
       link: '',
       title: 'Biggest problem with web workers adoption is developer friction'
@@ -4689,7 +4689,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:13:10',
+    timeStamp: '25:44',
     resource: {
       link: '',
       title: 'The web today can create multi-threaded applications'
@@ -4698,7 +4698,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:13:35',
+    timeStamp: '26:06',
     resource: {
       link: '',
       title: 'Could you tell us a little about how you utilize backburner.'
@@ -4707,7 +4707,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:21:57',
+    timeStamp: '33:50',
     resource: {
       link: '',
       title: 'Request Animation Frame'
@@ -4716,7 +4716,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:26:16',
+    timeStamp: '37:20',
     resource: {
       link: '',
       title: 'Request Animation Frame acting as a deferred action queue'
@@ -4725,7 +4725,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:32:00',
+    timeStamp: '42:39',
     resource: {
       link: '',
       title: 'Thinking mobile first'
@@ -4734,7 +4734,7 @@ export default [
   },
   {
     episode: 39,
-    timeStamp: '01:34:30',
+    timeStamp: '43:48',
     resource: {
       link: '',
       title: 'What do you think Ember can learn from other communities?'
