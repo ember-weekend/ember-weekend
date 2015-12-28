@@ -23,7 +23,8 @@ module.exports = function(defaults) {
     var RSSGenerator = require('./rss-generator');
     var rss = new RSSGenerator({
       feed: './app/utils/prod-fixtures/show.js',
-      items: './app/utils/prod-fixtures/episodes.js',
+      episodes: './app/utils/prod-fixtures/episodes.js',
+      notes: './app/utils/prod-fixtures/show-notes.js',
       output: 'feed.xml'
     });
     appTree = mergeTrees([app.toTree(), rss]);
