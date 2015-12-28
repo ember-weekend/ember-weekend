@@ -4765,7 +4765,7 @@ export default [
     authors: [
       {
         link: 'https://twitter.com/_ericelliott',
-        title: 'Eric Elliott'
+        title: 'Eric Elliot'
       }
     ]
   },

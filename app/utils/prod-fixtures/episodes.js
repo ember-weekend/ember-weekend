@@ -486,7 +486,7 @@ export default [
   duration: '18:58',
   guests: [
     {
-      name: 'Paul Elliot',
+      name: 'Paul Elliott',
       guestInfoURL: 'https://twitter.com/p_elliott',
       avatarURL: 'assets/images/paul-elliott.jpg',
       tagLine: 'Lead Engineer on the Human Interface Team (HIT) at Heroku',
