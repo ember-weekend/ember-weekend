@@ -4740,5 +4740,209 @@ export default [
       title: 'What do you think Ember can learn from other communities?'
     },
     author: []
+  },
+  {
+    episode: 40,
+    timeStamp: '00:13',
+    resource: {
+      link: 'https://www.emberscreencasts.com/',
+      title: 'Ember Screencasts turns 100!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '01:35',
+    resource: {
+      link: 'https://medium.com/javascript-scene/forget-the-click-bait-here-s-what-the-javascript-job-market-really-looks-like-in-2016-ddfe0d39b467',
+      title: 'Forget the Click Bait. Here’s What the JavaScript Job Market Really Looks Like in 2016.'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_ericelliott',
+        title: 'Eric Elliott'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '06:46',
+    resource: {
+      link: '',
+      title: 'Year in Review'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '07:38',
+    resource: {
+      link: '',
+      title: 'Thanks for all the design work!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ryenotbread',
+        title: 'Rye Mason'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '08:10',
+    resource: {
+      link: '',
+      title: 'Thanks to all our guests'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '08:30',
+    resource: {
+      link: 'https://emberweekend.com/episodes/interview-with-the-emberokai',
+      title: 'Interview with the Emberokai'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/p_elliott',
+        title: 'Paul Elliott'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '09:00',
+    resource: {
+      link: 'https://emberweekend.com/episodes/e3r-w5d-with-r4t-d4a',
+      title: 'E3r W5d with R4t D4a'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/robdel12',
+        title: 'Robert Deluca'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '10:10',
+    resource: {
+      link: 'https://emberweekend.com/episodes/ember-island-two-oh-beta',
+      title: 'Ember IsLand 2.0 Beta'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '11:00',
+    resource: {
+      link: 'https://emberweekend.com/episodes/consumer-driven-weekend',
+      title: 'Consumer Driven Weekend'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '12:00',
+    resource: {
+      link: 'https://emberweekend.com/episodes/componentize-all-the-things',
+      title: 'Componentize all the things!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '12:30',
+    resource: {
+      link: 'https://emberweekend.com/episodes/update-your-package-json',
+      title: 'Update your package.json'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/',
+        title: 'Katie Gengler'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '13:34',
+    resource: {
+      link: 'https://emberweekend.com/episodes/whacked-out-hegemony-part-1',
+      title: 'Whacked Out Hegemony - Part 1'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/',
+        title: 'Chris Thoburn'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '14:45',
+    resource: {
+      link: 'http://global-ember-meetup.com',
+      title: 'Global Ember Meetup'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/',
+        title: 'Ember Sherpa'
+      },
+      {
+        link: 'https://twitter.com/ladyleet',
+        title: 'Tracy Lee'
+      }
+    ]
+  },
+  {
+    episode: 40,
+    timeStamp: '15:43',
+    resource: {
+      link: 'http://emberjs.com/team/',
+      title: 'Ember Core Team'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com',
+        title: 'Ember.js'
+      }
+    ]
   }
 ];

@@ -1,5 +1,18 @@
 export default [
 {
+  number: 40,
+  title: 'Happy New Years',
+  description: 'In the final episode of 2015, Chase and Jonathan talk about the future of JavaScript jobs, 100 episodes of Ember Screencasts, and do a year-end review of Ember Weekend.',
+  slug: 'happy-new-years',
+  releaseDate: 'December 28, 2015',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-40-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '18:15'
+},
+{
   number: 39,
   title: 'Whacked Out Hegemony - Part 2',
   description: 'Chase and Jonathan are joined by Chris Thoburn.  Chris talks about recycling DOM, Pokedex, webworkers, Backburner, and Skyrocket.',
