@@ -7,6 +7,15 @@ var moment = require('moment');
 
 module.exports = RSSGenerator;
 
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 function RSSGenerator(options){
   this.options = options;
   this.inputTrees = [
@@ -75,11 +84,11 @@ function buildTimestamp(timeStamp) {
 }
 
 function buildDescription(description, notes){
-  var html = '<p>' + description + '</p>';
+  var html = '<p>' + escapeHtml(description) + '</p>';
   html += '<h2>Show Notes</h2>'
   notes.forEach(function(note){
     var href = note.resource.link;
-    var title = note.resource.title;
+    var title = escapeHtml(note.resource.title);
     var authors = buildAuthorsLinks(note.authors);
     var timeStamp = buildTimestamp(note.timeStamp);
     if (href) {
