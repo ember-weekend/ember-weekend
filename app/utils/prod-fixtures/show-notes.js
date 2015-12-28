@@ -29,7 +29,7 @@ export default [
   },
   {
     episode: 1,
-    timeStamp: '2:41',
+    timeStamp: '02:41',
     resource: {
       link: 'https://babeljs.io/docs/learn-es6/',
       title: 'Babel: Learn ES6'
@@ -843,7 +843,7 @@ export default [
   // Episode 10 ------------------------ //
   {
     episode: 10,
-    timeStamp: '1:04',
+    timeStamp: '01:04',
     resource: {
       link: 'https://github.com/Robdel12/ember-weekend/commit/1571a35b4829184f99a9d037304bef394cec6c77',
       title: 'Highlight current note-item WIP'
@@ -3257,7 +3257,7 @@ export default [
   },
   {
     episode: 29,
-    timeStamp: '3:29',
+    timeStamp: '03:29',
     resource: {
       link: 'https://github.com/emberjs/rfcs/blob/router-service/text/0000-router-service.md',
       title: 'Routing service RFC'
@@ -3271,7 +3271,7 @@ export default [
   },
   {
     episode: 29,
-    timeStamp: '5:32',
+    timeStamp: '05:32',
     resource: {
       link: 'https://github.com/rwjblue/ember-qunit/issues/52#issuecomment-143418183',
       title: 'Testing {{link-to}}s in component integration tests'
@@ -3285,7 +3285,7 @@ export default [
   },
   {
     episode: 29,
-    timeStamp: '5:58',
+    timeStamp: '05:58',
     resource: {
       link: 'https://meta.discourse.org/t/the-state-of-javascript-on-android-in-2015-is-poor/33889',
       title: 'The State of JavaScript on Android in 2015 is… poor'
@@ -3482,7 +3482,7 @@ export default [
   },
   {
     episode: 31,
-    timeStamp: '0:17',
+    timeStamp: '00:17',
     resource: {
       link: 'http://til.hashrocket.com/',
       title: 'Today I Learned'
@@ -3496,7 +3496,7 @@ export default [
   },
   {
     episode: 31,
-    timeStamp: '2:32',
+    timeStamp: '02:32',
     resource: {
       link: 'https://youtu.be/PXB93Z8azZE?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU',
       title: 'Hijacking Hacker News'
@@ -3510,7 +3510,7 @@ export default [
   },
   {
     episode: 31,
-    timeStamp: '3:09',
+    timeStamp: '03:09',
     resource: {
       link: 'https://github.com/samselikoff/ember-cli-mirage/blob/c7852c17d2ecb12e885bbeb26062424cb806cd59/addon/server.js#L30',
       title: 'ember-cli-mirage `prepareBody` override'
@@ -3524,7 +3524,7 @@ export default [
   },
   {
     episode: 31,
-    timeStamp: '4:31',
+    timeStamp: '04:31',
     resource: {
       link: 'https://github.com/pretenderjs/pretender/issues/85',
       title: 'Pretender issue #85: jQuery 1.x with passthrough'
@@ -3538,7 +3538,7 @@ export default [
   },
   {
     episode: 31,
-    timeStamp: '8:06',
+    timeStamp: '08:06',
     resource: {
       link: 'https://www.livecoding.tv/video/ember-weekend-blog-stuff-3/',
       title: 'Last Friday Livecoding.tv session'
@@ -3556,7 +3556,7 @@ export default [
   },
   {
     episode: 31,
-    timeStamp: '8:33',
+    timeStamp: '08:33',
     resource: {
       link: 'https://www.youtube.com/watch?v=puOrC7cfjRI',
       title: 'Progressive Enhancement is Dead, Long Live Progressive Enhancement'
@@ -3821,7 +3821,7 @@ export default [
   },
   {
     episode: 34,
-    timeStamp: '6:45',
+    timeStamp: '06:45',
     resource: {
       link: 'https://github.com/ember-weekend/ember-weekend/commit/264b97964e65955c42211195cb82a6dddf3dba0f',
       title: 'Ember Weekend S3 commit'
