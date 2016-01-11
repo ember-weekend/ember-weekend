@@ -60,7 +60,7 @@
     "ember-cli-font-awesome": "0.1.1",
     "ember-cli-hbars": "^0.1.6",
     "ember-cli-page-object": "^0.8.0",
-    "ember-cli-sass": "^3.1.1",
+    "ember-cli-sass": "^5.2.1",
     "ember-sinon": "0.0.3",
     "liquid-fire": "0.21.2",
     "moment": "^2.9.0",
