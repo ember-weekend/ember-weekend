@@ -1,5 +1,18 @@
 export default [
 {
+  number: 41,
+  title: 'And We\'re Back',
+  description: 'Chase and Jonathan discuss how Ember is not Rails, Ember Data has been addonized, Emberland is back, and Ember is no longer an MVC framework. Welcome to 2016!',
+  slug: 'and-were-back',
+  releaseDate: 'January 11, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-41-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '18:17'
+},
+{
   number: 40,
   title: 'Happy New Years',
   description: 'In the final episode of 2015, Chase and Jonathan talk about the future of JavaScript jobs, 100 episodes of Ember Screencasts, and do a year-end review of Ember Weekend.',

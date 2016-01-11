@@ -4944,5 +4944,79 @@ export default [
         title: 'Ember.js'
       }
     ]
+  },
+  {
+    episode: 41,
+    timeStamp: '00:31',
+    resource: {
+      link: 'http://emberup.co/ember-isnt-rails/',
+      title: 'Ember isn’t Rails'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mattdangereddy',
+        title: 'Matt Eddy'
+      }
+    ]
+  },
+  {
+    episode: 41,
+    timeStamp: '03:30',
+    resource: {
+      link: 'http://ember.land/episodes/17',
+      title: 'Ember land is back with episode 17'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      }
+    ]
+  },
+  {
+    episode: 41,
+    timeStamp: '05:47',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=1wc3a_ttTy0&feature=youtu.be&t=28m18s',
+      title: 'A Tale of Two Pods'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 41,
+    timeStamp: '11:14',
+    resource: {
+      link: 'https://emberway.io/ember-js-goodbye-mvc-part-1-21777ecfd708',
+      title: 'Ember.js — Goodbye MVC (Part 1)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 41,
+    timeStamp: '16:23',
+    resource: {
+      link: 'https://github.com/ember-cli/ember-cli/issues/5316',
+      title: 'Query 1.12 dropped and brand new ember projects do not work'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ryanhollister',
+        title: 'Ryan Hollister'
+      }
+    ]
   }
 ];
