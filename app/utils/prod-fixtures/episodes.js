@@ -1,5 +1,18 @@
 export default [
 {
+  number: 42,
+  title: 'Start Your Engines',
+  description: 'Chase and Jonathan discuss the new ember-engines addon, ember processes, continuous upgrades, security, unit tests, and ember-cli-mirage',
+  slug: 'start-your-engines',
+  releaseDate: 'January 18, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-42-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '22:15'
+},
+{
   number: 41,
   title: 'And We\'re Back',
   description: 'Chase and Jonathan discuss how Ember is not Rails, Ember Data has been addonized, Emberland is back, and Ember is no longer an MVC framework. Welcome to 2016!',

@@ -5018,5 +5018,107 @@ export default [
         title: 'Ryan Hollister'
       }
     ]
+  },
+  {
+    episode: 42,
+    timeStamp: '00:12',
+    resource: {
+      link: 'https://github.com/dgeb/ember-engines',
+      title: 'Ember Engines'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/dgeb',
+        title: 'Dan Gebhardt'
+      }
+    ]
+  },
+  {
+    episode: 42,
+    timeStamp: '08:12',
+    resource: {
+      link: 'https://twitter.com/machty/status/684235400387407872',
+      title: 'ember-processes'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/machty',
+        title: 'Alex Matchneer'
+      }
+    ]
+  },
+  {
+    episode: 42,
+    timeStamp: '09:22',
+    resource: {
+      link: 'http://continuousupgrades.com',
+      title: 'Continuous Upgrades'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/katiegengler',
+        title: 'Katie Gengler'
+      },
+      {
+        link: 'https://twitter.com/flippyducky',
+        title: 'Michelle Santarsiero'
+      }
+    ]
+  },
+  {
+    episode: 42,
+    timeStamp: '12:10',
+    resource: {
+      link: 'http://emberjs.com/blog/2016/01/14/security-releases-ember-1-11-4-1-12-2-1-13-12-2-0-3-2-1-2-2-2-1.html',
+      title: 'Ember XSS Vulnerability'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/shafigullin',
+        title: 'Roman Shafigullin'
+      }
+    ]
+  },
+  {
+    episode: 42,
+    timeStamp: '13:24',
+    resource: {
+      link: 'http://emberjs.com/security/',
+      title: 'Ember.js Security Policy'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 42,
+    timeStamp: '13:52',
+    resource: {
+      link: 'https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.49es77v2o',
+      title: '5 Questions Every Unit Test Must Answer'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_ericelliott',
+        title: 'Eric Elliott'
+      }
+    ]
+  },
+  {
+    episode: 42,
+    timeStamp: '17:45',
+    resource: {
+      link: 'http://www.ember-cli-mirage.com/docs/v0.2.0-beta.3/',
+      title: 'ember-cli-mirage 0.2.0-beta.3'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
   }
 ];
