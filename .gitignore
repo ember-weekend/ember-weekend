@@ -20,4 +20,4 @@ testem.log
 /media
 
 # ember-cli-deploy
-.env.deploy.production
+.env.deploy.*
