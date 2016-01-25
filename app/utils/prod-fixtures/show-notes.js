@@ -5120,5 +5120,145 @@ export default [
         title: 'Sam Selikoff'
       }
     ]
+  },
+  {
+    episode: 43,
+    timeStamp: '0:26',
+    resource: {
+      link: 'http://emberjs.com/deprecations/v2.x/#toc_injected-container-access',
+      title: 'Injected Container Access (getOwner)'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '01:33',
+    resource: {
+      link: 'https://github.com/mitchlloyd/guides/blob/7cd8a360fb6ddfd8eb422e1a367a46f2837daf2f/source/applications/dependency-injection.md#getting-an-application-instance-from-a-factory-instance',
+      title: 'EmberApplicationInstance instances... still spinning'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '4:18',
+    resource: {
+      link: 'http://localhost:4200/episodes/easy-prs',
+      title: 'Easy PRs'
+    },
+    authors: [
+      {
+        link: 'https://emberweekend.com',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '4:38',
+    resource: {
+      link: 'http://frontside.io/blog/2016/01/22/functional-templating-in-ember.html',
+      title: 'Functional Templating in Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/cowboyd',
+        title: 'Charles Lowell'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '4:38',
+    resource: {
+      link: 'http://frontside.io/blog/2016/01/22/functional-templating-in-ember.html',
+      title: 'Functional Templating in Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/cowboyd',
+        title: 'Charles Lowell'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '11:30',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/pull/12843',
+      title: '[PR] Deprecates Ember.ArrayProxy'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trek',
+        title: 'Trek Glowacki'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '12:34',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/pull/12843#issuecomment-173809574',
+      title: 'PR issue comment'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/stefanpenner',
+        title: 'Stefan Penner'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '13:12',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/pull/12843#issuecomment-173631300',
+      title: 'PR issue comment (observers) ;)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/stefanpenner',
+        title: 'Stefan Penner'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '16:06',
+    resource: {
+      link: 'https://github.com/dockyard/ember-route-action-helper',
+      title: 'Ember Route Action Helper'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'DockYard'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '19:26',
+    resource: {
+      link: 'https://www.bigmarker.com/global-ember-meetup/S02E02-Live-in-Raleigh',
+      title: 'GEM: Live in Raleigh'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberMeetup',
+        title: 'Global Ember Meetup'
+      }
+    ]
   }
 ];

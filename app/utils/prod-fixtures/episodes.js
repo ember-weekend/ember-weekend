@@ -1,5 +1,18 @@
 export default [
 {
+  number: 43,
+  title: 'Application Instance Instances',
+  description: 'Chase and Jonathan discuss the new getOwner API, Functional Templates focussing on a blog post by Charles Lowell, the possible ArrayProxy deprecation and more!',
+  slug: 'application-instance-instances',
+  releaseDate: 'January 25, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-43-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '21:06'
+},
+{
   number: 42,
   title: 'Start Your Engines',
   description: 'Chase and Jonathan discuss the new ember-engines addon, ember processes, continuous upgrades, security, unit tests, and ember-cli-mirage',
