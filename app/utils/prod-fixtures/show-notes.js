@@ -5139,7 +5139,7 @@ export default [
     episode: 43,
     timeStamp: '01:33',
     resource: {
-      link: 'https://github.com/mitchlloyd/guides/blob/7cd8a360fb6ddfd8eb422e1a367a46f2837daf2f/source/applications/dependency-injection.md#getting-an-application-instance-from-a-factory-instance',
+      link: 'https://github.com/emberjs/website/blob/ebaca06c73b9d5eccfb804bb039251eba724b720/source/deprecations/v2.x.html.md#emberapplicationregistry--emberapplicationinstanceregistry',
       title: 'EmberApplicationInstance instances... still spinning'
     },
     authors: [
@@ -5153,27 +5153,13 @@ export default [
     episode: 43,
     timeStamp: '4:18',
     resource: {
-      link: 'http://localhost:4200/episodes/easy-prs',
-      title: 'Easy PRs'
+      link: 'https://emberweekend.com/episodes/easy-prs',
+      title: 'Episode 36 - Easy PRs'
     },
     authors: [
       {
         link: 'https://emberweekend.com',
         title: 'Us'
-      }
-    ]
-  },
-  {
-    episode: 43,
-    timeStamp: '4:38',
-    resource: {
-      link: 'http://frontside.io/blog/2016/01/22/functional-templating-in-ember.html',
-      title: 'Functional Templating in Ember'
-    },
-    authors: [
-      {
-        link: 'https://twitter.com/cowboyd',
-        title: 'Charles Lowell'
       }
     ]
   },
@@ -5207,7 +5193,7 @@ export default [
   },
   {
     episode: 43,
-    timeStamp: '12:34',
+    timeStamp: '12:30',
     resource: {
       link: 'https://github.com/emberjs/ember.js/pull/12843#issuecomment-173809574',
       title: 'PR issue comment'
