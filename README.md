@@ -34,4 +34,4 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 
 ### Deploying
 
-* `divshot deploy`
+* `./bin/deploy`

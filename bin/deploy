@@ -1,3 +1,2 @@
 #!/bin/bash
-ember deploy production --verbose && \
-aws cloudfront create-invalidation --invalidation-batch file://$(pwd)/bin/invalidate.json --distribution-id E31A3450N7AWFE --profile emberweekend
+firebase deploy
