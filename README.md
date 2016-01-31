@@ -12,7 +12,7 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 
 ## Installation
 
-* `git clone git@github.com:emberjax/ember-weekend.git`
+* `git clone git@github.com:ember-weekend/ember-weekend.git`
 * `cd ember-weekend`
 * `npm install`
 * `bower install`
