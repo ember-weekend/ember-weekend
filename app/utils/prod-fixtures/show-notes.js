@@ -5246,5 +5246,75 @@ export default [
         title: 'Global Ember Meetup'
       }
     ]
+  },
+  {
+    episode: 44,
+    timeStamp: '00:49',
+    resource: {
+      link: 'http://locks.svbtle.com/to-attrs-or-not-to-attrs',
+      title: 'To attrs Or Not To attrs'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/locks',
+        title: 'Ricardo Mendes'
+      }
+    ]
+  },
+  {
+    episode: 44,
+    timeStamp: '05:06',
+    resource: {
+      link: 'https://twitter.com/katiegengler/status/693150141952475136',
+      title: 'Ember Try now supports NPM'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/katiegengler',
+        title: 'Katie Gengler'
+      }
+    ]
+  },
+  {
+    episode: 44,
+    timeStamp: '07:12',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=qOlmcAOzKvA',
+      title: 'Intro to Emberjs'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/kwuchu',
+        title: 'Iheanyi Ekechukwu'
+      }
+    ]
+  },
+  {
+    episode: 44,
+    timeStamp: '10:02',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=xFTDNGZExuU',
+      title: 'Tom Dale on Fastboot and More!'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 44,
+    timeStamp: '15:29',
+    resource: {
+      link: 'https://www.youtube.com/watch?v=xFTDNGZExuU&feature=youtu.be&t=21m7s',
+      title: 'CSP (Communicating Sequential Processes) in Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/machty',
+        title: 'Alex Matchneer'
+      }
+    ]
   }
 ];

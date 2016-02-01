@@ -1,5 +1,18 @@
 export default [
 {
+  number: 44,
+  title: 'Fastboot Has a Logo Now',
+  description: 'Chase and Jonathan discuss the problem with using attrs, fastboot, a few Ember NYC talks, and much more!',
+  slug: 'fastboot-has-a-logo-now',
+  releaseDate: 'February 01, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-44-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '17:42'
+},
+{
   number: 43,
   title: 'Application Instance Instances',
   description: 'Chase and Jonathan discuss the new getOwner API, Functional Templates focussing on a blog post by Charles Lowell, the possible ArrayProxy deprecation and more!',
