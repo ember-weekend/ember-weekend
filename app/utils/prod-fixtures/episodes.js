@@ -1,5 +1,18 @@
 export default [
 {
+  number: 45,
+  title: 'Global Ember Weekend',
+  description: 'Chase and Jonathan discuss the Ember Hearth project, EmberCLI redux, fastboot (again), and much more!',
+  slug: 'global-ember-weekend',
+  releaseDate: 'February 08, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-45-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '16:57'
+},
+{
   number: 44,
   title: 'Fastboot Has a Logo Now',
   description: 'Chase and Jonathan discuss the problem with using attrs, fastboot, a few Ember NYC talks, and much more!',

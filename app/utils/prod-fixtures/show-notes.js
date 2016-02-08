@@ -5153,13 +5153,27 @@ export default [
     episode: 43,
     timeStamp: '4:18',
     resource: {
-      link: 'https://emberweekend.com/episodes/easy-prs',
-      title: 'Episode 36 - Easy PRs'
+      link: 'http://localhost:4200/episodes/easy-prs',
+      title: 'Easy PRs'
     },
     authors: [
       {
         link: 'https://emberweekend.com',
         title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 43,
+    timeStamp: '4:38',
+    resource: {
+      link: 'http://frontside.io/blog/2016/01/22/functional-templating-in-ember.html',
+      title: 'Functional Templating in Ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/cowboyd',
+        title: 'Charles Lowell'
       }
     ]
   },
@@ -5193,7 +5207,7 @@ export default [
   },
   {
     episode: 43,
-    timeStamp: '12:30',
+    timeStamp: '12:34',
     resource: {
       link: 'https://github.com/emberjs/ember.js/pull/12843#issuecomment-173809574',
       title: 'PR issue comment'
@@ -5314,6 +5328,90 @@ export default [
       {
         link: 'https://twitter.com/machty',
         title: 'Alex Matchneer'
+      }
+    ]
+  },
+  {
+    episode: 45,
+    timeStamp: '01:59',
+    resource: {
+      link: 'https://github.com/EmberTown/ember-hearth',
+      title: 'Ember Hearth'
+    },
+    authors: [
+      {
+        link: 'https://github.com/EmberTown',
+        title: 'Ember Town'
+      }
+    ]
+  },
+  {
+    episode: 45,
+    timeStamp: '06:29',
+    resource: {
+      link: 'https://www.emberscreencasts.com/posts/112-ember-data-20-miscellaneous-adapter-customizations',
+      title: 'Ember Screencasts Finish RESTAdapter'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
+      }
+    ]
+  },
+  {
+    episode: 45,
+    timeStamp: '07:28',
+    resource: {
+      link: 'https://github.com/AltSchool/ember-cli-redux',
+      title: 'EmberCLI Redux'
+    },
+    authors: [
+      {
+        link: 'https://github.com/matthewconstantine',
+        title: 'Matthew Constantine'
+      }
+    ]
+  },
+  {
+    episode: 45,
+    timeStamp: '10:34',
+    resource: {
+      link: 'https://github.com/tildeio/ember-cli-fastboot/issues/98',
+      title: 'The Road to Fastboot 1.0 (Quest PR)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 45,
+    timeStamp: '12:37',
+    resource: {
+      link: 'https://twitter.com/katiegengler/status/695862783984934912',
+      title: 'Ember Try with Fastboot'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/katiegengler',
+        title: 'Katie Gengler'
+      }
+    ]
+  },
+  {
+    episode: 45,
+    timeStamp: '16:17',
+    resource: {
+      link: 'https://github.com/kategengler/ember-try/tree/kg-ember-try-fastboot',
+      title: 'Ember Try Fastboot branch'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/katiegengler',
+        title: 'Katie Gengler'
       }
     ]
   }
