@@ -1,5 +1,18 @@
 export default [
 {
+  number: 46,
+  title: 'Team Tofu Burrito',
+  description: 'Chase and Jonathan debate episode titles, Ember Data updates, metaphors, Ancient City Ruby, Angular, magic and Real World Ember.',
+  slug: 'team-tofu-burrito',
+  releaseDate: 'February 15, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-46-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '14:23'
+},
+{
   number: 45,
   title: 'Global Ember Weekend',
   description: 'Chase and Jonathan discuss the Ember Hearth project, EmberCLI redux, fastboot (again), and much more!',

@@ -5414,5 +5414,103 @@ export default [
         title: 'Katie Gengler'
       }
     ]
+  },
+  {
+    episode: 46,
+    timeStamp: '00:34',
+    resource: {
+      title: 'Ember Data 1.13 to 2.0 upgrade guide',
+      link: 'https://github.com/emberjs/data/issues/4145'
+    },
+    authors: [
+      {
+        title: 'Stanley Stuart',
+        link: 'https://twitter.com/fivetanley'
+      }
+    ]
+  },
+  {
+    episode: 46,
+    timeStamp: '01:40',
+    resource: {
+      title: 'Ember Inflector',
+      link: 'https://github.com/stefanpenner/ember-inflector'
+    },
+    authors: [
+      {
+        title: 'Stefan Penner',
+        link: 'https://twitter.com/stefanpenner'
+      }
+    ]
+  },
+  {
+    episode: 46,
+    timeStamp: '01:52',
+    resource: {
+      title: 'Interview with Matthew Beale for Modern Web (link coming soon!)',
+      link: ''
+    },
+    authors: [
+      {
+        title: 'Matthew Beale',
+        link: 'https://twitter.com/mixonic'
+      }
+    ]
+  },
+  {
+    episode: 46,
+    timeStamp: '04:20',
+    resource: {
+      title: 'Ancient City Ruby 2016',
+      link: 'http://www.ancientcityruby.com/'
+    },
+    authors: [
+      {
+        title: 'Ancient City Ruby',
+        link: 'https://twitter.com/ancientcityruby'
+      }
+    ]
+  },
+  {
+    episode: 46,
+    timeStamp: '07:01',
+    resource: {
+      title: 'An Introduction to Ember for Angular Developers',
+      link: 'http://thejsguy.com/2016/02/10/introduction-to-ember-for-angular-developers.html'
+    },
+    authors: [
+      {
+        title: 'David Tang',
+        link: 'https://twitter.com/skaterdav85'
+      }
+    ]
+  },
+  {
+    episode: 46,
+    timeStamp: '10:48',
+    resource: {
+      title: 'Ember.js "Magic" Crash Course',
+      link: 'http://blog.isleofcode.com/ember-magic-crash-course'
+    },
+    authors: [
+      {
+        title: 'Chris Thoburn',
+        link: 'https://twitter.com/Runspired'
+      }
+    ]
+  },
+  {
+    episode: 46,
+    timeStamp: '12:41',
+    resource: {
+      title: 'Past Life Architect: Lydia Guarino at The Frontside',
+      link: 'http://www.real-world-ember.com/4'
+    },
+    authors: [
+      {
+        title: 'Ember Screencasts',
+        link: 'https://twitter.com/emberscreencast'
+      }
+    ]
   }
 ];
