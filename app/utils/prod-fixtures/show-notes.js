@@ -5512,5 +5512,75 @@ export default [
         link: 'https://twitter.com/emberscreencast'
       }
     ]
+  },
+  {
+    episode: 47,
+    timeStamp: '00:17',
+    resource: {
+      title: 'Ember Data For The Curious',
+      link: 'http://mfeckie.github.io/Ember-Data-For-The-Curious/'
+    },
+    authors: [
+      {
+        title: 'Martin Feckie',
+        link: 'https://twitter.com/mfeckie'
+      }
+    ]
+  },
+  {
+    episode: 47,
+    timeStamp: '02:17',
+    resource: {
+      title: 'How to Make an Ember Module Resolve as Another',
+      link: 'http://balinterdi.com/2016/02/12/how-to-make-an-ember-module-resolve-as-another-one.html'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/baaz',
+        title: 'Balint Erdi'
+      }
+    ]
+  },
+  {
+    episode: 47,
+    timeStamp: '04:05',
+    resource: {
+      title: 'Ember Concurrency',
+      link: 'http://ember-concurrency.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/machty',
+        title: 'Alex Matchneer'
+      }
+    ]
+  },
+  {
+    episode: 47,
+    timeStamp: '08:42',
+    resource: {
+      title: 'GEM: Ember Gets Hardcore',
+      link: 'https://www.bigmarker.com/global-ember-meetup/S02E03-Ember-gets-hardcore'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/embersherpa',
+        title: 'EmberSherpa'
+      }
+    ]
+  },
+  {
+    episode: 47,
+    timeStamp: '11:50',
+    resource: {
+      title: 'Defaults in Ember',
+      link: 'https://dockyard.com/blog/2016/02/12/defaults-in-ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/i_am_romina',
+        title: 'Romina Vargas'
+      }
+    ]
   }
 ];

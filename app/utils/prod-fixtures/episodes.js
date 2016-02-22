@@ -1,5 +1,18 @@
 export default [
 {
+  number: 47,
+  title: 'Hardcore Parkour',
+  description: 'Chase and Jonathan discuss Ember concurrency, Ember data default values, and much more!',
+  slug: 'hardcore-parkour',
+  releaseDate: 'February 22, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-47-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/VQmTj1h.png',
+  duration: '15:20'
+},
+{
   number: 46,
   title: 'Team Tofu Burrito',
   description: 'Chase and Jonathan debate episode titles, Ember Data updates, metaphors, Ancient City Ruby, Angular, magic and Real World Ember.',
