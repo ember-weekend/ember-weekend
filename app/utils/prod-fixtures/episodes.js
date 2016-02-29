@@ -1,5 +1,18 @@
 export default [
 {
+  number: 48,
+  title: 'Whack-a-hamster',
+  description: 'Chase and Jonathan can\'t stop talking about ember-concurrency, Ember LTS, Dockyard addons, and The Hanselminutes Podcast.',
+  slug: 'whack-a-hamster',
+  releaseDate: 'February 29, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-48-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '22:36'
+},
+{
   number: 47,
   title: 'Hardcore Parkour',
   description: 'Chase and Jonathan discuss Ember concurrency, Ember data default values, and much more!',

@@ -5582,5 +5582,75 @@ export default [
         title: 'Romina Vargas'
       }
     ]
+  },
+  {
+    episode: 48,
+    timeStamp: '00:30',
+    resource: {
+      title: 'The Hanselminutes Podcast - Lauren Tan Interview',
+      link: 'http://hanselminutes.com/516/ambitious-ux-and-ambitious-apps-with-ember-and-lauren-tan'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/shanselman',
+        title: 'Scott Hanselman'
+      }
+    ]
+  },
+  {
+    episode: 48,
+    timeStamp: '04:05',
+    resource: {
+      title: 'ember-composable-helpers',
+      link: 'https://github.com/DockYard/ember-composable-helpers'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      }
+    ]
+  },
+  {
+    episode: 48,
+    timeStamp: '08:11',
+    resource: {
+      title: 'Ember 2.4 LTS',
+      link: 'http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 48,
+    timeStamp: '10:48',
+    resource: {
+      title: 'Ember NYC - ember-concurrency',
+      link: 'https://www.youtube.com/watch?v=uVr5HWzecKI&feature=youtu.be&t=1h8m14s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberNYC',
+        title: 'Ember NYC'
+      }
+    ]
+  },
+  {
+    episode: 48,
+    timeStamp: '16:52',
+    resource: {
+      title: 'Global Ember Meetup - Fastboot with Tom Dale (link coming soon)',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberMeetup',
+        title: 'Global Ember Meetup'
+      }
+    ]
   }
 ];
