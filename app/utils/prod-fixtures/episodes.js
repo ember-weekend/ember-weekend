@@ -10,14 +10,14 @@ export default [
   filename: 'ep-49-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '',
+  duration: '01:04:20',
   guests: [
     {
       name: 'Stanley Stuart',
       guestInfoURL: 'https://twitter.com/fivetanley',
       avatarURL: 'assets/images/stanley-stuart.jpg',
       tagLine: 'Prancersizer',
-      bio : 'Stanley Stuart originally hails from Salt Lake City. He is known for his open-source contributions and as a member of the Ember.js Release team, but is perhaps best known as the first Prancercising JavaScript developer. Stanley loves hanging out on Austin\'s many patio spots and crafting hilarious tweets.'
+      bio: 'Stanley Stuart originally hails from Salt Lake City. He is known for his open-source contributions and as a member of the Ember.js Release team, but is perhaps best known as the first Prancercising JavaScript developer. Stanley loves hanging out on Austin\'s many patio spots and crafting hilarious tweets.'
     }
   ]
 },

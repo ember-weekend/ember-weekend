@@ -5655,7 +5655,7 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '01:12',
     resource: {
       title: 'Tell us a little about yourself.',
       link: ''
@@ -5664,7 +5664,16 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '01:34',
+    resource: {
+      title: 'Frontside podcast',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '02:33',
     resource: {
       title: 'How did you get started in Ember?',
       link: ''
@@ -5673,119 +5682,182 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '08:19',
     resource: {
-      title: 'What type of contracting does The Frontside typically do?',
+      title: 'What type of work does The Frontside typically do?',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '09:37',
     resource: {
-      title: 'Between rescues / new code / advising which do you prefer?',
+      title: 'How do you get clients into testing?',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '14:11',
     resource: {
-      title: 'You have experience automating build tooling and testing.  What are some of the things you’ve learned there?',
+      title: 'What are you doing with Fastboot? (link to Ember API Docs)',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '20:37',
     resource: {
-      title: 'You recently got a fastboot application up and running (Ember API docs).  What were some of the challenges you had to face there?',
+      title: 'Glimmer 2 and Fastboot rehydration',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '23:12',
     resource: {
-      title: 'You played the leading role in moving Ember Data into an addon.  What was that process like?',
+      title: 'How do you see Fastboot changing the Ember ecossystem?',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '27:50',
     resource: {
-      title: 'What changes are coming to Ember Data?',
+      title: 'Will Fastboot ajax support abort/cancel?',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '30:39',
     resource: {
-      title: 'You have an outstanding issue to create an upgrade guide from Data 1.13 to 2.0.',
+      title: 'How did you appoach turning Ember Data into an addon?',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '33:59',
     resource: {
-      title: 'How does Ember LTS effect Data?',
+      title: 'Is Ember.js going to be an addon?',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '37:05',
     resource: {
-      title: 'What is exciting you the most in Ember these days?',
+      title: 'Ember CLI is amazing!',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '39:34',
     resource: {
-      title: 'What is the personal project consuming most of your time now?',
+      title: 'New changes to Ember Data',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '42:35',
     resource: {
-      title: 'Do you need/want any help to move this project forward?',
+      title: 'Nolan Lawson Pokedex',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '43:52',
     resource: {
-      title: 'What is the greatest strength of Ember’s community?',
+      title: 'We talked with Runspired about Pokedex',
       link: ''
     },
     authors: []
   },
   {
     episode: 49,
-    timeStamp: '',
+    timeStamp: '46:55',
     resource: {
-      title: 'How is the job search coming along?',
+      title: 'How does Ember LTS effect Ember Data?',
       link: ''
     },
     authors: []
   },
+  {
+    episode: 49,
+    timeStamp: '48:07',
+    resource: {
+      title: 'Issue to create an Ember Data upgrade guide',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '50:38',
+    resource: {
+      title: 'What is the most excited thing happening in the Ember space?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '54:05',
+    resource: {
+      title: 'What personal projects are you working on?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '56:14',
+    resource: {
+      title: 'What is the greatest strength of the Ember community?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '58:49',
+    resource: {
+      title: 'Looking to move to a product shop doing operations/programming',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '1:00:39',
+    resource: {
+      title: 'Frontside is hiring',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '1:02:02',
+    resource: {
+      title: 'Stanley names the episode',
+      link: ''
+    },
+    authors: []
+  }
 ];
