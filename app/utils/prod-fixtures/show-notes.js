@@ -5655,7 +5655,7 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '01:12',
+    timeStamp: '01:11',
     resource: {
       title: 'Tell us a little about yourself.',
       link: ''
@@ -5682,7 +5682,7 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '08:19',
+    timeStamp: '08:20',
     resource: {
       title: 'What type of work does The Frontside typically do?',
       link: ''
@@ -5691,7 +5691,7 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '09:37',
+    timeStamp: '09:38',
     resource: {
       title: 'How do you get clients into testing?',
       link: ''
@@ -5844,7 +5844,7 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '1:00:39',
+    timeStamp: '60:39',
     resource: {
       title: 'Frontside is hiring',
       link: ''
@@ -5853,7 +5853,7 @@ export default [
   },
   {
     episode: 49,
-    timeStamp: '1:02:02',
+    timeStamp: '62:02',
     resource: {
       title: 'Stanley names the episode',
       link: ''
