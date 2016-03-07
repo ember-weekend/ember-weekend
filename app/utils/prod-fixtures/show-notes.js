@@ -5652,5 +5652,140 @@ export default [
         title: 'Global Ember Meetup'
       }
     ]
-  }
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'Tell us a little about yourself.',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'How did you get started in Ember?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'What type of contracting does The Frontside typically do?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'Between rescues / new code / advising which do you prefer?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'You have experience automating build tooling and testing.  What are some of the things you’ve learned there?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'You recently got a fastboot application up and running (Ember API docs).  What were some of the challenges you had to face there?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'You played the leading role in moving Ember Data into an addon.  What was that process like?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'What changes are coming to Ember Data?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'You have an outstanding issue to create an upgrade guide from Data 1.13 to 2.0.',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'How does Ember LTS effect Data?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'What is exciting you the most in Ember these days?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'What is the personal project consuming most of your time now?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'Do you need/want any help to move this project forward?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'What is the greatest strength of Ember’s community?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 49,
+    timeStamp: '',
+    resource: {
+      title: 'How is the job search coming along?',
+      link: ''
+    },
+    authors: []
+  },
 ];

@@ -1,5 +1,27 @@
 export default [
 {
+  number: 49,
+  title: 'I found your subtweets',
+  description: 'Chase and Jonathan are joined by frontsider and Ember Data core team member Stanley Stuart discussing everything from Fastboot to the future of Ember Data.  Be sure to tune in for this exiting episode!',
+  slug: 'i-found-your-subtweets',
+  releaseDate: 'March 7, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-49-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '',
+  guests: [
+    {
+      name: 'Stanley Stuart',
+      guestInfoURL: 'https://twitter.com/fivetanley',
+      avatarURL: 'assets/images/stanley-stuart.jpg',
+      tagLine: 'Prancersizer',
+      bio : 'Stanley Stuart originally hails from Salt Lake City. He is known for his open-source contributions and as a member of the Ember.js Release team, but is perhaps best known as the first Prancercising JavaScript developer. Stanley loves hanging out on Austin\'s many patio spots and crafting hilarious tweets.'
+    }
+  ]
+},
+{
   number: 48,
   title: 'Whack-a-hamster',
   description: 'Chase and Jonathan can\'t stop talking about ember-concurrency, Ember LTS, Dockyard addons, and The Hanselminutes Podcast.',
