@@ -15,33 +15,27 @@ module('Acceptance | blog', {
 });
 
 test('visiting /blog', function(assert) {
-
   const responseText = `
     <main>
-      <article class="post">
-        <section>
-            <h1>
-              <a>Foo</a>
-            </h1>
-          <p>Bar</p>
-
-          <footer>
-          </footer>
-        </section>
-        <aside>
-          <ul>
-            <li>
-              <a href="/author/jonathanjackson">more by <b>jonathanjackson</b></a>
-            </li>
-            <li>
-              <b><a class="emberjs" href="/emberjs">#emberjs</a></b>
-            </li>
-            <li>
-              <a class="js-like-action like liked" id="faef1058c3" href="/posts/faef1058c3-inheriting-from-linkcomponent-in-ember-is-amazing">liked<b>4 times</b></a>
-            </li>
-          </ul>
-        </aside>
-      </article>
+      <section id='post_show'>
+        <article class='post'>
+          <section>
+            <div class='post__content copy'>
+              <h1>
+                <a>Foo</a>
+              </h1>
+              <p>Bar</p>
+              <footer>
+                <p>
+                  <a href="/author/jonathanjackson">jonathanjackson</a>
+                  <br>
+                  <a class="post__permalink" href="/posts/faef1058c3-inheriting-from-linkcomponent-in-ember-is-amazing">January 20, 2016</a>
+                </p>
+              </footer>
+            </div>
+          </section>
+        </article>
+      </section>
     </main>
   `;
 
@@ -65,37 +59,32 @@ test('visiting /blog', function(assert) {
     assert.equal(currentURL(), '/blog');
     assert.equal(blogPage.posts(1).title(), 'Foo');
     assert.equal(blogPage.posts(1).body(), 'Bar');
-    assert.equal(blogPage.posts(1).author(), 'by Jonathan Jackson');
+    assert.equal(blogPage.posts(1).author(), 'January 20, 2016 by Jonathan Jackson');
   });
 });
 
 test('visiting /blog/:id', function(assert) {
   const responseText = `
     <main>
-      <article class="post">
-        <section>
-            <h1>
-              <a>Foo</a>
-            </h1>
-          <p>Bar</p>
-
-          <footer>
-          </footer>
-        </section>
-        <aside>
-          <ul>
-            <li>
-              <a href="/author/jonathanjackson">more by <b>jonathanjackson</b></a>
-            </li>
-            <li>
-              <b><a class="emberjs" href="/emberjs">#emberjs</a></b>
-            </li>
-            <li>
-              <a class="js-like-action like liked" id="faef1058c3" href="/posts/faef1058c3-inheriting-from-linkcomponent-in-ember-is-amazing">liked<b>4 times</b></a>
-            </li>
-          </ul>
-        </aside>
-      </article>
+      <section id='post_show'>
+        <article class='post'>
+          <section>
+            <div class='post__content copy'>
+              <h1>
+                <a>Foo</a>
+              </h1>
+              <p>Bar</p>
+              <footer>
+                <p>
+                  <a href="/author/jonathanjackson">jonathanjackson</a>
+                  <br>
+                  <a class="post__permalink" href="/posts/faef1058c3-inheriting-from-linkcomponent-in-ember-is-amazing">January 20, 2016</a>
+                </p>
+              </footer>
+            </div>
+          </section>
+        </article>
+      </section>
     </main>
   `;
 
@@ -119,7 +108,7 @@ test('visiting /blog/:id', function(assert) {
     assert.equal(currentURL(), '/blog/foo');
     assert.equal(blogPage.posts(1).title(), 'Foo');
     assert.equal(blogPage.posts(1).body(), 'Bar');
-    assert.equal(blogPage.posts(1).author(), 'by Jonathan Jackson');
+    assert.equal(blogPage.posts(1).author(), 'January 20, 2016 by Jonathan Jackson');
   });
 
 });
