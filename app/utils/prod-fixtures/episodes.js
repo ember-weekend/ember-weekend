@@ -1,5 +1,18 @@
 export default [
 {
+  number: 50,
+  title: 'Await for it',
+  description: 'Chase and Jonathan talk about the Ember survey, Ember map, the module RFC, and the Grand Testing Unification.',
+  slug: 'await-for-it',
+  releaseDate: 'March 14, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-50-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '25:01'
+},
+{
   number: 49,
   title: 'I found your subtweets',
   description: 'Chase and Jonathan are joined by frontsider and Ember Data core team member Stanley Stuart discussing everything from Fastboot to the future of Ember Data.  Be sure to tune in for this exiting episode!',

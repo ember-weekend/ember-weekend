@@ -5859,5 +5859,97 @@ export default [
       link: ''
     },
     authors: []
+  },
+  {
+    episode: 50,
+    timeStamp: '00:46',
+    resource: {
+      title: 'Ember Community Survey',
+      link: 'http://emberjs.com/ember-community-survey-2016/'
+    },
+    authors: [
+      {
+      link: 'http://emberjs.com/',
+      title: 'Ember.js'
+    }
+    ]
+  },
+  {
+    episode: 50,
+    timeStamp: '02:16',
+    resource: {
+      title: 'Ember Map',
+      link: 'https://embermap.com/'
+    },
+    authors: [
+      {
+      link: 'https://github.com/samselikoff',
+      title: 'Sam Selikoff'
+    },
+    {
+      link: 'https://twitter.com/ryantotweets',
+      title: 'Ryan Toronto'
+    }
+    ]
+  },
+  {
+    episode: 50,
+    timeStamp: '03:08',
+    resource: {
+      title: 'RFC #124: Module Normalization',
+      link: 'https://github.com/emberjs/rfcs/pull/124'
+    },
+    authors: [
+      {
+      link: 'https://twitter.com/dgeb',
+      title: 'Dan Gebhardt'
+    }
+    ]
+  },
+  {
+    episode: 50,
+    timeStamp: '11:08',
+    resource: {
+      title: 'Ember Land #20',
+      link: 'http://ember.land/episodes/20'
+    },
+    authors: [
+      {
+      link: 'https://twitter.com/rwjblue',
+      title: 'Robert Jackson'
+    },
+    {
+      link: 'https://twitter.com/_danmcclain',
+      title: 'Dan McClain'
+    }
+    ]
+  },
+  {
+    episode: 50,
+    timeStamp: '11:34',
+    resource: {
+      title: 'RFC 119',
+      link: 'https://github.com/emberjs/rfcs/pull/119'
+    },
+    authors: [
+      {
+      link: 'https://twitter.com/rwjblue',
+      title: 'Robert Jackson'
+    }
+    ]
+  },
+  {
+    episode: 50,
+    timeStamp: '14:02',
+    resource: {
+      title: 'Boston Ember Meetup',
+      link: 'https://www.youtube.com/watch?v=iu_jvznRa2U&feature=youtu.be&t=8m39s'
+    },
+    authors: [
+      {
+      link: 'https://twitter.com/rwjblue',
+      title: 'Robert Jackson'
+    }
+    ]
   }
 ];
