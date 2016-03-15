@@ -6,7 +6,7 @@ let {
   collection
 } = PageObject;
 
-export default PageObject.build({
+export default PageObject.create({
   visit: visitable('/blog'),
   visitPost: visitable('/blog/:id'),
   posts: collection({

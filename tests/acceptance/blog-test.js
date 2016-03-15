@@ -1,7 +1,6 @@
 import Ember from 'ember';
 import { module, test } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
-import Mirage from 'ember-cli-mirage';
 import blogPage from 'ember-weekend/tests/pages/blog';
 
 module('Acceptance | blog', {
@@ -57,9 +56,9 @@ test('visiting /blog', function(assert) {
 
   andThen(function() {
     assert.equal(currentURL(), '/blog');
-    assert.equal(blogPage.posts(1).title(), 'Foo');
-    assert.equal(blogPage.posts(1).body(), 'Bar');
-    assert.equal(blogPage.posts(1).author(), 'January 20, 2016 by Jonathan Jackson');
+    assert.equal(blogPage.posts(0).title, 'Foo');
+    assert.equal(blogPage.posts(0).body, 'Bar');
+    assert.equal(blogPage.posts(0).author, 'January 20, 2016 by Jonathan Jackson');
   });
 });
 
@@ -98,17 +97,17 @@ test('visiting /blog/:id', function(assert) {
     }
   };
 
-  blogPage.visitPost({ id: 'foo' });
-
   server.pretender.get('https://cors-anywhere.herokuapp.com/*url', function() {
     return [200, {}, responseText];
   });
 
+  blogPage.visitPost({ id: 'foo' });
+
   andThen(function() {
     assert.equal(currentURL(), '/blog/foo');
-    assert.equal(blogPage.posts(1).title(), 'Foo');
-    assert.equal(blogPage.posts(1).body(), 'Bar');
-    assert.equal(blogPage.posts(1).author(), 'January 20, 2016 by Jonathan Jackson');
+    assert.equal(blogPage.posts(0).title, 'Foo');
+    assert.equal(blogPage.posts(0).body, 'Bar');
+    assert.equal(blogPage.posts(0).author, 'January 20, 2016 by Jonathan Jackson');
   });
 
 });

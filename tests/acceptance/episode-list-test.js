@@ -44,8 +44,8 @@ test('visiting /episodes', function(assert) {
 
   andThen(function() {
     assert.equal(currentRouteName(), 'episodes.index');
-    assert.equal(page.episodes().count(), 2);
-    assert.equal(page.episodes(1).title(), 'Quux title');
-    assert.equal(page.episodes(2).title(), 'Foo title');
+    assert.equal(page.episodes().count, 2);
+    assert.equal(page.episodes(0).title, 'Quux title');
+    assert.equal(page.episodes(1).title, 'Foo title');
   });
 });

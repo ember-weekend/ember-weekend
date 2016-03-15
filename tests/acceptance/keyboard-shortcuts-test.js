@@ -1,41 +1,23 @@
 import Ember from 'ember';
-import {
-  module,
-  test
-} from 'qunit';
-import startApp from 'ember-weekend/tests/helpers/start-app';
-import { stubResolver } from '../helpers/container';
+import { test } from 'qunit';
+
+import moduleForAcceptance from '../../tests/helpers/module-for-acceptance';
 import mockKeyEvent from '../helpers/mock-key-events';
 
-let application;
-
-module('Acceptance: KeyboardShortcuts', {
-  beforeEach(assert) {
-    window.mockKeyEvent = mockKeyEvent;
-
-    const mockPlayerService = Ember.Service.extend({
-      play() {
-        assert.ok(true);
-      },
-      pause() {
-        assert.ok(true);
-      }
-    });
-
-    application = startApp({}, function(app) {
-      stubResolver(app, 'service:player', mockPlayerService);
-    });
-  },
-
-  afterEach() {
-    window.mockKeyEvent = undefined;
-    Ember.run(application, 'destroy');
-  }
-});
+moduleForAcceptance('Acceptance: KeyboardShortcuts');
 
 test('pressing space bar (32) toggles play/pause on player service', function(assert) {
   visit('/episodes');
   assert.expect(2);
+
+  this.register('service:player', Ember.Service.extend({
+    play() {
+      assert.ok(true);
+    },
+    pause() {
+      assert.ok(true);
+    }
+  }));
 
   andThen(function() {
     mockKeyEvent.simulate(32, 32); // play()

@@ -31,11 +31,11 @@ test('visiting /episode-show', function(assert) {
   page.visit({ slug: 'foo' });
 
   andThen(function() {
-    const sn = page.showNotes(1);
+    const sn = page.showNotes(0);
 
-    assert.equal(page.title(), episode.title);
-    assert.equal(sn.timeStamp(), showNote.timeStamp);
-    assert.equal(sn.resourceLink(), showNote.resource.link);
-    assert.equal(sn.resourceTitle(), showNote.resource.title);
+    assert.equal(page.title, episode.title);
+    assert.equal(sn.timeStamp, showNote.timeStamp);
+    assert.equal(sn.resourceLink, showNote.resource.link);
+    assert.equal(sn.resourceTitle, showNote.resource.title);
   });
 });
