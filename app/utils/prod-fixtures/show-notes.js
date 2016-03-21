@@ -5951,5 +5951,89 @@ export default [
       title: 'Robert Jackson'
     }
     ]
+  },
+  {
+    episode: 51,
+    timeStamp: '00:44',
+    resource: {
+      link: 'https://github.com/BookingSync/ember-data-partial-model',
+      title: 'Ember Data Partial Model (addon)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/azdaroth',
+        title: 'Karol Galanciak'
+      }
+    ]
+  },
+  {
+    episode: 51,
+    timeStamp: '04:06',
+    resource: {
+      link: 'https://github.com/rtablada/ember-with-service',
+      title: 'Ember With Service (addon)'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/RyanTablada',
+        title: 'Ryan Tablada'
+      }
+    ]
+  },
+  {
+    episode: 51,
+    timeStamp: '08:05',
+    resource: {
+      link: 'http://emberigniter.com/mock-json-api-backend-with-mirage/',
+      title: 'Mock JSON API backend with mirage'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/thefrank06',
+        title: 'Frank Treacy'
+      }
+    ]
+  },
+  {
+    episode: 51,
+    timeStamp: '10:34',
+    resource: {
+      link: 'https://github.com/samselikoff/ember-cli-mirage/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.2.0',
+      title: 'Mirage 0.2.0 Milestone issues'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff/ember-cli-mirage',
+        title: 'ember-cli-mirage'
+      }
+    ]
+  },
+  {
+    episode: 51,
+    timeStamp: '11:20',
+    resource: {
+      link: 'https://github.com/emberjs/ember.js/issues/13127',
+      title: '[Pls send halp!] The Ultimate Glimmer 2 Test Porting Guide'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chancancode',
+        title: 'Godfrey Chan'
+      }
+    ]
+  },
+  {
+    episode: 51,
+    timeStamp: '16:14',
+    resource: {
+      title: 'Ember Community Survey',
+      link: 'http://emberjs.com/ember-community-survey-2016/'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
   }
 ];

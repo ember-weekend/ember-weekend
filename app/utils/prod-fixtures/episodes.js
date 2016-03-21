@@ -1,5 +1,18 @@
 export default [
 {
+  number: 51,
+  title: 'You can have Glimmer two',
+  description: 'Chase and Jonathan discuss EmberCLI Mirage, the Glimmer 2 testing porting issue, and much more.',
+  slug: 'you-can-have-glimmer-two',
+  releaseDate: 'March 21, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-51-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '17:01'
+},
+{
   number: 50,
   title: 'Await for it',
   description: 'Chase and Jonathan talk about the Ember survey, Ember map, the module RFC, and the Grand Testing Unification.',
