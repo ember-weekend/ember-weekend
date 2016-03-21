@@ -16,6 +16,7 @@ module('Acceptance | episode show', {
 test('visiting /episode-show', function(assert) {
   const episode = server.create('episode', { slug: 'foo' });
   const showNote = server.create('show-note', {
+    episodeId: episode.id,
     episode: episode.id,
     timeStamp: '00:15',
     resource:  {

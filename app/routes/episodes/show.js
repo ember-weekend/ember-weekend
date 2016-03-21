@@ -9,7 +9,6 @@ export default Ember.Route.extend({
   },
   afterModel(model) {
     this.setHeadTags(model);
-    return model.reload();
   },
   setHeadTags(model) {
     const headTags = [
