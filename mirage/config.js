@@ -8,7 +8,7 @@ export default function() {
   this.get('/episodes/:slug', function({episode}, { params: { slug }}){
     return episode.where({
       slug: slug
-    });
+    })[0];
   });
 
   this.passthrough('https://cors-anywhere.herokuapp.com/*url');

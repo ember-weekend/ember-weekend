@@ -1,6 +1,6 @@
-import DS from 'ember-data';
+import ApplicationAdapter from './application';
 
-export default DS.RESTAdapter.extend({
+export default ApplicationAdapter.extend({
   queryRecord(store, type, { slug }) {
     const url = this.buildURL(type.modelName, null, null, 'queryRecord', { slug });
     return this.ajax(url, 'GET');
