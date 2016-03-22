@@ -2,13 +2,14 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model(params) {
-    return this.store.queryRecord('episode', { slug: params.slug });
+    return this.store.queryRecord('episode', { include: 'showNotes', slug: params.slug });
   },
   serialize(model) {
     return { slug: model.get('slug') };
   },
   afterModel(model) {
     this.setHeadTags(model);
+    return model.get('showNotes');
   },
   setHeadTags(model) {
     const headTags = [

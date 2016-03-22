@@ -17,7 +17,7 @@ export default DS.Model.extend({
   image: attr(),
   duration: attr(),
   guests: attr(),
-  showNotes: DS.hasMany('show-note', { async: true, inverse: 'episode' }),
+  showNotes: DS.hasMany('show-note', { async: true, inverse: 'episode', coalesce: true }),
   prettyReleaseDate: Ember.computed('releaseDate', function() {
     return moment(this.get('releaseDate')).format('MMMM DD, YYYY');
   })

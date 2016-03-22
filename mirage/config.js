@@ -1,7 +1,10 @@
 export default function() {
-  this.get('/episodes', function({episode}) {
-    return episode.all();
+  this.get('/episodes');
+  this.get('/show-notes', function({ showNote }, request){
+    const ids = request.queryParams['filter[id]'].split(",")
+    return showNote.find(ids);
   });
+  this.get('/show-notes/:id');
 
   this.get('posts');
 
