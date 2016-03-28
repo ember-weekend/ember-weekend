@@ -6035,5 +6035,145 @@ export default [
         title: 'Ember.js'
       }
     ]
+  },
+  {
+    episode: 52,
+    timeStamp: '01:13',
+    resource: {
+      title: 'TestDouble.js',
+      link: 'https://github.com/testdouble/testdouble.js'
+    },
+    authors: [
+      {
+        link: 'http://testdouble.com/',
+        title: 'testdouble'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '03:50',
+    resource: {
+      title: 'Flattening the Vim Learning Curve',
+      link: 'https://www.picatic.com/event14554035139077940'
+    },
+    authors: [
+      {
+        link: 'https://github.com/JarrodCTaylor',
+        title: 'Jarrod Taylor'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '05:58',
+    resource: {
+      title: "Us talkin' about EmberConf",
+      link: 'https://www.picatic.com/event14554035139077940'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '06:26',
+    resource: {
+      title: 'Community Drinks and Diner at EmberConf',
+      link: 'https://www.eventbrite.com/e/community-dinner-drinks-at-emberconf-tickets-22752519398'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/EmberMeetup',
+        title: 'Global Ember Meetup'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '07:11',
+    resource: {
+      title: 'Ember Weekend Site Discussion',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '09:57',
+    resource: {
+      title: 'Live Coding (Ember Weekend Mirage change)',
+      link: 'https://www.livecoding.tv/hashrocket/videos/e7qEw-updating-emberweekend-to-use-ember-data-2'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '13:41',
+    resource: {
+      title: 'Explanation of Using Mirage in Production',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '15:20',
+    resource: {
+      title: 'Ugly Procedural Import Script lulz',
+      link: 'https://gist.github.com/rondale-sc/6c7d5df4f1f2304cef4f'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '30:02',
+    resource: {
+      title: 'TIL Adapter explanation',
+      link: 'https://github.com/ember-weekend/ember-weekend/commit/7e613306605d99319eafac6246d48c29c729272e'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 52,
+    timeStamp: '30:42',
+    resource: {
+      title: 'Interview with Mixonic!',
+      link: 'http://modernweb.podbean.com/e/s01e04-mobiledoc-torii-and-the-future-of-emberjs-with-matt-beale-and-ember-weekend/'
+    },
+    authors: [
+      {
+        link: 'http://www.modern-web.org/',
+        title: 'ModernWeb (feat. Us)'
+      }
+    ]
   }
 ];

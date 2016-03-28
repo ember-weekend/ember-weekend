@@ -1,5 +1,18 @@
 export default [
 {
+  number: 52,
+  title: 'See you at EmberConf',
+  description: 'Chase and Jonathan discuss the new testdouble.js library, A vim workshop, gush over Emberconf events, and then have a long winded discussion about the Ember Weekend Site.',
+  slug: 'see-you-at-emberconf',
+  releaseDate: 'March 28, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-52-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '36:53'
+},
+{
   number: 51,
   title: 'You can have Glimmer two',
   description: 'Chase and Jonathan discuss EmberCLI Mirage, the Glimmer 2 testing porting issue, and much more.',
