@@ -1,6 +1,5 @@
 import { Model, hasMany } from 'ember-cli-mirage';
 
 export default Model.extend({
-  showNotes: hasMany(),
-  guests: hasMany('person')
+  authors: hasMany('person')
 });

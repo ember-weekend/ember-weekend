@@ -10,14 +10,10 @@ export default DS.Model.extend({
   description: attr(),
   slug: attr(),
   releaseDate: attr('date'),
-  lat: attr(),
-  long: attr(),
   filename: attr(),
-  author: attr(),
-  image: attr(),
   duration: attr(),
-  guests: attr(),
-  showNotes: DS.hasMany('show-note', { async: true, inverse: 'episode', coalesce: true }),
+  showNotes: DS.hasMany('show-note'),
+  guests: DS.hasMany('people'),
   prettyReleaseDate: Ember.computed('releaseDate', function() {
     return moment(this.get('releaseDate')).format('MMMM DD, YYYY');
   })

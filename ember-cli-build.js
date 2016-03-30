@@ -22,9 +22,9 @@ module.exports = function(defaults) {
     var mergeTrees = require('broccoli-merge-trees');
     var RSSGenerator = require('./rss-generator');
     var rss = new RSSGenerator({
-      feed: './app/utils/prod-fixtures/show.js',
-      episodes: './app/utils/prod-fixtures/episodes.js',
-      notes: './app/utils/prod-fixtures/show-notes.js',
+      feed: './prod-fixtures/show.js',
+      episodes: './prod-fixtures/episodes.js',
+      notes: './prod-fixtures/show-notes.js',
       output: 'feed.xml'
     });
     appTree = mergeTrees([app.toTree(), rss]);

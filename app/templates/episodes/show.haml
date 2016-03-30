@@ -1,22 +1,22 @@
 -episode-show episode=episode
   -note-list
     -each episode.guests as |guest|
-      = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagLine bio=guest.bio
+      = guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagline bio=guest.bio
 
     -each episode.showNotes as |note|
       -note-item time=note.timeStamp episode=episode
-        -if note.resource.link
-          -link-to-site href=note.resource.link
+        -if note.resource.url
+          -link-to-site href=note.resource.url
             -external-title
               =note.resource.title
         -else
           %h1
             =note.resource.title
         %p
-          -each note.authors as |author|
+          -each note.resource.authors as |author|
             by
-            -if author.link
-              -link-to-site href=author.link
-                = author.title
+            -if author.url
+              -link-to-site href=author.url
+                = author.name
             -else
-              = author.title
+              = author.name
