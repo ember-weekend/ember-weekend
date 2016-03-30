@@ -24,7 +24,8 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    ENV['ember-cli-mirage'] = { enabled: false }
+    ENV['ember-cli-mirage'] = { enabled: false };
+    ENV.apiHost = 'localhost:4000';
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
@@ -42,6 +43,10 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+  }
+
+  if (environment === 'production') {
+    ENV.apiHost = 'https://ember-weekend-api.herokuapp.com';
   }
 
   return ENV;
