@@ -1,0 +1,3 @@
+#!/bin/bash
+ember build --environment=production
+firebase deploy --firebase emberweekend-staging
