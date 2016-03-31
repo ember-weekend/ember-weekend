@@ -524,7 +524,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -538,7 +538,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -621,7 +621,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -635,7 +635,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -864,7 +864,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -878,7 +878,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -1549,7 +1549,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3179,7 +3179,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3193,7 +3193,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3207,7 +3207,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3236,7 +3236,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3573,12 +3573,12 @@ export default [
     episode: 32,
     timeStamp: '00:18',
     resource: {
-      link: 'http://emberweekend.com/blog',
+      link: '/blog',
       title: 'Blog is Live!'
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3828,7 +3828,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3851,7 +3851,7 @@ export default [
     episode: 34,
     timeStamp: '09:07',
     resource: {
-      link: 'https://emberweekend.com/blog/da277635d1-force-ember-data-to-skip-cache-with-reload-true',
+      link: '/blog/da277635d1-force-ember-data-to-skip-cache-with-reload-true',
       title: 'Force Ember Data to Skipp cache with reload rue'
     },
     authors: [
@@ -3898,7 +3898,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -3940,7 +3940,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -4060,7 +4060,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -4778,7 +4778,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -4806,7 +4806,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -4815,7 +4815,7 @@ export default [
     episode: 40,
     timeStamp: '08:30',
     resource: {
-      link: 'https://emberweekend.com/episodes/interview-with-the-emberokai',
+      link: '/episodes/interview-with-the-emberokai',
       title: 'Interview with the Emberokai'
     },
     authors: [
@@ -4829,7 +4829,7 @@ export default [
     episode: 40,
     timeStamp: '09:00',
     resource: {
-      link: 'https://emberweekend.com/episodes/e3r-w5d-with-r4t-d4a',
+      link: '/episodes/e3r-w5d-with-r4t-d4a',
       title: 'E3r W5d with R4t D4a'
     },
     authors: [
@@ -4843,7 +4843,7 @@ export default [
     episode: 40,
     timeStamp: '10:10',
     resource: {
-      link: 'https://emberweekend.com/episodes/ember-island-two-oh-beta',
+      link: '/episodes/ember-island-two-oh-beta',
       title: 'Ember IsLand 2.0 Beta'
     },
     authors: [
@@ -4861,7 +4861,7 @@ export default [
     episode: 40,
     timeStamp: '11:00',
     resource: {
-      link: 'https://emberweekend.com/episodes/consumer-driven-weekend',
+      link: '/episodes/consumer-driven-weekend',
       title: 'Consumer Driven Weekend'
     },
     authors: [
@@ -4875,7 +4875,7 @@ export default [
     episode: 40,
     timeStamp: '12:00',
     resource: {
-      link: 'https://emberweekend.com/episodes/componentize-all-the-things',
+      link: '/episodes/componentize-all-the-things',
       title: 'Componentize all the things!'
     },
     authors: [
@@ -4889,7 +4889,7 @@ export default [
     episode: 40,
     timeStamp: '12:30',
     resource: {
-      link: 'https://emberweekend.com/episodes/update-your-package-json',
+      link: '/episodes/update-your-package-json',
       title: 'Update your package.json'
     },
     authors: [
@@ -4903,7 +4903,7 @@ export default [
     episode: 40,
     timeStamp: '13:34',
     resource: {
-      link: 'https://emberweekend.com/episodes/whacked-out-hegemony-part-1',
+      link: '/episodes/whacked-out-hegemony-part-1',
       title: 'Whacked Out Hegemony - Part 1'
     },
     authors: [
@@ -5153,12 +5153,12 @@ export default [
     episode: 43,
     timeStamp: '4:18',
     resource: {
-      link: 'http://localhost:4200/episodes/easy-prs',
+      link: '/episodes/easy-prs',
       title: 'Easy PRs'
     },
     authors: [
       {
-        link: 'https://emberweekend.com',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -6073,7 +6073,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -6101,7 +6101,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -6115,7 +6115,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -6129,7 +6129,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -6143,7 +6143,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
@@ -6157,7 +6157,7 @@ export default [
     },
     authors: [
       {
-        link: '',
+        link: '/',
         title: 'Us'
       }
     ]
