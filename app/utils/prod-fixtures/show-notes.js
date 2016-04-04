@@ -6175,5 +6175,89 @@ export default [
         title: 'ModernWeb (feat. Us)'
       }
     ]
-  }
+  },
+  {
+    episode: 53,
+    timeStamp: '00:40',
+    resource: {
+      title: 'Emberconf',
+      link: 'http://emberconf.com/'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 53,
+    timeStamp: '04:13',
+    resource: {
+      title: 'Ancient City Ruby (coupon code: emberweekend)',
+      link: 'http://www.ancientcityruby.com/'
+    },
+    authors: [
+      {
+        link: 'https://hashrocket.com/',
+        title: 'Hashrocket'
+      }
+    ]
+  },
+  {
+    episode: 53,
+    timeStamp: '08:27',
+    resource: {
+      title: 'EmberConf 2016 - Bigger and Better',
+      link: 'https://dockyard.com/blog/2016/04/01/emberconf-2016-bigger-better'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      }
+    ]
+  },
+  {
+    episode: 53,
+    timeStamp: '09:32',
+    resource: {
+      title: 'EmberConf Recap (global ember meetup)',
+      link: 'https://www.bigmarker.com/global-ember-meetup/Special-EmberConf-Recap'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Global Ember Meetup'
+      }
+    ]
+  },
+  {
+    episode: 53,
+    timeStamp: '11:09',
+    resource: {
+      title: 'Lauren Tan\'s Emberconf List',
+      link: 'https://github.com/poteto/emberconf-2016'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 53,
+    timeStamp: '11:57',
+    resource: {
+      title: 'Help with Docs Translation',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/locks',
+        title: 'Ricardo Mendes'
+      }
+    ]
+  },
 ];

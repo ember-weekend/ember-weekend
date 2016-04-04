@@ -1,5 +1,18 @@
 export default [
 {
+  number: 53,
+  title: 'Killer Queen For Days',
+  description: 'Chase and Jonathan discuss goings on in Ember land post EmberConf.',
+  slug: 'killer-queen-for-days',
+  releaseDate: 'April 05, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-53-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '14:41'
+},
+{
   number: 52,
   title: 'See you at EmberConf',
   description: 'Chase and Jonathan discuss the new testdouble.js library, A vim workshop, gush over Emberconf events, and then have a long winded discussion about the Ember Weekend Site.',
