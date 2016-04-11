@@ -6260,4 +6260,166 @@ export default [
       }
     ]
   },
+  {
+    episode: 54,
+    timeStamp: '00:31',
+    resource: {
+      title: 'Tell us a little about yourself.',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '01:17',
+    resource: {
+      title: 'How is Boston compared to Australia?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '04:16',
+    resource: {
+      title: 'How did you get started with Ember?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '05:57',
+    resource: {
+      title: 'How much of your work at your startup was applicable in the consulting space?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '07:07',
+    resource: {
+      title: 'Do you find that it is easy to jump between Ember apps?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '09:30',
+    resource: {
+      title: 'With contracting do you find yourself doing more rescue projects, greenfield projects, or more an advisory role?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '17:39',
+    resource: {
+      title: 'Do you tend to follow a specific testing strategy or is it more per project?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '21:51',
+    resource: {
+      title: 'Do you try to get 100% test coverage?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '23:31',
+    resource: {
+      title: 'Where do you tend to place your testing emphasis?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '24:58',
+    resource: {
+      title: 'Lauren explains an issue with destructuring get/set in an integration test.',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '26:48',
+    resource: {
+      title: 'How do you test the air gap between frontend and backend codebases?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '30:01',
+    resource: {
+      title: 'What open source projects are you focused on at the moment?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '40:37',
+    resource: {
+      title: 'What were some of the challenges of developing the ember-composable-helpers addon?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '42:48',
+    resource: {
+      title: 'Could you explain some of the issues around future-profing your applications re: controllers?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '51:52',
+    resource: {
+      title: 'What is the personal project consuming most of your time?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '53:56',
+    resource: {
+      title: 'Is there anyway people can help out with your addons?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '55:06',
+    resource: {
+      title: 'What do you think Ember can help teach other communities?',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 54,
+    timeStamp: '59:18',
+    resource: {
+      title: 'Lauren names the episode!',
+      link: ''
+    },
+    authors: []
+  }
 ];

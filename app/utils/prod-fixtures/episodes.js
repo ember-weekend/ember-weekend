@@ -1,5 +1,27 @@
 export default [
 {
+  number: 54,
+  title: 'Like Stealing Candy From a Baby',
+  description: 'Chase and Jonathan are joined by Dockyarder and Addon author extrodinaire Lauren Tan discussing everything from Addon authorship to the joy and pain of consulting work.  Be sure to tune in for this exiting episode!',
+  slug: 'like-stealing-candy-from-a-baby',
+  releaseDate: 'April 11, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-54-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '01:00:50',
+  guests: [
+    {
+      name: 'Lauren Tan',
+      guestInfoURL: 'https://twitter.com/sugarpirate_',
+      avatarURL: 'assets/images/lauren-tan.jpg',
+      tagLine: 'Applications Manager',
+      bio: 'Lauren is co-founder at ThePriceGeek, and Senior Developer at DockYard, a user experience driven software consultancy based in Boston, MA. She is also an active contributor to the Ember.js community, and a regular speaker at leading JavaScript events and conferences.'
+    }
+  ]
+},
+{
   number: 53,
   title: 'Killer Queen For Days',
   description: 'Chase and Jonathan discuss goings on in Ember land post EmberConf.',
