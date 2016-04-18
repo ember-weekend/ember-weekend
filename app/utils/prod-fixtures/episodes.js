@@ -1,5 +1,18 @@
 export default [
 {
+  number: 55,
+  title: 'Just a Little Reacty',
+  description: 'Chase and Jonathan discuss their upcoming Ember training, whether or not controllers are \'dead\', and ember redux.',
+  slug: 'just-a-litte-reacty',
+  releaseDate: 'April 18, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-55-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '14:42'
+},
+{
   number: 54,
   title: 'Like Stealing Candy From a Baby',
   description: 'Chase and Jonathan are joined by Dockyarder and Addon author extrodinaire Lauren Tan discussing everything from Addon authorship to the joy and pain of consulting work.  Be sure to tune in for this exiting episode!',

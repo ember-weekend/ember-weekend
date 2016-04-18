@@ -6421,5 +6421,75 @@ export default [
       link: ''
     },
     authors: []
+  },
+  {
+    episode: 55,
+    timeStamp: '00:17',
+    resource: {
+      title: 'Gemconf',
+      link: 'https://www.eventbrite.com/e/gemconf-san-francisco-global-ember-meetup-conference-tickets-22255622165'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Global Ember Meetup'
+      }
+    ]
+  },
+  {
+    episode: 55,
+    timeStamp: '02:11',
+    resource: {
+      title: 'Ember Conf Confreaks videos',
+      link: 'http://confreaks.tv/events/emberconf2016'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/confreaks',
+        title: 'Confreaks'
+      }
+    ]
+  },
+  {
+    episode: 55,
+    timeStamp: '04:05',
+    resource: {
+      title: 'Ember.js controllers dead?',
+      link: 'https://www.youtube.com/watch?v=ovgDR2qAl-Q&feature=youtu.be&a'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/erikch',
+        title: 'Erik Hanchett'
+      }
+    ]
+  },
+  {
+    episode: 55,
+    timeStamp: '06:26',
+    resource: {
+      title: 'Ember Twiddle + Ember CLI Mirage',
+      link: 'https://canary.ember-twiddle.com/8016c3e0d2524ff88a2893f39f33e6c7?openFiles=tests.acceptance.application-test.js%2C'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gaurav9576',
+        title: 'Gaurav Munjal'
+      }
+    ]
+  },
+  {
+    episode: 55,
+    timeStamp: '08:45',
+    resource: {
+      title: 'Ember Redux',
+      link: 'http://www.ember-redux.com/ddau/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/toranb',
+        title: 'Toran Billups'
+      }
+    ]
   }
 ];
