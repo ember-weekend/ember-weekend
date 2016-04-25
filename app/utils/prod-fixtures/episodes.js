@@ -1,5 +1,18 @@
 export default [
 {
+  number: 56,
+  title: 'didInsertEpisodeTitle',
+  description: 'Chase and Jonathan talk about Composable helpers, route action handlers, JSON API, and web vs. mobile development.',
+  slug: 'did-insert-episode-title',
+  releaseDate: 'April 25, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-56-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '17:00'
+},
+{
   number: 55,
   title: 'Just a Little Reacty',
   description: 'Chase and Jonathan discuss their upcoming Ember training, whether or not controllers are \'dead\', and ember redux.',

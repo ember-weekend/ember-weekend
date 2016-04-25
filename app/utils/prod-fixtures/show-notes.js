@@ -6491,5 +6491,69 @@ export default [
         title: 'Toran Billups'
       }
     ]
+  },
+  {
+    episode: 56,
+    timeStamp: '00:14',
+    resource: {
+      title: 'Ember: Declarative Templating with Composable Helpers',
+      link: 'https://dockyard.com/blog/2016/04/18/ember-composable-helpers'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 56,
+    timeStamp: '04:04',
+    resource: {
+      title: 'Route Closure Actions in Ember.js',
+      link: 'https://emberway.io/route-closure-actions-in-ember-js-d0a7a37a5d1b'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 56,
+    timeStamp: '07:57',
+    resource: {
+      title: 'JSON API By Example',
+      link: 'https://leanpub.com/json-api-by-example'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Builes'
+      }
+    ]
+  },
+  {
+    episode: 56,
+    timeStamp: '12:20',
+    resource: {
+      title: 'Talking with Tom Dale about Ember FastBoot and the Return of Scrappy JavaScript',
+      link: 'https://blog.heroku.com/archives/2016/4/5/live_at_emberconf_tom_dale_talks_about_ember_fastboot'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      },
+      {
+        link: 'https://twitter.com/Matt_Creager',
+        title: 'Matthew Creager'
+      },
+      {
+        link: 'https://twitter.com/hone02',
+        title: 'Terence Lee'
+      }
+    ]
   }
 ];
