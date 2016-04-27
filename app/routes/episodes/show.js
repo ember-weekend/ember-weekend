@@ -1,4 +1,5 @@
 import Ember from 'ember';
+const { set } = Ember;
 
 export default Ember.Route.extend({
   model(params) {
@@ -7,37 +8,12 @@ export default Ember.Route.extend({
   serialize(model) {
     return { slug: model.get('slug') };
   },
+  headData: Ember.inject.service(),
   afterModel(model) {
-    this.setHeadTags(model);
+    set(this, 'headData.title', model.get('title'));
+    set(this, 'headData.description', model.get('description'));
+    set(this, 'headData.audio', `https://emberweekend.s3.amazonaws.com/${model.get('filename')}.mp3`);
+    set(this, 'headData.audio_type', 'video/mpeg');
     return model.get('showNotes');
-  },
-  setHeadTags(model) {
-    const headTags = [
-      { type: 'meta',
-        attrs: {
-          property: 'og:title',
-          content: model.get('title')
-        }
-      },
-      { type: 'meta',
-        attrs: {
-          property: 'og:description',
-          content: model.get('description')
-        }
-      },
-      { type: 'meta',
-        attrs: {
-          property: 'og:audio',
-          content: `https://emberweekend.s3.amazonaws.com/${model.get('filename')}.mp3`
-        }
-      },
-      { type: 'meta',
-        attrs: {
-          property: 'og:audio:type',
-          content: 'video/mpeg'
-        }
-      }
-    ];
-    this.set('headTags', headTags);
   }
 });

@@ -1,15 +1,12 @@
 import Ember from 'ember';
+const { set } = Ember;
 
 export default Ember.Route.extend({
   model() {
     return this.store.findAll('post');
   },
-  headTags: [
-    { type: 'meta',
-      attrs: {
-        property: 'og:title',
-        content: 'Blog Posts'
-      }
-    }
-  ]
+  headData: Ember.inject.service(),
+  afterModel(){
+    set(this, 'headData.title', 'Blog Posts');
+  }
 });

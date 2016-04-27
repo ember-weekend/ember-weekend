@@ -2,6 +2,10 @@ import Ember from 'ember';
 import moment from 'moment';
 import AsyncAudio from 'ember-weekend/utils/async-audio';
 
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
 export default Ember.Service.extend({
   episode: null,
   title: Ember.computed.alias('episode.title'),
@@ -27,7 +31,7 @@ export default Ember.Service.extend({
   seekTo(episode, milliseconds) {
     const audio = this.get('audio');
     this.select(episode);
-    if (!Ember.$.isNumeric(milliseconds)) {
+    if (!isNumeric(milliseconds)) {
       return;
     }
     audio.pause().then(() => {
@@ -69,7 +73,7 @@ export default Ember.Service.extend({
   },
   currentTime: Ember.computed('currentTimeSeconds', function() {
     const seconds = this.get('currentTimeSeconds');
-    if (Ember.$.isNumeric(seconds)) {
+    if (isNumeric(seconds)) {
       const duration = moment.duration({ seconds });
       return moment.utc(duration.asMilliseconds()).format('mm:ss');
     } else {
@@ -80,12 +84,12 @@ export default Ember.Service.extend({
     const duration = this.get('duration') || 0;
     const seconds = this.get('currentTimeSeconds');
     const percent = (seconds / duration) * 100;
-    return Ember.$.isNumeric(percent) ? percent : 0;
+    return isNumeric(percent) ? percent : 0;
   }),
   buffer: Ember.computed('audio', 'bufferedEnd', function() {
     const duration = this.get('duration') || 0;
     const bufferedEnd = this.get('bufferedEnd');
     const percent = (bufferedEnd / duration) * 100;
-    return Ember.$.isNumeric(percent) ? percent : 0;
+    return isNumeric(percent) ? percent : 0;
   })
 });

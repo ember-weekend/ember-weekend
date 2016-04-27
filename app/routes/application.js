@@ -1,48 +1,14 @@
 import Ember from 'ember';
-import { MousetrapRoute, mousetrap } from 'ember-mousetrap';
+const { set } = Ember;
 
-export default Ember.Route.extend(MousetrapRoute, {
+export default Ember.Route.extend({
   player: Ember.inject.service('player'),
-  shortcuts: {
-    togglePlay: mousetrap('space', function() {
-      const player = this.get('player');
-      if (player.get('playing')) {
-        player.pause();
-      } else {
-        player.play();
-      }
-    })
-  },
-  headTags: [
-    { type: 'meta',
-      attrs: {
-        property: 'og:description',
-        content: 'Ember.js is a frontend JavaScript framework that has exciting applications.  In this podcasts we share news, events, and some of our experiences.'
-      }
-    },
-    { type: 'meta',
-      attrs: {
-        property: 'og:title',
-        content: 'Ember Weekend'
-      }
-    },
-    { type: 'meta',
-      attrs: {
-        property: 'og:image',
-        content: 'https://i.imgur.com/VQmTj1h.png'
-      }
-    },
-    { type: 'meta',
-      attrs: {
-        property: 'og:site_name',
-        content: 'Ember Weekend'
-      }
-    },
-    { type: 'meta',
-      attrs: {
-        property: 'og:locale',
-        content: 'en_US'
-      }
-    }
-  ]
+  headData: Ember.inject.service(),
+  afterModel() {
+    set(this, 'headData.title', 'Ember Weekend');
+    set(this, 'headData.description', 'Ember.js is a frontend JavaScript framework that has exciting applications.  In this podcasts we share news, events, and some of our experiences.');
+    set(this, 'headData.image', 'https://i.imgur.com/VQmTj1h.png');
+    set(this, 'headData.site_name', 'Ember Weekend');
+    set(this, 'headData.locale', 'en_US');
+  }
 });

@@ -1,12 +1,9 @@
 import Ember from 'ember';
+const { set } = Ember;
 
 export default Ember.Route.extend({
-  headTags: [
-    { type: 'meta',
-      attrs: {
-        property: 'og:title',
-        content: 'About Us'
-      }
-    }
-  ]
+  headData: Ember.inject.service(),
+  afterModel(){
+    set(this, 'headData.title', 'About Us');
+  }
 });
