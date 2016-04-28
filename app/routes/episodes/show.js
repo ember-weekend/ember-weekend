@@ -1,4 +1,6 @@
 import Ember from 'ember';
+import truncate from 'ember-weekend/utils/truncate-string';
+
 const { set } = Ember;
 
 export default Ember.Route.extend({
@@ -13,7 +15,15 @@ export default Ember.Route.extend({
     set(this, 'headData.title', model.get('title'));
     set(this, 'headData.description', model.get('description'));
     set(this, 'headData.audio', `https://emberweekend.s3.amazonaws.com/${model.get('filename')}.mp3`);
-    set(this, 'headData.audio_type', 'video/mpeg');
+    set(this, 'headData.audio_type', 'audio/mpeg');
+    set(this, 'headData.twitter_card', 'summary');
+
+    const twitter_description = truncate(model.get('description'), 200);
+    set(this, 'headData.twitter_description', twitter_description);
+
+    const twitter_title = truncate('Ember Weekend: ' + model.get('title'), 70);
+    set(this, 'headData.twitter_title', twitter_title);
+
     return model.get('showNotes');
   }
 });
