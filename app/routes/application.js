@@ -10,7 +10,7 @@ export default Ember.Route.extend({
     let path;
     if (get(this, 'fastboot.isFastBoot')) {
       let request = get(this, 'fastboot._fastbootInfo.request');
-      path = `${request.protocol}://${request.host}/${request.path}`;
+      path = `${request.protocol}://${request.host}${request.path}`;
     } else {
       path = window.location.path;
     }
