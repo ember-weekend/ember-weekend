@@ -2,8 +2,11 @@ import Ember from 'ember';
 const { set } = Ember;
 
 export default Ember.Route.extend({
+  fastboot: Ember.inject.service(),
   model() {
-    return this.store.findAll('post');
+    if (!this.get('fastboot.isFastBoot')) {
+      return this.store.findAll('post');
+    }
   },
   headData: Ember.inject.service(),
   afterModel(){
