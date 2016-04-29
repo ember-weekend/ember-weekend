@@ -110,7 +110,7 @@ function buildEpisode(episode, notes){
     "long": episode.long,
     "enclosure": {
       "url":"https://emberweekend.s3.amazonaws.com/"+episode.filename+".mp3",
-      "size": 0,
+      "size": episode.length,
       "type": "audio/mpeg"
     },
     "custom_elements": [

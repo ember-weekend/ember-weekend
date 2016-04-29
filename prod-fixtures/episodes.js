@@ -10,7 +10,8 @@ export default [
   filename: 'ep-56-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:00'
+  duration: '17:00',
+  length: 20403116
 },
 {
   number: 55,
@@ -23,7 +24,8 @@ export default [
   filename: 'ep-55-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:42'
+  duration: '14:42',
+  length: 17648416
 },
 {
   number: 54,
@@ -37,6 +39,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '01:00:50',
+  length: 73005376,
   guests: [
     {
       name: 'Lauren Tan',
@@ -58,7 +61,8 @@ export default [
   filename: 'ep-53-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:41'
+  duration: '14:41',
+  length: 17614806
 },
 {
   number: 52,
@@ -71,7 +75,8 @@ export default [
   filename: 'ep-52-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '36:53'
+  duration: '36:53',
+  length: 44269108
 },
 {
   number: 51,
@@ -84,7 +89,8 @@ export default [
   filename: 'ep-51-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:01'
+  duration: '17:01',
+  length: 20430284
 },
 {
   number: 50,
@@ -97,7 +103,8 @@ export default [
   filename: 'ep-50-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '25:01'
+  duration: '25:01',
+  length: 30023492
 },
 {
   number: 49,
@@ -111,6 +118,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '01:04:20',
+  length: 77195409,
   guests: [
     {
       name: 'Stanley Stuart',
@@ -132,7 +140,8 @@ export default [
   filename: 'ep-48-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '22:36'
+  duration: '22:36',
+  length: 27121810
 },
 {
   number: 47,
@@ -145,7 +154,8 @@ export default [
   filename: 'ep-47-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '15:20'
+  duration: '15:20',
+  length: 18397957
 },
 {
   number: 46,
@@ -158,7 +168,8 @@ export default [
   filename: 'ep-46-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:23'
+  duration: '14:23',
+  length: 17267377
 },
 {
   number: 45,
@@ -171,7 +182,8 @@ export default [
   filename: 'ep-45-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '16:57'
+  duration: '16:57',
+  length: 20352961
 },
 {
   number: 44,
@@ -184,7 +196,8 @@ export default [
   filename: 'ep-44-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:42'
+  duration: '17:42',
+  length: 21236945
 },
 {
   number: 43,
@@ -197,7 +210,8 @@ export default [
   filename: 'ep-43-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '21:06'
+  duration: '21:06',
+  length: 25325630
 },
 {
   number: 42,
@@ -210,7 +224,8 @@ export default [
   filename: 'ep-42-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '22:15'
+  duration: '22:15',
+  length: 26707508
 },
 {
   number: 41,
@@ -223,7 +238,8 @@ export default [
   filename: 'ep-41-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '18:17'
+  duration: '18:17',
+  length: 21937549
 },
 {
   number: 40,
@@ -236,7 +252,8 @@ export default [
   filename: 'ep-40-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '18:15'
+  duration: '18:15',
+  length: 21908814
 },
 {
   number: 39,
@@ -250,6 +267,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '58:37',
+  length: 70337744,
   guests: [
     {
       name: 'Chris Thoburn',
@@ -272,6 +290,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '48:28',
+  length: 58175655,
   guests: [
     {
       name: 'Chris Thoburn',
@@ -294,6 +313,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '42:21',
+  length: 50825320,
   guests: [
     {
       name: 'Katie Gengler',
@@ -315,7 +335,8 @@ export default [
   filename: 'ep-36-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '25:51'
+  duration: '25:51',
+  length: 31030251
 },
 {
   number: 35,
@@ -328,7 +349,8 @@ export default [
   filename: 'ep-35-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '10:17'
+  duration: '10:17',
+  length: 12338071
 },
 {
   number: 34,
@@ -341,7 +363,8 @@ export default [
   filename: 'ep-34-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '21:45'
+  duration: '21:45',
+  length: 26107737
 },
 {
   number: 33,
@@ -354,7 +377,8 @@ export default [
   filename: 'ep-33-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '20:13'
+  duration: '20:13',
+  length: 24272896
 },
 {
   number: 32,
@@ -367,7 +391,8 @@ export default [
   filename: 'ep-32-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '16:28'
+  duration: '16:28',
+  length: 19755279
 },
 {
   number: 31,
@@ -380,7 +405,8 @@ export default [
   filename: 'ep-31-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '13:22'
+  duration: '13:22',
+  length: 16038577
 },
 {
   number: 30,
@@ -393,7 +419,8 @@ export default [
   filename: 'ep-30-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '15:48'
+  duration: '15:48',
+  length: 18965337
 },
 {
   number: 29,
@@ -406,7 +433,8 @@ export default [
   filename: 'ep-29-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '15:37'
+  duration: '15:37',
+  length: 18749565
 },
 {
   number: 28,
@@ -419,7 +447,8 @@ export default [
   filename: 'ep-28-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:34'
+  duration: '17:34',
+  length: 21082822
 },
 {
   number: 27,
@@ -432,7 +461,8 @@ export default [
   filename: 'ep-27-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:35'
+  duration: '17:35',
+  length: 21109990
 },
 {
   number: 26,
@@ -445,7 +475,8 @@ export default [
   filename: 'ep-26-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:09'
+  duration: '17:09',
+  length: 20579704
 },
 {
   number: 25,
@@ -458,7 +489,8 @@ export default [
   filename: 'ep-25-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '12:47'
+  duration: '12:47',
+  length: 15345288
 },
 {
   number: 24,
@@ -471,7 +503,8 @@ export default [
   filename: 'ep-24-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:41'
+  duration: '17:41',
+  length: 21225451
 },
 {
   number: 23,
@@ -484,7 +517,8 @@ export default [
   filename: 'ep-23-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '25:52'
+  duration: '25:52',
+  length: 31045402
 },
 {
   number: 22,
@@ -497,7 +531,8 @@ export default [
   filename: 'ep-22-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '15:51'
+  duration: '15:51',
+  length: 19025418
 },
 {
   number: 21,
@@ -511,6 +546,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '31:38',
+  length: 37965238,
   guests: [
     {
       name: 'Mike North',
@@ -532,7 +568,8 @@ export default [
   filename: 'ep-20-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '23:40'
+  duration: '23:40',
+  length: 28405467
 },
 {
   number: 19,
@@ -546,6 +583,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '1:00:00',
+  length: 72005401,
   guests: [
     {
       name: 'Sam Selikoff',
@@ -567,7 +605,8 @@ export default [
   filename: 'ep-18-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:27'
+  duration: '14:27',
+  length: 17335296
 },
 {
   number: 17,
@@ -580,7 +619,8 @@ export default [
   filename: 'ep-17-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '23:00'
+  duration: '23:00',
+  length: 27597761
 },
 {
   number: 16,
@@ -593,7 +633,8 @@ export default [
   filename: 'ep-16-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '19:08'
+  duration: '19:08',
+  length: 22965206
 },
 {
   number: 15,
@@ -606,7 +647,8 @@ export default [
   filename: 'ep-15-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '16:40'
+  duration: '16:40',
+  length: 20005532
 },
 {
   number: 14,
@@ -620,6 +662,7 @@ export default [
   author: 'Chase McCarthy, Jonathan Jackson, Dan McClain, and Robert Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '22:46',
+  length: 27325565,
   guests: [
     {
       name: 'Robert Jackson',
@@ -648,7 +691,8 @@ export default [
   filename: 'ep-13-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:53'
+  duration: '14:53',
+  length: 17860357
 },
 {
   number: 12,
@@ -661,7 +705,8 @@ export default [
   filename: 'ep-12-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '19:25'
+  duration: '19:25',
+  length: 23301663
 },
 {
   number: 11,
@@ -675,6 +720,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '17:38',
+  length: 21157532,
   guests: [
     {
       name: 'Robert Deluca',
@@ -696,7 +742,8 @@ export default [
   filename: 'ep-10-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '13:15'
+  duration: '13:15',
+  length: 15911622
 },
 {
   number: 9,
@@ -710,6 +757,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '18:58',
+  length: 36405835,
   guests: [
     {
       name: 'Paul Elliott',
@@ -731,7 +779,8 @@ export default [
   filename: 'ep-8-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '13:47'
+  duration: '13:47',
+  length: 26455898,
 },
 {
   number: 7,
@@ -744,7 +793,8 @@ export default [
   filename: 'ep-7-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '17:23'
+  duration: '17:23',
+  length: 33384826
 },
 {
   number: 6,
@@ -757,7 +807,8 @@ export default [
   filename: 'ep-6-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:26'
+  duration: '14:26',
+  length: 27729838
 },
 {
   number: 5,
@@ -770,7 +821,8 @@ export default [
   filename: 'ep-5-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '13:40'
+  duration: '13:40',
+  length: 26258621
 },
 {
   number: 4,
@@ -783,7 +835,8 @@ export default [
   filename: 'ep-4-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '13:46'
+  duration: '13:46',
+  length: 26445867
 },
 {
   number: 3,
@@ -796,7 +849,8 @@ export default [
   filename: 'ep-3-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '14:06'
+  duration: '14:06',
+  length: 20298732
 },
 {
   number: 2,
@@ -809,7 +863,8 @@ export default [
   filename: 'ep-2-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '12:35'
+  duration: '12:35',
+  length: 18194725
 },
 {
   number: 1,
@@ -822,7 +877,8 @@ export default [
   filename: 'ep-1-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '10:16'
+  duration: '10:16',
+  length: 14806121
 }
 ];
 
