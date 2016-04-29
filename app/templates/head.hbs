@@ -24,6 +24,8 @@
   <meta property="og:locale" content={{model.locale}}>
 {{/if}}
 
+<meta name="og:url" content={{model.canonicalURL}}>
+
 {{#if model.audio}}
   <meta property="og:audio" content={{model.audio}}>
 {{/if}}
@@ -31,6 +33,7 @@
 {{#if model.audio_type}}
   <meta property="og:audio:type" content={{model.audio_type}}>
 {{/if}}
+
 
 {{#if model.twitter_card }}
   <meta name="twitter:card" content={{model.twitter_card}}>

@@ -20,6 +20,10 @@ module.exports = function(environment) {
 
     contentSecurityPolicy: {
       'connect-src': "'self' 'https://cors-anywhere.herokuapp.com",
+    },
+
+    fastboot: {
+      hostWhitelist: ['emberweekend.com', 'ember-weekend.herokuapp.com', /^localhost:\d+$/]
     }
   };
 
