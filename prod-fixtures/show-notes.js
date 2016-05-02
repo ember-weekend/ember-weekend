@@ -6555,5 +6555,89 @@ export default [
         title: 'Terence Lee'
       }
     ]
+  },
+  {
+    episode: 57,
+    timeStamp: '06:54',
+    resource: {
+      title: 'Ember Weekend API',
+      link: 'https://github.com/ember-weekend/ember-weekend-api'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 57,
+    timeStamp: '07:31',
+    resource: {
+      title: 'Vorhees',
+      link: 'https://github.com/danmcclain/voorhees'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      }
+    ]
+  },
+  {
+    episode: 57,
+    timeStamp: '07:41',
+    resource: {
+      title: 'Ember Weekend API JSON API tests',
+      link: 'https://github.com/ember-weekend/ember-weekend-api/tree/master/test'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 57,
+    timeStamp: '08:24',
+    resource: {
+      title: 'Ember Weekend on Heroku',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 57,
+    timeStamp: '13:33',
+    resource: {
+      title: 'Ember Weekend on Fastboot',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 57,
+    timeStamp: '13:47',
+    resource: {
+      title: 'Old Version of EmberWeekend on Firebase',
+      link: 'https://emberweekend.firebaseapp.com'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
   }
 ];

@@ -1,5 +1,19 @@
 export default [
 {
+  number: 57,
+  title: 'Google Can See Us Now',
+  description: 'Chase and Jonathan discuss the evolution of the Ember Weekend Ember application.  The shift to an elixir backend, hosting on Heroku, and Fastboot',
+  slug: 'google-can-see-us-now',
+  releaseDate: 'May 02, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-57-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '22:06',
+  length: 26523616
+},
+{
   number: 56,
   title: 'didInsertEpisodeTitle',
   description: 'Chase and Jonathan talk about Composable helpers, route action handlers, JSON API, and web vs. mobile development.',
