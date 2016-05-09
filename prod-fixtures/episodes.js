@@ -1,5 +1,19 @@
 export default [
 {
+  number: 58,
+  title: 'Get with the Times',
+  description: 'Chase and Jonathan discuss ',
+  slug: 'get-with-the-times',
+  releaseDate: 'May 09, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-58-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '10:12',
+  length: 12250300
+},
+{
   number: 57,
   title: 'Google Can See Us Now',
   description: 'Chase and Jonathan discuss the evolution of the Ember Weekend Ember application.  The shift to an elixir backend, hosting on Heroku, and Fastboot',

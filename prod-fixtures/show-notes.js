@@ -6639,5 +6639,61 @@ export default [
         title: 'Us'
       }
     ]
+  },
+  {
+    episode: 58,
+    timeStamp: '00:13',
+    resource: {
+      title: 'The Ember.js Times',
+      link: 'https://the-emberjs-times.ongoodbits.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/locks',
+        title: 'Ricardo Mendes'
+      }
+    ]
+  },
+  {
+    episode: 58,
+    timeStamp: '02:22',
+    resource: {
+      title: 'Mike North\'s PEEP stack series',
+      link: 'https://medium.com/peep-stack'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
+  },
+  {
+    episode: 58,
+    timeStamp: '06:02',
+    resource: {
+      title: 'Build Pacman',
+      link: 'https://leanpub.com/buildpacman'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
+  },
+  {
+    episode: 58,
+    timeStamp: '08:46',
+    resource: {
+      title: 'baseURL deprecation',
+      link: 'http://emberjs.com/blog/2016/04/28/baseURL.html'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
   }
 ];
