@@ -6677,8 +6677,8 @@ export default [
     },
     authors: [
       {
-        link: 'https://twitter.com/michaellnorth',
-        title: 'Mike North'
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
       }
     ]
   },
@@ -6691,8 +6691,8 @@ export default [
     },
     authors: [
       {
-        link: 'https://twitter.com/michaellnorth',
-        title: 'Mike North'
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
       }
     ]
   }
