@@ -2,7 +2,7 @@ export default [
 {
   number: 58,
   title: 'Get with the Times',
-  description: 'Chase and Jonathan discuss ',
+  description: 'Chase and Jonathan discuss inaugural issue of the Ember.js Times, a wonderful series on the PEEP stack by Mike North, and how to build Pacman in Ember js by Jeffrey Biles.',
   slug: 'get-with-the-times',
   releaseDate: 'May 09, 2016',
   lat: 30.291809,
