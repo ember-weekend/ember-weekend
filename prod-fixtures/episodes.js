@@ -1,5 +1,19 @@
 export default [
 {
+  number: 59,
+  title: 'GemConf Time',
+  description: 'Chase and Jonathan discuss the various speakers for the upcoming Global Ember Meetup conference, their training, and call ahead to a future episode on module reunification.',
+  slug: 'gem-conf-time',
+  releaseDate: 'May 16, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-59-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '11:16',
+  length: 13533856
+},
+{
   number: 58,
   title: 'Get with the Times',
   description: 'Chase and Jonathan discuss inaugural issue of the Ember.js Times, a wonderful series on the PEEP stack by Mike North, and how to build Pacman in Ember js by Jeffrey Biles.',

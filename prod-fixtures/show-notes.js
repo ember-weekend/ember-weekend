@@ -6695,5 +6695,47 @@ export default [
         title: 'Ember.js'
       }
     ]
+  },
+  {
+    episode: 59,
+    timeStamp: '00:58',
+    resource: {
+      title: 'GEMconf',
+      link: 'https://www.eventbrite.com/e/gemconf-san-francisco-global-ember-meetup-conference-tickets-22255622165'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Global Ember Meetup'
+      }
+    ]
+  },
+  {
+    episode: 59,
+    timeStamp: '08:05',
+    resource: {
+      title: 'Our Training',
+      link: 'http://www.modern-web.org/#/trainings'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 59,
+    timeStamp: '09:57',
+    resource: {
+      title: 'Module Reunification',
+      link: 'https://github.com/dgeb/rfcs/blob/module-unification/text/0000-module-unification.md'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/dgeb',
+        title: 'Dan Gebhardt'
+      },
+    ]
   }
 ];
