@@ -6925,11 +6925,11 @@ export default [
     timeStamp: '21:35',
     resource: {
       title: 'Notes for the episode',
-      link: 'https://docs.google.com/a/code0100fun.com/document/d/1We4PpsRxb1bdf_CFmfDekx5ge-MRt78DXU3cUz2YfuA/edit?usp=sharing'
+      link: 'http://bit.ly/module-rfc'
     },
     authors: [
       {
-        link: 'http://bit.ly/module-rfc',
+        link: '',
         title: 'Us'
       },
     ]
