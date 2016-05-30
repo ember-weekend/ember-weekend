@@ -6866,7 +6866,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '14:25',
+    timeStamp: '14:23',
     resource: {
       title: 'Rule 2',
       link: 'https://youtu.be/b3mTGXjm10g?t=47m59s'
@@ -6880,7 +6880,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '17:24',
+    timeStamp: '17:14',
     resource: {
       title: 'Rule 3',
       link: 'https://youtu.be/b3mTGXjm10g?t=48m15s'
@@ -6894,7 +6894,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '20:34',
+    timeStamp: '20:22',
     resource: {
       title: 'Helpers and components side-by-side',
       link: 'https://youtu.be/b3mTGXjm10g?t=52m21s'
@@ -6908,7 +6908,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '21:27',
+    timeStamp: '21:14',
     resource: {
       title: 'Summary',
       link: ''
@@ -6922,7 +6922,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '21:47',
+    timeStamp: '21:35',
     resource: {
       title: 'Notes for the episode',
       link: 'https://docs.google.com/a/code0100fun.com/document/d/1We4PpsRxb1bdf_CFmfDekx5ge-MRt78DXU3cUz2YfuA/edit?usp=sharing'
@@ -6936,7 +6936,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '24:29',
+    timeStamp: '24:18',
     resource: {
       title: 'Roadmap step 2',
       link: 'https://youtu.be/b3mTGXjm10g?t=58m30s'
@@ -6964,7 +6964,7 @@ export default [
   },
   {
     episode: 60,
-    timeStamp: '27:35',
+    timeStamp: '27:23',
     resource: {
       title: 'Chase and Jon\'s final thoughts',
       link: ''
