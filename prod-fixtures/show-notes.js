@@ -6737,5 +6737,243 @@ export default [
         title: 'Dan Gebhardt'
       },
     ]
+  },
+  {
+    episode: 60,
+    timeStamp: '03:37',
+    resource: {
+      title: 'Ember.js NYC, May 2016: Robert Jackson on app structure',
+      link: 'https://youtu.be/b3mTGXjm10g?t=22m50s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '03:37',
+    resource: {
+      title: 'Unified constraints',
+      link: 'https://youtu.be/b3mTGXjm10g'
+    },
+    authors: [
+      {
+        link: 'https://youtu.be/b3mTGXjm10g?t=36m41s',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '05:46',
+    resource: {
+      title: 'Tests alongside their subjects',
+      link: 'https://youtu.be/b3mTGXjm10g?t=39m25s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '06:57',
+    resource: {
+      title: 'Relative lookup',
+      link: 'https://youtu.be/b3mTGXjm10g?t=40m8s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '08:06',
+    resource: {
+      title: 'Static analysis',
+      link: 'https://youtu.be/b3mTGXjm10g?t=42m22s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '09:18',
+    resource: {
+      title: 'First Ember first file structure',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '11:35',
+    resource: {
+      title: 'Rules section',
+      link: 'https://youtu.be/b3mTGXjm10g?t=46m18s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '12:01',
+    resource: {
+      title: 'Src vs App',
+      link: 'https://youtu.be/b3mTGXjm10g?t=44m15s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '13:25',
+    resource: {
+      title: 'Rule 1',
+      link: 'https://youtu.be/b3mTGXjm10g?t=47m47s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '14:25',
+    resource: {
+      title: 'Rule 2',
+      link: 'https://youtu.be/b3mTGXjm10g?t=47m59s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '17:24',
+    resource: {
+      title: 'Rule 3',
+      link: 'https://youtu.be/b3mTGXjm10g?t=48m15s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '20:34',
+    resource: {
+      title: 'Helpers and components side-by-side',
+      link: 'https://youtu.be/b3mTGXjm10g?t=52m21s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '21:27',
+    resource: {
+      title: 'Summary',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '21:47',
+    resource: {
+      title: 'Notes for the episode',
+      link: 'https://docs.google.com/a/code0100fun.com/document/d/1We4PpsRxb1bdf_CFmfDekx5ge-MRt78DXU3cUz2YfuA/edit?usp=sharing'
+    },
+    authors: [
+      {
+        link: 'http://bit.ly/module-rfc',
+        title: 'Us'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '24:29',
+    resource: {
+      title: 'Roadmap step 2',
+      link: 'https://youtu.be/b3mTGXjm10g?t=58m30s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '25:34',
+    resource: {
+      title: 'API for augmenting module system',
+      link: 'https://youtu.be/b3mTGXjm10g?t=59m34s'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+    ]
+  },
+  {
+    episode: 60,
+    timeStamp: '27:35',
+    resource: {
+      title: 'Chase and Jon\'s final thoughts',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      },
+    ]
   }
 ];

@@ -1,5 +1,19 @@
 export default [
 {
+  number: 60,
+  title: 'Module Impossible',
+  description: 'Chase and Jonathan review their notes on the new module unification RFC and a talk by Robert Jackson at Ember NYC about why it is necessary.',
+  slug: 'module-impossible',
+  releaseDate: 'May 30, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-60-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '20:53',
+  length: 25063883
+},
+{
   number: 59,
   title: 'GemConf Time',
   description: 'Chase and Jonathan discuss the various speakers for the upcoming Global Ember Meetup conference, their training, and call ahead to a future episode on module reunification.',
