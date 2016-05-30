@@ -6757,11 +6757,11 @@ export default [
     timeStamp: '03:37',
     resource: {
       title: 'Unified constraints',
-      link: 'https://youtu.be/b3mTGXjm10g'
+      link: 'https://youtu.be/b3mTGXjm10g?t=36m41s'
     },
     authors: [
       {
-        link: 'https://youtu.be/b3mTGXjm10g?t=36m41s',
+        link: 'https://twitter.com/rwjblue',
         title: 'Robert Jackson'
       },
     ]
