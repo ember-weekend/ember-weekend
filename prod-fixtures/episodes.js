@@ -1,6 +1,20 @@
 export default [
 {
   number: 60,
+  title: 'League of Emburritos',
+  description: 'Chase and Jonathan discuss GEMConf, css linting, a new Ember Vim plugin, and Riot\'s Ember usage.',
+  slug: 'league-of-emburritos',
+  releaseDate: 'June 06, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-61-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '13:02',
+  length: 15635296
+},
+{
+  number: 60,
   title: 'Module Impossible',
   description: 'Chase and Jonathan review their notes on the new module unification RFC and a talk by Robert Jackson at Ember NYC about why it is necessary.',
   slug: 'module-impossible',

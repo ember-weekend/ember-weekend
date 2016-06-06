@@ -6975,5 +6975,75 @@ export default [
         title: 'Us'
       },
     ]
+  },
+  {
+    episode: 61,
+    timeStamp: '00:33',
+    resource: {
+      title: 'Twitch Hosts Global Ember Meetup Conference',
+      link: 'https://medium.com/twitch-engineering/twitch-hosts-global-ember-meetup-conference-d852c0d2488f'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/JordanHawker',
+        title: 'Jordan Hawker'
+      },
+    ]
+  },
+  {
+    episode: 61,
+    timeStamp: '03:13',
+    resource: {
+      title: 'Style Lint',
+      link: 'http://stylelint.io/'
+    },
+    authors: [
+      {
+        link: 'https://github.com/stylelint',
+        title: 'stylelint'
+      },
+    ]
+  },
+  {
+    episode: 61,
+    timeStamp: '05:23',
+    resource: {
+      title: 'ember_tools.vim',
+      link: 'https://github.com/AndrewRadev/ember_tools.vim'
+    },
+    authors: [
+      {
+        link: 'https://github.com/AndrewRadev',
+        title: 'Andrew Radev'
+      },
+    ]
+  },
+  {
+    episode: 61,
+    timeStamp: '07:33',
+    resource: {
+      title: 'League of Legends Client Architecture',
+      link: 'http://engineering.riotgames.com/news/architecture-league-client-update'
+    },
+    authors: [
+      {
+        link: 'http://engineering.riotgames.com/',
+        title: 'Riot Games'
+      },
+    ]
+  },
+  {
+    episode: 61,
+    timeStamp: '11:06',
+    resource: {
+      title: '0.2.0 Mirage Released!',
+      link: 'http://www.ember-cli-mirage.com/blog/2016/05/31/0-2-0-released/'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
   }
 ];
