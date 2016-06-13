@@ -7120,7 +7120,7 @@ export default [
     episode: 62,
     timeStamp: '16:08',
     resource: {
-      title: 'Wicked Good Ember 2016 Contributor\'s workshorp',
+      title: 'Wicked Good Ember 2016 Contributor\'s workshop',
       link: 'https://wickedgoodember.com/workshops/contributor'
     },
     authors: [
