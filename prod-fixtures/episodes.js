@@ -1,6 +1,6 @@
 export default [
 {
-  number: 60,
+  number: 61,
   title: 'League of Emburritos',
   description: 'Chase and Jonathan discuss GEMConf, css linting, a new Ember Vim plugin, and Riot\'s Ember usage.',
   slug: 'league-of-emburritos',
