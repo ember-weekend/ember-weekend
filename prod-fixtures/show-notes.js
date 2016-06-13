@@ -7045,5 +7045,103 @@ export default [
         title: 'Sam Selikoff'
       }
     ]
+  },
+  {
+    episode: 62,
+    timeStamp: '00:44',
+    resource: {
+      title: 'Progressive Web Applications',
+      link: 'https://www.youtube.com/watch?v=GB2Oat0EO98'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bcardarella',
+        title: 'Brian Cardarella'
+      }
+    ]
+  },
+  {
+    episode: 62,
+    timeStamp: '04:41',
+    resource: {
+      title: 'Progressive Web Applications (Slides)',
+      link: 'https://speakerdeck.com/bcardarella/san-diego-js-progressive-web-apps'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bcardarella',
+        title: 'Brian Cardarella'
+      }
+    ]
+  },
+  {
+    episode: 62,
+    timeStamp: '04:50',
+    resource: {
+      title: 'Data Down Action... Down in Emberjs - Using Ember.Evented',
+      link: 'https://www.netguru.co/blog/data-down-action-in-emberjs'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jakubniechcial',
+        title: 'Jakub Niechciał'
+      }
+    ]
+  },
+  {
+    episode: 62,
+    timeStamp: '07:43',
+    resource: {
+      title: 'Ember Changeset',
+      link: 'https://github.com/poteto/ember-changeset'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
+  },
+  {
+    episode: 62,
+    timeStamp: '08:28',
+    resource: {
+      title: 'Ember Buffered Proxy',
+      link: 'https://github.com/yapplabs/ember-buffered-proxy'
+    },
+    authors: [
+      {
+        link: 'https://github.com/yapplabs',
+        title: 'YappLabs'
+      }
+    ]
+  },
+  {
+    episode: 62,
+    timeStamp: '16:08',
+    resource: {
+      title: 'Wicked Good Ember 2016 Contributor\'s workshorp',
+      link: 'https://wickedgoodember.com/workshops/contributor'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Matthew Beale'
+      }
+    ]
+  },
+  {
+    episode: 62,
+    timeStamp: '16:42',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
   }
 ];

@@ -1,5 +1,19 @@
 export default [
 {
+  number: 62,
+  title: 'Game Changeset Match',
+  description: 'Chase and Jonathan discuss the business side of mobile web, Ember actions vs events, and Ember Changeset + Validations.',
+  slug: 'game-changeset-match',
+  releaseDate: 'June 13, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-62-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '18:16',
+  length: 21928145
+},
+{
   number: 61,
   title: 'League of Emburritos',
   description: 'Chase and Jonathan discuss GEMConf, css linting, a new Ember Vim plugin, and Riot\'s Ember usage.',
