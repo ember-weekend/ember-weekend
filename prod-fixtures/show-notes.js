@@ -2556,7 +2556,7 @@ export default [
       },
       {
         link: 'https://twitter.com/mixonic',
-        title: 'Mathew Beale'
+        title: 'Matthew Beale'
       }
     ]
   },
@@ -3885,7 +3885,7 @@ export default [
     authors: [
       {
         link: 'https://twitter.com/mixonic',
-        title: 'Mathew Beale'
+        title: 'Matthew Beale'
       }
     ]
   },
@@ -3927,7 +3927,7 @@ export default [
     authors: [
       {
         link: 'https://twitter.com/mixonic',
-        title: 'Mathew Beale'
+        title: 'Matthew Beale'
       }
     ]
   },
