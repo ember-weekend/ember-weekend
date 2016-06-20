@@ -7143,5 +7143,61 @@ export default [
         title: 'Us'
       }
     ]
+  },
+  {
+    episode: 63,
+    timeStamp: '0:30',
+    resource: {
+      title: 'Tilt - A Today I Learned PWA (still wip)',
+      link: 'https://ontilt.herokuapp.com'
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 63,
+    timeStamp: '2:09',
+    resource: {
+      title: 'AppCache is a Douchebag',
+      link: 'http://alistapart.com/article/application-cache-is-a-douchebag'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jaffathecake',
+        title: 'Jake Archibald'
+      }
+    ]
+  },
+  {
+    episode: 63,
+    timeStamp: '6:02',
+    resource: {
+      title: 'Ember Time Machine',
+      link: 'https://github.com/offirgolan/ember-time-machine'
+    },
+    authors: [
+      {
+        link: 'https://github.com/offirgolan',
+        title: 'Offir Golan'
+      }
+    ]
+  },
+  {
+    episode: 63,
+    timeStamp: '9:00',
+    resource: {
+      title: 'Ember Addon Secrets',
+      link: 'http://emberup.co/ember-addon-secrets/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/Brian_Sipple',
+        title: 'Brian Sipple'
+      }
+    ]
   }
 ];

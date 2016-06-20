@@ -1,5 +1,19 @@
 export default [
 {
+  number: 63,
+  title: 'Today I Learnt',
+  description: 'Chase and Jonathan discuss Jon\'s exploration into Progressive Web Applications, Ember Time Machine,  and a great blog post about ember addons by Brian Sipple.',
+  slug: 'today-i-learnt',
+  releaseDate: 'June 20, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-63-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '13:54',
+  length: 142947143
+},
+{
   number: 62,
   title: 'Game Changeset Match',
   description: 'Chase and Jonathan discuss the business side of mobile web, Ember actions vs events, and Ember Changeset + Validations.',
