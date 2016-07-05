@@ -41,7 +41,7 @@ export default [
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
   duration: '13:54',
-  length: 142947143
+  length: 16675456
 },
 {
   number: 62,
