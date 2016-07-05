@@ -7199,5 +7199,205 @@ export default [
         title: 'Brian Sipple'
       }
     ]
+  },
+  {
+    episode: 64,
+    timeStamp: '03:13',
+    resource: {
+      title: 'Dan\'s favorite thing',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '05:17',
+    resource: {
+      title: 'Chase\'s favorite thing',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '07:38',
+    resource: {
+      title: 'Rob\'s favorite thing',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '09:44',
+    resource: {
+      title: 'Chase\'s more serious favorite thing: contributor workshop',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/code0100fun',
+        title: 'Chase McCarthy'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '11:40',
+    resource: {
+      title: 'Jon\'s favorite thing',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: ''
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '12:16',
+    resource: {
+      title: 'Tom Dale\'s Keynote',
+      link: 'https://speakerdeck.com/tomdale/hella-good-ember'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '22:30',
+    resource: {
+      title: 'Shoebox',
+      link: 'https://github.com/ember-fastboot/fastboot#the-shoebox'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/habdelra',
+        title: 'Hassan Abdel-Rahman'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '24:56',
+    resource: {
+      title: 'Test first conference',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: ''
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '26:38',
+    resource: {
+      title: 'Testing Reunification',
+      link: 'https://github.com/rwjblue/rfcs/blob/42/text/0000-grand-testing-unification.md'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '27:25',
+    resource: {
+      title: 'Maintaining Your Tests At Scale',
+      link: 'https://wickedgoodember.com/speakers#trent-willis'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '28:47',
+    resource: {
+      title: 'Day 1 Keynote',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_danmcclain',
+        title: 'Dan McClain'
+      },
+      {
+        link: 'https://twitter.com/chris_mccord',
+        title: 'Chris McCord'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '31:31',
+    resource: {
+      title: 'Presence in Phoenix',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: ''
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '39:17',
+    resource: {
+      title: 'Tom Dale\'s epic trolls',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 64,
+    timeStamp: '41:00',
+    resource: {
+      title: 'Shout out to Dockyard / SO Ember',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      }
+    ]
   }
 ];

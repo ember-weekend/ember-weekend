@@ -1,5 +1,35 @@
 export default [
 {
+  number: 64,
+  title: 'Instant Win',
+  description: 'Chase and Jon once again unite with Robert Jackson and Dan McClain of Ember Land to form EmberWeekendLand. With their powers combined, they recap Wicked Good Ember and somehow fill 45 minutes with random tangents.',
+  slug: 'instant-win',
+  releaseDate: 'July 4, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-64-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '44:01',
+  length: 52814806,
+  guests: [
+    {
+      name: 'Robert Jackson',
+      guestInfoURL: 'https://twitter.com/rwjblue',
+      avatarURL: 'assets/images/robert-jackson.jpg',
+      tagLine: 'Ember core team  member and Frontend Developer at Aptible',
+      bio: 'Robert is an Ember.js core team member, and general open source addict. Outside of Aptible, Robert enjoys spending time with his wife and two rambunctious boys. He is @rwjblue on the web.'
+    },
+    {
+      name: 'Dan McClain',
+      guestInfoURL: 'https://twitter.com/_danmcclain',
+      avatarURL: 'assets/images/dan-mcclain.jpg',
+      tagLine: 'Dan is a partner and lead developer at DockYard.',
+      bio: 'He has been working on web applications for the past 7 years, starting with .Net, then later working with Rails. As of recent, DockYard has bet the company on Ember and Elixir, where Dan develops rich client applications for their clients.'
+    }
+  ]
+},
+{
   number: 63,
   title: 'Today I Learnt',
   description: 'Chase and Jonathan discuss Jon\'s exploration into Progressive Web Applications, Ember Time Machine,  and a great blog post about ember addons by Brian Sipple.',
