@@ -7264,10 +7264,6 @@ export default [
       link: ''
     },
     authors: [
-      {
-        link: '',
-        title: ''
-      }
     ]
   },
   {
@@ -7306,10 +7302,6 @@ export default [
       link: ''
     },
     authors: [
-      {
-        link: '',
-        title: ''
-      }
     ]
   },
   {
@@ -7366,10 +7358,6 @@ export default [
       link: ''
     },
     authors: [
-      {
-        link: '',
-        title: ''
-      }
     ]
   },
   {
