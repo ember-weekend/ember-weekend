@@ -7387,5 +7387,47 @@ export default [
         title: 'Dockyard'
       }
     ]
+  },
+  {
+    episode: 65,
+    timeStamp: '01:20',
+    resource: {
+      title: 'Ember Exam',
+      link: 'https://github.com/trentmwillis/ember-exam'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 65,
+    timeStamp: '5:35',
+    resource: {
+      title: 'Acorns',
+      link: 'https://www.acorns.com/'
+    },
+    authors: [
+      {
+        link: 'https://www.acorns.com/about',
+        title: 'Acorns'
+      }
+    ]
+  },
+  {
+    episode: 65,
+    timeStamp: '07:29',
+    resource: {
+      title: 'Component Dependency Injection in Ember.js',
+      link: 'https://emberway.io/component-dependency-injection-in-ember-js-a46a39a5d30a'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/sugarpirate_',
+        title: 'Lauren Tan'
+      }
+    ]
   }
 ];

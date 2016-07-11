@@ -1,5 +1,19 @@
 export default [
 {
+  number: 65,
+  title: 'Go catch\'em all',
+  description: 'Chase and Jon discuss Ember Exam, the new Fastboot driven Acorns site, and a DI blog post by Lauren Tan.',
+  slug: 'go-catchem-all',
+  releaseDate: 'July 11, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-65-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '19:54',
+  length: 23885056
+},
+{
   number: 64,
   title: 'Instant Win',
   description: 'Chase and Jon once again unite with Robert Jackson and Dan McClain of Ember Land to form EmberWeekendLand. With their powers combined, they recap Wicked Good Ember and somehow fill 45 minutes with random tangents.',
