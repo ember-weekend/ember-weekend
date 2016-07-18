@@ -7429,5 +7429,109 @@ export default [
         title: 'Lauren Tan'
       }
     ]
-  }
+  },
+  {
+    episode: 66,
+    timeStamp: '01:14',
+    resource: {
+      title: 'Ember Map',
+      link: 'https://embermap.com/'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff',
+        title: 'Sam Selikoff'
+      },
+      {
+        link: 'https://twitter.com/ryantotweets',
+        title: 'Ryan Toronto'
+      }
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '04:42',
+    resource: {
+      title: 'Building An Ember App Without A Backend',
+      link: 'https://www.codeschool.com/blog/2016/07/07/building-an-ember-app-without-a-back-end/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/baaz',
+        title: 'Balint Erdi'
+      }
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '08:04',
+    resource: {
+      title: 'Percy - Continuous Visual Integration For Ember',
+      link: 'https://blog.percy.io/continuous-visual-integration-for-ember-d9c438e7c4fa'
+    },
+    authors: [
+      {
+        link: 'https://percy.io/',
+        title: 'Percy'
+      }
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '12:55',
+    resource: {
+      title: 'Lazy Loading Engines Attack Plan',
+      link: 'https://github.com/dgeb/ember-engines/issues/154'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/nathanhammond',
+        title: 'Nathan Hammond'
+      }
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '15:28',
+    resource: {
+      title: 'Jon\'s painful bug experience',
+      link: ''
+    },
+    authors: [
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '17:35',
+    resource: {
+      title: 'Ember Route Action Register',
+      link: 'https://github.com/DockYard/ember-route-action-helper/blob/master/tests/helpers/module-for-acceptance.js#L14-L19'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      }
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '18:31',
+    resource: {
+      title: 'Gist with working register on 1.13-2.1',
+      link: 'https://gist.github.com/rondale-sc/a88da9eda29705701994c995cf574ca9'
+    },
+    authors: [
+    ]
+  },
+  {
+    episode: 66,
+    timeStamp: '22:34',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+    ]
+  },
 ];

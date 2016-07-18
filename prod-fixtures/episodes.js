@@ -1,5 +1,28 @@
 export default [
 {
+  number: 66,
+  title: 'Bug Integrat',
+  description: 'Jon is joined by Frontside founder Charles Lowell to discuss everything from EmberMap to Percy in this fun episode.',
+  slug: 'bug-integrat',
+  releaseDate: 'July 18, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-66-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '25:20',
+  length: 30408014,
+  guests: [
+    {
+      name: 'Charles Lowell',
+      guestInfoURL: 'https://twitter.com/cowboyd',
+      avatarURL: 'assets/images/charles-lowell.jpg',
+      tagLine: 'Gentleman Developer',
+      bio: 'Charles has been delivering bullet-proof software for over 18 years. An avid contributor to open source, he founded the Frontside in 2005 to help businesses deliver game-changing user interfaces to their customers. Also, he really, really, really, really likes to code. Really.'
+    },
+  ]
+},
+{
   number: 65,
   title: 'Go catch\'em all',
   description: 'Chase and Jon discuss Ember Exam, the new Fastboot driven Acorns site, and a DI blog post by Lauren Tan.',
