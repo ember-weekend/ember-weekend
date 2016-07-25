@@ -7534,4 +7534,46 @@ export default [
     authors: [
     ]
   },
+  {
+    episode: 67,
+    timeStamp: '01:04',
+    resource: {
+      title: 'Asset Loader Service RFC',
+      link: 'https://github.com/trentmwillis/rfcs/blob/asset-loader-service/text/0000-asset-loader-service.md'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 67,
+    timeStamp: '06:18',
+    resource: {
+      title: 'Route Recognizer [Blog]',
+      link: 'http://www.nathanhammond.com/route-recognizer'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/nathanhammond',
+        title: 'Nathan Hammond'
+      }
+    ]
+  },
+  {
+    episode: 67,
+    timeStamp: '12:46',
+    resource: {
+      title: 'Ember Owner Test Utils',
+      link: 'https://github.com/rondale-sc/ember-owner-test-utils'
+    },
+    authors: [
+      {
+        title: 'Jonathan Jackson',
+        link: 'https://twitter.com/rondale_sc'
+      }
+    ]
+  }
 ];

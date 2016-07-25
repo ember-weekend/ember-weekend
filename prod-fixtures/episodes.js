@@ -1,5 +1,19 @@
 export default [
 {
+  number: 67,
+  title: 'Nondeterministic Finite Podcast',
+  description: 'Chase returns from vacation rejoining Jonathan to discuss the asset service RFC, Nathan Hammond\'s treatise on route recognition, and Jonathan\s new addon.',
+  slug: 'nondeterministic-finite-podcast',
+  releaseDate: 'July 25, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-67-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '23:43',
+  length: 28460896
+},
+{
   number: 66,
   title: 'Bug Integrat',
   description: 'Jon is joined by Frontside founder Charles Lowell to discuss everything from EmberMap to Percy in this fun episode.',
