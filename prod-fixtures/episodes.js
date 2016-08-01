@@ -1,5 +1,19 @@
 export default [
 {
+  number: 68,
+  title: 'Alpha Something',
+  description: 'Chase and Jonathan discuss the newly released Ember 2.9 alpha, lazy engines, and a new podcast called CareerJS from some Ember friends.',
+  slug: 'alpha-something',
+  releaseDate: 'August 01, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-68-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '16:50',
+  length: 20210855
+},
+{
   number: 67,
   title: 'Nondeterministic Finite Podcast',
   description: 'Chase returns from vacation rejoining Jonathan to discuss the asset service RFC, Nathan Hammond\'s treatise on route recognition, and Jonathan\s new addon.',

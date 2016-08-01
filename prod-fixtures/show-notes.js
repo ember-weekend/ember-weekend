@@ -7575,5 +7575,83 @@ export default [
         link: 'https://twitter.com/rondale_sc'
       }
     ]
+  },
+  {
+    episode: 68,
+    timeStamp: '01:17',
+    resource: {
+      title: 'Announcing the Glimmer 2 Alpha',
+      link: 'http://emberjs.com/blog/2016/07/29/announcing-the-glimmer-2-alpha.html'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 68,
+    timeStamp: '09:52',
+    resource: {
+      title: 'Career JS [Podcast]',
+      link: 'http://careerjs.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
+      },
+      {
+        title: 'David Tang',
+        link: 'https://twitter.com/skaterdav85'
+      },
+      {
+        link: 'https://twitter.com/erikch',
+        title: 'Erik Hanchett'
+      }
+    ]
+  },
+  {
+    episode: 68,
+    timeStamp: '12:04',
+    resource: {
+      title: 'Lazy Engine [Tweet]',
+      link: 'https://twitter.com/trentmwillis/status/759133282311151616'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 68,
+    timeStamp: '14:09',
+    resource: {
+      title: 'Ember Asset Loader [Addon]',
+      link: 'https://github.com/trentmwillis/ember-asset-loader'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 68,
+    timeStamp: '14:09',
+    resource: {
+      title: 'Ember Engines [Addon]',
+      link: 'https://github.com/dgeb/ember-engines'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/dgeb',
+        title: 'Dan Gebhardt'
+      },
+    ]
   }
 ];
