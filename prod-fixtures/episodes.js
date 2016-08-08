@@ -1,5 +1,19 @@
 export default [
 {
+  number: 69,
+  title: 'Be More Verbose',
+  description: 'Chase and Jonathan discuss a blog by Jon Pitcherella about writing better Ember tests, the new 1.0 release of one way controls, and much more.',
+  slug: 'be-more-verbose',
+  releaseDate: 'August 09, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-69-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'http://i.imgur.com/tYFiNnB.jpg',
+  duration: '15:03',
+  length: 145633327
+},
+{
   number: 68,
   title: 'Alpha Something',
   description: 'Chase and Jonathan discuss the newly released Ember 2.9 alpha, lazy engines, and a new podcast called CareerJS from some Ember friends.',
@@ -10,8 +24,8 @@ export default [
   filename: 'ep-68-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'http://i.imgur.com/tYFiNnB.jpg',
-  duration: '16:50',
-  length: 20210855
+  duration: '23:43',
+  length: 28460896
 },
 {
   number: 67,

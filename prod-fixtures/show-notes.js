@@ -7653,5 +7653,77 @@ export default [
         title: 'Dan Gebhardt'
       },
     ]
+  },
+  {
+    episode: 69,
+    timeStamp: '01:47',
+    resource: {
+      title: 'DAS',
+      link: 'https://www.destroyallsoftware.com/screencasts'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/garybernhardt',
+        title: 'Gary Bernhardt'
+      },
+    ]
+  },
+  {
+    episode: 69,
+    timeStamp: '05:44',
+    resource: {
+      title: 'Rule Of Least Power [Ember Weekend Episode]',
+      link: 'https://emberweekend.com/episodes/the-rule-of-least-power'
+    },
+    authors: [
+    ]
+  },
+  {
+    episode: 69,
+    timeStamp: '10:22',
+    resource: {
+      title: 'Ember One Way Controlls',
+      link: 'https://github.com/DockYard/ember-one-way-controls'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      }
+    ]
+  },
+  {
+    episode: 69,
+    timeStamp: '11:30',
+    resource: {
+      title: 'Ember Redux on Twiddle [Tweet]',
+      link: 'https://twitter.com/toranb/status/761385332747014144'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/toranb',
+        title: 'Toran Billups'
+      }
+    ]
+  },
+  {
+    episode: 69,
+    timeStamp: '13:27',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+    ]
+  },
+  {
+    episode: 69,
+    timeStamp: '13:42',
+    resource: {
+      title: 'Ember Weekend Training',
+      link: ''
+    },
+    authors: [
+    ]
   }
 ];
