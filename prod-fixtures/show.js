@@ -3,7 +3,7 @@ export default {
   'description': 'Ember.js is a frontend JavaScript framework that has exciting applications.  In this podcasts we share news, events, and some of our experiences.',
   'link': 'https://emberweekend.com',
   'site_url': 'https://emberweekend.com',
-  'image_url': 'http://i.imgur.com/tYFiNnB.jpg',
+  'image_url': 'https://i.imgur.com/YyAd2Ee.png',
   'managingEditor': 'jonathan.jackson1@me.com (Jonathan Jackson)',
   'webMaster': 'chase@code0100fun.com (Chase McCarthy)',
   'copyright': '2015 Chase McCarthy & Jonathan Jackson',
@@ -25,7 +25,7 @@ export default {
     { 'itunes:explicit': 'no' },
     { 'itunes:image': {
       '_attr': {
-        'href': 'http://i.imgur.com/tYFiNnB.jpg'
+        'href': 'https://i.imgur.com/YyAd2Ee.png'
       }
     } },
     { 'itunes:category': [
