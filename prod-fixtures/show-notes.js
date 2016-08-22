@@ -7725,5 +7725,47 @@ export default [
     },
     authors: [
     ]
+  },
+  {
+    episode: 70,
+    timeStamp: '00:31',
+    resource: {
+      title: 'Improving Chat Rendering Performance',
+      link: 'https://blog.twitch.tv/improving-chat-rendering-performance-1c0945b82764'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bensw',
+        title: 'Ben Swartz'
+      }
+    ]
+  },
+  {
+    episode: 70,
+    timeStamp: '06:14',
+    resource: {
+      title: 'Ember Weekend Training ',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 70,
+    timeStamp: '09:09',
+    resource: {
+      title: 'GemConf (August 12th)',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Global Ember Meetup'
+      }
+    ]
   }
 ];

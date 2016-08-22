@@ -1,5 +1,19 @@
 export default [
 {
+  number: 70,
+  title: 'Back From Training',
+  description: 'Chase and Jonathan discuss Twitch\'s chat performance blog, regale you with tales from GemConf, and talk about our ember training.',
+  slug: 'back-from-training',
+  releaseDate: 'August 22, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-70-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '15:41',
+  length: 15062160
+},
+{
   number: 69,
   title: 'Be More Verbose',
   description: 'Chase and Jonathan discuss a blog by Jon Pitcherella about writing better Ember tests, the new 1.0 release of one way controls, and much more.',
