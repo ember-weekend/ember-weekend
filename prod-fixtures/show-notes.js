@@ -7767,5 +7767,75 @@ export default [
         title: 'Global Ember Meetup'
       }
     ]
+  },
+  {
+    episode: 71,
+    timeStamp: '00:29',
+    resource: {
+      title: 'Build a drum machine',
+      link: 'https://www.youtube.com/watch?v=dDPAUcxQ3lA'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      }
+    ]
+  },
+  {
+    episode: 71,
+    timeStamp: '03:50',
+    resource: {
+      title: 'Automated Ember deployments',
+      link: 'https://envoy.engineering/automated-ember-deployments-492495f95dcd'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/abuiles',
+        title: 'Adolfo Builes'
+      }
+    ]
+  },
+  {
+    episode: 71,
+    timeStamp: '07:44',
+    resource: {
+      title: 'Ember Sparkles',
+      link: 'https://github.com/LocusEnergy/ember-sparkles'
+    },
+    authors: [
+      {
+        link: 'https://github.com/LocusEnergy',
+        title: 'Locus Energy'
+      }
+    ]
+  },
+  {
+    episode: 71,
+    timeStamp: '15:00',
+    resource: {
+      title: 'So Ember',
+      link: 'http://soember.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'DockYard'
+      }
+    ]
+  },
+  {
+    episode: 71,
+    timeStamp: '15:55',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
   }
 ];

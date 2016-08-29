@@ -1,5 +1,19 @@
 export default [
 {
+  number: 71,
+  title: 'Drums and Sparkles',
+  description: 'Chase and Jonathan talk about Gavin\'s drum machine and try to keep a straight face while talking about Ember Sparkles.',
+  slug: 'drums-and-sparkles',
+  releaseDate: 'August 29, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-71-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '17:24',
+  length: 20880112
+},
+{
   number: 70,
   title: 'Back From Training',
   description: 'Chase and Jonathan discuss Twitch\'s chat performance blog, regale you with tales from GemConf, and talk about our ember training.',
