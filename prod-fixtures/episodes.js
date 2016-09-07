@@ -1,5 +1,19 @@
 export default [
 {
+  number: 72,
+  title: 'RFCs FTW',
+  description: 'Chase and Jonathan discuss MOAR drum machines, and get excited about the new Glimmer 2 engine being pulled into canary!',
+  slug: 'rfcs-ftw',
+  releaseDate: 'Sept 06, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-72-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '12:12',
+  length: 14658976
+},
+{
   number: 71,
   title: 'Drums and Sparkles',
   description: 'Chase and Jonathan talk about Gavin\'s drum machine and try to keep a straight face while talking about Ember Sparkles.',

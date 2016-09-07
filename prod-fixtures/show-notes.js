@@ -7837,5 +7837,61 @@ export default [
         title: 'Us'
       }
     ]
+  },
+  {
+    episode: 72,
+    timeStamp: '00:39',
+    resource: {
+      title: 'Build a Drum Machine #3 - Bars, Beats and Sixteenths',
+      link: 'https://www.youtube.com/watch?v=6jR631ejVGI'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      }
+    ]
+  },
+  {
+    episode: 72,
+    timeStamp: '01:16',
+    resource: {
+      title: 'Editing and Validating Forms with ember-changeset',
+      link: 'https://www.emberscreencasts.com/tags/editing-and-validating-forms-with-ember-changeset'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
+      }
+    ]
+  },
+  {
+    episode: 72,
+    timeStamp: '05:20',
+    resource: {
+      title: 'Upcoming Developments in Ember',
+      link: 'https://dockyard.com/blog/2016/08/10/upcoming-developments-ember'
+    },
+    authors: [
+      {
+        link: 'https://github.com/rkrishnan8594',
+        title: 'Rowan Krishnan'
+      }
+    ]
+  },
+  {
+    episode: 72,
+    timeStamp: '08:32',
+    resource: {
+      title: '[FEATURE ember-glimmer] Enable by default.',
+      link: 'https://github.com/emberjs/ember.js/pull/14156'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
   }
 ];
