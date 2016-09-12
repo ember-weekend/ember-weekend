@@ -1,5 +1,19 @@
 export default [
 {
+  number: 73,
+  title: 'A New LTS!',
+  description: 'Chase and Jonathan discuss Ember\'s most recent LTS release, and the subsequent beta which includes Glimmer 2! As well as a new testing addon by Tom Dale.',
+  slug: 'a-new-lts',
+  releaseDate: 'Sept 12, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-73-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '16:34',
+  length: 19881712
+},
+{
   number: 72,
   title: 'RFCs FTW',
   description: 'Chase and Jonathan discuss MOAR drum machines, and get excited about the new Glimmer 2 engine being pulled into canary!',

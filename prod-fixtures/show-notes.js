@@ -7893,5 +7893,57 @@ export default [
         title: 'Ember.js'
       }
     ]
+  },
+  {
+    episode: 73,
+    timeStamp: '00:50',
+    resource: {
+      title: 'Ember 2.8 LTS released',
+      link: 'http://emberjs.com/blog/2016/09/08/ember-2-8-and-2-9-beta-released.html'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 73,
+    timeStamp: '06:15',
+    resource: {
+      title: 'Ember 2.9 beta released [with Glimmer 2]',
+      link: 'http://emberjs.com/blog/2016/09/08/ember-2-8-and-2-9-beta-released.html'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 73,
+    timeStamp: '13:23',
+    resource: {
+      title: 'Ember CLI Addon Tests [addon]',
+      link: 'https://github.com/tomdale/ember-cli-addon-tests'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 73,
+    timeStamp: '15:54',
+    resource: {
+      title: 'Outro ',
+      link: ''
+    },
+    authors: [
+    ]
   }
 ];
