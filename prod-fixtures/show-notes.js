@@ -7945,5 +7945,43 @@ export default [
     },
     authors: [
     ]
-  }
+  },
+  {
+    episode: 74,
+    timeStamp: '00:22',
+    resource: {
+      title: 'Glimmer 2 & corrections',
+      link: 'http://emberjs.com/blog/2016/09/08/ember-2-8-and-2-9-beta-released.html'
+    },
+    authors: [
+    ]
+  },
+  {
+    episode: 74,
+    timeStamp: '03:37',
+    resource: {
+      title: 'Passing Data Around Your Ember Application',
+      link: 'https://blog.embermap.com/passing-data-around-your-ember-application-c4fe1e06e90'
+    },
+    authors: [
+      {
+        title: 'Ryan Toronto',
+        link: 'https://twitter.com/ryantotweets'
+      }
+    ]
+  },
+  {
+    episode: 74,
+    timeStamp: '08:50',
+    resource: {
+      title: 'Glimmer 2 Deep Dive with Yehuda Katz & Gavin Joyce',
+      link: 'https://www.youtube.com/watch?v=vL8sCi1Bv6E'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/gavinjoyce',
+        title: 'Gavin Joyce'
+      }
+    ]
+  },
 ];

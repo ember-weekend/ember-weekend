@@ -1,5 +1,19 @@
 export default [
 {
+  number: 74,
+  title: 'Above The Fold',
+  description: 'Chase and Jonathan discuss Glimmer 2 in more depth, as well as a make a few corrections to last weeks\' edition and take a tour of Ryan Toronto\'s latest blog post.',
+  slug: 'above-the-fold',
+  releaseDate: 'Sept 19, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-74-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '15:20',
+  length: 148667589
+},
+{
   number: 73,
   title: 'A New LTS!',
   description: 'Chase and Jonathan discuss Ember\'s most recent LTS release, and the subsequent beta which includes Glimmer 2! As well as a new testing addon by Tom Dale.',
