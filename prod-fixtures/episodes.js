@@ -1,5 +1,19 @@
 export default [
 {
+  number: 75,
+  title: 'Stop, Hammertime',
+  description: 'Chase and Jonathan talk about mobile fastclick with ember-hammertime, deprecating targetObject, the resolver, and the newly released EmberCamp 2016 videos.',
+  slug: 'stop-comma-hammertime',
+  releaseDate: 'Sept 26, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-75-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '12:32',
+  length: 15046969
+},
+{
   number: 74,
   title: 'Above The Fold',
   description: 'Chase and Jonathan discuss Glimmer 2 in more depth, as well as a make a few corrections to last weeks\' edition and take a tour of Ryan Toronto\'s latest blog post.',

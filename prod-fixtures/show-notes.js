@@ -7984,4 +7984,88 @@ export default [
       }
     ]
   },
+  {
+    episode: 75,
+    timeStamp: '00:30',
+    resource: {
+      title: 'Corrections',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 75,
+    timeStamp: '01:52',
+    resource: {
+      title: 'ember-hammertime',
+      link: 'https://github.com/runspired/ember-hammertime'
+    },
+    authors: [
+      {
+        link: 'https://github.com/runspired',
+        title: 'Chris Thoburn'
+      }
+    ]
+  },
+  {
+    episode: 75,
+    timeStamp: '03:33',
+    resource: {
+      title: 'Deprecate usage of `targetObject`',
+      link: 'https://github.com/emberjs/ember.js/issues/14168'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 75,
+    timeStamp: '06:42',
+    resource: {
+      title: 'Understanding Ember\'s resolver',
+      link: 'https://dockyard.com/blog/2016/09/14/understanding-ember-s-resolver'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/Martndemus',
+        title: 'Marten Schilstra'
+      }
+    ]
+  },
+  {
+    episode: 75,
+    timeStamp: '08:58',
+    resource: {
+      title: 'EmberCamp London 2016 Videos',
+      link: 'https://www.youtube.com/playlist?list=PL4eq2DPpyBbmrPasP06vK7cUkPUCNn_rW'
+    },
+    authors: [
+      {
+        link: 'https://www.youtube.com/channel/UCMmzJ82sCmooDdtzVY8FxEA',
+        title: 'Ember Meetup Videos'
+      }
+    ]
+  },
+  {
+    episode: 75,
+    timeStamp: '11:44',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
 ];
