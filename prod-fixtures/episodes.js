@@ -1,5 +1,19 @@
 export default [
 {
+  number: 76,
+  title: 'Ember.Weekend.readOnly',
+  description: 'Chase and Jonathan discuss Stef Pennar\'s most recent addon, tc39 happenings, and Jeffrey Biles\' new creation—EmberSchool.',
+  slug: 'ember-weekend-readonly',
+  releaseDate: 'Oct 04, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-76-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '14:52',
+  length: 17845216
+},
+{
   number: 75,
   title: 'Stop, Hammertime',
   description: 'Chase and Jonathan talk about mobile fastclick with ember-hammertime, deprecating targetObject, the resolver, and the newly released EmberCamp 2016 videos.',

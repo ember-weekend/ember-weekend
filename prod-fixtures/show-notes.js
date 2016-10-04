@@ -8068,4 +8068,46 @@ export default [
       }
     ]
   },
+  {
+    episode: 76,
+    timeStamp: '00:53',
+    resource: {
+      title: 'Ember Improved CP',
+      link: 'https://github.com/stefanpenner/ember-improved-cp'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/stefanpenner',
+        title: 'Stefan Penner'
+      }
+    ]
+  },
+  {
+    episode: 76,
+    timeStamp: '03:07',
+    resource: {
+      title: 'Node.js, TC-39, and Modules',
+      link: 'https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jasnell',
+        title: 'James M Snell'
+      }
+    ]
+  },
+  {
+    episode: 76,
+    timeStamp: '08:38',
+    resource: {
+      title: 'EmberSchool',
+      link: 'https://www.emberschool.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jeffreybiles',
+        title: 'Jeffrey Biles'
+      }
+    ]
+  },
 ];
