@@ -1,6 +1,14 @@
 .container
   = play-pause-toggle play=(action 'play') pause=(action 'pause') bubbles=false
-
+  .volume-control
+    -if player.muted
+      .volume-button{action "unmute"}
+        %i{class=volumeButtonClass}
+    -else
+      .volume-button{action "mute"}
+        %i{class=volumeButtonClass}
+    <!-- Messy hack. Check: https://github.com/emberjs/ember.js/issues/11678 -->
+    <input class="volume-bar" value={{player.volume}} type="range" min="0" max="1" step="0.01" onChange={{action "changeVolume" value="target.value"}} >
   %p.episode-info
     %time=player.currentTime
     =player.title

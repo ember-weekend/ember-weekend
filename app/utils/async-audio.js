@@ -82,6 +82,14 @@ AsyncAudio.prototype = {
 
   get currentTime() {
     return this._audio.currentTime;
+  },
+
+  set volume(volume) {
+    this._audio.volume = volume;
+  },
+
+  get volume() {
+    return this._audio.volume;
   }
   // jscs:enable
 
