@@ -8110,4 +8110,46 @@ export default [
       }
     ]
   },
+  {
+    episode: 77,
+    timeStamp: '00:55',
+    resource: {
+      title: 'Allow user-supplied handler to return a Promise',
+      link: 'https://github.com/pretenderjs/pretender/pull/177'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/dustinfarris',
+        title: 'Dustin Farris'
+      }
+    ]
+  },
+  {
+    episode: 77,
+    timeStamp: '06:42',
+    resource: {
+      title: 'Introducing Yarn',
+      link: 'https://yarnpkg.com/blog/2016/10/11/introducing-yarn'
+    },
+    authors: [
+      {
+        link: 'https://github.com/yarnpkg/yarn',
+        title: 'Yarn'
+      }
+    ]
+  },
+  {
+    episode: 77,
+    timeStamp: '12:59',
+    resource: {
+      title: 'https://github.com/yarnpkg/yarn/issues/838#issuecomment-253362537',
+      link: 'Shrinkwrap file from added packages are ignored'
+    },
+    authors: [
+      {
+        link: 'https://github.com/yarnpkg/yarn',
+        title: 'Yarn'
+      }
+    ]
+  },
 ];

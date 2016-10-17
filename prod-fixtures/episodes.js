@@ -1,5 +1,19 @@
 export default [
 {
+  number: 77,
+  title: 'Unravelling a Package Manager',
+  description: 'Chase and Jonathan discuss some new happenings in Pretender.js, and the new javascript package manager client: Yarn.',
+  slug: 'unravelling-a-package-manager',
+  releaseDate: 'Oct 17, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-77-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '21:05',
+  length: 25310656
+},
+{
   number: 76,
   title: 'Ember.Weekend.readOnly',
   description: 'Chase and Jonathan discuss Stef Pennar\'s most recent addon, tc39 happenings, and Jeffrey Biles\' new creation—EmberSchool.',
