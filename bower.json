@@ -1,22 +1,22 @@
 {
   "name": "ember-weekend",
   "dependencies": {
+    "Faker": "~3.0.0",
     "bourbon": "4.2.6",
-    "sinon": "http://sinonjs.org/releases/sinon-1.12.2.js",
+    "ceibo": "1.1.0",
     "ember-cli-moment-shim": "~0.0.3",
+    "ember-cli-shims": "0.1.0",
+    "ember-cli-test-loader": "0.2.2",
+    "es5-shim": "^4.0.5",
+    "font-awesome": "~4.4.0",
+    "lodash": "~3.7.0",
     "moment": "~2.9.0",
     "mousetrap": "~1.4.6",
     "pretender": "~0.12.0",
-    "lodash": "~3.7.0",
-    "Faker": "~3.0.0",
-    "es5-shim": "^4.0.5",
-    "font-awesome": "~4.4.0",
-    "ember-cli-shims": "~0.1.0",
-    "ember-cli-test-loader": "0.2.2",
-    "ceibo": "1.1.0"
+    "sinon": "http://sinonjs.org/releases/sinon-1.12.2.js"
   },
   "resolutions": {
-    "ember": "~2.4.1",
+    "ember": "2.4.1",
     "ember-cli-shims": "0.1.0",
     "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
