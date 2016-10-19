@@ -15,18 +15,19 @@ module('Acceptance | episode show', {
 
 test('visiting /episode-show', function(assert) {
   const episode = server.create('episode', { slug: 'foo' });
+  const author = server.create('person', {
+    url: 'https://twitter.com/embersherpa',
+    title: 'EmberSherpa'
+  });
+  const resource = server.create('resource', {
+    url: 'https://www.youtube.com/watch?v=8GMeMM0ukYM',
+    title: 'Ember.js 1.11 Workshop',
+    authors: [author]
+  });
   const showNote = server.create('show-note', {
     episodeId: episode.id,
-    episode: episode.id,
     timeStamp: '00:15',
-    resource:  {
-      link: 'https://www.youtube.com/watch?v=8GMeMM0ukYM',
-      title: 'Ember.js 1.11 Workshop'
-    },
-    authors: [
-      { link: 'https://twitter.com/embersherpa',
-        title: 'EmberSherpa' }
-    ]
+    resource
   });
 
   page.visit({ slug: 'foo' });
@@ -36,7 +37,7 @@ test('visiting /episode-show', function(assert) {
 
     assert.equal(page.title, episode.title);
     assert.equal(sn.timeStamp, showNote.timeStamp);
-    assert.equal(sn.resourceLink, showNote.resource.link);
+    assert.equal(sn.resourceLink, showNote.resource.url);
     assert.equal(sn.resourceTitle, showNote.resource.title);
   });
 });
