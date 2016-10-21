@@ -7,16 +7,16 @@
 
     {{content-for 'head'}}
 
-    <link rel="stylesheet" type="text/css" href="assets/vendor.css">
-    <link rel="stylesheet" type="text/css" href="assets/ember-weekend.css">
+    <link rel="stylesheet" type="text/css" href="{{rootURL}}assets/vendor.css">
+    <link rel="stylesheet" type="text/css" href="{{rootURL}}assets/ember-weekend.css">
 
     {{content-for 'head-footer'}}
   </head>
   <body>
     {{content-for 'body'}}
 
-    <script src="assets/vendor.js"></script>
-    <script src="assets/ember-weekend.js"></script>
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/ember-weekend.js"></script>
 
     {{content-for 'body-footer'}}
 
@@ -38,5 +38,7 @@
       }
 
     </script>
+
+    {{content-for "body-footer"}}
   </body>
 </html>
