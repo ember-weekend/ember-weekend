@@ -1,5 +1,19 @@
 export default [
 {
+  number: 78,
+  title: 'Progressive Ember Weekend',
+  description: 'Chase and Jonathan discuss a particularly good issue regarding the Ember.js guides, a new addon, and Nolan Lawson\'s progressive enhancement blog post.',
+  slug: 'progressive-ember-weekend',
+  releaseDate: 'Oct 24, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-78-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '15:54',
+  length: 19075456
+},
+{
   number: 77,
   title: 'Unravelling a Package Manager',
   description: 'Chase and Jonathan discuss some new happenings in Pretender.js, and the new javascript package manager client: Yarn.',

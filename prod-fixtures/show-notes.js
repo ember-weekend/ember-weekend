@@ -8152,4 +8152,46 @@ export default [
       }
     ]
   },
+  {
+    episode: 78,
+    timeStamp: '01:14',
+    resource: {
+      title: 'Perspective of someone new to SPAs: Large tutorial in guides is incredibly confusing',
+      link: 'https://github.com/emberjs/guides/issues/1708#thread-subscription-status'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/bestcapetownSA',
+        title: 'Lisa Huang'
+      }
+    ]
+  },
+  {
+    episode: 78,
+    timeStamp: '08:17',
+    resource: {
+      title: 'Ember Object Update',
+      link: 'https://github.com/cafreeman/ember-object-update'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/15lettermax',
+        title: 'Chris Freeman'
+      }
+    ]
+  },
+  {
+    episode: 78,
+    timeStamp: '11:07',
+    resource: {
+      title: 'Progressive enhancement isn’t dead, but it smells funny',
+      link: 'https://nolanlawson.com/2016/10/13/progressive-enhancement-isnt-dead-but-it-smells-funny/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/nolanlawson',
+        title: 'Nolan Lawson'
+      }
+    ]
+  },
 ];
