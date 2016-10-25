@@ -11,13 +11,6 @@ module.exports = function(defaults) {
     }
   });
 
-  app.import(app.bowerDirectory + '/moment/moment.js');
-  app.import(app.bowerDirectory + '/ember-cli-moment-shim/moment-shim.js', {
-    exports: {
-      moment: ['default']
-    }
-  });
-
   var fs = require('fs');
   var appTree;
 
