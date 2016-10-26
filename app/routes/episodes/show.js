@@ -6,6 +6,7 @@ const { set } = Ember;
 export default Ember.Route.extend({
   fastboot: Ember.inject.service(),
   shortcircuit: Ember.inject.service('shoebox-shortcircuit'),
+  player: Ember.inject.service(),
   model(params) {
     let shoebox = this.get('fastboot.shoebox');
     let shoeboxStore = shoebox.retrieve('episode-show-store');
@@ -57,6 +58,8 @@ export default Ember.Route.extend({
   },
   headData: Ember.inject.service(),
   afterModel(model) {
+    set(this, 'player.episode', model);
+
     set(this, 'headData.title', model.get('title'));
     set(this, 'headData.description', model.get('description'));
     set(this, 'headData.audio', `https://emberweekend.s3.amazonaws.com/${model.get('filename')}.mp3`);
