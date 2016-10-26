@@ -13,7 +13,7 @@ export default DS.Model.extend({
   filename: attr(),
   duration: attr(),
   showNotes: DS.hasMany('show-note'),
-  guests: DS.hasMany('people'),
+  guests: DS.hasMany('person'),
   prettyReleaseDate: Ember.computed('releaseDate', function() {
     return moment(this.get('releaseDate')).format('MMMM DD, YYYY');
   })

@@ -4,8 +4,53 @@ import truncate from 'ember-weekend/utils/truncate-string';
 const { set } = Ember;
 
 export default Ember.Route.extend({
+  fastboot: Ember.inject.service(),
+  shortcircuit: Ember.inject.service('shoebox-shortcircuit'),
   model(params) {
-    return this.store.queryRecord('episode', { slug: params.slug });
+    let shoebox = this.get('fastboot.shoebox');
+    let shoeboxStore = shoebox.retrieve('episode-show-store');
+
+    if (this.get('fastboot.isFastBoot')) {
+      return this.store.queryRecord('episode', { slug: params.slug }).then(episode => {
+        if(!shoeboxStore){
+          shoeboxStore = {};
+          shoebox.put('episode-show-store', shoeboxStore);
+        }
+        const pushData = episode.serialize({includeId: true});
+
+        const includeds = [];
+
+        episode.get('showNotes').map(function(showNote) {
+
+          includeds.push(showNote.serialize({includeId: true}).data);
+
+          includeds.push(showNote.get('resource').serialize({includeId: true}).data);
+
+          showNote.get('authors').map(function(author) {
+            includeds.push(author.serialize({includeId: true}).data);
+          });
+        });
+
+        pushData.included = includeds;
+        shoeboxStore[params.slug] = pushData;
+        return episode;
+      });
+    } else {
+      if (shoeboxStore && typeof this.get('shortcircuit.episode-show-store') === 'undefined') {
+        let pushData;
+        try {
+          pushData = shoeboxStore[params.slug];
+          this.store.pushPayload(pushData);
+        }
+
+        finally {
+          this.get('shortcircuit').set("episode-show-store", true);
+          return this.store.peekRecord('episode', pushData.data.id);
+        }
+      } else {
+        return this.store.queryRecord('episode', { slug: params.slug });
+      }
+    }
   },
   serialize(model) {
     return { slug: model.get('slug') };
@@ -23,7 +68,5 @@ export default Ember.Route.extend({
 
     const twitter_title = truncate('Ember Weekend: ' + model.get('title'), 70);
     set(this, 'headData.twitter_title', twitter_title);
-
-    return model.get('showNotes');
   }
 });

@@ -4,5 +4,5 @@ const { attr } = DS;
 export default DS.Model.extend({
   title: attr(),
   url: attr(),
-  authors: DS.hasMany('people', { async: true })
+  authors: DS.hasMany('people', { async: false })
 });

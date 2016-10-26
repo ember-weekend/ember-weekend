@@ -27,6 +27,9 @@ module.exports = function(environment) {
 
     fastboot: {
       hostWhitelist: ['emberweekend.com', 'ember-weekend.herokuapp.com', /^localhost:\d+$/]
+    },
+    fingerprint: {
+      extensions: ['js', 'css', 'png', 'jpg', 'gif', 'map', 'svg', 'jpg', 'jpeg']
     }
   };
 
