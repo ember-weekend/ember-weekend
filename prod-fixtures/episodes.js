@@ -1,9 +1,9 @@
 export default [
 {
   number: 79,
-  title: 'Ember Data Fastboot',
-  description: 'ember-data-fastboot',
-  slug: 'progressive-ember-weekend',
+  title: 'Boots and Shoeboxes',
+  description: 'Chase and Jonathan discuss some of their work on Ember Weekend\'s site, including work using shoebox.',
+  slug: 'boots-and-shoeboxes',
   releaseDate: 'Oct 31, 2016',
   lat: 30.291809,
   long: -81.390607,
