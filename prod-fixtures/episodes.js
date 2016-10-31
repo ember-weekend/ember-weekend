@@ -1,5 +1,19 @@
 export default [
 {
+  number: 79,
+  title: 'Ember Data Fastboot',
+  description: 'ember-data-fastboot',
+  slug: 'progressive-ember-weekend',
+  releaseDate: 'Oct 31, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-79-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '16:45',
+  length: 20105320
+},
+{
   number: 78,
   title: 'Progressive Ember Weekend',
   description: 'Chase and Jonathan discuss a particularly good issue regarding the Ember.js guides, a new addon, and Nolan Lawson\'s progressive enhancement blog post.',

@@ -8194,4 +8194,88 @@ export default [
       }
     ]
   },
+  {
+    episode: 79,
+    timeStamp: '00:46',
+    resource: {
+      title: 'Fixing our Fastboot',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 79,
+    timeStamp: '05:20',
+    resource: {
+      title: 'Fastboot Shoebox',
+      link: 'https://github.com/ember-fastboot/fastboot#the-shoebox'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/habdelra',
+        title: 'Hassan Abdel-Rahman'
+      }
+    ]
+  },
+  {
+    episode: 79,
+    timeStamp: '10:02',
+    resource: {
+      title: 'ember-data-fastboot',
+      link: 'https://github.com/cardstack/ember-data-fastboot'
+    },
+    authors: [
+      {
+        link: 'https://github.com/cardstack',
+        title: 'Cardstack'
+      }
+    ]
+  },
+  {
+    episode: 79,
+    timeStamp: '10:13',
+    resource: {
+      title: 'Ember Data Shoebox Fastboot?',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 79,
+    timeStamp: '12:00',
+    resource: {
+      title: 'Better shoebox API #250',
+      link: 'https://github.com/ember-fastboot/ember-cli-fastboot/pull/250'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ef4',
+        title: 'Edward Faulkner'
+      }
+    ]
+  },
+  {
+    episode: 79,
+    timeStamp: '16:03',
+    resource: {
+      title: 'Ember Weekend remote from Austin',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
 ];
