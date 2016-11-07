@@ -1,5 +1,19 @@
 export default [
 {
+  number: 80,
+  title: 'Help with the Maths',
+  description: 'Chase and Jonathan discuss a new addon for adding math helpers, a wonderful ember-data blog post, and a new Ember Map article.',
+  slug: 'help-with-the-maths',
+  releaseDate: 'Nov 07, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-80-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '10:22',
+  length: 12434656
+},
+{
   number: 79,
   title: 'Boots and Shoeboxes',
   description: 'Chase and Jonathan discuss some of their work on Ember Weekend\'s site, including work using shoebox.',

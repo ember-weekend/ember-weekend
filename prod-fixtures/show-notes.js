@@ -8278,4 +8278,60 @@ export default [
       }
     ]
   },
+  {
+    episode: 80,
+    timeStamp: '02:19',
+    resource: {
+      title: 'Ember Math Helpers [Addon]',
+      link: 'https://github.com/shipshapecode/ember-math-helpers'
+    },
+    authors: [
+      {
+        link: 'https://github.com/rwwagner90',
+        title: 'Robert Wagner'
+      }
+    ]
+  },
+  {
+    episode: 80,
+    timeStamp: '04:38',
+    resource: {
+      title: 'Updating Relationships Independently in JSON:API with Ember Data',
+      link: 'http://thejsguy.com/2016/10/28/updating-relationships-independently-in-json-api-with-ember-data.html'
+    },
+    authors: [
+      {
+        title: 'David Tang',
+        link: 'https://twitter.com/skaterdav85'
+      }
+    ]
+  },
+  {
+    episode: 80,
+    timeStamp: '06:48',
+    resource: {
+      title: 'Building a Sticky Chatbox',
+      link: 'https://blog.embermap.com/building-a-sticky-chatbox-3d50272c2e0c'
+    },
+    authors: [
+      {
+        title: 'Ember Map',
+        link: 'https://embermap.com'
+      }
+    ]
+  },
+  {
+    episode: 80,
+    timeStamp: '09:35',
+    resource: {
+      title: 'Achievement Unlocked! (Stuck with it \'til the end)',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
 ];
