@@ -1,5 +1,19 @@
 export default [
 {
+  number: 81,
+  title: 'The Less Overwhelming Framework',
+  description: 'Chase and Jonathan discuss the JavaScript module API RFC, and a new addon Ember LifeLine',
+  slug: 'the-less-overwhelming-framework',
+  releaseDate: 'Nov 14, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-81-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '20:08',
+  length: 24167361
+},
+{
   number: 80,
   title: 'Help with the Maths',
   description: 'Chase and Jonathan discuss a new addon for adding math helpers, a wonderful ember-data blog post, and a new Ember Map article.',

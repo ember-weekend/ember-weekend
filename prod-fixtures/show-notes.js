@@ -8334,4 +8334,46 @@ export default [
       }
     ]
   },
+  {
+    episode: 81,
+    timeStamp: '00:19',
+    resource: {
+      title: 'JavaScript Module API RFC',
+      link: 'https://github.com/tomdale/rfcs/blob/js-modules/text/0000-javascript-module-api.md'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 81,
+    timeStamp: '12:16',
+    resource: {
+      title: 'Ember Lifeline [Addon]',
+      link: 'https://github.com/rwjblue/ember-lifeline'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
+  {
+    episode: 81,
+    timeStamp: '15:38',
+    resource: {
+      title: 'Add functional API to Lifeline [issue]',
+      link: 'https://github.com/rwjblue/ember-lifeline/issues/6'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      }
+    ]
+  },
 ];
