@@ -8376,4 +8376,74 @@ export default [
       }
     ]
   },
+  {
+    episode: 82,
+    timeStamp: '00:17',
+    resource: {
+      title: 'Enable Fastboot in Your Ember App [Blog]',
+      link: 'http://balinterdi.com/2016/11/11/enable-fastboot-in-your-ember-app.html'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/baaz',
+        title: 'Balint Erdi'
+      }
+    ]
+  },
+  {
+    episode: 82,
+    timeStamp: '01:05',
+    resource: {
+      title: 'Choosing Ember Over React in 2016',
+      link: 'https://blog.instant2fa.com/choosing-ember-over-react-in-2016-41a2e7fd341'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/jessepollak',
+        title: 'Jesse Pollak'
+      }
+    ]
+  },
+  {
+    episode: 82,
+    timeStamp: '03:52',
+    resource: {
+      title: 'Ember Burger Menu',
+      link: 'https://github.com/offirgolan/ember-burger-menu'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/offir_golan',
+        title: 'Offir Golan'
+      }
+    ]
+  },
+  {
+    episode: 82,
+    timeStamp: '05:02',
+    resource: {
+      title: 'Frontend Survey',
+      link: 'https://www.surveymonkey.com/r/7QNSVX8'
+    },
+    authors: [
+      {
+        link: '',
+        title: ''
+      }
+    ]
+  },
+  {
+    episode: 82,
+    timeStamp: '06:27',
+    resource: {
+      title: 'Ember Core Team Panel [Boston Ember Meetup]',
+      link: 'https://www.youtube.com/watch?v=D9eLoUDUYxo'
+    },
+    authors: [
+      {
+        link: 'http://www.meetup.com/Boston-Ember-js/',
+        title: 'Boston Ember Meetup'
+      }
+    ]
+  },
 ];

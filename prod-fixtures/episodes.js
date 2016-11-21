@@ -1,5 +1,19 @@
 export default [
 {
+  number: 82,
+  title: 'Ember I Choose You!',
+  description: 'Chase and Jonathan discuss several topics featuring Fastboot, Burger menus, and the Boston Ember.js core team panel.',
+  slug: 'ember-i-choose-you',
+  releaseDate: 'Nov 21, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-82-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '11:23',
+  length: 16777220
+},
+{
   number: 81,
   title: 'The Less Overwhelming Framework',
   description: 'Chase and Jonathan discuss the JavaScript module API RFC, and a new addon Ember LifeLine',
