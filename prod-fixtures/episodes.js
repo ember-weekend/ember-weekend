@@ -1,5 +1,19 @@
 export default [
 {
+  number: 83,
+  title: 'Glimmery Engines',
+  description: 'Chase and Jonathan discuss the release of 2.10, the new Ember Engines website, and Jonathan\'s upcoming speaking engagement at SOEmber',
+  slug: 'glimmery-engines',
+  releaseDate: 'Dec 05, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-83-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '16:20',
+  length: 19600635
+},
+{
   number: 82,
   title: 'Ember I Choose You!',
   description: 'Chase and Jonathan discuss several topics featuring Fastboot, Burger menus, and the Boston Ember.js core team panel.',

@@ -8446,4 +8446,60 @@ export default [
       }
     ]
   },
+  {
+    episode: 83,
+    timeStamp: '00:25',
+    resource: {
+      title: 'Ember 2.10 Release [Official Blog]',
+      link: 'http://emberjs.com/blog/2016/11/30/ember-2-10-released.html'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 83,
+    timeStamp: '04:00',
+    resource: {
+      title: '5 Things To Know About Ember 2.10 and Glimmer 2',
+      link: 'http://madhatted.com/2016/11/30/5-things-to-know-about-ember-2-10-and-glimmer-2'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/mixonic',
+        title: 'Matthew Beale'
+      }
+    ]
+  },
+  {
+    episode: 83,
+    timeStamp: '07:57',
+    resource: {
+      title: 'Ember Engines [Official Site]',
+      link: 'http://ember-engines.com/'
+    },
+    authors: [
+      {
+        link: 'http://www.emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 83,
+    timeStamp: '14:31',
+    resource: {
+      title: 'SOEmber',
+      link: 'http://soember.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'DockYard'
+      }
+    ]
+  }
 ];
