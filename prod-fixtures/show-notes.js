@@ -8501,5 +8501,77 @@ export default [
         title: 'DockYard'
       }
     ]
-  }
+  },
+  {
+    episode: 84,
+    timeStamp: '01:24',
+    resource: {
+      title: 'Chris\' main Ember Data concerns',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '03:18',
+    resource: {
+      title: 'Chris\' debugging technique',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '06:46',
+    resource: {
+      title: 'Heimdall.JS',
+      link: 'https://www.npmjs.com/package/heimdalljs'
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '14:22',
+    resource: {
+      title: 'Things can be too lazy',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '14:57',
+    resource: {
+      title: 'Chris promises 1000x perf bump [:troll:]',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '18:32',
+    resource: {
+      title: 'Ember Data API surface is mostly Adapter and Serializer',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '23:17',
+    resource: {
+      title: 'Use adapterFor',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 84,
+    timeStamp: '26:27',
+    resource: {
+      title: 'Chris apologizes for stricter Ember Data assertions (null id assertions)',
+      link: ''
+    },
+    authors: []
+  },
 ];

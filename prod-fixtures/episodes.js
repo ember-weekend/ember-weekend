@@ -1,5 +1,28 @@
 export default [
 {
+  number: 84,
+  title: 'Run Ember Data Canary',
+  description: 'Chase and Jonathan are joined by Chris Thoburn and discuss Ember Data.  From performance benchmarking, to new updates in 2.11 we hit it all.',
+  slug: 'run-ember-data-canary',
+  releaseDate: 'Dec 12, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-84-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '31:04',
+  length: 37279263,
+  guests: [
+    {
+      name: 'Chris Thoburn -',
+      guestInfoURL: 'https://twitter.com/runspired',
+      avatarURL: 'assets/images/chris-thoburn.jpg',
+      tagLine: 'Author of Smoke and Mirrors, Software Engineer at LinkedIn',
+      bio: 'Outdoor enthusiast. Future ultra-marathon addict. Tech guy. Passionate about personal growth and leaving things better than found.'
+    }
+  ]
+},
+{
   number: 83,
   title: 'Glimmery Engines',
   description: 'Chase and Jonathan discuss the release of 2.10, the new Ember Engines website, and Jonathan\'s upcoming speaking engagement at SOEmber',
