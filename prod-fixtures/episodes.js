@@ -1,5 +1,28 @@
 export default [
 {
+  number: 85,
+  title: 'Open Issues For Private API Usage',
+  description: 'Chase and Jonathan are again joined by Chris Thoburn to conclude his interview discussion topics from Smoke and Mirrors, to Igniter, to some potential changes in Ember Data.',
+  slug: 'open-issues-for-private-api-usage',
+  releaseDate: 'Dec 20, 2016',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-85-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '29:39',
+  length: 35579736,
+  guests: [
+    {
+      name: 'Chris Thoburn -',
+      guestInfoURL: 'https://twitter.com/runspired',
+      avatarURL: 'assets/images/chris-thoburn.jpg',
+      tagLine: 'Author of Smoke and Mirrors, Software Engineer at LinkedIn',
+      bio: 'Outdoor enthusiast. Future ultra-marathon addict. Tech guy. Passionate about personal growth and leaving things better than found.'
+    }
+  ]
+},
+{
   number: 84,
   title: 'Run Ember Data Canary',
   description: 'Chase and Jonathan are joined by Chris Thoburn and discuss Ember Data.  From performance benchmarking, to new updates in 2.11 we hit it all.',

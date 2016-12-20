@@ -8574,4 +8574,100 @@ export default [
     },
     authors: []
   },
+  {
+    episode: 85,
+    timeStamp: '01:49',
+    resource: {
+      title: 'Ember Run RAF',
+      link: 'https://github.com/runspired/ember-run-raf'
+    },
+    authors: [
+      {
+        link: 'https://github.com/runspired',
+        title: 'Chris Thoburn'
+      }
+    ]
+  },
+  {
+    episode: 85,
+    timeStamp: '02:30',
+    resource: {
+      title: 'Igniter',
+      link: 'https://github.com/runspired/igniter'
+    },
+    authors: [
+      {
+        link: 'https://github.com/runspired',
+        title: 'Chris Thoburn'
+      }
+    ]
+  },
+  {
+    episode: 85,
+    timeStamp: '03:20',
+    resource: {
+      title: 'Cancellation Tokens',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 85,
+    timeStamp: '04:00',
+    resource: {
+      title: 'Scheduler Service',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 85,
+    timeStamp: '10:54',
+    resource: {
+      title: 'Smoke and Mirrors',
+      link: 'https://github.com/runspired/smoke-and-mirrors'
+    },
+    authors: [
+      {
+        link: 'https://github.com/runspired',
+        title: 'Chris Thoburn'
+      }
+    ]
+  },
+  {
+    episode: 85,
+    timeStamp: '12:02',
+    resource: {
+      title: '1.0 is coming [Smoke and Mirrors]',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 85,
+    timeStamp: '14:05',
+    resource: {
+      title: 'Virtual Components in Smoke and Mirrors',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 85,
+    timeStamp: '18:00',
+    resource: {
+      title: 'Nothing New Under the Sun',
+      link: ''
+    },
+    authors: []
+  },
+  {
+    episode: 85,
+    timeStamp: '24:39',
+    resource: {
+      title: 'A Carrot',
+      link: ''
+    },
+    authors: []
+  },
 ];
