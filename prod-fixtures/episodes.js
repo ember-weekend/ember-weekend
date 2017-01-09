@@ -1,5 +1,19 @@
 export default [
 {
+  number: 86,
+  title: 'Node Years Eve',
+  description: 'Chase and Jonathan share a discount code for SOEmberconf, discuss EmberCLI\'s removal of Node 0.12 support, Ember Elm, blog posts and more!',
+  slug: 'node-years-eve',
+  releaseDate: 'Jan 09, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-86-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '11:40',
+  length: 14002816
+},
+{
   number: 85,
   title: 'Open Issues For Private API Usage',
   description: 'Chase and Jonathan are again joined by Chris Thoburn to conclude his interview discussion topics from Smoke and Mirrors, to Igniter, to some potential changes in Ember Data.',

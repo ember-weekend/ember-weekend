@@ -8670,4 +8670,74 @@ export default [
     },
     authors: []
   },
+  {
+    episode: 86,
+    timeStamp: '01:12',
+    resource: {
+      title: 'SoEmber [Conference]',
+      link: 'https://ti.to/wicked-good/soember-2017/discount/ember-weekend'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/soemberconf',
+        title: '@soemberconf'
+      }
+    ]
+  },
+  {
+    episode: 86,
+    timeStamp: '02:40',
+    resource: {
+      title: 'I\'m Joining LinkedIn',
+      link: 'https://medium.com/@tomdale/im-joining-linkedin-3dca5d75495f'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 86,
+    timeStamp: '04:40',
+    resource: {
+      title: 'Ember Closure Action Explorations Part II',
+      link: 'http://ryanlabouve.com/ember-closure-action-explorations-pt-2'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/RyanLaBouve',
+        title: 'Ryan LaBouve'
+      }
+    ]
+  },
+  {
+    episode: 86,
+    timeStamp: '06:39',
+    resource: {
+      title: 'Ember Elm',
+      link: 'https://github.com/nucleartide/ember-elm'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/nucleartide',
+        title: 'Jason Tu'
+      }
+    ]
+  },
+  {
+    episode: 86,
+    timeStamp: '08:22',
+    resource: {
+      title: 'Remove support for Node 0.12',
+      link: 'https://github.com/ember-cli/ember-cli/pull/6622'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ember-cli/ember-cli',
+        title: 'EmberCLI'
+      }
+    ]
+  },
 ];
