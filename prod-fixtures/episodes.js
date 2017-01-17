@@ -1,5 +1,19 @@
 export default [
 {
+  number: 87,
+  title: 'Ember Diagon Alley',
+  description: 'Chase and Jonathan discuss Ember-Diagonal an awesome routing visualization tool, the Javascript Module RFC being merged, and how you can use it today with the help of a new Dockyard addon.',
+  slug: 'ember-diagon-alley',
+  releaseDate: 'Jan 17, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-87-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '19:31',
+  length: 23429141
+},
+{
   number: 86,
   title: 'Node Years Eve',
   description: 'Chase and Jonathan share a discount code for SOEmberconf, discuss EmberCLI\'s removal of Node 0.12 support, Ember Elm, blog posts and more!',

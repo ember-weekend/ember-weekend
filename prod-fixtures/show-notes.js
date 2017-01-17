@@ -8740,4 +8740,64 @@ export default [
       }
     ]
   },
+  {
+    episode: 87,
+    timeStamp: '00:48',
+    resource: {
+      title: 'SoEmber [Conf]',
+      link: 'https://ti.to/wicked-good/soember-2017/discount/ember-weekend'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/soemberconf',
+        title: '@soemberconf'
+      }
+    ]
+  },
+  {
+    episode: 87,
+    timeStamp: '01:59',
+    resource: {
+      title: 'Ember Diagonal',
+      link: 'http://alexspeller.com/ember-diagonal/route/post.new'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/alexspeller',
+        title: 'Alex Speller'
+      }
+    ]
+  },
+  {
+    episode: 87,
+    timeStamp: '06:27',
+    resource: {
+      title: 'Javascript Module API',
+      link: 'https://github.com/emberjs/rfcs/blob/master/text/0176-javascript-module-api.md'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tomdale',
+        title: 'Tom Dale'
+      }
+    ]
+  },
+  {
+    episode: 87,
+    timeStamp: '11:43',
+    resource: {
+      title: 'Ember New Modules Shim',
+      link: 'https://github.com/DockYard/ember-new-modules-shim'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      },
+      {
+        link: 'https://twitter.com/Martndemus',
+        title: 'Marten Schilstra'
+      }
+    ]
+  },
 ];
