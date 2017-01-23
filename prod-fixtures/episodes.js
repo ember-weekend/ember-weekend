@@ -1,5 +1,19 @@
 export default [
 {
+  number: 88,
+  title: 'Code Searching and Herd Safety',
+  description: 'Chase and Jonathan discuss Twitch\s push to 2.10, Ember Observer\'s new code search, a neat Glimmer 2 commit, and much more.',
+  slug: 'code-searching-and-herd-safety',
+  releaseDate: 'Jan 23, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-88-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '18:05',
+  length: 21697696
+},
+{
   number: 87,
   title: 'Ember Diagon Alley',
   description: 'Chase and Jonathan discuss Ember-Diagonal an awesome routing visualization tool, the Javascript Module RFC being merged, and how you can use it today with the help of a new Dockyard addon.',

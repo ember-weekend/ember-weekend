@@ -8800,4 +8800,74 @@ export default [
       }
     ]
   },
+  {
+    episode: 88,
+    timeStamp: '00:39',
+    resource: {
+      title: 'Twitch is on Ember 2.10',
+      link: 'https://twitter.com/JordanHawker/status/822586349849022466'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/Twitch',
+        title: 'Twitch'
+      }
+    ]
+  },
+  {
+    episode: 88,
+    timeStamp: '03:18',
+    resource: {
+      title: 'Ember Observer Code Search',
+      link: 'https://emberobserver.com/code-search'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/katiegengler',
+        title: 'Katie Gengler'
+      }
+    ]
+  },
+  {
+    episode: 88,
+    timeStamp: '03:18',
+    resource: {
+      title: 'EmberCLI `search` command',
+      link: 'https://github.com/ember-cli/ember-cli/pull/6661'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/Thoov',
+        title: 'Travis Hoover'
+      }
+    ]
+  },
+  {
+    episode: 88,
+    timeStamp: '07:14',
+    resource: {
+      title: 'Safety of the Herd',
+      link: 'https://blog.embermap.com/safety-of-the-herd-8d64f9170299'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/ryantotweets',
+        title: 'Ryan Toronto'
+      }
+    ]
+  },
+  {
+    episode: 88,
+    timeStamp: '11:15',
+    resource: {
+      title: 'Represent opcodes as integers in wire-format [Glimmer PR 392]',
+      link: 'https://github.com/tildeio/glimmer/pull/392'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/chadhietala',
+        title: 'Chad Hietala'
+      }
+    ]
+  },
 ];
