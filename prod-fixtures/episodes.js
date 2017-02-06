@@ -1,5 +1,19 @@
 export default [
 {
+  number: 89,
+  title: 'Not On A Weekend',
+  description: 'Chase and Jonathan discuss their experiences around San Diego Ember Conf (SOEmber).  Covering all the talks in brief.',
+  slug: 'not-on-a-weekend',
+  releaseDate: 'Feb 06, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-89-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '23:47',
+  length: 28546006
+},
+{
   number: 88,
   title: 'Code Searching and Herd Safety',
   description: 'Chase and Jonathan discuss Twitch\s push to 2.10, Ember Observer\'s new code search, a neat Glimmer 2 commit, and much more.',

@@ -8870,4 +8870,102 @@ export default [
       }
     ]
   },
+  {
+    episode: 89,
+    timeStamp: '00:51',
+    resource: {
+      title: 'Journey Through the Ember Glue',
+      link: 'https://t.co/rtqxBAdJhW'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/michaellnorth',
+        title: 'Mike North'
+      }
+    ]
+  },
+  {
+    episode: 89,
+    timeStamp: '04:49',
+    resource: {
+      title: 'Building Accessible Applications: A Reasonable Approach',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/melaniersumner',
+        title: 'Melanie Sumner'
+      }
+    ]
+  },
+  {
+    episode: 89,
+    timeStamp: '06:41',
+    resource: {
+      title: 'Failing Fast: Haskel Inspired Error Handling in Ember',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/josephdchappell',
+        title: 'Daniel Chappell'
+      }
+    ]
+  },
+  {
+    episode: 89,
+    timeStamp: '09:38',
+    resource: {
+      title: 'Lazy Loading Engines: Anything But “Lazy”',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 89,
+    timeStamp: '13:35',
+    resource: {
+      title: 'DOMless* rendering with Ember',
+      link: 'https://docs.google.com/presentation/d/1t4jE3u_-ZjZVyFjh6ZWR3n_v9tX9iYRU9VtUzjq3-H8'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/maskedwarrior',
+        title: 'Miguel Andrade'
+      }
+    ]
+  },
+  {
+    episode: 89,
+    timeStamp: '17:46',
+    resource: {
+      title: 'Boots and Shoeboxes',
+      link: 'http://www.slideshare.net/rondale_sc/boots-and-shoeboxes'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rondale_sc',
+        title: 'Jonathan Jackson'
+      }
+    ]
+  },
+  {
+    episode: 89,
+    timeStamp: '18:06',
+    resource: {
+      title: 'The Keynote',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/lukemelia',
+        title: 'Luke Melia'
+      }
+    ]
+  },
 ];
