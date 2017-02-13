@@ -1,5 +1,19 @@
 export default [
 {
+  number: 90,
+  title: 'Testing Fastboot',
+  description: 'Chase and Jonathan discuss a new way to test fastboot applications, some awesome developments in Mirage, a great blog post from (surprise surprise) EmberMap, and the new service worker docs site.',
+  slug: 'testing-fastboot',
+  releaseDate: 'Feb 13, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-90-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '17:37',
+  length: 21136096
+},
+{
   number: 89,
   title: 'Not On A Weekend',
   description: 'Chase and Jonathan discuss their experiences around San Diego Ember Conf (SOEmber).  Covering all the talks in brief.',

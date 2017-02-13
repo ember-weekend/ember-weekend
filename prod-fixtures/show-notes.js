@@ -8968,4 +8968,60 @@ export default [
       }
     ]
   },
+  {
+    episode: 90,
+    timeStamp: '00:50',
+    resource: {
+      title: 'Ember Fastboot App Tests [Addon]',
+      link: 'https://github.com/kaliber5/ember-fastboot-app-tests'
+    },
+    authors: [
+      {
+        link: 'https://github.com/kaliber5',
+        title: 'Kaliber 5'
+      }
+    ]
+  },
+  {
+    episode: 90,
+    timeStamp: '04:39',
+    resource: {
+      title: 'Ember Service Worker Documentation Site',
+      link: 'http://ember-service-worker.com/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'Dockyard'
+      }
+    ]
+  },
+  {
+    episode: 90,
+    timeStamp: '07:11',
+    resource: {
+      title: 'Ember CLI Mirage 0.3.0 Beta [Blog Post]',
+      link: 'http://www.ember-cli-mirage.com/blog/2017/01/09/0-3-0-beta-series/'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
+  {
+    episode: 90,
+    timeStamp: '11:39',
+    resource: {
+      title: 'A Note On Actions',
+      link: 'https://embermap.com/notes/26-a-note-on-actions'
+    },
+    authors: [
+      {
+        link: 'https://github.com/samselikoff',
+        title: 'Sam Selikoff'
+      }
+    ]
+  },
 ];
