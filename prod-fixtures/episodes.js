@@ -1,5 +1,19 @@
 export default [
 {
+  number: 91,
+  title: 'One Script to Serve Them All',
+  description: 'Chase and Jonathan discuss dependency linting, async assets, the routing service, and fastboot deployment.',
+  slug: 'one-script-to-serve-them-all',
+  releaseDate: 'Feb 20, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-91-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '14:02',
+  length: 16844194
+},
+{
   number: 90,
   title: 'Testing Fastboot',
   description: 'Chase and Jonathan discuss a new way to test fastboot applications, some awesome developments in Mirage, a great blog post from (surprise surprise) EmberMap, and the new service worker docs site.',

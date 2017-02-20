@@ -9024,4 +9024,88 @@ export default [
       }
     ]
   },
+  {
+    episode: 91,
+    timeStamp: '00:43',
+    resource: {
+      title: 'ember-cli-dependency-lint',
+      link: 'https://github.com/salsify/ember-cli-dependency-lint'
+    },
+    authors: [
+      {
+        link: 'https://github.com/salsify',
+        title: 'Salsify'
+      }
+    ]
+  },
+  {
+    episode: 91,
+    timeStamp: '03:42',
+    resource: {
+      title: '2017 Ember Community Survey Preview',
+      link: 'http://madhatted.com/2017/2/17/the-2017-ember-community-survey-preview'
+    },
+    authors: [
+      {
+        link: 'http://www.201-created.com/',
+        title: '201 Created'
+      }
+    ]
+  },
+  {
+    episode: 91,
+    timeStamp: '05:41',
+    resource: {
+      title: 'ember-cli-one-script',
+      link: 'https://github.com/DockYard/ember-cli-one-script'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/DockYard',
+        title: 'DockYard'
+      }
+    ]
+  },
+  {
+    episode: 91,
+    timeStamp: '08:32',
+    resource: {
+      title: 'Routing service',
+      link: 'https://embermap.com/video/routing-service'
+    },
+    authors: [
+      {
+        link: 'https://embermap.com',
+        title: 'EmberMap'
+      }
+    ]
+  },
+  {
+    episode: 91,
+    timeStamp: '10:12',
+    resource: {
+      title: 'Fastboot Deployment: fastboot-app-server',
+      link: 'https://github.com/ember-fastboot/fastboot-app-server'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ember-fastboot',
+        title: 'Ember FastBoot'
+      }
+    ]
+  },
+  {
+    episode: 91,
+    timeStamp: '12:52',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
 ];
