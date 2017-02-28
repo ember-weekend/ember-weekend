@@ -1,5 +1,19 @@
 export default [
 {
+  number: 92,
+  title: 'Actual Newsy Things',
+  description: 'Chase and Jonathan discuss ember-native-dom-helpers, Toran\'s new test screencast series, how to use npm packages in your addons, and ember-awesome-macros.',
+  slug: 'actual-newsy-things',
+  releaseDate: 'Feb 27, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-92-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '20:18',
+  length: 24355936
+},
+{
   number: 91,
   title: 'One Script to Serve Them All',
   description: 'Chase and Jonathan discuss dependency linting, async assets, the routing service, and fastboot deployment.',

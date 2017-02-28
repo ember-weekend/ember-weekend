@@ -9108,4 +9108,106 @@ export default [
       }
     ]
   },
+  {
+    episode: 92,
+    timeStamp: '00:19',
+    resource: {
+      title: '[Correction] Tom Zellman wrote the survey preview blog post',
+      link: ''
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/tzellman',
+        title: 'Tom Zellman'
+      }
+    ]
+  },
+  {
+    episode: 92,
+    timeStamp: '01:10',
+    resource: {
+      title: 'Ember Native DOM Helpers',
+      link: 'https://github.com/cibernox/ember-native-dom-helpers'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/pixelhandler',
+        title: 'Bill Heaton'
+      },
+      {
+        link: 'https://github.com/cibernox',
+        title: 'Miguel Camba'
+      }
+    ]
+  },
+  {
+    episode: 92,
+    timeStamp: '05:52',
+    resource: {
+      title: 'Intermediate Test Driven Development [Screencast Series]',
+      link: 'http://toranbillups.com/blog/archive/2017/02/21/intermediate-test-driven-development/'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/toranb',
+        title: 'Toran Billups'
+      }
+    ]
+  },
+  {
+    episode: 92,
+    timeStamp: '05:52',
+    resource: {
+      title: 'Use NPM packages in EmberCLI [Blog]',
+      link: 'https://simplabs.com/blog/2017/02/13/npm-libs-in-ember-cli.html'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/TobiasBieniek',
+        title: 'Tobias Bieniek'
+      }
+    ]
+  },
+  {
+    episode: 92,
+    timeStamp: '13:07',
+    resource: {
+      title: 'Ember Awesome Macros [Addon]',
+      link: 'https://github.com/kellyselden/ember-awesome-macros'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/kellyselden',
+        title: 'Kelly Selden'
+      }
+    ]
+  },
+  {
+    episode: 92,
+    timeStamp: '13:07',
+    resource: {
+      title: 'Ember Awesome Macros [EmberJSSeatle Talk]',
+      link: 'https://github.com/kellyselden/ember-awesome-macros'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/kellyselden',
+        title: 'Kelly Selden'
+      }
+    ]
+  },
+  {
+    episode: 92,
+    timeStamp: '19:31',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
 ];
