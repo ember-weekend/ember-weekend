@@ -8142,8 +8142,8 @@ export default [
     episode: 77,
     timeStamp: '12:59',
     resource: {
-      title: 'https://github.com/yarnpkg/yarn/issues/838#issuecomment-253362537',
-      link: 'Shrinkwrap file from added packages are ignored'
+      title: 'Shrinkwrap file from added packages are ignored',
+      link: 'https://github.com/yarnpkg/yarn/issues/838#issuecomment-253362537'
     },
     authors: [
       {
