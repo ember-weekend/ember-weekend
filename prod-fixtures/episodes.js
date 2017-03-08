@@ -1,5 +1,19 @@
 export default [
 {
+  number: 93,
+  title: 'Survey Study Time',
+  description: 'Chase and Jonathan discuss the Ember Community Survey, Marten\'s new blog post, and a fun Blog by Chris Westra about debugging an ember application',
+  slug: 'survey-study-time',
+  releaseDate: 'Mar 08, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-93-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '15:18',
+  length: 18361386
+},
+{
   number: 92,
   title: 'Actual Newsy Things',
   description: 'Chase and Jonathan discuss ember-native-dom-helpers, Toran\'s new test screencast series, how to use npm packages in your addons, and ember-awesome-macros.',

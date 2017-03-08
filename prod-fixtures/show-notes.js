@@ -9210,4 +9210,70 @@ export default [
       }
     ]
   },
+  {
+    episode: 93,
+    timeStamp: '00:25',
+    resource: {
+      title: 'Frontside podcast featuring Jon',
+      link: 'https://frontsidethepodcast.simplecast.fm/60'
+    },
+    authors: [
+      {
+        link: 'https://frontsidethepodcast.simplecast.fm/',
+        title: 'Frontside the Podcast'
+      }
+    ]
+  },
+  {
+    episode: 93,
+    timeStamp: '02:36',
+    resource: {
+      title: 'Ember Community Survey [Live]',
+      link: 'http://emberjs.com/ember-community-survey-2017/'
+    },
+    authors: [
+      {
+        link: 'http://emberjs.com/',
+        title: 'Ember.js'
+      }
+    ]
+  },
+  {
+    episode: 93,
+    timeStamp: '04:14',
+    resource: {
+      title: 'Page Load Improvements with App Shell',
+      link: 'https://dockyard.com/blog/2017/02/17/page-load-improvements-with-app-shell'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/Martndemus',
+        title: 'Marten Schilstra'
+      }
+    ]
+  },
+  {
+    episode: 93,
+    timeStamp: '07:50',
+    resource: {
+      title: 'Debugging your Assumptions Ember Addition',
+      link: 'https://www.mutuallyhuman.com/blog/2017/02/17/debugging-your-assumptions-ember-edition'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/_Bestra',
+        title: 'Chris Westra'
+      }
+    ]
+  },
+  {
+    episode: 93,
+    timeStamp: '14:54',
+    resource: {
+      title: 'Outro ',
+      link: ''
+    },
+    authors: [
+    ]
+  },
 ];
