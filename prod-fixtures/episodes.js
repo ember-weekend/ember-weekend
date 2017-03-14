@@ -1,5 +1,19 @@
 export default [
 {
+  number: 94,
+  title: 'No Frost Giants',
+  description: 'Chase and Jonathan discuss their upcoming EmberConf festivities, a new GraphGL ember addon, and some node debugging.',
+  slug: 'no-frost-giants',
+  releaseDate: 'Mar 14, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-94-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '15:34',
+  length: 18685216
+},
+{
   number: 93,
   title: 'Survey Study Time',
   description: 'Chase and Jonathan discuss the Ember Community Survey, Marten\'s new blog post, and a fun Blog by Chris Westra about debugging an ember application',

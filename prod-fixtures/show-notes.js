@@ -9276,4 +9276,88 @@ export default [
     authors: [
     ]
   },
+  {
+    episode: 94,
+    timeStamp: '00:52',
+    resource: {
+      title: 'EmberConf Contributor\'s Workshop',
+      link: 'http://emberconf.com/schedule.html#contributors-workshop'
+    },
+    authors: [
+      {
+        link: 'http://www.201-created.com/',
+        title: '201 Created'
+      }
+    ]
+  },
+  {
+    episode: 94,
+    timeStamp: '03:39',
+    resource: {
+      title: 'Ember Apollo Client [Addon]',
+      link: 'https://github.com/bgentry/ember-apollo-client'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/blakegentry',
+        title: 'Blake Gentry'
+      }
+    ]
+  },
+  {
+    episode: 94,
+    timeStamp: '06:55',
+    resource: {
+      title: 'EmberCLI v2.12.0-beta.2 Release',
+      link: 'https://github.com/ember-cli/ember-cli/releases/tag/v2.12.0-beta.2'
+    },
+    authors: [
+      {
+        link: 'https://github.com/ember-cli/ember-cli',
+        title: 'EmberCLI'
+      }
+    ]
+  },
+  {
+    episode: 94,
+    timeStamp: '09:43',
+    resource: {
+      title: 'Use NPM packages in EmberCLI [Blog]',
+      link: 'https://simplabs.com/blog/2017/02/13/npm-libs-in-ember-cli.html'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/TobiasBieniek',
+        title: 'Tobias Bieniek'
+      }
+    ]
+  },
+  {
+    episode: 94,
+    timeStamp: '09:52',
+    resource: {
+      title: '--inspect node debugging flag',
+      link: 'https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js'
+    },
+    authors: [
+      {
+        link: 'https://nodejs.org',
+        title: 'NodeJS'
+      }
+    ]
+  },
+  {
+    episode: 94,
+    timeStamp: '12:25',
+    resource: {
+      title: 'Use Chrome\'s Inspector To Debug An Addon',
+      link: 'https://embermap.com/video/use-chrome-s-inspector-to-debug-an-addon'
+    },
+    authors: [
+      {
+        link: 'https://embermap.com',
+        title: 'EmberMap'
+      }
+    ]
+  },
 ];
