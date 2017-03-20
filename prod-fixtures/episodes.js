@@ -1,5 +1,28 @@
 export default [
 {
+  number: 95,
+  title: 'Breath of the Tomster',
+  description: 'Chase and Jonathan ',
+  slug: 'breath-of-the-tomster',
+  releaseDate: 'Mar 20, 2017',
+  lat: 30.291809,
+  long: -81.390607,
+  filename: 'ep-95-ember-weekend',
+  author: 'Chase McCarthy & Jonathan Jackson',
+  image: 'https://i.imgur.com/YyAd2Ee.png',
+  duration: '',
+  length: 0,
+  guests: [
+    {
+      name: 'Trent Willis',
+      guestInfoURL: 'https://twitter.com/trentmwillis',
+      avatarURL: 'assets/images/trent-willis.jpg',
+      tagLine: 'Software Engineer at LinkedIn',
+      bio: 'Made your tests fast and your engines lazy.'
+    }
+  ]
+},
+{
   number: 94,
   title: 'No Frost Giants',
   description: 'Chase and Jonathan discuss their upcoming EmberConf festivities, a new GraphGL ember addon, and some node debugging.',

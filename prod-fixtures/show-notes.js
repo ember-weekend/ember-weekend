@@ -9360,4 +9360,120 @@ export default [
       }
     ]
   },
+  {
+    episode: 95,
+    timeStamp: '12:59',
+    resource: {
+      title: 'Heimdalljs Visualizer',
+      link: 'https://github.com/rwjblue/heimdalljs-visualizer'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/rwjblue',
+        title: 'Robert Jackson'
+      },
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '15:02',
+    resource: {
+      title: 'Strip Heimdall Babel Plugin',
+      link: 'https://github.com/heimdalljs/babel5-plugin-strip-heimdall'
+    },
+    authors: [
+      {
+        link: 'https://github.com/runspired',
+        title: 'Chris Thoburn'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '16:45',
+    resource: {
+      title: 'broccoli-plugin-kit',
+      link: 'https://github.com/stefanpenner/broccoli-plugin-kit'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/stefanpenner',
+        title: 'Stefan Penner'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '20:47',
+    resource: {
+      title: 'Broccolijs Docs',
+      link: 'http://broccolijs.com/'
+    },
+    authors: [
+      {
+        link: 'https://github.com/joliss',
+        title: 'Jo Liss'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '22:40',
+    resource: {
+      title: 'Ember Exam',
+      link: 'https://github.com/trentmwillis/ember-exam'
+    },
+    authors: [
+      {
+        link: 'https://twitter.com/trentmwillis',
+        title: 'Trent Willis'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '24:03',
+    resource: {
+      title: 'Do you use Ember Exam at LinkedIn?',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '28:22',
+    resource: {
+      title: 'Trent Names the Episode',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
+  {
+    episode: 95,
+    timeStamp: '29:14',
+    resource: {
+      title: 'Outro',
+      link: ''
+    },
+    authors: [
+      {
+        link: '',
+        title: 'Us'
+      }
+    ]
+  },
 ];

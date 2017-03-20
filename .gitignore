@@ -22,3 +22,5 @@ testem.log
 
 # ember-cli-deploy
 .env.deploy.*
+
+.DS_Store
