@@ -10,8 +10,8 @@ export default [
   filename: 'ep-95-ember-weekend',
   author: 'Chase McCarthy & Jonathan Jackson',
   image: 'https://i.imgur.com/YyAd2Ee.png',
-  duration: '',
-  length: 0,
+  duration: '29:07',
+  length: 34936576,
   guests: [
     {
       name: 'Trent Willis',
