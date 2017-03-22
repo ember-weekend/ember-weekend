@@ -66,6 +66,7 @@
     "liquid-fire": "^0.26.4",
     "loader.js": "^4.0.10",
     "moment": "^2.15.2",
+    "node-sass": "3.10.1",
     "quick-temp": "^0.1.2",
     "rss": "^1.1.1",
     "walk-sync": "^0.2.6"
