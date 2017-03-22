@@ -1,19 +1,23 @@
 const FastBootAppServer = require('fastboot-app-server');
-const serveStatic = require('serve-static');
+const ExpressHTTPServer = require('fastboot-app-server/src/express-http-server');
+const proxy = require('express-http-proxy');
+const url = require('url');
 
+const httpServer = new ExpressHTTPServer();
+const app = httpServer.app;
+
+app.use('/feed.xml', proxy(process.env.FEED_HOST, {
+  https: true,
+  timeout: 20000,
+  forwardPath: function(req, res) {
+    return '/feed.xml';
+  }
+}));
 
 let server = new FastBootAppServer({
   distPath: 'dist',
-  gzip: true, // Optional - Enables gzip compression.
-  beforeMiddleware(app) {
-    app.use((request, response, next) => {
-      if (/^\/charity/.exec(request.path)) {
-        response.redirect('/causes');
-      }
-
-      next();
-    });
-  }
+  gzip: true,
+  httpServer: httpServer
 });
 
 server.start();
