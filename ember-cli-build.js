@@ -1,5 +1,6 @@
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var nodeSass = require('node-sass');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
@@ -7,7 +8,8 @@ module.exports = function(defaults) {
       enabled: false
     },
     sassOptions: {
-      extension: 'sass'
+      extension: 'sass',
+      nodeSass: nodeSass
     }
   });
 
