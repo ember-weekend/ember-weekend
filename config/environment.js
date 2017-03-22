@@ -56,7 +56,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.apiHost = 'https://ember-weekend-api.herokuapp.com';
+    ENV.apiHost = process.env.API_HOST;
   }
 
   return ENV;
