@@ -52,7 +52,7 @@
     "ember-cli-fastboot": "1.0.0-beta.12",
     "ember-cli-hbars": "^0.1.6",
     "ember-cli-page-object": "^1.1.0",
-    "ember-cli-sass": "^6.1.2",
+    "ember-cli-sass": "^5.2.1",
     "ember-data": "2.9.0",
     "ember-export-application-global": "^1.0.5",
     "ember-font-awesome": "^2.2.0",
