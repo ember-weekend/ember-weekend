@@ -1,0 +1,13 @@
+<div class="container">
+  {{play-pause-toggle play=(action 'play') pause=(action 'pause') bubbles=false}}
+  <p class="episode-info">
+    <time>{{player.currentTime}}</time>
+    {{player.title}}
+    <time datetime={{player.releaseDate}}>{{player.releaseDate}}</time>
+  </p>
+</div>
+<div class="buffer-bar" style={{bufferStyle}}></div>
+<div class="progress-bar" style={{progressStyle}}>
+  {{play-head dragging=draggingPlayhead position=playheadPosition}}
+</div>
+{{track-bar drag=(action 'dragTrack') seekTo=(action 'seekTo') dragging=draggingPlayhead}}

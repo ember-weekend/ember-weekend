@@ -1,0 +1,28 @@
+<div id="home">
+  <div class="container">
+    <ul class="episodes">
+      {{#each model as |episode index|}}
+        <li>
+          {{#if episode.playing}}
+            <a class="play" href="#" {{action "pause"}}>
+              <div class="play-button">
+                {{fa-icon "pause"}}
+              </div>
+            </a>
+          {{else}}
+            <a class="play" href="#" {{action "play" episode}}>
+              <div class="play-button">
+                {{fa-icon "play"}}
+              </div>
+            </a>
+          {{/if}}
+          {{#link-to "episodes.show" episode.slug class="details"}}
+            <h1>{{episode.title}}</h1>
+            <p>Episode {{episode.number}} &bull; {{episode.prettyReleaseDate}}</p>
+            {{fa-icon "angle-right"}}
+          {{/link-to}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

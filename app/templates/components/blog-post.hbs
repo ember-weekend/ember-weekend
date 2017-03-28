@@ -1,0 +1,23 @@
+{{#if isShow}}
+  {{#link-to "root.blog" classNames="back"}}
+    {{fa-icon "fa-angle-left"}}
+    All posts
+  {{/link-to}}
+{{/if}}
+<h1 class="title">
+  {{#if isShow}}
+    {{post.title}}
+  {{else}}
+    {{#link-to "root.blog.show" post.id}}
+      {{post.title}}
+    {{/link-to}}
+  {{/if}}
+</h1>
+<h2 class="published">
+  {{post.publishedAt}}
+  by
+  {{post.author}}
+</h2>
+<div class="body">
+  {{{ post.body }}}
+</div>

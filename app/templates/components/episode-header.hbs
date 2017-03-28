@@ -1,0 +1,17 @@
+<div class="container">
+  {{#if playing}}
+    <a class="play" href="#" {{action "pause"}}>
+      <div class="play-button">
+        {{fa-icon "pause"}}
+      </div>
+    </a>
+  {{else}}
+    <a class="play" href="#" {{action "play" episode}}>
+      <div class="play-button">
+        {{fa-icon "play"}}
+      </div>
+    </a>
+  {{/if}}
+  <h1>{{title}}</h1>
+  <p>Episode {{number}} &bull; {{prettyReleaseDate}}</p>
+</div>

@@ -1,0 +1,34 @@
+<header>
+  <div class="container">
+    <h1>
+      <a href="#">
+        ember
+        <mark>weekend</mark>
+      </a>
+    </h1>
+    <nav>
+      <a href="https://itunes.apple.com/us/podcast/ember-weekend/id981719021?mt=2">
+        {{fa-icon "fa-rss"}}
+      </a>
+      <a href="about">
+        {{fa-icon "fa-info"}}
+      </a>
+    </nav>
+  </div>
+</header>
+{{outlet}}
+<footer>
+  <div class="container">
+    <div class="controls">
+      <i class="fa fa-play"></i>
+    </div>
+    <a class="episode-info" href="#">
+      <time>03:03</time>
+      The Weekend Strikes Back
+      <time datetime="2015-03-30">March 30, 2015</time>
+    </a>
+  </div>
+  <div class="progress-bar">
+    <div class="playhead"></div>
+  </div>
+</footer>
