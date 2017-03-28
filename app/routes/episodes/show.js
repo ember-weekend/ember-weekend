@@ -39,15 +39,10 @@ export default Ember.Route.extend({
     } else {
       if (shoeboxStore && typeof this.get('shortcircuit.episode-show-store') === 'undefined') {
         let pushData;
-        try {
-          pushData = shoeboxStore[params.slug];
-          this.store.pushPayload(pushData);
-        }
-
-        finally {
-          this.get('shortcircuit').set("episode-show-store", true);
-          return this.store.peekRecord('episode', pushData.data.id);
-        }
+        pushData = shoeboxStore[params.slug];
+        this.store.pushPayload(pushData);
+        this.get('shortcircuit').set("episode-show-store", true);
+        return this.store.peekRecord('episode', pushData.data.id);
       } else {
         return this.store.queryRecord('episode', { slug: params.slug });
       }

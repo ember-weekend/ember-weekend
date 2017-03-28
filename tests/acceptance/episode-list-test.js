@@ -1,3 +1,4 @@
+/* global server, andThen */
 import Ember from 'ember';
 import {
   module,

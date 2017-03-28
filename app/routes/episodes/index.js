@@ -25,15 +25,11 @@ export default Ember.Route.extend({
 
     } else {
       if (shoeboxStore && typeof this.get('shortcircuit.episode-index-store') === 'undefined') {
-        try {
-          shoeboxStore.forEach(episode => { this.store.pushPayload(episode); });
-        }
-        finally {
-          this.get('shortcircuit').set("episode-index-store", true);
-          return Ember.RSVP.resolve(
-            this.store.peekAll('episode').sortBy('releaseDate').reverse()
-          );
-        }
+        shoeboxStore.forEach(episode => { this.store.pushPayload(episode); });
+        this.get('shortcircuit').set("episode-index-store", true);
+        return Ember.RSVP.resolve(
+          this.store.peekAll('episode').sortBy('releaseDate').reverse()
+        );
       } else {
         return this.store.findAll('episode', { reload: true}).then(episodes => {
           return episodes.sortBy('releaseDate').reverse();

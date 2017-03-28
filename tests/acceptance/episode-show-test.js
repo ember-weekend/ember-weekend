@@ -1,3 +1,4 @@
+/* global server, andThen */
 import Ember from 'ember';
 import { module, test } from 'qunit';
 import startApp from 'ember-weekend/tests/helpers/start-app';
