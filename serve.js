@@ -5,9 +5,11 @@ const url = require('url');
 
 const httpServer = new ExpressHTTPServer();
 const app = httpServer.app;
+const host = url.parse(process.env.FEED_HOST).host.split(':')[0];
+const isDevelopFeed = host === 'localhost';
 
 app.use('/feed.xml', proxy(process.env.FEED_HOST, {
-  https: true,
+  https: !isDevelopFeed,
   timeout: 20000,
   forwardPath: function(req, res) {
     return '/feed.xml';
