@@ -27,6 +27,11 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 * `ember test`
 * `ember test --server`
 
+### Running Local Fastboot
+
+* run the API server (port 4000 in this case)
+* `FEED_HOST=http://localhost:4000/feed.xml node serve.js`
+
 ### Building
 
 * `ember build` (development)
