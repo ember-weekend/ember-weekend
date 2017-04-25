@@ -7,13 +7,13 @@
       {{#note-item time=note.timeStamp episode=episode}}
         {{#if note.resource.url}}
           {{#link-to-site href=note.resource.url}}
-            {{#external-title }}
-              {{note.resource.title}}
+            {{#external-title}}
+              {{note.title}}
             {{/external-title}}
           {{/link-to-site}}
         {{else}}
           <h1>
-            {{note.resource.title}}
+            {{note.title}}
           </h1>
         {{/if}}
         <p>
