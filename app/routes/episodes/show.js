@@ -25,11 +25,13 @@ export default Ember.Route.extend({
 
           includeds.push(showNote.serialize({includeId: true}).data);
 
-          includeds.push(showNote.get('resource').serialize({includeId: true}).data);
-
-          showNote.get('authors').map(function(author) {
-            includeds.push(author.serialize({includeId: true}).data);
-          });
+          const resource = showNote.get('resource');
+          if (resource) {
+            includeds.push(resource.serialize({includeId: true}).data);
+            resource.get('authors').map(function(author) {
+              includeds.push(author.serialize({includeId: true}).data);
+            });
+          }
         });
 
         pushData.included = includeds;
