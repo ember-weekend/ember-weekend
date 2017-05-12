@@ -16,6 +16,24 @@ app.use('/feed.xml', proxy(process.env.FEED_HOST, {
   }
 }));
 
+app.use('/blog', proxy(process.env.BLOG_HOST, {
+  https: !isDevelopFeed,
+  timeout: 20000,
+  forwardPath: function(req, res) {
+    let path = url.parse(req.url).path;
+    return path;
+  }
+}));
+
+app.use('/ghost', proxy(process.env.BLOG_HOST, {
+  https: !isDevelopFeed,
+  timeout: 20000,
+  forwardPath: function(req, res) {
+    let path = url.parse(req.url).path;
+    return '/ghost' + path;
+  }
+}));
+
 let server = new FastBootAppServer({
   distPath: 'dist',
   gzip: true,
