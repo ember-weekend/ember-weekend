@@ -20,7 +20,7 @@ app.use('/blog', proxy(process.env.BLOG_HOST, {
   https: !isDevelopFeed,
   timeout: 20000,
   forwardPath: function(req, res) {
-    let path = url.parse(req.url).path;
+    let path ='/blog' +  url.parse(req.url).path;
     return path;
   }
 }));
