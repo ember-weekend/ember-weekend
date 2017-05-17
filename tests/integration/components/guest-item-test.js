@@ -17,7 +17,7 @@ test('it renders', function(assert) {
                     bio="I'm a cool person, yo!"
                   }}`);
 
-  assert.trimEq(this.$().find('li.guest img').attr('src'), '/assets/images/me.jpg');
+  assert.trimEq(this.$().find('li.guest img').attr('src'), 'assets/images/me.jpg');
   assert.equal(this.$().find('.guest_bio h1 a').text(), 'Flirgity Schmerga');
   assert.equal(this.$().find('.guest_bio h1 a').attr('href'), 'http://doom.com');
   assert.equal(this.$().find('.guest_bio p:first').text(), 'Javascript Developer at Blerga Inc.');
