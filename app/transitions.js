@@ -5,7 +5,7 @@ export default function() {
     this.reverse('toRight')
   );
   this.transition(
-    this.toRoute('root.about'),
+    this.toRoute('about'),
     this.use('toLeft'),
     this.reverse('toRight')
   );
