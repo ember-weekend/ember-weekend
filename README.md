@@ -30,7 +30,7 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 ### Running Local Fastboot
 
 * run the API server (port 4000 in this case)
-* `FEED_HOST=http://localhost:4000/feed.xml node serve.js`
+* `BLOG_HOST=https://ember-weekend-blog.herokuapp.com/ FEED_HOST=http://localhost:4000/feed.xml node serve.js`
 
 ### Building
 
