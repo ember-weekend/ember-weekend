@@ -61,7 +61,8 @@
     "node-sass": "3.10.1"
   },
   "fastbootDependencies": [
-    "moment"
+    "moment",
+    "fastboot-app-server"
   ],
   "ember-addon": {
     "paths": [
