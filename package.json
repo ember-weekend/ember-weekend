@@ -57,7 +57,7 @@
     "ember-truth-helpers": "1.2.0",
     "express-http-proxy": "^0.11.0",
     "fastboot-app-server": "^1.0.1",
-    "liquid-fire": "^0.27.1",
+    "liquid-fire": "^0.28.0",
     "node-sass": "3.10.1"
   },
   "fastbootDependencies": [
