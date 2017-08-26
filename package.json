@@ -56,7 +56,7 @@
     "ember-moment": "6.1.0",
     "ember-truth-helpers": "1.2.0",
     "express-http-proxy": "^0.11.0",
-    "fastboot-app-server": "^1.0.0-rc.5",
+    "fastboot-app-server": "^1.0.1",
     "liquid-fire": "^0.27.1",
     "node-sass": "3.10.1"
   },
