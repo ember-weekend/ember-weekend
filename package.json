@@ -45,7 +45,7 @@
     "ember-cli-deprecation-workflow": "0.2.3",
     "ember-cli-es5-shim": "0.3.0",
     "ember-cli-fastboot": "^1.0.5",
-    "ember-cli-head": "0.1.4",
+    "ember-cli-head": "^0.3.1",
     "ember-cli-mirage": "^0.2.9",
     "ember-cli-moment-shim": "2.2.1",
     "ember-cli-one-script": "0.0.1",
