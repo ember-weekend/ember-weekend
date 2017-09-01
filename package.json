@@ -14,7 +14,7 @@
   },
   "repository": "https://github.com/ember-weekend/ember-weekend",
   "engines": {
-    "node": ">= 4"
+    "node": "6.11.2"
   },
   "author": "",
   "license": "MIT",
