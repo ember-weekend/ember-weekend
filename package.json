@@ -50,15 +50,13 @@
     "ember-cli-moment-shim": "2.2.1",
     "ember-cli-one-script": "0.0.1",
     "ember-cli-page-object": "^1.1.0",
-    "ember-cli-sass": "^5.2.1",
     "ember-data-fastboot": "^0.1.0",
     "ember-font-awesome": "^3.0.5",
     "ember-moment": "6.1.0",
     "ember-truth-helpers": "1.2.0",
     "express-http-proxy": "^0.11.0",
     "fastboot-app-server": "^1.0.1",
-    "liquid-fire": "^0.28.0",
-    "node-sass": "3.10.1"
+    "liquid-fire": "^0.28.0"
   },
   "fastbootDependencies": [
     "moment",
