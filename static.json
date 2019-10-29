@@ -1,0 +1,23 @@
+{
+  "root": "dist/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "proxies": {
+    "/feed.xml": {
+      "origin": "${FEED_HOST}/feed.xml"
+    },
+    "/blog/": {
+      "origin": "${BLOG_HOST}/blog/"
+    },
+    "/blog": {
+      "origin": "${BLOG_HOST}/blog/"
+    },
+    "/ghost/": {
+      "origin": "${BLOG_HOST}/ghost/"
+    },
+    "/ghost": {
+      "origin": "${BLOG_HOST}/ghost/"
+    }
+  }
+}
