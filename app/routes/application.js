@@ -5,15 +5,8 @@ const { get, set } = Ember;
 export default Ember.Route.extend({
   player: Ember.inject.service('player'),
   headData: Ember.inject.service(),
-  fastboot: Ember.inject.service(),
   afterModel() {
-    let path;
-    if (get(this, 'fastboot.isFastBoot')) {
-      let request = get(this, 'fastboot._fastbootInfo.request');
-      path = `${request.protocol}://${request.host}${request.path}`;
-    } else {
-      path = window.location.path;
-    }
+    let path = window.location.path;
 
     set(this, 'headData.canonicalURL', path);
     set(this, 'headData.title', 'Ember Weekend');

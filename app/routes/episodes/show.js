@@ -4,7 +4,6 @@ import truncate from 'ember-weekend/utils/truncate-string';
 const { set } = Ember;
 
 export default Ember.Route.extend({
-  fastboot: Ember.inject.service(),
   player: Ember.inject.service(),
   model(params) {
     return this.store.queryRecord('episode', { slug: params.slug });

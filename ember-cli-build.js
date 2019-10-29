@@ -1,15 +1,15 @@
-/* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
-var nodeSass = require('node-sass');
+'use strict';
+
+const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
-  var app = new EmberApp(defaults, {
+  let app = new EmberApp(defaults, {
     fingerprint: {
       enabled: false
     },
     sassOptions: {
       extension: 'sass',
-      nodeSass: nodeSass
+      implementation: require('node-sass'),
     }
   });
 

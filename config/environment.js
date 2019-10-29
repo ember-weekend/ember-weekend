@@ -1,15 +1,15 @@
-/* eslint-env node */
+'use strict';
 
 module.exports = function(environment) {
-  var ENV = {
+  let ENV = {
     modulePrefix: 'ember-weekend',
-    environment: environment,
+    environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
+        // e.g. EMBER_NATIVE_DECORATOR_SUPPORT: true
       },
       EXTEND_PROTOTYPES: {
         Date: false
@@ -25,14 +25,6 @@ module.exports = function(environment) {
       'connect-src': "'self' 'https://cors-anywhere.herokuapp.com",
     },
 
-    fastboot: {
-      hostWhitelist: [
-        'emberweekend.com',
-        'ember-weekend.herokuapp.com',
-        'ember-weekend-frontend-staging.herokuapp.com',
-        /^localhost:\d+$/
-      ]
-    },
     fingerprint: {
       extensions: ['js', 'css', 'png', 'jpg', 'gif', 'map', 'svg', 'jpg', 'jpeg']
     }
@@ -57,6 +49,7 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+    ENV.APP.autoboot = false;
   }
 
   if (environment === 'production') {
