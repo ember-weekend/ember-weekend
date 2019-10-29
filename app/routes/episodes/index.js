@@ -1,9 +1,10 @@
-import Ember from 'ember';
-const { set } = Ember;
+import Route from '@ember/routing/route';
+import { set } from '@ember/object';
+import { inject as service } from '@ember/service';
 
-export default Ember.Route.extend({
-  player: Ember.inject.service(),
-  headData: Ember.inject.service(),
+export default Route.extend({
+  player: service(),
+  headData: service(),
   model() {
     return this.store.findAll('episode', { reload: true}).then(episodes => {
       return episodes.sortBy('releaseDate').reverse();

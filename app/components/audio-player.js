@@ -1,9 +1,12 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { computed } from '@ember/object';
+import { inject as service } from '@ember/service';
+import { htmlSafe } from '@ember/template';
 
-export default Ember.Component.extend({
+export default Component.extend({
   draggingPlayhead: null,
   playheadPosition: null,
-  player: Ember.inject.service('player'),
+  player: service(),
   touchMove(e) {
     this.mouseMove(this.normalizeTouchEvent(e));
   },
@@ -62,10 +65,10 @@ export default Ember.Component.extend({
     }
     return event;
   },
-  progressStyle: Ember.computed('player.progress', function() {
-    return new Ember.String.htmlSafe(`width: ${this.get('player.progress')}%`);
+  progressStyle: computed('player.progress', function() {
+    return htmlSafe(`width: ${this.get('player.progress')}%`);
   }),
-  bufferStyle: Ember.computed('player.buffer', function() {
-    return new Ember.String.htmlSafe(`width: ${this.get('player.buffer')}%`);
+  bufferStyle: computed('player.buffer', function() {
+    return htmlSafe(`width: ${this.get('player.buffer')}%`);
   })
 });

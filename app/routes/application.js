@@ -1,10 +1,10 @@
-import Ember from 'ember';
+import Route from '@ember/routing/route';
+import { set } from '@ember/object';
+import { inject as service } from '@ember/service';
 
-const { get, set } = Ember;
-
-export default Ember.Route.extend({
-  player: Ember.inject.service('player'),
-  headData: Ember.inject.service(),
+export default Route.extend({
+  player: service(),
+  headData: service(),
   afterModel() {
     let path = window.location.path;
 

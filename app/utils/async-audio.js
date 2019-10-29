@@ -1,5 +1,5 @@
-import Ember from 'ember';
-const { RSVP, $ } = Ember;
+import RSVP from 'rsvp';
+import $ from 'jquery';
 
 export default AsyncAudio;
 

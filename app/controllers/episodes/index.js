@@ -1,7 +1,8 @@
-import Ember from 'ember';
+import Controller from '@ember/controller';
+import { inject as service } from '@ember/service';
 
-export default Ember.Controller.extend({
-  player: Ember.inject.service('player'),
+export default Controller.extend({
+  player: service(),
   actions: {
     play(episode) {
       this.get('player').play(episode);

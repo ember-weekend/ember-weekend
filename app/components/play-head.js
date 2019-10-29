@@ -1,6 +1,8 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { computed } from '@ember/object';
+import { htmlSafe } from '@ember/template';
 
-export default Ember.Component.extend({
+export default Component.extend({
   touchStart() {
     this.mouseDown();
   },
@@ -13,12 +15,12 @@ export default Ember.Component.extend({
   mouseUp() {
     this.set('dragging', null);
   },
-  playHeadStyle: Ember.computed('position', function() {
+  playHeadStyle: computed('position', function() {
     const position = this.get('position');
     if (position) {
-      return new Ember.String.htmlSafe(`left: ${position - 10}px`);
+      return htmlSafe(`left: ${position - 10}px`);
     } else {
-      return new Ember.String.htmlSafe('');
+      return htmlSafe('');
     }
   })
 });
