@@ -58,7 +58,6 @@
     "ember-cli-sass": "^10.0.1",
     "ember-moment": "^8.0.0",
     "ember-truth-helpers": "^2.1.0",
-    "express-http-proxy": "^0.11.0",
     "font-awesome": "^4.7.0",
     "liquid-fire": "^0.31.0",
     "node-sass": "^4.13.0"
