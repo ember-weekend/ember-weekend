@@ -61,7 +61,6 @@
     "express-http-proxy": "^0.11.0",
     "font-awesome": "^4.7.0",
     "liquid-fire": "^0.31.0",
-    "mousetrap": "^1.6.3",
     "node-sass": "^4.13.0"
   },
   "ember-addon": {
