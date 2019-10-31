@@ -1,12 +1,19 @@
 import Route from '@ember/routing/route';
-import { set } from '@ember/object';
+import { get, set } from '@ember/object';
 import { inject as service } from '@ember/service';
 
 export default Route.extend({
   player: service(),
   headData: service(),
+  fastboot: service(),
   afterModel() {
-    let path = window.location.path;
+    let path;
+    if (get(this, 'fastboot.isFastBoot')) {
+      let request = get(this, 'fastboot._fastbootInfo.request');
+      path = `${request.protocol}://${request.host}${request.path}`;
+    } else {
+      path = window.location.path;
+    }
 
     set(this, 'headData.canonicalURL', path);
     set(this, 'headData.title', 'Ember Weekend');

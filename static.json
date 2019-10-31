@@ -1,7 +1,10 @@
 {
   "root": "dist/",
   "routes": {
-    "/**": "index.html"
+    "/episodes/": "/episodes/",
+    "/episodes": "episodes/index.html",
+    "/about": "about/index.html",
+    "/": "index.html"
   },
   "proxies": {
     "/feed.xml": {

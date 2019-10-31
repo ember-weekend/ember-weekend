@@ -25,6 +25,15 @@ module.exports = function(environment) {
       'connect-src': "'self' 'https://cors-anywhere.herokuapp.com",
     },
 
+    fastboot: {
+      hostWhitelist: [
+        'emberweekend.com',
+        'ember-weekend.herokuapp.com',
+        'ember-weekend-frontend-staging.herokuapp.com',
+        /^localhost:\d+$/
+      ]
+    },
+
     fingerprint: {
       extensions: ['js', 'css', 'png', 'jpg', 'gif', 'map', 'svg', 'jpg', 'jpeg']
     }
