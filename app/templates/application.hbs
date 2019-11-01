@@ -3,17 +3,17 @@
   <div class="container">
     <h1>
       {{#link-to "episodes"}}
-        <img src="/assets/images/site-header-logo-emberweekend.svg">
+        <img alt="ember weekend logo" src="/assets/images/site-header-logo-emberweekend.svg">
       {{/link-to}}
     </h1>
     <nav>
-      <a href="/feed.xml" target="_blank" rel="nofollow">
+      <a href="/feed.xml" target="_blank" rel="nofollow noopener">
         {{fa-icon "fa-rss"}}
       </a>
       {{#link-to "about"}}
         {{fa-icon "fa-info"}}
       {{/link-to}}
-      <a href="/blog" target="_blank">
+      <a href="/blog" rel="noopener" target="_blank">
         {{fa-icon "fa-book" }}
       </a>
     </nav>

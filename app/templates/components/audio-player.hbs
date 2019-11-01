@@ -1,5 +1,5 @@
 <div class="container">
-  {{play-pause-toggle play=(action 'play') pause=(action 'pause') bubbles=false}}
+  {{play-pause-toggle play=(action "play") pause=(action "pause") bubbles=false}}
   <p class="episode-info">
     <time>{{player.currentTime}}</time>
     {{player.title}}
@@ -10,4 +10,4 @@
 <div class="progress-bar" style={{progressStyle}}>
   {{play-head dragging=draggingPlayhead position=playheadPosition}}
 </div>
-{{track-bar drag=(action 'dragTrack') seekTo=(action 'seekTo') dragging=draggingPlayhead}}
+{{track-bar drag=(action "dragTrack") seekTo=(action "seekTo") dragging=draggingPlayhead}}
