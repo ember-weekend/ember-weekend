@@ -1,12 +1,13 @@
 import { module, test } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
+import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
 import page from 'ember-weekend/tests/pages/episode-show';
 
 module('Acceptance | episode show', function(hooks) {
   setupApplicationTest(hooks);
+  setupMirage(hooks);
 
   test('visiting /episode-show', async function(assert) {
-    const episode = server.create('episode', { slug: 'foo' });
     const author = server.create('person', {
       url: 'https://twitter.com/embersherpa',
       title: 'EmberSherpa'
@@ -17,10 +18,10 @@ module('Acceptance | episode show', function(hooks) {
       authors: [author]
     });
     const showNote = server.create('show-note', {
-      episodeId: episode.id,
       timeStamp: '00:15',
       resource
     });
+    const episode = server.create('episode', { slug: 'foo', showNotes: [showNote] });
 
     await page.visit({ slug: 'foo' });
 

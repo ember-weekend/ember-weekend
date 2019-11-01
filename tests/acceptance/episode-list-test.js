@@ -4,6 +4,7 @@ import {
 } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
 import { currentRouteName } from '@ember/test-helpers';
+import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
 import page from 'ember-weekend/tests/pages/episodes';
 
 const episodes = [
@@ -25,6 +26,7 @@ const episodes = [
 
 module('Acceptance: EpisodeList', function(hooks) {
   setupApplicationTest(hooks);
+  setupMirage(hooks);
 
   test('visiting /episodes', async function(assert) {
     episodes.forEach(function(e) {
