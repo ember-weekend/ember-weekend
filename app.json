@@ -1,0 +1,21 @@
+{
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs" },
+    { "url": "https://github.com/heroku/heroku-buildpack-static" }
+  ],
+  "env": {
+    "API_HOST": "https://ember-weekend-api.herokuapp.com",
+    "BLOG_HOST": "https://ember-weekend-blog.herokuapp.com/",
+    "FEED_HOST": "https://ember-weekend-api.herokuapp.com",
+    "EMBER_ENV": "production"
+  },
+  "environments": {
+    "test": {
+      "env": {
+        "GOOGLE_CHROME_CHANNEL": "stable",
+        "EMBER_ENV": "test"
+      }
+    }
+  }
+}
