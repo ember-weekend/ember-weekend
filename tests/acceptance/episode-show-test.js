@@ -25,7 +25,7 @@ module('Acceptance | episode show', function(hooks) {
 
     await page.visit({ slug: 'foo' });
 
-    const sn = page.showNotes(0);
+    const sn = page.showNotes.objectAt(0);
 
     assert.equal(page.title, episode.title);
     assert.equal(sn.timeStamp, showNote.timeStamp);

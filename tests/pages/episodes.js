@@ -1,11 +1,13 @@
-import PO from '../page-object';
+import {
+  create,
+  collection,
+  text,
+  visitable,
+} from 'ember-cli-page-object';
 
-export default PO.create({
-  visit: PO.visitable('/episodes'),
-  episodes: PO.collection({
-    itemScope: 'ul.episodes li',
-    item: {
-      title: PO.text('h1')
-    }
+export default create({
+  visit: visitable('/episodes'),
+  episodes: collection('ul.episodes li', {
+    title: text('h1')
   })
 });
