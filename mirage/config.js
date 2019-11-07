@@ -16,6 +16,4 @@ export default function() {
   this.get('/episodes/:slug', function({episodes}, { params: { slug }}){
     return episodes.findBy({slug: slug});
   });
-
-  this.passthrough('https://cors-anywhere.herokuapp.com/*url');
 }

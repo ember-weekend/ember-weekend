@@ -1,18 +1,17 @@
-import Ember from 'ember';
+import Route from '@ember/routing/route';
+import { set } from '@ember/object';
+import { inject as service } from '@ember/service';
 import truncate from 'ember-weekend/utils/truncate-string';
 
-const { set } = Ember;
-
-export default Ember.Route.extend({
-  fastboot: Ember.inject.service(),
-  player: Ember.inject.service(),
+export default Route.extend({
+  player: service(),
   model(params) {
     return this.store.queryRecord('episode', { slug: params.slug });
   },
   serialize(model) {
     return { slug: model.get('slug') };
   },
-  headData: Ember.inject.service(),
+  headData: service(),
   afterModel(model) {
     set(this, 'player.episode', model);
 

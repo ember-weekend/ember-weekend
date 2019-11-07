@@ -1,18 +1,17 @@
-import PageObject from '../page-object';
+import {
+  attribute,
+  create,
+  collection,
+  text,
+  visitable,
+} from 'ember-cli-page-object';
 
-let {
-  visitable
-} = PageObject;
-
-export default PageObject.create({
+export default create({
   visit: visitable('/episodes/:slug'),
-  title: PageObject.text('.title h1'),
-  showNotes: PageObject.collection({
-    itemScope: 'ul.sections li',
-    item: {
-      timeStamp: PageObject.text('.timestamp'),
-      resourceLink: PageObject.attribute('href', '.details a:first'),
-      resourceTitle: PageObject.text('.details h1')
-    }
-  })
+  title: text('.title h1'),
+  showNotes: collection('ul.sections li', {
+    timeStamp: text('.timestamp'),
+    resourceLink: attribute('href', '.details a:first'),
+    resourceTitle: text('.details h1'),
+  }),
 });

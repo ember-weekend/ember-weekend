@@ -1,5 +1,7 @@
 module.exports = {
-  env: {
-    embertest: true
-  }
+  root: true,
+  extends: '../.eslintrc.js',
+  globals: {
+    'server': true
+  },
 };

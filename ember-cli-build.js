@@ -1,15 +1,19 @@
-/* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
-var nodeSass = require('node-sass');
+'use strict';
+
+const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const fetchRoutes = require('./bin/fetch-routes');
 
 module.exports = function(defaults) {
-  var app = new EmberApp(defaults, {
+  let app = new EmberApp(defaults, {
     fingerprint: {
       enabled: false
     },
+    prember: {
+      urls: fetchRoutes,
+    },
     sassOptions: {
       extension: 'sass',
-      nodeSass: nodeSass
+      implementation: require('node-sass'),
     }
   });
 

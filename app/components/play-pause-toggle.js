@@ -1,12 +1,13 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { inject as service } from '@ember/service';
 
-export default Ember.Component.extend({
-  player: Ember.inject.service(),
+export default Component.extend({
+  player: service(),
   click() {
     if (this.get('player.playing')) {
-      this.attrs.pause();
+      this.pause();
     } else {
-      this.attrs.play();
+      this.play();
     }
     return false;
   }

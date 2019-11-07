@@ -1,13 +1,11 @@
-/* global server, andThen */
-import Ember from 'ember';
 import {
   module,
   test
 } from 'qunit';
-import startApp from 'ember-weekend/tests/helpers/start-app';
-import page from '../pages/episodes';
-
-let application;
+import { setupApplicationTest } from 'ember-qunit';
+import { currentRouteName } from '@ember/test-helpers';
+import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
+import page from 'ember-weekend/tests/pages/episodes';
 
 const episodes = [
   { number: 2,
@@ -26,27 +24,21 @@ const episodes = [
   }
 ];
 
-module('Acceptance: EpisodeList', {
-  beforeEach() {
-    application = startApp();
-  },
+module('Acceptance: EpisodeList', function(hooks) {
+  setupApplicationTest(hooks);
+  setupMirage(hooks);
 
-  afterEach() {
-    Ember.run(application, 'destroy');
-  }
-});
+  test('visiting /episodes', async function(assert) {
+    episodes.forEach(function(e) {
+      server.create('episode', e);
+    });
 
-test('visiting /episodes', function(assert) {
-  episodes.forEach(function(e) {
-    server.create('episode', e);
-  });
+    await page.visit();
 
-  page.visit();
-
-  andThen(function() {
     assert.equal(currentRouteName(), 'episodes.index');
-    assert.equal(page.episodes().count, 2);
-    assert.equal(page.episodes(0).title, 'Foo title');
-    assert.equal(page.episodes(1).title, 'Quux title');
+    assert.equal(page.episodes.length, 2);
+    assert.equal(page.episodes.objectAt(0).title, 'Foo title');
+    assert.equal(page.episodes.objectAt(1).title, 'Quux title');
   });
 });
+

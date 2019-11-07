@@ -1,9 +1,10 @@
-import Ember from 'ember';
-const { set } = Ember;
+import Route from '@ember/routing/route';
+import { set } from '@ember/object';
+import { inject as service } from '@ember/service';
 
-export default Ember.Route.extend({
-  headData: Ember.inject.service(),
-  player: Ember.inject.service(),
+export default Route.extend({
+  headData: service(),
+  player: service(),
   afterModel(){
     set(this, 'headData.title', 'About Us');
     return this.store.findAll('episode').then(episodes => {

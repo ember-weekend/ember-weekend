@@ -1,26 +1,24 @@
-import { moduleForComponent, test } from 'ember-qunit';
-import Ember from 'ember';
+import { module, test } from 'ember-qunit';
+import { setupRenderingTest } from 'ember-qunit';
+import { click, render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('play-pause-toggle', 'Integration | Component | play pause toggle', {
-  integration: true
-});
+module('Integration | Component | play pause toggle', function(hooks) {
+  setupRenderingTest(hooks);
 
-test('it renders', function(assert) {
-  assert.expect(2);
+  test('it renders', async function(assert) {
+    assert.expect(2);
+    this.foo = () => {
+      assert.ok(true);
+    };
 
-  this.on('foo', function() {
-    assert.ok(true);
-  });
+    this.bar = () => {
+      assert.ok(true);
+    };
 
-  this.on('bar', function() {
-    assert.ok(true);
-  });
+    await render(hbs`{{play-pause-toggle play=this.foo pause=this.bar}}`);
 
-  this.render(hbs`{{play-pause-toggle play=(action 'foo') pause=(action 'bar')}}`);
-
-  Ember.run(() => {
-    this.$('.controls').click();
-    this.$('.controls').click();
+    await click('.controls');
+    await click('.controls');
   });
 });

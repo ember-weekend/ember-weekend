@@ -1,0 +1,27 @@
+{
+  "https_only": true,
+  "root": "dist/",
+  "routes": {
+    "/episodes/": "/episodes/",
+    "/episodes": "episodes/index.html",
+    "/about": "about/index.html",
+    "/": "index.html"
+  },
+  "proxies": {
+    "/feed.xml": {
+      "origin": "${FEED_HOST}/feed.xml"
+    },
+    "/blog/": {
+      "origin": "${BLOG_HOST}/blog/"
+    },
+    "/blog": {
+      "origin": "${BLOG_HOST}/blog/"
+    },
+    "/ghost/": {
+      "origin": "${BLOG_HOST}/ghost/"
+    },
+    "/ghost": {
+      "origin": "${BLOG_HOST}/ghost/"
+    }
+  }
+}

@@ -1,4 +1,6 @@
-import Ember from 'ember';
+import Service from '@ember/service';
+import { computed } from '@ember/object';
+import { alias } from '@ember/object/computed';
 import moment from 'moment';
 import AsyncAudio from 'ember-weekend/utils/async-audio';
 
@@ -6,12 +8,12 @@ function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
-export default Ember.Service.extend({
+export default Service.extend({
   episode: null,
-  title: Ember.computed.alias('episode.title'),
-  releaseDate: Ember.computed.alias('episode.prettyReleaseDate'),
-  playing: Ember.computed.alias('episode.playing'),
-  audio: Ember.computed(function() {
+  title: alias('episode.title'),
+  releaseDate: alias('episode.prettyReleaseDate'),
+  playing: alias('episode.playing'),
+  audio: computed(function() {
     const audio = new AsyncAudio();
     audio.addEventListener('timeupdate', () => {
       const seconds = parseInt(audio.currentTime, 10);
@@ -71,7 +73,7 @@ export default Ember.Service.extend({
     this.get('audio').pause();
     this.set('episode.playing', false);
   },
-  currentTime: Ember.computed('currentTimeSeconds', function() {
+  currentTime: computed('currentTimeSeconds', function() {
     const seconds = this.get('currentTimeSeconds');
     if (isNumeric(seconds)) {
       const duration = moment.duration({ seconds });
@@ -80,13 +82,13 @@ export default Ember.Service.extend({
       return '--:--';
     }
   }),
-  progress: Ember.computed('audio', 'currentTimeSeconds', function() {
+  progress: computed('audio', 'currentTimeSeconds', function() {
     const duration = this.get('duration') || 0;
     const seconds = this.get('currentTimeSeconds');
     const percent = (seconds / duration) * 100;
     return isNumeric(percent) ? percent : 0;
   }),
-  buffer: Ember.computed('audio', 'bufferedEnd', function() {
+  buffer: computed('audio', 'bufferedEnd', function() {
     const duration = this.get('duration') || 0;
     const bufferedEnd = this.get('bufferedEnd');
     const percent = (bufferedEnd / duration) * 100;

@@ -1,13 +1,15 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { alias } from '@ember/object/computed';
+import { inject as service } from '@ember/service';
 
-export default Ember.Component.extend({
+export default Component.extend({
+  player: service(),
   classNames: ['title'],
-  title: Ember.computed.alias('episode.title'),
-  playing: Ember.computed.alias('episode.playing'),
-  prettyReleaseDate: Ember.computed.alias('episode.prettyReleaseDate'),
-  number: Ember.computed.alias('episode.number'),
-  description: Ember.computed.alias('episode.description'),
-  player: Ember.inject.service('player'),
+  title: alias('episode.title'),
+  playing: alias('episode.playing'),
+  prettyReleaseDate: alias('episode.prettyReleaseDate'),
+  number: alias('episode.number'),
+  description: alias('episode.description'),
   actions: {
     play(episode) {
       this.get('player').play(episode);

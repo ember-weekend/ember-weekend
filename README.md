@@ -4,23 +4,24 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 
 ## Prerequisites
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM) v0.12.0
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/) v0.2.1
-* [PhantomJS](http://phantomjs.org/)
+You will need the following things properly installed on your computer.
+
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with npm)
+* [Ember CLI](https://ember-cli.com/)
+* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
 * `git clone git@github.com:ember-weekend/ember-weekend.git`
 * `cd ember-weekend`
 * `npm install`
-* `bower install`
 
 ## Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 ### Running Tests
 
@@ -31,6 +32,12 @@ Welcome to Ember Weekend where [Chase McCarthy](https://twitter.com/code0100fun)
 
 * run the API server (port 4000 in this case)
 * `BLOG_HOST=https://ember-weekend-blog.herokuapp.com/ FEED_HOST=http://localhost:4000/feed.xml node serve.js`
+
+### Linting
+
+* `npm run lint:hbs`
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
 
 ### Building
 
