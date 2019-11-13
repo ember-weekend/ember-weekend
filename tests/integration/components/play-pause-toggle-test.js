@@ -18,7 +18,7 @@ module('Integration | Component | play pause toggle', function(hooks) {
 
     await render(hbs`{{play-pause-toggle play=this.foo pause=this.bar}}`);
 
-    await click('.controls');
-    await click('.controls');
+    await click('[data-test-play-pause]');
+    await click('[data-test-play-pause]');
   });
 });
