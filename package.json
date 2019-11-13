@@ -63,11 +63,5 @@
     "font-awesome": "^4.7.0",
     "liquid-fire": "^0.31.0",
     "node-sass": "^4.13.0"
-  },
-  "ember-addon": {
-    "paths": [
-      "lib/font-includer",
-      "lib/es5-shim"
-    ]
   }
 }
