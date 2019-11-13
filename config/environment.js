@@ -40,7 +40,8 @@ module.exports = function(environment) {
 
   if (environment === 'development') {
     ENV['ember-cli-mirage'] = { enabled: false };
-    ENV.apiHost = 'http://localhost:4000';
+    // ENV.apiHost = 'http://localhost:4000';
+    ENV.apiHost = 'https://ember-weekend-api.herokuapp.com';
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
