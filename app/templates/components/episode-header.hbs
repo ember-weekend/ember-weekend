@@ -1,4 +1,4 @@
-<div class="flex flex-col p-5 w-full">
+<div class="flex sm:flex-col p-5 w-full justify-center">
   {{#if episode.playing}}
     <a class="play self-center relative" href="#" {{action "pause"}}>
       <div class="bg-orange-300 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
@@ -12,11 +12,13 @@
       </div>
     </a>
   {{/if}}
-  <h1 class="mt-3 mb-1 font-bold text-black text-center" data-test-episode-header-title>{{title}}</h1>
-  <p class="text-sm font-light text-center">
-    Episode {{number}}
-    <span class="inline-block sm:hidden"> &bull; </span>
-    <span class="inline-block sm:hidden lg:block">{{prettyReleaseDate}}</span>
-    <span class="hidden sm:block lg:hidden">{{shortPrettyReleaseDate}}</span>
-  </p>
+  <div class="ml-4">
+    <h1 class="mt-3 mb-1 font-bold text-black text-center" data-test-episode-header-title>{{title}}</h1>
+    <p class="text-sm font-light text-center">
+      Episode {{number}}
+      <span class="inline-block sm:hidden"> &bull; </span>
+      <span class="inline-block sm:hidden lg:block">{{prettyReleaseDate}}</span>
+      <span class="hidden sm:block lg:hidden">{{shortPrettyReleaseDate}}</span>
+    </p>
+  </div>
 </div>
