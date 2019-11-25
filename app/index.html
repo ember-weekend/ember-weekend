@@ -9,12 +9,14 @@
 
     {{content-for "head"}}
 
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600|Pacifico" rel="stylesheet" type="text/css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/ember-weekend.css">
 
     {{content-for "head-footer"}}
   </head>
-  <body>
+  <body class="font-body">
+
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
@@ -40,7 +42,5 @@
       }
 
     </script>
-
-    {{content-for "body-footer"}}
   </body>
 </html>

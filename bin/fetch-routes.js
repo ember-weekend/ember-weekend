@@ -30,7 +30,7 @@ module.exports = async function fetchRoutes({ visit }) {
     const dom = new JSDOM(html);
     debug('dom parsed');
 
-    const episodes = dom.window.document.querySelectorAll('ul.episodes li a.details');
+    const episodes = dom.window.document.querySelectorAll('[data-prember-episode] a.details');
 
     debug(`${episodes.length} episodes found`);
     for (let aTag of episodes) {

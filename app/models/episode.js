@@ -16,5 +16,8 @@ export default DS.Model.extend({
   guests: DS.hasMany('person'),
   prettyReleaseDate: computed('releaseDate', function() {
     return moment(this.get('releaseDate')).format('MMMM DD, YYYY');
+  }),
+  shortPrettyReleaseDate: computed('releaseDate', function() {
+    return moment(this.get('releaseDate')).format('MMM. DD, YYYY');
   })
 });

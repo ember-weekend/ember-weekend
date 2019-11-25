@@ -12,6 +12,7 @@ export default Service.extend({
   episode: null,
   title: alias('episode.title'),
   releaseDate: alias('episode.prettyReleaseDate'),
+  shortReleaseDate: alias('episode.shortPrettyReleaseDate'),
   playing: alias('episode.playing'),
   audio: computed(function() {
     const audio = new AsyncAudio();

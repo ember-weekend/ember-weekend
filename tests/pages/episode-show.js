@@ -8,10 +8,10 @@ import {
 
 export default create({
   visit: visitable('/episodes/:slug'),
-  title: text('.title h1'),
-  showNotes: collection('ul.sections li', {
-    timeStamp: text('.timestamp'),
-    resourceLink: attribute('href', '.details a:first'),
-    resourceTitle: text('.details h1'),
+  title: text('[data-test-episode-header-title]'),
+  showNotes: collection('[data-test-note-item]', {
+    timeStamp: text('[data-test-timestamp]'),
+    resourceLink: attribute('href', '[data-test-note-link]'),
+    resourceTitle: text('[data-test-note-title]'),
   }),
 });
