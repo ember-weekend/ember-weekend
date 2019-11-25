@@ -6,6 +6,7 @@
 @import "tailwindcss/utilities";
 @import "utilities.css";
 
+/*! purgecss start ignore */
 html, body, body > div.ember-view {
   height: 100%;
 }
@@ -41,3 +42,5 @@ body > div.ember-view {
 .h-full > .liquid-child {
   height: 100%;
 }
+
+/*! purgecss end ignore */
