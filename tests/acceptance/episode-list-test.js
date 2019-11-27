@@ -37,8 +37,8 @@ module('Acceptance: EpisodeList', function(hooks) {
 
     assert.equal(currentRouteName(), 'episodes.index');
     assert.equal(page.episodes.length, 2);
-    assert.equal(page.episodes.objectAt(0).title, 'Foo title');
-    assert.equal(page.episodes.objectAt(1).title, 'Quux title');
+    assert.equal(page.episodes.objectAt(0).title.text, 'Foo title');
+    assert.equal(page.episodes.objectAt(1).title.text, 'Quux title');
   });
 });
 

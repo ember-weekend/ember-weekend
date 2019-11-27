@@ -13,7 +13,9 @@ export default Route.extend({
   },
   headData: service(),
   afterModel(model) {
-    set(this, 'player.episode', model);
+    if (this.player.audio.paused) {
+      this.player.episode = model;
+    }
 
     set(this, 'headData.title', model.get('title'));
     set(this, 'headData.description', model.get('description'));

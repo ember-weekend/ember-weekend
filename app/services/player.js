@@ -1,98 +1,136 @@
 import Service from '@ember/service';
-import { computed } from '@ember/object';
-import { alias } from '@ember/object/computed';
 import moment from 'moment';
-import AsyncAudio from 'ember-weekend/utils/async-audio';
+import { inject as service } from '@ember/service';
+import { computed } from '@ember/object';
+import { tracked } from '@glimmer/tracking';
 
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
-export default Service.extend({
-  episode: null,
-  title: alias('episode.title'),
-  releaseDate: alias('episode.prettyReleaseDate'),
-  shortReleaseDate: alias('episode.shortPrettyReleaseDate'),
-  playing: alias('episode.playing'),
-  audio: computed(function() {
-    const audio = new AsyncAudio();
-    audio.addEventListener('timeupdate', () => {
-      const seconds = parseInt(audio.currentTime, 10);
-      this.set('currentTimeSeconds', seconds);
-    });
-    audio.addEventListener('loadedmetadata', () => {
-      this.set('duration', audio.duration);
-    });
-    audio.addEventListener('progress', () => {
-      if (audio.buffered.length > 0) {
-        const bufferedEnd = audio.buffered.end(audio.buffered.length - 1);
-        this.set('bufferedEnd', bufferedEnd);
-      }
-    });
-    return audio;
-  }),
-  seekTo(episode, milliseconds) {
-    const audio = this.get('audio');
-    this.select(episode);
+function sourceForFilename(filename) {
+  return `https://emberweekend.s3.amazonaws.com/${filename}.mp3`;
+}
+
+export default class extends Service {
+  @service audio;
+  @tracked _episode = null;
+
+  @computed('_episode')
+  get episode() {
+    return this._episode;
+  }
+
+  set episode(episode) {
+    if (this._episode !== episode) {
+      this.audio.reset();
+    }
+    this._episode = episode;
+  }
+
+  @computed('audio.playing')
+  get playing() {
+    return this.audio.playing;
+  }
+
+  @computed('audio.paused')
+  get paused() {
+    return this.audio.paused;
+  }
+
+  @computed('audio.duration')
+  get duration() {
+    return this.audio.duration;
+  }
+
+  @computed('audio.bufferedEnd')
+  get bufferedEnd() {
+    return this.audio.bufferedEnd;
+  }
+
+  @computed('audio.currentTimeSeconds')
+  get currentTimeSeconds() {
+    return this.audio.currentTimeSeconds;
+  }
+
+  @computed('duration', 'currentTimeSeconds')
+  get progress() {
+    const duration = this.duration || 0;
+    const seconds = this.currentTimeSeconds;
+    const percent = (seconds / duration) * 100;
+    return isNumeric(percent) ? percent : 0;
+  }
+
+  @computed('duration', 'bufferedEnd')
+  get buffer() {
+    const duration = this.duration || 0;
+    const bufferedEnd = this.bufferedEnd;
+    const percent = (bufferedEnd / duration) * 100;
+    return isNumeric(percent) ? percent : 0;
+  }
+
+  @computed('episode', 'playing')
+  get playingEpisode() {
+    return this.playing && this.episode;
+  }
+
+  @computed('episode.title')
+  get title() {
+    return this.episode.title;
+  }
+
+  @computed('episode.prettyReleaseDate')
+  get releaseDate() {
+    return this.episode.prettyReleaseDate;
+  }
+
+  @computed('episode.shortPrettyReleaseDate')
+  get shortReleaseDate() {
+    return this.episode.shortPrettyReleaseDate;
+  }
+
+  async seekTo(milliseconds, episode=this.episode) {
+    await this.select(episode);
     if (!isNumeric(milliseconds)) {
       return;
     }
-    audio.pause().then(() => {
-      audio.currentTime = milliseconds / 1000;
-      this.play(episode);
-    });
-  },
-  setAudioSrc(filename) {
-    const audio = this.get('audio');
-    audio.type = 'audio/mpeg';
-    audio.src  = `https://emberweekend.s3.amazonaws.com/${filename}.mp3`;
-    this.set('currentTimeSeconds', null);
-    this.set('bufferedEnd', null);
-  },
-  select(episode) {
-    const audio = this.get('audio');
-    const current = this.get('episode');
-    if (episode === current && !audio.src) {
-      this.setAudioSrc(current.get('filename'));
-    } else if (episode !== current) {
-      current.set('playing', false);
-      this.set('episode', episode);
-      this.setAudioSrc(episode.get('filename'));
+    await this.audio.seekTo(milliseconds);
+  }
+
+  async select(episode) {
+    if (episode !== this.episode ||
+      this.audioSource !== sourceForFilename(episode.filename)) {
+      await this.pause();
+      this.episode = episode;
+      this.audioSource = this.episode.filename;
     }
-  },
-  play(episode) {
-    const audio = this.get('audio');
-    const current = this.get('episode');
-    episode = episode || current;
-    this.select(episode);
-    if (!episode.get('playing')) {
-      episode.set('playing', true);
-    }
-    audio.play();
-  },
-  pause() {
-    this.get('audio').pause();
-    this.set('episode.playing', false);
-  },
-  currentTime: computed('currentTimeSeconds', function() {
-    const seconds = this.get('currentTimeSeconds');
+  }
+
+  set audioSource(filename) {
+    const source = sourceForFilename(filename);
+    this.audio.source = source;
+  }
+
+  get audioSource() {
+    return this.audio.source;
+  }
+
+  async play(episode=this.episode) {
+    await this.select(episode);
+    await this.audio.play();
+  }
+
+  async pause() {
+    await this.audio.pause();
+  }
+
+  get currentTime() {
+    const seconds = this.currentTimeSeconds;
     if (isNumeric(seconds)) {
       const duration = moment.duration({ seconds });
       return moment.utc(duration.asMilliseconds()).format('mm:ss');
     } else {
       return '--:--';
     }
-  }),
-  progress: computed('audio', 'currentTimeSeconds', function() {
-    const duration = this.get('duration') || 0;
-    const seconds = this.get('currentTimeSeconds');
-    const percent = (seconds / duration) * 100;
-    return isNumeric(percent) ? percent : 0;
-  }),
-  buffer: computed('audio', 'bufferedEnd', function() {
-    const duration = this.get('duration') || 0;
-    const bufferedEnd = this.get('bufferedEnd');
-    const percent = (bufferedEnd / duration) * 100;
-    return isNumeric(percent) ? percent : 0;
-  })
-});
+  }
+}
