@@ -11,8 +11,8 @@
     </div>
   </div>
 </div>
-<div class="h-2 absolute top-0 left-0 bg-orange-100 cursor-pointer" style={{bufferStyle}}></div>
-<div class="h-2 absolute top-0 left-0 bg-orange-300 cursor-pointer" style={{progressStyle}}>
+<div class="h-2 absolute top-0 left-0 bg-orange-100 cursor-pointer" style={{bufferStyle}} data-test-buffer></div>
+<div class="h-2 absolute top-0 left-0 bg-orange-300 cursor-pointer" style={{progressStyle}} data-test-progress>
   {{play-head dragging=draggingPlayhead position=playheadPosition}}
 </div>
 {{track-bar class="w-full h-2 absolute top-0 left-0 cursor-pointer" drag=(action "dragTrack") seekTo=(action "seekTo") dragging=draggingPlayhead}}

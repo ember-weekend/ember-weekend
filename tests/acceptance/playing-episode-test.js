@@ -49,6 +49,8 @@ class MockAudio extends Service {
   source = null;
   @tracked paused = true;
   @tracked currentTimeSeconds = null;
+  @tracked duration = null;
+  @tracked bufferedEnd = null;
 
   @computed('paused')
   get playing() {
@@ -67,8 +69,10 @@ class MockAudio extends Service {
   reset() {
     this.currentTimeSeconds = null;
   }
-  async tick(seconds) {
+  async tick(seconds=0.0) {
     this.currentTimeSeconds = (this.currentTimeSeconds || 0) + seconds;
+    this.duration = 60.0;
+    this.bufferedEnd = 30.0;
     await settled();
   }
 }
@@ -173,5 +177,10 @@ module('Acceptance: Playing Episode', function(hooks) {
     assert.equal(footerPage.episode.title.text, episode1.title, 'Shows episode');
     assert.equal(footerPage.episode.time.text, showNotes[0].timeStamp, 'Seeks to show note time');
     assert.ok(footerPage.pauseButton.isVisible, 'Showing pause button in footer');
+
+    await this.audio.tick(); // updates progress and buffer
+
+    assert.equal(footerPage.progress.style, 'width: 33.33%', 'Shows progress in footer');
+    assert.equal(footerPage.buffer.style, 'width: 50.00%', 'Shows buffer in footer');
   });
 });

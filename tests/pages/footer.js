@@ -1,4 +1,5 @@
 import {
+  attribute,
   create,
 } from 'ember-cli-page-object';
 
@@ -16,6 +17,14 @@ export default create({
     },
     time: {
       scope: '[data-test-current-time]',
-    }
-  }
+    },
+  },
+  progress: {
+    scope: '[data-test-progress]',
+    style: attribute('style'),
+  },
+  buffer: {
+    scope: '[data-test-buffer]',
+    style: attribute('style'),
+  },
 });

@@ -67,10 +67,16 @@ export default Component.extend({
     }
     return event;
   },
+  get progress() {
+    return (this.player.progress || 0).toFixed(2);
+  },
+  get buffer() {
+    return (this.player.buffer || 0).toFixed(2);
+  },
   progressStyle: computed('player.progress', function() {
-    return htmlSafe(`width: ${this.player.progress}%`);
+    return htmlSafe(`width: ${this.progress}%`);
   }),
   bufferStyle: computed('player.buffer', function() {
-    return htmlSafe(`width: ${this.player.buffer}%`);
+    return htmlSafe(`width: ${this.buffer}%`);
   })
 });
