@@ -27,9 +27,9 @@ module('Acceptance | episode show', function(hooks) {
 
     const sn = page.showNotes.objectAt(0);
 
-    assert.equal(page.title, episode.title);
-    assert.equal(sn.timeStamp, showNote.timeStamp);
-    assert.equal(sn.resourceLink, showNote.resource.url);
-    assert.equal(sn.resourceTitle, showNote.resource.title);
+    assert.equal(page.title.text, episode.title);
+    assert.equal(sn.timeStamp.text, showNote.timeStamp);
+    assert.equal(sn.resourceLink.href, showNote.resource.url);
+    assert.equal(sn.resourceTitle.text, showNote.resource.title);
   });
 });

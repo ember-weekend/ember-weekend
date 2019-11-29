@@ -1,3 +1,7 @@
 <div class="mt-4 mb-3 w-12 h-12 border rounded-full border-gray-700 text-2xl flex items-center justify-center">
-  <i class="fa {{if player.playing "fa-pause" "pl-1 fa-play"}}"></i>
+  {{#if playing}}
+    <i class="fa fa-pause" data-test-pause></i>
+  {{else}}
+    <i class="fa pl-1 fa-play" data-test-play></i>
+  {{/if}}
 </div>

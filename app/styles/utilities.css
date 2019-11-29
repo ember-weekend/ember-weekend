@@ -1,0 +1,3 @@
+nav .nav-buttons .active {
+  @apply bg-orange-300 text-white;
+}

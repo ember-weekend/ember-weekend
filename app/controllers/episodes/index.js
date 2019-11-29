@@ -5,10 +5,10 @@ export default Controller.extend({
   player: service(),
   actions: {
     play(episode) {
-      this.get('player').play(episode);
+      this.player.play(episode);
     },
     pause() {
-      this.get('player').pause();
+      this.player.pause();
     }
   }
 });

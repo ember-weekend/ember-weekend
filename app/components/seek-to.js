@@ -17,7 +17,7 @@ export default Component.extend({
   formattedTime: alias('time'),
   click(e) {
     e.preventDefault();
-    this.get('player').seekTo(this.get('episode'), this.get('milliseconds'));
+    this.player.seekTo(this.milliseconds, this.episode);
     return false;
   }
 });

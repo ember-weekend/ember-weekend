@@ -1,12 +1,12 @@
 <div class="flex sm:flex-col p-5 w-full justify-center">
-  {{#if episode.playing}}
-    <a class="play self-center relative" href="#" {{action "pause"}}>
+  {{#if (eq episode player.playingEpisode)}}
+    <a class="play self-center relative" href="#" {{action "pause"}} data-test-episode-pause>
       <div class="bg-orange-300 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
         {{fa-icon "pause"}}
       </div>
     </a>
   {{else}}
-    <a class="play self-center relative" href="#" {{action "play" episode}}>
+    <a class="play self-center relative" href="#" {{action "play" episode}} data-test-episode-play>
       <div class="bg-orange-300 hover:bg-orange-200 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
         {{fa-icon "play" class="pl-1"}}
       </div>

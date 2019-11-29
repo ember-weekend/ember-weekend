@@ -12,7 +12,9 @@ export default Route.extend({
   },
   afterModel(episodes){
     set(this, 'headData.title', 'Episodes');
-    const mostRecent = episodes.get('firstObject');
-    this.set('player.episode', mostRecent);
+    if (!this.player.episode || this.player.paused) {
+      const mostRecent = episodes.get('firstObject');
+      this.player.episode = mostRecent;
+    }
   }
 });
