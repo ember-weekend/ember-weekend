@@ -1,9 +1,9 @@
 {{head-layout}}
 
-<header>
+<header data-test-header>
   <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-2 md:px-24">
     <div class="flex items-center flex-shrink-0 text-white mr-2">
-      {{#link-to "episodes"}}
+      {{#link-to "episodes" data-test-logo}}
         <img class="fill-current h-8 w-32 mr-2" alt="ember weekend logo" src="/assets/images/site-header-logo-emberweekend.svg">
       {{/link-to}}
     </div>
@@ -11,13 +11,13 @@
       <div class="flex-grow">
       </div>
       <div>
-        <a href="/feed.xml" class="block mt-0 inline-block text-center text-xl text-gray-700 hover:text-white mr-1 bg-gray-600 hover:bg-orange-300 w-8 h-8 rounded-full" target="_blank" rel="nofollow noopener">
+        <a href="/feed.xml" class="block mt-0 inline-block text-center text-xl text-gray-700 hover:text-white mr-1 bg-gray-600 hover:bg-orange-300 w-8 h-8 rounded-full" target="_blank" rel="nofollow noopener" data-test-feed>
           {{fa-icon "fa-rss"}}
         </a>
-        {{#link-to "about" class="block mt-0 inline-block text-center text-xl text-gray-700 hover:text-white mr-1 bg-gray-600 hover:bg-orange-300 w-8 h-8 rounded-full"}}
+        {{#link-to "about" class="block mt-0 inline-block text-center text-xl text-gray-700 hover:text-white mr-1 bg-gray-600 hover:bg-orange-300 w-8 h-8 rounded-full" data-test-about=""}}
           {{fa-icon "fa-info"}}
         {{/link-to}}
-        <a href="/blog" class="block mt-0 inline-block text-center text-xl text-gray-700 hover:text-white bg-gray-600 hover:bg-orange-300 w-8 h-8 rounded-full" rel="noopener" target="_blank">
+        <a href="/blog" class="block mt-0 inline-block text-center text-xl text-gray-700 hover:text-white bg-gray-600 hover:bg-orange-300 w-8 h-8 rounded-full" rel="noopener" target="_blank" data-test-blog>
           {{fa-icon "fa-book" }}
         </a>
       </div>

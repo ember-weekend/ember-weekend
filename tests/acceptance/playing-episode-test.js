@@ -10,9 +10,18 @@ import { settled } from '@ember/test-helpers';
 import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
 import listPage from 'ember-weekend/tests/pages/episodes';
 import showPage from 'ember-weekend/tests/pages/episode-show';
+import headerPage from 'ember-weekend/tests/pages/header';
 import footerPage from 'ember-weekend/tests/pages/footer';
 
+const showNotes = [{
+  id: 1,
+  episodeId: '1',
+  timeStamp: '00:20',
+  note: 'Ember.js 1.11 Workshop',
+}];
+
 const episode1 = {
+  id: 1,
   number: 1,
   title: 'Our First Foray',
   description: 'Chase and Jon kick off Ember Weekend discussing...',
@@ -20,8 +29,11 @@ const episode1 = {
   releaseDate: 'Mar 24, 2015',
   filename: 'ep-1-ember-weekend',
   audioUrl: 'https://emberweekend.s3.amazonaws.com/ep-1-ember-weekend.mp3',
+  showNoteIds: [1],
 };
+
 const episode2 = {
+  id: 2,
   number: 2,
   title: 'The Weekend Strikes Back',
   description: 'Chase and Jon discuss Ember\'s new versioned...',
@@ -66,6 +78,9 @@ module('Acceptance: Playing Episode', function(hooks) {
   setupMirage(hooks);
 
   hooks.beforeEach(function() {
+    showNotes.forEach(function(s) {
+      server.create('show-note', s);
+    });
     episodes.forEach(function(e) {
       server.create('episode', e);
     });
@@ -119,6 +134,11 @@ module('Acceptance: Playing Episode', function(hooks) {
 
     assert.equal(footerPage.episode.title.text, episode2.title);
     assert.ok(footerPage.pauseButton.isVisible, 'Showing pause button in footer');
+
+    await headerPage.nav.home.click();
+
+    assert.equal(footerPage.episode.title.text, episode2.title);
+    assert.ok(footerPage.pauseButton.isVisible, 'Showing pause button in footer');
   });
 
   test('episode header play button overrides currently playing episode', async function(assert) {
@@ -133,5 +153,25 @@ module('Acceptance: Playing Episode', function(hooks) {
     assert.equal(footerPage.episode.title.text, episode1.title);
     assert.ok(footerPage.pauseButton.isVisible, 'Showing pause button in footer');
   });
-});
 
+  test('audio player shows episode from show page if not playing', async function(assert) {
+    await listPage.visit();
+    await listPage.episodes.objectAt(1).title.click();
+
+    assert.equal(footerPage.episode.title.text, episode1.title, 'Shows active episode');
+
+    await headerPage.nav.home.click();
+
+    assert.equal(footerPage.episode.title.text, episode2.title, 'Shows most recent episode again');
+  });
+
+  test('clicking show note timestamp seeks to time and plays', async function(assert) {
+    await listPage.visit();
+    await listPage.episodes.objectAt(1).title.click();
+    await showPage.showNotes.objectAt(0).timeStamp.click();
+
+    assert.equal(footerPage.episode.title.text, episode1.title, 'Shows episode');
+    assert.equal(footerPage.episode.time.text, showNotes[0].timeStamp, 'Seeks to show note time');
+    assert.ok(footerPage.pauseButton.isVisible, 'Showing pause button in footer');
+  });
+});
