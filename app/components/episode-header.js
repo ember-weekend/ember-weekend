@@ -3,7 +3,7 @@ import { alias } from '@ember/object/computed';
 import { inject as service } from '@ember/service';
 
 export default Component.extend({
-  classNames: ['w-full', 'sm:w-1/5', 'h-auto', 'sm:h-full', 'flex', 'bg-gray-150', 'border-r', 'border-gray-400'],
+  classNames: ['w-full', 'h-full', 'sm:h-full', 'flex', 'bg-gray-150', 'border-r', 'border-gray-400'],
   player: service(),
   title: alias('episode.title'),
   playing: alias('episode.playing'),

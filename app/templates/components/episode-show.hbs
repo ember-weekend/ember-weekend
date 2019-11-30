@@ -1,2 +1,9 @@
-{{episode-header episode=episode}}
-{{yield}}
+{{#animated-container class="w-full sm:w-1/5"}}
+  {{#animated-value episode.slug use=transition duration=750}}
+    {{episode-header episode=episode}}
+  {{/animated-value}}
+{{/animated-container}}
+
+{{#animated-value "episode-show" initialInsertion=true finalRemoval=true use=transition duration=500}}
+  {{yield}}
+{{/animated-value}}

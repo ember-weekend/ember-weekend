@@ -12,7 +12,10 @@ export default Route.extend({
     return { slug: model.get('slug') };
   },
   headData: service(),
-  afterModel(model) {
+  async afterModel(model) {
+    if (model.showNotes.length === 0) {
+      await this.store.queryRecord('episode', { slug: model.slug });
+    }
     if (this.player.audio.paused) {
       this.player.episode = model;
     }

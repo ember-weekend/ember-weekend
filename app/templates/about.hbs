@@ -1,48 +1,50 @@
-<div class="bg-white overflow-y-auto h-full">
-  <div class="p-6 flex flex-col items-center md:w-4/5 md:m-auto">
-    <img class="h-40 mb-8" alt="ember weekend logo" src="/assets/images/logo-emberweekend.svg">
-    <p class="font-thin text-center">A week(end)ly podcast about Ember, hosted by Jon and Chase.</p>
-    <div class="flex flex-col md:flex-row items-center md:items-start justify-between mb-8">
-      <dl class="w-full md:w-1/2 py-6 pr-6">
-        <dt>
-          <div class="relative m-auto w-32">
-            <img class="h-32 w-32 rounded-full" alt="picture of Chase McCarthy" src="assets/images/chase-mccarthy.jpg">
-            <a class="text-center text-white bg-twitter-blue text-2xl w-10 h-10 p-1 rounded-full absolute right-0 bottom-0" href="https://twitter.com/code0100fun" rel="noopener" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-          <h1 class="text-center font-bold text-lg mt-4 mb-4">Chase McCarthy</h1>
-        </dt>
-        <dd class="text-sm font-thin leading-loose">
-          <p class="mb-2">Chase is a consummate nerd. Interested and proficient in a wide range of technology from iOS to Ruby and back again.</p>
-          <p class="mb-2">He began his career in electronics but ended up pursuing a degree in Computer Science. When not learning the latest and greatest in Ember land you can find him buried in a book about machine learning, or possibly investigating flight control algorithms for his quadcopters.</p>
-          <p class="mb-2">Chase works as software developer at Hashrocket, a Ruby on Rails consultancy, where he helps to steer clients toward the best tools for the job. That turns out to be Ember.js more often than not. To help himself and others stay current with Ember and Javascript, Chase and Jonathan Jackson started the weekly podcast Ember Weekend.</p>
-        </dd>
-      </dl>
-      <dl class="w-full md:w-1/2 py-6 pl-6">
-        <dt>
-          <div class="relative m-auto w-32">
-            <img class="h-32 w-32 rounded-full" alt="picture of Jonathan Jackson" src="assets/images/jonathan-jackson.jpg">
-            <a class="text-center text-white bg-twitter-blue text-2xl w-10 h-10 p-1 rounded-full absolute right-0 bottom-0" href="https://twitter.com/rondale_sc" rel="noopener" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-          <h1 class="text-center font-bold text-lg mt-4 mb-4">Jonathan Jackson</h1>
-        </dt>
-        <dd class="text-sm font-thin leading-loose">
-          <p class="mb-2">Jonathan is a seasoned veteran of the Ruby and Rails world, which taught Jonathan the value of convention and community. Enter Ember, which shares much of the same philosophy. Jonathan recognized the same energy from the Ruby / Rails community and dove in head first.</p>
-          <p class="mb-2">With commits on EmberCLI and even a few on Ember.js itself Jonathan found himself loving how much fun Ember could be. Working at Hashrocket, a respected Ruby and Rails consultancy he was put into the enviable position of getting to work with Ember on a daily basis.</p>
-          <p class="mb-2">When not working professionally on Ember projects he and his friend Chase McCarthy would spend weekends working on Ember side projects to stay sharp. Eventually they could no longer keep all the experience they were gaining to themselves and began the Ember Weekend podcast to share what they had learned. When not Embering, scouring the interwebs for new programming patterns or writing his next blog post, you can find him spending time at the beach.</p>
-        </dd>
-      </dl>
+{{#animated-value "about" initialInsertion=true finalRemoval=true duration=500 use=transition}}
+  <div class="bg-white overflow-y-auto h-full">
+    <div class="p-6 flex flex-col items-center md:w-4/5 md:m-auto">
+      <img class="h-40 mb-8" alt="ember weekend logo" src="/assets/images/logo-emberweekend.svg">
+      <p class="font-thin text-center">A week(end)ly podcast about Ember, hosted by Jon and Chase.</p>
+      <div class="flex flex-col md:flex-row items-center md:items-start justify-between mb-8">
+        <dl class="w-full md:w-1/2 py-6 pr-6">
+          <dt>
+            <div class="relative m-auto w-32">
+              <img class="h-32 w-32 rounded-full" alt="picture of Chase McCarthy" src="assets/images/chase-mccarthy.jpg">
+              <a class="text-center text-white bg-twitter-blue text-2xl w-10 h-10 p-1 rounded-full absolute right-0 bottom-0" href="https://twitter.com/code0100fun" rel="noopener" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <h1 class="text-center font-bold text-lg mt-4 mb-4">Chase McCarthy</h1>
+          </dt>
+          <dd class="text-sm font-thin leading-loose">
+            <p class="mb-2">Chase is a consummate nerd. Interested and proficient in a wide range of technology from iOS to Ruby and back again.</p>
+            <p class="mb-2">He began his career in electronics but ended up pursuing a degree in Computer Science. When not learning the latest and greatest in Ember land you can find him buried in a book about machine learning, or possibly investigating flight control algorithms for his quadcopters.</p>
+            <p class="mb-2">Chase works as software developer at Hashrocket, a Ruby on Rails consultancy, where he helps to steer clients toward the best tools for the job. That turns out to be Ember.js more often than not. To help himself and others stay current with Ember and Javascript, Chase and Jonathan Jackson started the weekly podcast Ember Weekend.</p>
+          </dd>
+        </dl>
+        <dl class="w-full md:w-1/2 py-6 pl-6">
+          <dt>
+            <div class="relative m-auto w-32">
+              <img class="h-32 w-32 rounded-full" alt="picture of Jonathan Jackson" src="assets/images/jonathan-jackson.jpg">
+              <a class="text-center text-white bg-twitter-blue text-2xl w-10 h-10 p-1 rounded-full absolute right-0 bottom-0" href="https://twitter.com/rondale_sc" rel="noopener" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <h1 class="text-center font-bold text-lg mt-4 mb-4">Jonathan Jackson</h1>
+          </dt>
+          <dd class="text-sm font-thin leading-loose">
+            <p class="mb-2">Jonathan is a seasoned veteran of the Ruby and Rails world, which taught Jonathan the value of convention and community. Enter Ember, which shares much of the same philosophy. Jonathan recognized the same energy from the Ruby / Rails community and dove in head first.</p>
+            <p class="mb-2">With commits on EmberCLI and even a few on Ember.js itself Jonathan found himself loving how much fun Ember could be. Working at Hashrocket, a respected Ruby and Rails consultancy he was put into the enviable position of getting to work with Ember on a daily basis.</p>
+            <p class="mb-2">When not working professionally on Ember projects he and his friend Chase McCarthy would spend weekends working on Ember side projects to stay sharp. Eventually they could no longer keep all the experience they were gaining to themselves and began the Ember Weekend podcast to share what they had learned. When not Embering, scouring the interwebs for new programming patterns or writing his next blog post, you can find him spending time at the beach.</p>
+          </dd>
+        </dl>
+      </div>
+      <h3 class="font-light text-gray-550">Sponsored by</h3>
+      <ul>
+        <li>
+          <a href="http://www.hashrocket.com" rel="noopener" target="_blank">
+            <img class="h-20" src="assets/images/logo-hashrocket.svg" alt="Hashrocket logo" width="200" height="83">
+          </a>
+        </li>
+      </ul>
     </div>
-    <h3 class="font-light text-gray-550">Sponsored by</h3>
-    <ul>
-      <li>
-        <a href="http://www.hashrocket.com" rel="noopener" target="_blank">
-          <img class="h-20" src="assets/images/logo-hashrocket.svg" alt="Hashrocket logo" width="200" height="83">
-        </a>
-      </li>
-    </ul>
   </div>
-</div>
+{{/animated-value}}

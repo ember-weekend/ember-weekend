@@ -1,6 +1,7 @@
 {{head-layout}}
 
-<header data-test-header>
+<header data-test-header class="z-20">
+  {{animated-tools}}
   <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-2 md:px-24">
     <div class="flex items-center flex-shrink-0 text-white mr-2">
       {{#link-to "episodes" data-test-logo}}
@@ -25,12 +26,14 @@
   </nav>
 </header>
 
+<div style="position: absolute; top: 0; left: 0;">
+  {{animated-orphans}}
+</div>
+
 <main class="flex-1 overflow-auto mb-19 bg-gray-200">
-  <div class="w-full h-full">
-    {{outlet}}
-  </div>
+  {{outlet}}
 </main>
 
-<footer class="fixed bottom-0 w-full bg-white" data-test-footer>
+<footer class="fixed bottom-0 w-full bg-white z-20" data-test-footer>
   {{audio-player}}
 </footer>

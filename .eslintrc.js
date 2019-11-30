@@ -20,6 +20,7 @@ module.exports = {
     'ember/avoid-leaking-state-in-ember-objects': 'off',
     'ember/no-side-effects': 'off',
     'ember/closure-actions': 'off',
+    'require-yield': 'off',
   },
   overrides: [
     // node files
