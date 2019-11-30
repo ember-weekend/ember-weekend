@@ -26,7 +26,9 @@
 </header>
 
 <main class="flex-1 overflow-auto mb-19 bg-gray-200">
-  {{liquid-outlet class="w-full h-full"}}
+  <div class="w-full h-full">
+    {{outlet}}
+  </div>
 </main>
 
 <footer class="fixed bottom-0 w-full bg-white" data-test-footer>

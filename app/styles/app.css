@@ -39,8 +39,4 @@ body > div.ember-view {
   right: -0.30rem;
 }
 
-.h-full > .liquid-child {
-  height: 100%;
-}
-
 /*! purgecss end ignore */
