@@ -1,24 +1,24 @@
 <div class="flex sm:flex-col p-5 w-full justify-center">
-  {{#if (eq episode player.playingEpisode)}}
+  {{#if (eq @episode this.player.playingEpisode)}}
     <a class="play self-center relative" href="#" {{action "pause"}} data-test-episode-pause>
       <div class="bg-orange-300 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
         {{fa-icon "pause"}}
       </div>
     </a>
   {{else}}
-    <a class="play self-center relative" href="#" {{action "play" episode}} data-test-episode-play>
+    <a class="play self-center relative" href="#" {{action "play" @episode}} data-test-episode-play>
       <div class="bg-orange-300 hover:bg-orange-200 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
         {{fa-icon "play" class="pl-1"}}
       </div>
     </a>
   {{/if}}
   <div class="ml-4">
-    <h1 class="mt-3 mb-1 font-bold text-black text-center" data-test-episode-header-title>{{title}}</h1>
+    <h1 class="mt-3 mb-1 font-bold text-black text-center" data-test-episode-header-title>{{@episode.title}}</h1>
     <p class="text-sm font-light text-center">
-      Episode {{number}}
+      Episode {{@episode.number}}
       <span class="inline-block sm:hidden"> &bull; </span>
-      <span class="inline-block sm:hidden lg:block">{{prettyReleaseDate}}</span>
-      <span class="hidden sm:block lg:hidden">{{shortPrettyReleaseDate}}</span>
+      <span class="inline-block sm:hidden lg:block">{{@episode.prettyReleaseDate}}</span>
+      <span class="hidden sm:block lg:hidden">{{@episode.shortPrettyReleaseDate}}</span>
     </p>
   </div>
 </div>

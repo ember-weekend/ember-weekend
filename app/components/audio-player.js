@@ -8,11 +8,11 @@ export default Component.extend({
   playheadPosition: null,
   player: service(),
   touchMove(e) {
-    this.mouseMove(this.normalizeTouchEvent(e));
+    this.mouseMove(e);
   },
   mouseMove(e) {
     if (this.get('draggingPlayhead')) {
-      this.movePlayheadTo(this.normalizeTouchEvent(e).pageX);
+      this.movePlayheadTo(e.pageX);
     }
   },
   touchLeave() {
@@ -28,7 +28,7 @@ export default Component.extend({
     this.stopDragging();
   },
   movePlayheadTo(x) {
-    const width = this.$().width();
+    const width = this.element.clientWidth;
     const ratio = x / width;
     // TODO: The duration is null before the audio is loaded so
     // this does not work the first time. Need to await the duration
@@ -43,10 +43,10 @@ export default Component.extend({
   },
   actions: {
     seekTo(e) {
-      this.movePlayheadTo(this.normalizeTouchEvent(e).pageX);
+      this.movePlayheadTo(e.pageX);
     },
     dragTrack(e) {
-      this.movePlayheadTo(this.normalizeTouchEvent(e).pageX);
+      this.movePlayheadTo(e.pageX);
     },
     play() {
       this.player.play();
@@ -54,18 +54,6 @@ export default Component.extend({
     pause() {
       this.player.pause();
     }
-  },
-  normalizeTouchEvent(event) {
-    if (!event.touches) {
-      event.touches = event.originalEvent.touches;
-    }
-    if (!event.pageX) {
-      event.pageX = event.originalEvent.pageX;
-    }
-    if (!event.pageY) {
-      event.pageY = event.originalEvent.pageY;
-    }
-    return event;
   },
   get progress() {
     return (this.player.progress || 0).toFixed(2);

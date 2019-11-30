@@ -1,12 +1,12 @@
 <div class="flex mx-4">
-  {{#if (eq episode player.playingEpisode)}}
+  {{#if (eq @episode this.player.playingEpisode)}}
     <a class="play self-center relative" href="#" {{action "pause"}} data-test-episode-pause>
       <div class="bg-orange-300 hover:bg-orange-200 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
         {{fa-icon "pause"}}
       </div>
     </a>
   {{else}}
-    <a class="play self-center relative" href="#" {{action "play" episode}} data-test-episode-play>
+    <a class="play self-center relative" href="#" {{action "play" @episode}} data-test-episode-play>
       <div class="bg-orange-300 hover:bg-orange-200 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
         {{fa-icon "play" class="pl-1"}}
       </div>
@@ -14,18 +14,18 @@
   {{/if}}
 </div>
 
-{{#link-to "episodes.show" episode class="details flex min-w-0 flex-1"}}
+{{#link-to "episodes.show" @episode class="details flex min-w-0 flex-1"}}
 
   <div class="flex-auto py-4 min-w-0">
-    <h1 class="text-orange-300 font-bold truncate" data-test-episode-list-item-title>{{episode.title}}</h1>
+    <h1 class="text-orange-300 font-bold truncate" data-test-episode-list-item-title>{{@episode.title}}</h1>
     <p class="text-gray-700 text-xs whitespace-no-wrap">
-      Episode {{episode.number}}
+      Episode {{@episode.number}}
       &bull;
       <span class="inline-block md:hidden lg:inline-block">
-        {{episode.prettyReleaseDate}}
+        {{@episode.prettyReleaseDate}}
       </span>
       <span class="hidden md:inline-block lg:hidden">
-        {{episode.shortPrettyReleaseDate}}
+        {{@episode.shortPrettyReleaseDate}}
       </span>
     </p>
   </div>
