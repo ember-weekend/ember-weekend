@@ -1,7 +1,12 @@
 <HeadLayout />
+<div style="position: absolute; top: 0; left: 0;">
+  <AnimatedOrphans />
+</div>
 <div class="overflow-hidden h-full flex flex-col">
   <header data-test-header class="z-20">
-    <AnimatedTools />
+    {{#if this.tools}}
+      <AnimatedTools />
+    {{/if}}
     <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-2 md:px-24">
       <div class="flex items-center flex-shrink-0 text-white mr-2">
         <LinkTo @route="episodes" data-test-logo>
@@ -25,10 +30,6 @@
       </div>
     </nav>
   </header>
-
-  <div style="position: absolute; top: 0; left: 0;">
-    <AnimatedOrphans />
-  </div>
 
   <main class="flex-1 overflow-auto mb-19 bg-gray-200">
     {{outlet}}
