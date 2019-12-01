@@ -7,15 +7,6 @@
 @import "utilities.css";
 
 /*! purgecss start ignore */
-html, body, body > div.ember-view {
-  height: 100%;
-}
-
-body > div.ember-view {
-  display: flex;
-  flex-direction: column;
-}
-
 .-top-2 {
   top: -0.33rem;
 }
@@ -37,10 +28,6 @@ body > div.ember-view {
   bottom: -0.30rem;
   left: -0.30rem;
   right: -0.30rem;
-}
-
-.h-full > .liquid-child {
-  height: 100%;
 }
 
 /*! purgecss end ignore */

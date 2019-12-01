@@ -1,0 +1,50 @@
+<div class="w-full bg-gray-100 md:rounded border-gray-400 border flex" ...attributes>
+
+  <AnimatedContainer class="m-4">
+    {{#animated-value (concat "episode-play-pause-" @episode.id) duration=750 use=this.transition}}
+      <PlayPauseToggle
+        @play={{action "play" @episode}}
+        @pause={{action "pause"}}
+        @playing={{eq @episode this.player.playingEpisode}}
+        @style="orange"
+        />
+    {{/animated-value}}
+  </AnimatedContainer>
+
+  {{#link-to "episodes.show" @episode class="details flex min-w-0 flex-1"}}
+
+    <div class="flex-auto py-4 min-w-0">
+      <AnimatedContainer>
+        {{#animated-value (concat "episode-title-" @episode.id) duration=600 use=this.transition}}
+          <h1 class="text-orange-300 font-bold truncate inline-block" data-test-episode-list-item-title>{{@episode.title}}</h1>
+        {{/animated-value}}
+      </AnimatedContainer>
+      <div class="text-gray-700 text-xs whitespace-no-wrap">
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-number-" @episode.id) duration=750 use=this.transition}}
+            <span>Episode {{@episode.number}}</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-bullet-" @episode.id) duration=750 use=this.transition}}
+            <span>&bull;</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-date-" @episode.id) duration=750 use=this.transition}}
+            <span class="inline-block md:hidden lg:inline-block">{{@episode.prettyReleaseDate}}</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-short-date-" @episode.id) duration=750 use=this.transition}}
+            <span class="hidden md:inline-block lg:hidden">{{@episode.shortPrettyReleaseDate}}</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+      </div>
+    </div>
+
+    {{fa-icon "angle-right" class="text-3xl text-gray-500 ml-2 mr-4 self-center self-end"}}
+
+  {{/link-to}}
+
+</div>

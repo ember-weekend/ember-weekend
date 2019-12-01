@@ -1,16 +1,16 @@
-{{#episode-show episode=episode}}
+{{#episode-show episode=this.episode}}
   {{#note-list}}
-    {{#each episode.guests as |guest|}}
-      {{guest-item name=guest.name guestInfoURL=guest.guestInfoURL avatarURL=guest.avatarURL tagLine=guest.tagline bio=guest.bio}}
+    {{#each this.episode.guests as |guest|}}
+      <GuestItem @guest={{guest}} />
     {{/each}}
-    {{#each showNotes as |note|}}
-      {{#note-item data-test-note-item time=note.timeStamp episode=episode}}
+    {{#each this.showNotes as |note|}}
+      <NoteItem @time={{note.timeStamp}} @episode={{this.episode}} data-test-note-item>
         {{#if note.resource.url}}
-          {{#link-to-site data-test-note-link href=note.resource.url}}
-            {{#external-title data-test-note-title class="text-sm font-bold" }}
+          <LinkToSite @href={{note.resource.url}} data-test-note-link>
+            {{#external-title class="text-sm font-bold"}}
               {{note.title}}
             {{/external-title}}
-          {{/link-to-site}}
+          </LinkToSite>
         {{else}}
           <h1 class="text-sm font-bold" data-test-note-title>
             {{note.title}}
@@ -28,7 +28,7 @@
             {{/if}}
           {{/each}}
         </p>
-      {{/note-item}}
+      </NoteItem>
     {{/each}}
   {{/note-list}}
 {{/episode-show}}

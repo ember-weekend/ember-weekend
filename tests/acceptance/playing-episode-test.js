@@ -7,6 +7,7 @@ import Service from '@ember/service';
 import { tracked } from '@glimmer/tracking';
 import { computed } from '@ember/object';
 import { settled } from '@ember/test-helpers';
+import { setupAnimationTest, animationsSettled } from 'ember-animated/test-support';
 import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
 import listPage from 'ember-weekend/tests/pages/episodes';
 import showPage from 'ember-weekend/tests/pages/episode-show';
@@ -79,6 +80,7 @@ class MockAudio extends Service {
 
 module('Acceptance: Playing Episode', function(hooks) {
   setupApplicationTest(hooks);
+  setupAnimationTest(hooks);
   setupMirage(hooks);
 
   hooks.beforeEach(function() {
@@ -149,10 +151,12 @@ module('Acceptance: Playing Episode', function(hooks) {
     await listPage.visit();
     await listPage.episodes.objectAt(0).playButton.click();
     await listPage.episodes.objectAt(1).title.click();
+    await animationsSettled();
 
     assert.ok(showPage.header.playButton.isVisible, 'Showing play button in episode header');
 
     await showPage.header.playButton.click();
+    await animationsSettled();
 
     assert.equal(footerPage.episode.title.text, episode1.title);
     assert.ok(footerPage.pauseButton.isVisible, 'Showing pause button in footer');

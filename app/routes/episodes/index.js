@@ -7,7 +7,7 @@ export default Route.extend({
   headData: service(),
   model() {
     return this.store.findAll('episode', { reload: true}).then(episodes => {
-      return episodes.sortBy('releaseDate').reverse();
+      return episodes.sortBy('releaseDate').reverse().slice(0, 20);
     });
   },
   afterModel(episodes){

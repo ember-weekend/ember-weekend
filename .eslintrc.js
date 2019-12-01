@@ -16,15 +16,17 @@ module.exports = {
     browser: true
   },
   rules: {
-    'ember/no-jquery': 'off',
+    'ember/no-jquery': 'error',
     'ember/avoid-leaking-state-in-ember-objects': 'off',
     'ember/no-side-effects': 'off',
     'ember/closure-actions': 'off',
+    'require-yield': 'off',
   },
   overrides: [
     // node files
     {
       files: [
+        '.ember-cli.js',
         '.eslintrc.js',
         '.template-lintrc.js',
         'ember-cli-build.js',
@@ -34,8 +36,12 @@ module.exports = {
         'lib/*/index.js',
         'server/**/*.js'
       ],
+      excludedFiles: [
+        'app/**',
+      ],
       parserOptions: {
-        sourceType: 'script'
+        sourceType: 'script',
+        ecmaVersion: 2015,
       },
       env: {
         browser: false,

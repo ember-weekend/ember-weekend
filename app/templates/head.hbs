@@ -1,50 +1,50 @@
-{{#if model.title}}
-  <title>{{model.title}}</title>
+{{#if @model.title}}
+  <title>{{@model.title}}</title>
 {{else}}
   <title>EmberWeekend</title>
 {{/if}}
 
-{{#if model.description}}
-  <meta property="og:description" content={{model.description}}>
+{{#if @model.description}}
+  <meta property="og:description" content={{@model.description}}>
 {{/if}}
 
-{{#if model.title}}
-  <meta property="og:title" content={{model.title}}>
+{{#if @model.title}}
+  <meta property="og:title" content={{@model.title}}>
 {{/if}}
 
-{{#if model.image}}
-  <meta property="og:image" content={{model.image}}>
+{{#if @model.image}}
+  <meta property="og:image" content={{@model.image}}>
 {{/if}}
 
-{{#if model.site_name}}
-  <meta property="og:site_name" content={{model.site_name}}>
+{{#if @model.site_name}}
+  <meta property="og:site_name" content={{@model.site_name}}>
 {{/if}}
 
-{{#if model.locale}}
-  <meta property="og:locale" content={{model.locale}}>
+{{#if @model.locale}}
+  <meta property="og:locale" content={{@model.locale}}>
 {{/if}}
 
-<meta name="og:url" content={{model.canonicalURL}}>
+<meta name="og:url" content={{@model.canonicalURL}}>
 
-{{#if model.audio}}
-  <meta property="og:audio" content={{model.audio}}>
+{{#if @model.audio}}
+  <meta property="og:audio" content={{@model.audio}}>
 {{/if}}
 
-{{#if model.audio_type}}
-  <meta property="og:audio:type" content={{model.audio_type}}>
+{{#if @model.audio_type}}
+  <meta property="og:audio:type" content={{@model.audio_type}}>
 {{/if}}
 
 
-{{#if model.twitter_card }}
-  <meta name="twitter:card" content={{model.twitter_card}}>
+{{#if @model.twitter_card }}
+  <meta name="twitter:card" content={{@model.twitter_card}}>
 {{/if}}
 
 <meta name="twitter:site" content="@emberweekend">
 
-{{#if model.twitter_title}}
-  <meta name="twitter:title" content={{model.twitter_title}}>
+{{#if @model.twitter_title}}
+  <meta name="twitter:title" content={{@model.twitter_title}}>
 {{/if}}
 
-{{#if model.twitter_description}}
-  <meta name="twitter:description" content={{model.twitter_description}}>
+{{#if @model.twitter_description}}
+  <meta name="twitter:description" content={{@model.twitter_description}}>
 {{/if}}

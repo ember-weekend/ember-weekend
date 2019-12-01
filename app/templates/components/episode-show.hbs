@@ -1,2 +1,7 @@
-{{episode-header episode=episode}}
-{{yield}}
+<div class="w-full sm:w-1/5">
+  <EpisodeHeader @episode={{@episode}} />
+</div>
+
+{{#animated-value "episode-show" initialInsertion=true finalRemoval=true use=this.transition duration=750}}
+  {{yield}}
+{{/animated-value}}

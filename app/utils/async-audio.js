@@ -1,6 +1,3 @@
-import RSVP from 'rsvp';
-import $ from 'jquery';
-
 export default AsyncAudio;
 
 function AsyncAudio(src) {
@@ -11,11 +8,18 @@ function AsyncAudio(src) {
   }
 }
 
+function one(element, event, callback) {
+  return element.addEventListener(event, function handler(e) {
+    element.removeEventListener(event, handler);
+    callback(e);
+  });
+}
+
 AsyncAudio.prototype = {
 
   play() {
-    const promise = new RSVP.Promise((resolve) => {
-      $(this._audio).one('play', function(e) {
+    const promise = new Promise((resolve) => {
+      one(this._audio, 'play', function(e) {
         resolve(e);
       });
     });
@@ -24,11 +28,11 @@ AsyncAudio.prototype = {
   },
 
   pause() {
-    const promise = new RSVP.Promise((resolve) => {
+    const promise = new Promise((resolve) => {
       if (this._audio.paused) {
         resolve();
       } else {
-        $(this._audio).one('pause', function(e) {
+        one(this._audio, 'pause', function(e) {
           resolve(e);
         });
       }
@@ -38,8 +42,8 @@ AsyncAudio.prototype = {
   },
 
   load() {
-    const promise = new RSVP.Promise((resolve) => {
-      $(this._audio).one('loaddata', function(e) {
+    const promise = new Promise((resolve) => {
+      one(this._audio, 'loaddata', function(e) {
         resolve(e);
       });
     });
@@ -51,7 +55,6 @@ AsyncAudio.prototype = {
     return this._audio.addEventListener.apply(this._audio, arguments);
   },
 
-  // jscs:disable
   get buffered() {
     return this._audio.buffered;
   },
@@ -83,6 +86,4 @@ AsyncAudio.prototype = {
   get currentTime() {
     return this._audio.currentTime;
   }
-  // jscs:enable
-
 };

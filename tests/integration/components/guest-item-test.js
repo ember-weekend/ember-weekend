@@ -7,13 +7,14 @@ module('Integration | Component | guest item', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function(assert) {
-    await render(hbs`{{guest-item
-                      name='Flirgity Schmerga'
-                      guestInfoURL='http://doom.com'
-                      avatarURL='assets/images/me.jpg'
-                      tagLine='Javascript Developer at Blerga Inc.'
-                      bio="I'm a cool person, yo!"
-                    }}`);
+    this.set('guest', {
+      name: 'Flirgity Schmerga',
+      guestInfoURL: 'http://doom.com',
+      avatarURL: 'assets/images/me.jpg',
+      tagLine: 'Javascript Developer at Blerga Inc.',
+      bio: "I'm a cool person, yo!",
+    });
+    await render(hbs`{{guest-item guest=this.guest}}`);
 
     assert.trimEq(find('[data-test-guest-image]').getAttribute('src'), 'assets/images/me.jpg');
     assert.equal(find('[data-test-guest-name]').textContent, 'Flirgity Schmerga');
