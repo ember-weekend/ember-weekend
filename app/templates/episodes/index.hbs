@@ -1,13 +1,11 @@
-{{#animated-value "episode-index" initialInsertion=true finalRemoval=true duration=500 use=this.transition}}
+{{#animated-value "episode-index" initialInsertion=true finalRemoval=true duration=750 use=this.transition}}
   <div class="overflow-y-auto h-full">
     <div class="md:mx-auto md:w-4/5 lg:w-3/5">
       <ul class="md:flex md:flex-wrap md:justify-between md:mt-4">
         {{#each this.model as |episode|}}
-          {{#animated-container class="md:w-49-p md:mb-4"}}
-            {{#animated-value episode.slug duration=750}}
-              <EpisodeItem @episode={{episode}} data-prember-episode data-test-episode-list-item />
-            {{/animated-value}}
-          {{/animated-container}}
+          <li class="md:w-49-p md:mb-4">
+            <EpisodeItem @episode={{episode}} data-prember-episode data-test-episode-list-item />
+          </li>
         {{/each}}
       </ul>
     </div>

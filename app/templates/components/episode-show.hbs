@@ -1,9 +1,7 @@
-{{#animated-container class="w-full sm:w-1/5"}}
-  {{#animated-value @episode.slug use=this.transition duration=750}}
-    <EpisodeHeader @episode={{@episode}} />
-  {{/animated-value}}
-{{/animated-container}}
+<div class="w-full sm:w-1/5">
+  <EpisodeHeader @episode={{@episode}} />
+</div>
 
-{{#animated-value "episode-show" initialInsertion=true finalRemoval=true use=this.transition duration=500}}
+{{#animated-value "episode-show" initialInsertion=true finalRemoval=true use=this.transition duration=750}}
   {{yield}}
 {{/animated-value}}

@@ -1,21 +1,47 @@
 <div class="w-full h-full sm:h-full flex bg-gray-150 border-r border-gray-400">
-  <div class="flex sm:flex-col p-5 justify-center">
+  <div class="flex sm:flex-col p-5 justify-center w-full">
 
-    <PlayPauseToggle
-      @play={{action "play" @episode}}
-      @pause={{action "pause"}}
-      @playing={{eq @episode this.player.playingEpisode}}
-      @style="orange"
-      />
+    <div class="flex self-center">
+      <AnimatedContainer>
+        {{#animated-value (concat "episode-play-pause-" @episode.id) use=this.transition duration=750}}
+          <PlayPauseToggle
+            @play={{action "play" @episode}}
+            @pause={{action "pause"}}
+            @playing={{eq @episode this.player.playingEpisode}}
+            @style="orange"
+            />
+        {{/animated-value}}
+      </AnimatedContainer>
+    </div>
 
-    <div class="ml-4">
-      <h1 class="mt-3 mb-1 font-bold text-black text-center" data-test-episode-header-title>{{@episode.title}}</h1>
-      <p class="text-sm font-light text-center">
-        Episode {{@episode.number}}
-        <span class="inline-block sm:hidden"> &bull; </span>
-        <span class="inline-block sm:hidden lg:block">{{@episode.prettyReleaseDate}}</span>
-        <span class="hidden sm:block lg:hidden">{{@episode.shortPrettyReleaseDate}}</span>
-      </p>
+    <div class="ml-4 text-center">
+      <AnimatedContainer class="inline-block">
+        {{#animated-value (concat "episode-title-" @episode.id) use=this.transition duration=600}}
+          <h1 class="mt-3 mb-1 font-bold text-black inline-block" data-test-episode-header-title>{{@episode.title}}</h1>
+        {{/animated-value}}
+      </AnimatedContainer>
+      <div class="text-sm font-light">
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-number-" @episode.id) use=this.transition duration=750}}
+            <span>Episode {{@episode.number}}</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-bullet-" @episode.id) use=this.transition duration=750}}
+            <span class="inline-block sm:hidden"> &bull; </span>
+          {{/animated-value}}
+        </AnimatedContainer>
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-date-" @episode.id) use=this.transition duration=750}}
+            <span class="inline-block sm:hidden lg:block">{{@episode.prettyReleaseDate}}</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+        <AnimatedContainer class="inline-block">
+          {{#animated-value (concat "episode-short-date-" @episode.id) use=this.transition duration=750}}
+            <span class="hidden sm:block lg:hidden">{{@episode.shortPrettyReleaseDate}}</span>
+          {{/animated-value}}
+        </AnimatedContainer>
+      </div>
     </div>
   </div>
 </div>

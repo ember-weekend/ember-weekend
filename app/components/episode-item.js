@@ -1,16 +1,21 @@
-import Component from '@ember/component';
+import Component from '@glimmer/component';
 import { inject as service } from '@ember/service';
+import { action } from '@ember/object';
 
-export default Component.extend({
-  classNames: ['w-full', 'bg-gray-100', 'md:rounded', 'border-gray-400', 'border', 'flex'],
-  tagName: 'li',
-  player: service(),
-  actions: {
-    play(episode) {
-      this.player.play(episode);
-    },
-    pause() {
-      this.player.pause();
-    }
+export default class extends Component {
+  @service player;
+
+  @action
+  play(episode) {
+    this.player.play(episode);
   }
-});
+
+  @action
+  pause() {
+    this.player.pause();
+  }
+
+  * transition() {
+
+  }
+}
