@@ -1,6 +1,6 @@
 {{#animated-container class="w-full sm:w-1/5"}}
   {{#animated-value @episode.slug use=this.transition duration=750}}
-    {{episode-header episode=@episode}}
+    <EpisodeHeader @episode={{@episode}} />
   {{/animated-value}}
 {{/animated-container}}
 
