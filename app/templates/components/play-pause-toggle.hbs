@@ -1,7 +1,10 @@
-<div class="mt-4 mb-3 w-12 h-12 border rounded-full border-gray-700 text-2xl flex items-center justify-center">
-  {{#if this.playing}}
-    <i class="fa fa-pause" data-test-pause></i>
-  {{else}}
-    <i class="fa pl-1 fa-play" data-test-play></i>
-  {{/if}}
+<div>
+  <button {{action (if @playing @pause @play) bubbles=false}}
+    class="focus:outline-none mt-4 mb-3 w-12 h-12 border rounded-full border-gray-700 text-2xl flex items-center justify-center">
+    {{#if @playing}}
+      <i class="fa fa-pause" data-test-pause></i>
+    {{else}}
+      <i class="fa pl-1 fa-play" data-test-play></i>
+    {{/if}}
+  </button>
 </div>
