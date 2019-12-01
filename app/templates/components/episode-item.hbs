@@ -1,17 +1,10 @@
-<div class="flex mx-4">
-  {{#if (eq @episode this.player.playingEpisode)}}
-    <a class="play self-center relative" href="#" {{action "pause"}} data-test-episode-pause>
-      <div class="bg-orange-300 hover:bg-orange-200 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
-        {{fa-icon "pause"}}
-      </div>
-    </a>
-  {{else}}
-    <a class="play self-center relative" href="#" {{action "play" @episode}} data-test-episode-play>
-      <div class="bg-orange-300 hover:bg-orange-200 text-white text-lg rounded-full w-10 h-10 flex items-center justify-center orange-outline">
-        {{fa-icon "play" class="pl-1"}}
-      </div>
-    </a>
-  {{/if}}
+<div class="m-4">
+  <PlayPauseToggle
+    @play={{action "play" @episode}}
+    @pause={{action "pause"}}
+    @playing={{eq @episode this.player.playingEpisode}}
+    @style="orange"
+    />
 </div>
 
 {{#link-to "episodes.show" @episode class="details flex min-w-0 flex-1"}}

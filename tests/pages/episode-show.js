@@ -12,10 +12,10 @@ export default create({
   },
   header: {
     playButton: {
-      scope: '[data-test-episode-play]',
+      scope: '[data-test-play]',
     },
     pauseButton: {
-      scope: '[data-test-episode-pause]',
+      scope: '[data-test-pause]',
     },
   },
   showNotes: collection('[data-test-note-item]', {

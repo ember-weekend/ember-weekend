@@ -11,10 +11,10 @@ export default create({
       scope: '[data-test-episode-list-item-title]',
     },
     playButton: {
-      scope: '[data-test-episode-play]',
+      scope: '[data-test-play]',
     },
     pauseButton: {
-      scope: '[data-test-episode-pause]',
+      scope: '[data-test-pause]',
     },
   })
 });
